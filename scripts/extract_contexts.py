@@ -34,6 +34,9 @@ def load_pairs(path):
 
 def to_file(contexts, prop, target, label):
     
+    path_dir = f'../contexts'
+    if not os.path.isdir(path_dir):
+        os.mkdir(path_dir)
     path_dir = f'../contexts/{prop}'
     if not os.path.isdir(path_dir):
         os.mkdir(path_dir)
@@ -47,6 +50,9 @@ def to_file(contexts, prop, target, label):
         
 def extract_contexts(word_list, pair_path, prop, label, n_lines):
     
+    path_dir = f'../contexts'
+    if not os.path.isdir(path_dir):
+        os.mkdir(path_dir)
     path_dir = f'../contexts/{prop}'
     if not os.path.isdir(path_dir):
         os.mkdir(path_dir)
