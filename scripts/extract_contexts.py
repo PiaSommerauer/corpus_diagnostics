@@ -5,10 +5,9 @@ import os
 import sys
 from collections import defaultdict
 
-from numba import jit, cuda
 
 from sklearn.feature_extraction.text import TfidfVectorizer as tfidf
-
+#print(cuda.gpus)
 
 def load_data(prop):
     path = f'../data/aggregated/{prop}.json'
@@ -49,8 +48,8 @@ def to_file(contexts, prop, target, label):
     contexts_str = ' '.join(contexts)
     with open(f'{path_dir}/{target}.txt', 'w') as outfile:
         outfile.write(contexts_str)
-        
-@jit(target ="cuda")        
+
+
 def extract_contexts(word_list, pair_path, prop, label, n_lines):
     
     path_dir = f'../contexts'
@@ -62,18 +61,15 @@ def extract_contexts(word_list, pair_path, prop, label, n_lines):
     path_dir = f'../contexts/{prop}/{label}'
     if not os.path.isdir(path_dir):
         os.mkdir(path_dir)
-
-    with open(pair_path) as infile:
-        contexts = infile.read().strip().split('\n')
-    print('loaded contexts')
     
     target_contexts = defaultdict(list)
-    for line in tqdm(contexts, total = len(contexts)):
-        pair = line.strip().split(' ')
-        w, c = pair
-        for target in word_list:
-            if target == w:
-                target_contexts[target].append(c)
+    with open(pair_path) as infile:
+        for line in tqdm(infile, total = n_lines):
+            pair = line.strip().split(' ')
+            w, c = pair
+            for target in word_list:
+                if target == w:
+                    target_contexts[target].append(c)
     for target, contexts in target_contexts.items():
         path_contexts = f'{path_dir}/{target}.txt'
         with open(path_contexts, 'w') as outfile:
