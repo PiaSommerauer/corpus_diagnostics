@@ -75,7 +75,7 @@ def main():
 
     # for progress bar  - use wc -l on terminal to get line number of pairs file
     n_lines = 1530697448
-    n_batches = 1000
+    n_batches = 500
 
     # test:
     #n_batches = 1
@@ -84,7 +84,7 @@ def main():
     batches = get_batches(n_lines, n_batches)
 
     #props = ['blue', 'green']
-    props = ['lay_eggs', 'yellow', 'used_in_cooking']
+    props = ['lay_eggs', 'yellow', 'used_in_cooking'] #, 'wings']
     prop_targets = dict()
     all_contexts = dict()
     for prop in props:
@@ -100,37 +100,32 @@ def main():
 
     batch_cnt = 0
 
-    for start, end in batches:
-        print(f'processing batch {batch_cnt} of {len(batches)}')
-        print(f'batch size: {end-start}')
-        #output_dicts_batch = []
-        with open(pair_path) as infile:
+    with open(pair_path) as infile:
+        for start, end in batches:
+            print(f'processing batch {batch_cnt} of {len(batches)}')
+            print(f'batch size: {end-start}')
+            #output_dicts_batch = []
+
             my_lines =  itertools.islice(infile, start, end)
-            # create arguments:
-            #arguments = []
-            #qu = multiprocessing.Queue()
-            #for pair_line in my_lines:
-             #   arguments.append([qu, prop_targets, pair_line])
-            #jobs = []
-            #po = multiprocessing.Pool(4)
+
             po = multiprocessing.Pool(5)
-                # extract_contexts(prop_targets, pair_line)
+
             out = po.map(extract_contexts, [(prop_targets, pair_line) for pair_line in my_lines])
 
+            batch_cnt += 1
+            po.close()
+            po.join()
 
             for prop_target_dict in out:
                 for prop, label_dict in prop_target_dict.items():
                     for label, target_dict in label_dict.items():
                         for target, contexts in target_dict.items():
                             all_contexts[prop][label][target].extend(contexts)
-            batch_cnt += 1
-            po.close()
-            po.join()
 
 
             #print(all_contexts)
-            if batch_cnt == 3:
-                break
+            # if batch_cnt == 3:
+            #     break
 
 
 
