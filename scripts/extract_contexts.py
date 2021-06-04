@@ -68,20 +68,30 @@ def main():
     #prop = sys.argv[1]
     path_dir = sys.argv[1]
     model_name = sys.argv[2]
-    pair_path =  f'{path_dir}/pairs-orig'
+    if model_name == 'test':
+        pair_path = 'pairs-test'
+    else:
+        pair_path =  f'{path_dir}/pairs-orig'
+
 
     # for progress bar  - use wc -l on terminal to get line number of pairs file
     n_lines = 1530697448
     #         1530697448
     n_batches = 1000
 
+    if model_name == 'test':
+        n_lines = 100
+        n_batches = 10
+
     # test:
     #n_batches = 1
     # n_lines = 6
 
     batches = get_batches(n_lines, n_batches)
-
-    with open('../data/vocab.txt') as infile:
+    path_vocab ='../data/vocab.txt'
+    if model_name == 'test':
+        path_vocab = '../data/vocab-test.txt'
+    with open(path_vocab) as infile:
         targets = set(infile.read().strip().split('\n'))
 
     # get already collected:
