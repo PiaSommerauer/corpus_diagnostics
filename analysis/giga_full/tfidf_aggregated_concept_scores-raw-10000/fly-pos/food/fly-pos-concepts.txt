@@ -1,0 +1,6 @@
+chinook
+pheasant
+bomber
+duck
+fowl
+quail

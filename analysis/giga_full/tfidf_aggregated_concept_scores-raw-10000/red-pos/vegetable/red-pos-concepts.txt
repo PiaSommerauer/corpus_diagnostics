@@ -1,0 +1,11 @@
+vegetable
+radish
+lentil
+tomato
+pepper
+cabbage
+beet
+shallot
+rhubarb
+beetroot
+onion

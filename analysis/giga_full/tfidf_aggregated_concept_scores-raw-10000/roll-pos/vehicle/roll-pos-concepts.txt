@@ -1,0 +1,7 @@
+skateboard
+wagon
+cart
+wheelbarrow
+bike
+wheel
+car

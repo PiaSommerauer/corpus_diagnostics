@@ -1,0 +1,10 @@
+hack
+coyote
+hippopotamus
+tiger
+snake
+alligator
+doodlebug
+scorpion
+killer
+torpedo

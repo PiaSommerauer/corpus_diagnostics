@@ -1,0 +1,7 @@
+starling
+bird
+parakeet
+peacock
+budgie
+parrot
+kingfisher

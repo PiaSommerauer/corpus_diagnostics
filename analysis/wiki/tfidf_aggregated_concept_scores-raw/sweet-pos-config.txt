@@ -1,0 +1,4 @@
+sweet
+n pos examples: 54
+cut-off: difference above 0
+using top 500 words

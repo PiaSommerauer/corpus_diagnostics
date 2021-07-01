@@ -1,0 +1,12 @@
+parrotfish
+starling
+parakeet
+peacock
+insect
+shark
+parrot
+kingfisher
+mussel
+bird
+fish
+budgie

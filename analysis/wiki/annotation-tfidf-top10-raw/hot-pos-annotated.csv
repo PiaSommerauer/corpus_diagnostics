@@ -1,0 +1,12 @@
+,context,n_concepts,mean_tfidf,mean_diff,evidence
+0,large,31,0.05,0.03,no
+1,high,30,0.04,0.03,no
+2,also,30,0.04,0.02,no
+3,is,30,0.08,0.04,no
+4,with,30,0.06,0.03,no
+5,water,29,0.11,0.09,no
+6,named,29,0.02,0.01,no
+7,heated,29,0.11,0.1,yes
+8,as,28,0.07,0.03,no
+9,area,28,0.02,0.01,no
+10,hot,4,0.29,0.28,yes

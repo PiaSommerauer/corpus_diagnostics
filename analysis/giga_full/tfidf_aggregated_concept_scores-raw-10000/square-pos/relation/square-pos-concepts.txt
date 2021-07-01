@@ -1,0 +1,8 @@
+page
+phone
+marble
+newspaper
+room
+card
+wallpaper
+couch

@@ -1,0 +1,4 @@
+sweet
+n pos examples: 64
+cut-off: difference above 0
+max_features: 10000

@@ -1,0 +1,12 @@
+,context,n_concepts,mean_tfidf,mean_diff,evidence
+0,ice,14,0.19,0.18,yes
+1,down,13,0.07,0.06,no
+2,high,13,0.08,0.06,no
+3,south,12,0.04,0.04,no
+4,known,12,0.04,0.03,no
+5,some,12,0.03,0.02,no
+6,off,11,0.09,0.07,no
+7,cold,11,0.08,0.06,yes
+8,between,11,0.03,0.02,no
+9,mid,11,0.04,0.03,no
+10,cold,11,0.08,0.06,yes

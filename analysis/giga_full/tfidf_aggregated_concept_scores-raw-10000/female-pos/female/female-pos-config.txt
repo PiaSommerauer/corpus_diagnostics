@@ -1,0 +1,4 @@
+female
+n pos examples: 68
+cut-off: difference above 0
+max_features: 10000

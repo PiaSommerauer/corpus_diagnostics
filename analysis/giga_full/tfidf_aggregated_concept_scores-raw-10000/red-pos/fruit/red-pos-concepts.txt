@@ -1,0 +1,15 @@
+strawberry
+currant
+grape
+blackberry
+apple
+lingonberry
+cherry
+lentil
+pomegranate
+mango
+fruit
+watermelon
+apricot
+raspberry
+berry

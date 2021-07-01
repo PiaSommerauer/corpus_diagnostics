@@ -1,0 +1,12 @@
+,context,n_concepts,mean_tfidf,mean_diff
+0,off,35,0.02,0.02
+1,made,34,0.02,0.01
+2,are,33,0.03,0.01
+3,making,33,0.01,0.01
+4,produced,31,0.02,0.02
+5,production,30,0.03,0.02
+6,area,30,0.01,0.01
+7,mid,29,0.01,0.01
+8,cream,29,0.09,0.08
+9,long,28,0.02,0.02
+10,red,7,0.09,0.06

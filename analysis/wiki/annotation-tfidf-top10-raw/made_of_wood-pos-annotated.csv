@@ -1,0 +1,13 @@
+,context,n_concepts,mean_tfidf,mean_diff,evidence
+0,of,31,0.09,0.05,no
+1,wooden,29,0.09,0.07,yes
+2,was,27,0.07,0.04,no
+3,along,27,0.03,0.02,no
+4,open,26,0.03,0.03,no
+5,number,26,0.02,0.01,no
+6,the,25,0.13,0.05,no
+7,to,25,0.09,0.05,no
+8,and,24,0.1,0.04,no
+9,called,24,0.05,0.04,no
+10,wooden,29,0.09,0.07,yes
+11,wood,10,0.11,0.1,yes

@@ -1,0 +1,8 @@
+vegetable
+tomato
+pumpkin
+bean
+cabbage
+beet
+potato
+onion

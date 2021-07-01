@@ -1,0 +1,17 @@
+stockfish
+stickleback
+flounder
+pipefish
+roach
+mosquitofish
+salmon
+bass
+sardine
+halibut
+halfbeak
+plaice
+pickerel
+smallmouth
+toadfish
+trout
+char

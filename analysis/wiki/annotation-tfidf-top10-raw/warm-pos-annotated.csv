@@ -1,0 +1,11 @@
+,context,n_concepts,mean_tfidf,mean_diff,evidence
+0,winter,35,0.04,0.03,no
+2,large,34,0.03,0.02,no
+1,the,34,0.15,0.06,no
+3,or,33,0.09,0.05,no
+4,0,32,0.06,0.04,no
+5,along,31,0.03,0.02,no
+6,well,30,0.03,0.02,no
+7,wearing,30,0.24,0.18,yes
+8,and,30,0.11,0.05,no
+9,made,30,0.08,0.05,no

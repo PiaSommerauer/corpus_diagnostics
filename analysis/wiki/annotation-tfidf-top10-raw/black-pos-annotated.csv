@@ -1,0 +1,12 @@
+,context,n_concepts,mean_tfidf,mean_diff,evidence
+0,to,14,0.07,0.04,no
+1,for,14,0.05,0.03,no
+2,the,13,0.14,0.07,no
+3,down,13,0.02,0.01,no
+4,had,13,0.03,0.02,no
+5,then,13,0.02,0.01,no
+6,he,12,0.03,0.02,no
+7,who,12,0.02,0.01,no
+8,than,12,0.06,0.05,no
+9,there,12,0.02,0.01,no
+10,black,6,0.17,0.14,yes

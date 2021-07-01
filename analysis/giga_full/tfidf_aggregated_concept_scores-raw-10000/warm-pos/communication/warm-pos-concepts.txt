@@ -1,0 +1,7 @@
+head
+wig
+smoke
+sheepskin
+nose
+sock
+space

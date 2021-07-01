@@ -1,0 +1,11 @@
+helicopter
+plane
+bomber
+jet
+capsule
+machine
+twinjet
+balloon
+airship
+autogyro
+craft

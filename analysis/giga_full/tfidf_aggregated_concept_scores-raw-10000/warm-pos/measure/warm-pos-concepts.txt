@@ -1,0 +1,10 @@
+glass
+nose
+space
+kettle
+heat
+head
+atmosphere
+mug
+drink
+candle

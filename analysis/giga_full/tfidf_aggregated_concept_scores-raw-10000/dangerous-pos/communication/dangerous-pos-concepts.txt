@@ -1,0 +1,9 @@
+torpedo
+arrow
+plot
+bow
+shaft
+virus
+conspiracy
+attack
+fire

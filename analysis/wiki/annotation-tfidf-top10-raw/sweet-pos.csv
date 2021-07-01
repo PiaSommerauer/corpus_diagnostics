@@ -1,0 +1,12 @@
+,context,n_concepts,mean_tfidf,mean_diff,evidence
+0,sweet,34,0.06,0.05,-
+1,honey,32,0.04,0.03,-
+2,orange,30,0.05,0.04,-
+3,hot,30,0.03,0.02,-
+4,produced,30,0.02,0.01,-
+5,song,29,0.02,0.01,-
+6,american,29,0.03,0.02,-
+7,flavor,28,0.04,0.03,-
+8,album,28,0.03,0.02,-
+9,fruits,28,0.1,0.08,-
+10,sweet,34,0.06,0.05,-

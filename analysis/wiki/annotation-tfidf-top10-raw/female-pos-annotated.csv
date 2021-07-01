@@ -1,0 +1,12 @@
+,context,n_concepts,mean_tfidf,mean_diff,evidence
+0,she,101,0.16,0.12,yes
+1,her,95,0.17,0.12,yes
+2,woman,85,0.07,0.06,yes
+3,mary,77,0.07,0.06,yes
+4,sister,74,0.07,0.06,yes
+5,mother,72,0.12,0.09,yes
+6,love,72,0.06,0.04,no
+7,daughter,71,0.11,0.09,yes
+8,girl,70,0.07,0.06,yes
+9,princess,70,0.09,0.08,yes
+10,female,57,0.05,0.04,yes

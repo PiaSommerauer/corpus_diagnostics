@@ -1,0 +1,4 @@
+made_of_wood
+n pos examples: 45
+cut-off: difference above 0
+max_features: 10000

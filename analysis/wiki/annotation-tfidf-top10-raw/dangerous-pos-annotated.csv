@@ -1,0 +1,11 @@
+,context,n_concepts,mean_tfidf,mean_diff,evidence
+0,shot,36,0.09,0.08,yes
+1,self,33,0.06,0.05,no
+2,man,32,0.06,0.05,no
+3,single,32,0.05,0.04,no
+4,while,27,0.05,0.04,no
+8,case,26,0.03,0.02,no
+10,one,26,0.07,0.05,no
+9,set,26,0.03,0.02,no
+7,off,26,0.07,0.05,no
+6,him,26,0.07,0.05,no

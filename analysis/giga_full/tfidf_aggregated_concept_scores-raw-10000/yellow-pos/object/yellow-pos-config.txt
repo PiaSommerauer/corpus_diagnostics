@@ -1,0 +1,4 @@
+yellow
+n pos examples: 35
+cut-off: difference above 0
+max_features: 10000

@@ -1,0 +1,12 @@
+,context,n_concepts,mean_tfidf,mean_diff,evidence
+0,and,17,0.1,0.04,no
+1,band,16,0.03,0.02,no
+2,with,16,0.05,0.02,no
+3,is,16,0.07,0.04,no
+4,was,15,0.04,0.02,no
+5,year,15,0.04,0.02,no
+6,from,15,0.03,0.02,no
+7,may,15,0.03,0.02,no
+8,down,14,0.02,0.02,no
+9,which,14,0.03,0.02,no
+10,red,11,0.08,0.05,yes

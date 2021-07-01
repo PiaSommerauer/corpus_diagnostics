@@ -1,0 +1,15 @@
+coyote
+gun
+torpedo
+raper
+henchman
+hijacker
+racketeer
+bootlegger
+traitor
+gunman
+conspirator
+thief
+freebooter
+looter
+mafioso

@@ -1,0 +1,11 @@
+lettuce
+breadcrumb
+bread
+dough
+tablespoon
+pounder
+scallop
+cutlet
+cabbage
+scoop
+spoon

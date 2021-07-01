@@ -1,0 +1,13 @@
+water
+coffee
+soup
+charcoal
+vapor
+tea
+steam
+kerosene
+soot
+drink
+lava
+pot
+fire

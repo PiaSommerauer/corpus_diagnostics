@@ -1,0 +1,8 @@
+crab
+ant
+ladybird
+robin
+squirrel
+lobster
+rooster
+fox

@@ -1,0 +1,7 @@
+nut
+glass
+bucket
+tub
+bottle
+candle
+barrel

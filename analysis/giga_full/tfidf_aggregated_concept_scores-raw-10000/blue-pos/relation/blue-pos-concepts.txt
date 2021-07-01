@@ -1,0 +1,7 @@
+paint
+water
+feather
+suit
+plumage
+pot
+sapphire

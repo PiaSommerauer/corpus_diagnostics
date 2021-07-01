@@ -1,0 +1,13 @@
+,context,n_concepts,mean_tfidf,mean_diff,evidence
+0,0,32,0.03,0.02,no
+1,all,32,0.02,0.01,no
+2,from,31,0.03,0.02,no
+3,only,29,0.02,0.01,no
+4,at,28,0.03,0.02,no
+5,were,28,0.02,0.01,no
+6,inside,27,0.02,0.01,no
+7,time,27,0.02,0.02,no
+8,than,27,0.01,0.01,no
+9,four,26,0.04,0.03,no
+10,rolls,1,0.06,0.06,yes
+11,roll,1,0.09,0.09,yes

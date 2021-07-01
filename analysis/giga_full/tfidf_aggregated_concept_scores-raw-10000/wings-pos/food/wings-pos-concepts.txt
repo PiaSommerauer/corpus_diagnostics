@@ -1,0 +1,7 @@
+chicken
+bird
+duck
+fowl
+quail
+grasshopper
+hen

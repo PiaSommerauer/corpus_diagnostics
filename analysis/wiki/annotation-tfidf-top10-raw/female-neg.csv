@@ -1,0 +1,12 @@
+,context,n_concepts,mean_tfidf,mean_diff
+0,he,103,0.11,0.08
+1,and,82,0.13,0.06
+2,peter,81,0.04,0.03
+3,of,78,0.14,0.07
+4,charles,78,0.05,0.04
+5,james,78,0.04,0.03
+6,robert,78,0.04,0.03
+7,richard,77,0.04,0.03
+8,george,77,0.04,0.03
+9,john,75,0.07,0.05
+10,female,23,0.05,0.03

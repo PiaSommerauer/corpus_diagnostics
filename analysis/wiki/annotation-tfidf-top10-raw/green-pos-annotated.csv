@@ -1,0 +1,12 @@
+,context,n_concepts,mean_tfidf,mean_diff,evidence
+0,green,29,0.08,0.07,yes
+1,small,24,0.03,0.02,no
+2,tree,24,0.13,0.12,no
+3,or,22,0.05,0.02,no
+4,water,21,0.05,0.04,no
+5,production,21,0.03,0.02,no
+6,and,20,0.12,0.05,no
+7,eaten,20,0.06,0.05,no
+8,such,20,0.05,0.03,no
+9,growing,20,0.05,0.04,no
+10,green,29,0.08,0.07,yes

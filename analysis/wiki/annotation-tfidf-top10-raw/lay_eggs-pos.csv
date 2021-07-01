@@ -1,0 +1,11 @@
+,context,n_concepts,mean_tfidf,mean_diff,evidence
+0,species,49,0.27,0.23,-
+1,is,37,0.16,0.13,-
+2,red,36,0.18,0.15,-
+3,black,35,0.2,0.18,-
+4,white,34,0.21,0.18,-
+5,the,34,0.17,0.09,-
+6,common,33,0.17,0.14,-
+7,include,32,0.07,0.06,-
+8,in,31,0.1,0.06,-
+9,found,30,0.11,0.1,-
