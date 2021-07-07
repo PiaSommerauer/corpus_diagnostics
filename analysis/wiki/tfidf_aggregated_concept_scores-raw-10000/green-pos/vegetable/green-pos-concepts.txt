@@ -1,0 +1,12 @@
+radish
+lettuce
+celery
+cabbage
+pepper
+rhubarb
+asparagus
+plantain
+spinach
+broccoli
+vegetable
+cucumber

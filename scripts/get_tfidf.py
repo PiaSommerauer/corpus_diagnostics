@@ -115,7 +115,7 @@ def tfidf_target_vs_corpus(prop, model, cnt_type, target_label, max_features):
 
 def main():
  
-    model = 'giga_full'
+    model = 'wiki'
     cnt_type = 'raw'
     max_features = 10000
     test = False

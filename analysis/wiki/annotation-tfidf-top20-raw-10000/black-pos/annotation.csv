@@ -1,0 +1,149 @@
+context,evidence,categories
+varied, ,relation
+canadian, ,relation
+similarity, ,relation
+regarded, ,relation
+shots, ,relation
+titles, ,relation
+depicts, ,relation
+arrives, ,relation
+fairly, ,relation
+meeting, ,relation
+kill, ,relation
+duty, ,relation
+ford, ,relation
+flight, ,object all-pos relation animal
+visits, ,relation
+loop, ,relation
+rope, ,relation
+reserve, ,relation
+pike, ,relation
+journey, ,relation
+black, ,plant black all-pos fruit animal object mammal relation food bird
+rosa, ,fruit
+obtained, ,fruit food
+1946, ,fruit
+recalls, ,fruit food
+charged, ,fruit
+criticism, ,plant fruit
+southeastern, ,fruit food
+railroad, ,fruit
+bounded, ,fruit
+walnuts, ,fruit
+unknown, ,object all-pos fruit food
+dates, ,fruit
+mount, ,fruit
+led, ,object all-pos fruit black
+miller, ,fruit food
+historic, ,fruit
+currently, ,plant fruit food
+best, ,fruit food
+free, ,fruit food
+states, ,fruit food
+earlier, ,plant black food
+extensively, ,plant
+eighteenth, ,plant
+intention, ,plant
+consultant, ,plant
+10th, ,plant
+71, ,plant
+informs, ,plant
+91, ,plant
+amid, ,plant
+hardly, ,plant
+39, ,plant
+1853, ,plant
+hungary, ,plant
+evidence, ,plant
+cousin, ,plant
+historically, ,plant food
+thirty, ,plant
+have, ,object all-pos
+sharp, ,object all-pos
+finds, ,object all-pos
+initial, ,object all-pos mammal
+same, ,object all-pos
+who, ,object all-pos
+members, ,object all-pos black
+among, ,object all-pos
+turned, ,all-pos
+attempts, ,object all-pos animal
+of, ,object all-pos
+might, ,all-pos black
+would, ,object all-pos
+separate, ,object all-pos mammal
+be, ,all-pos
+six, ,object all-pos
+own, ,all-pos
+wolf, ,mammal
+realizes, ,mammal
+anthropomorphic, ,mammal
+chased, ,mammal
+aggressive, ,animal mammal
+animals, ,animal mammal
+suggesting, ,mammal
+though, ,object mammal
+travels, ,mammal
+legs, ,animal mammal
+extinction, ,mammal
+horror, ,mammal
+particular, ,mammal
+offspring, ,mammal
+kills, ,animal mammal
+killing, ,mammal
+inhabited, ,animal mammal
+skin, ,mammal
+bird, ,bird
+nest, ,bird
+appears, ,animal bird
+pigeon, ,bird
+call, ,bird
+birds, ,animal bird
+relatives, ,bird
+breed, ,bird
+arrive, ,bird
+sized, ,animal bird
+declining, ,bird
+robin, ,bird
+dove, ,bird
+reference, ,bird
+perhaps, ,bird
+population, ,animal bird
+length, ,bird
+lays, ,bird
+longest, ,bird
+spent, ,object
+living, ,object animal
+contact, ,object
+continued, ,food
+some, ,food
+pronounced, ,food
+took, ,food
+succeeded, ,food
+first, ,food
+year, ,food
+less, ,food
+populations, ,animal
+extinct, ,animal
+adult, ,animal
+predator, ,animal
+tail, ,animal
+animal, ,animal
+prey, ,animal
+live, ,animal
+order, ,black
+attacking, ,black
+throughout, ,black
+current, ,black
+closer, ,black
+unless, ,black
+noise, ,black
+advanced, ,black
+ferry, ,black
+transported, ,black
+capture, ,black
+gem, ,black
+triggered, ,black
+defence, ,black
+impossible, ,black
+avoid, ,black

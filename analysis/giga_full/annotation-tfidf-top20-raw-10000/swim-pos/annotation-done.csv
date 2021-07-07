@@ -1,0 +1,72 @@
+context,evidence,categories
+fish,i,object food fish all-pos
+fishing,r,object food fish all-pos
+far,u,object mammal all-pos
+waters,r,object food fish all-pos
+hot,u,object bird all-pos
+trout,i,object food fish all-pos
+serves,u,object bird mammal all-pos
+name,u,object mammal all-pos
+populations,u,object all-pos
+pound,u,object all-pos
+known,u,object mammal all-pos
+two,u,object all-pos
+is,u,object bird mammal all-pos
+biologists,u,object all-pos
+catfish,i,object food fish all-pos
+catch,r,object food fish all-pos
+salmon,i,object food fish all-pos
+pacific,r,object food all-pos
+long,u,object all-pos
+eating,u,object all-pos
+swimming,p,object food mammal fish all-pos
+swim,p,bird object food mammal fish all-pos
+swam,p,object food mammal fish all-pos
+teeth,u,mammal
+becoming,u,mammal
+skull,u,mammal
+creatures,u,mammal
+sight,u,mammal
+since,u,mammal
+presumably,u,mammal
+generally,u,mammal
+exhibit,u,mammal
+led,u,mammal
+saving,u,mammal
+companion,u,mammal
+eventually,u,mammal
+between,u,mammal
+weighs,u,mammal
+duck,i,bird
+president,u,bird
+takes,u,bird
+looks,u,bird
+third,u,bird
+floating,n,bird
+removing,u,bird
+cooked,u,bird
+medium,u,bird
+seller,u,bird
+adams,u,bird
+kind,u,bird
+made,u,bird
+neck,u,bird
+down,u,bird
+until,u,bird
+tours,u,bird
+fishermen,r,food fish
+caught,r,food fish
+tuna,i,food fish
+catches,r,food fish
+fishery,r,food fish
+crab,i,food
+fillets,r,food fish
+shrimp,i,food fish
+catching,r,food fish
+atlantic,r,food fish
+seafood,r,food
+baked,u,food
+bass,i,fish
+sea,r,fish
+plentiful,u,fish
+perch,i,fish

@@ -1,0 +1,7 @@
+shaft
+fingerboard
+beam
+peg
+bow
+arrow
+bass

@@ -1,0 +1,150 @@
+context,evidence,categories
+black,p,all-pos food plant animal bird black relation mammal object fruit
+destroyed,u,relation
+leather,i,relation
+jackets,i,relation
+perhaps,u,relation
+cheers,u,relation
+vulnerable,u,all-pos object relation
+proved,u,relation
+set,u,relation
+himself,u,relation
+underneath,u,relation
+save,u,relation
+27,u,relation
+revealed,u,food all-pos object relation
+walk,u,relation
+frustrated,u,relation
+post,u,fruit relation
+had,u,relation
+old,u,relation
+bull,i,relation
+flavor,u,fruit
+nuts,u,food fruit
+picking,u,food fruit
+berries,i,fruit
+parties,u,plant fruit
+dash,u,plant fruit
+types,u,plant fruit
+except,u,plant food fruit
+cups,u,fruit
+nor,u,fruit
+crush,u,fruit
+historic,u,plant fruit
+believes,u,fruit
+knows,u,food fruit
+august,u,fruit
+allowed,u,object fruit
+loved,u,fruit
+generous,u,plant fruit
+general,u,plant fruit
+chic,u,plant
+winding,u,plant
+darker,u,plant
+coupled,u,plant
+taiwan,u,plant
+readers,u,plant
+blends,u,plant
+embraced,u,plant
+russian,u,plant
+branch,u,plant
+dusty,u,plant
+aromatic,u,plant
+strange,u,plant animal
+suddenly,u,all-pos animal object
+emerged,u,all-pos object
+enormous,u,all-pos object
+been,u,all-pos animal object
+found,u,all-pos animal object
+another,u,all-pos object
+fire,u,mammal all-pos object
+which,u,all-pos
+seen,u,all-pos object
+one,u,all-pos object food
+son,u,all-pos
+latest,u,all-pos
+identified,u,mammal all-pos object
+united,u,all-pos
+pilot,u,all-pos
+victim,u,all-pos object
+spot,u,all-pos object
+animal,u,mammal animal
+population,u,mammal animal
+dna,u,mammal animal
+lab,u,mammal
+how,u,mammal
+evidence,u,mammal object
+skull,u,mammal
+presumably,u,mammal
+tested,u,mammal animal
+survival,u,mammal animal
+sequence,u,mammal
+closer,u,mammal
+pregnant,u,mammal
+angry,u,mammal
+urine,u,mammal
+kill,u,mammal
+fate,u,mammal
+reputation,u,mammal
+nest,u,bird
+flock,u,bird
+birds,i,bird
+wings,u,bird
+expert,u,bird
+eye,i,bird animal object food
+bill,u,bird
+bird,i,bird
+species,u,bird
+endangered,u,bird
+writes,u,bird
+characters,u,bird animal
+allowing,u,bird
+exactly,u,bird
+resident,u,bird
+character,u,bird
+native,u,bird
+recordings,u,bird
+fault,u,bird
+linda,u,bird
+appeared,u,object
+laboratory,u,animal object
+tiny,u,food
+prepare,u,food
+cover,u,food
+size,u,food
+roast,u,food
+inspired,u,food
+rich,u,food
+lamb,u,food
+using,u,food
+sits,u,food
+featuring,u,food
+smell,u,food
+creature,u,animal
+populations,u,animal
+chased,u,animal
+tracking,u,animal
+mouse,i,animal
+killing,u,animal
+birth,u,animal
+discovered,u,animal
+limit,u,black
+virginia,u,black
+electrical,u,black
+hub,u,black
+extending,u,black
+lowest,u,black
+discuss,u,black
+disrupted,u,black
+utah,u,black
+accepted,u,black
+regarding,u,black
+rampant,u,black
+commercially,u,black
+replacing,u,black
+quarter,u,black
+formerly,u,black
+1970s,u,black
+gradually,u,black
+fast,u,black
+canada,u,black

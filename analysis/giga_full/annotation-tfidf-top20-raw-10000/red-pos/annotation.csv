@@ -1,0 +1,159 @@
+context,evidence,categories
+energy,u,relation
+founder,u,relation
+owns,u,relation
+compelling,u,relation
+branch,u,relation
+va,u,relation
+belong,u,relation
+trial,u,relation
+wales,u,relation
+sustain,u,relation
+reflected,u,relation
+valley,u,relation
+referred,u,relation
+believes,u,object relation
+wife,u,relation
+years,u,relation
+spokeswoman,u,relation
+at,u,relation
+heard,u,relation
+period,u,relation
+red,p,all-pos object food plant measure animal red relation vegetable fruit
+cherry,i,plant food fruit
+plum,i,plant food fruit
+wine,i,plant food fruit
+berry,i,food fruit
+vibrant,u,plant food fruit
+blackberry,i,fruit
+punch,i,fruit
+lemonade,u,food fruit
+peach,i,fruit
+blueberry,u,food fruit
+flavors,u,fruit
+juicy,u,fruit
+popular,u,plant food fruit
+color,i,plant fruit
+cranberry,i,fruit
+intense,u,food fruit
+pear,u,plant fruit
+planted,u,plant fruit
+apple,i,plant food fruit
+shades,u,fruit
+varieties,u,plant
+plants,u,plant
+plenty,u,plant all-pos object food
+variety,u,plant
+planting,u,plant
+green,u,plant
+cocktail,i,plant food
+dried,u,plant
+yellow,u,plant
+flower,i,plant
+soup,i,vegetable
+spinach,u,vegetable
+squash,u,vegetable
+vegetables,i,vegetable
+tomato,i,vegetable
+savory,u,vegetable
+beet,i,vegetable
+stewed,u,vegetable
+dishes,u,vegetable
+vegetable,i,vegetable
+beets,i,vegetable
+potato,u,vegetable
+carrot,u,vegetable
+relish,i,vegetable
+salads,u,vegetable
+plates,u,vegetable
+inch,u,vegetable
+casserole,u,vegetable
+plant,u,vegetable
+wish,u,all-pos object
+burst,u,all-pos object
+29,u,all-pos object
+steel,u,all-pos object measure
+features,u,all-pos animal object
+while,u,all-pos object
+carries,u,all-pos object
+forth,u,all-pos
+mentioned,u,all-pos object
+frank,u,all-pos
+complex,u,all-pos
+handed,u,all-pos
+around,u,all-pos object
+16,u,all-pos object
+already,u,all-pos animal object
+1991,u,all-pos
+fact,u,all-pos measure
+apart,u,all-pos
+hit,u,all-pos object
+swept,u,red
+hometown,u,red
+postponed,u,red
+1992,u,red
+forward,u,red
+breakaway,u,red
+rivals,u,red
+joining,u,red
+shut,u,red
+triumph,u,red
+ryan,u,red
+blew,u,red
+extended,u,red
+coach,u,red
+host,u,red
+campbell,u,red
+streak,u,red
+stunning,u,red
+ottawa,u,red
+nhl,u,red
+hand,u,object
+told,u,object
+about,u,object
+tiny,u,object
+was,u,object
+sweetness,u,food
+plums,i,food
+concentrated,u,food
+depending,u,food
+flavor,u,food
+cider,u,food
+slightly,u,food
+lovely,u,food
+mike,u,animal
+think,u,animal
+begins,u,animal
+joseph,u,animal
+character,u,animal
+scott,u,animal
+amy,u,animal
+writer,u,animal
+1999,u,animal
+course,u,animal
+replace,u,animal
+established,u,animal
+welcome,u,animal
+rocky,u,animal
+crack,u,animal
+pull,u,animal
+strange,u,animal
+valuable,u,animal
+roses,i,measure
+leaked,u,measure
+faint,u,measure
+temple,u,measure
+1980s,u,measure
+upon,u,measure
+feeling,u,measure
+cleared,u,measure
+finds,u,measure
+grandmother,u,measure
+thousand,u,measure
+array,u,measure
+hardly,u,measure
+comfort,u,measure
+slower,u,measure
+folk,u,measure
+tend,u,measure
+reportedly,u,measure

@@ -70,14 +70,22 @@ def load_annotations(prop, model, category, max_features):
                     ev_dict_neg[word]=d_neg
     # make combinations
     return ev_dict_pos, ev_dict_neg
- 
+
+  
 def get_evidence_table(prop, model, category, max_features):
     ev_dict_pos, ev_dict_neg = load_annotations(prop, model, category, max_features)
     path_dir = f'../analysis/{model}/tfidf_aggregated_concept_scores-raw-{max_features}'
     path_neg_config = f'{path_dir}/{prop}-neg-config.txt'
     path_pos_config = f'{path_dir}/{prop}-pos/{category}/{prop}-pos-config.txt'
-    n_pos = get_n_concepts_total(path_pos_config)
-    n_neg = get_n_concepts_total(path_neg_config)
+    label = 'pos'
+    concepts_pos_total = get_concepts(model, prop, label)
+    label = 'neg'
+    concepts_neg_total = get_concepts(model, prop, label)
+
+    n_pos = len(concepts_pos_total)
+    n_neg = len(concepts_neg_total)
+    
+    print(prop, model)
     print('n pos:', n_pos)
     print('n neg:', n_neg)
     print()
@@ -325,7 +333,6 @@ def get_relation_overview(props, model, rel_type='top', include_props = False):
 
 
 def get_concept_relations(prop, rel_type):
-    #properties = get_properties()
     concept_relation_dict = dict()
     relation_concept_dict = defaultdict(set)
     path = f'../data/aggregated/{prop}.json'
@@ -361,7 +368,7 @@ def get_concept_relations(prop, rel_type):
 
 def get_annotation_status(model):
     dir_annotations = f'../analysis/{model}/annotation-tfidf-top20-raw-10000'
-    annotation_dict = defaultdict(dict)
+    annotation_dict = defaultdict(set)
 
     for f in os.listdir(dir_annotations):
         if not f.endswith('.csv'):
@@ -369,44 +376,69 @@ def get_annotation_status(model):
             full_path = f'{dir_annotations}/{f}'
             #print(full_path)
             # get categories:
-            for cat in os.listdir(full_path):
-                full_path_cf = f'{full_path}/{cat}'
-                annotated = [f for f in os.listdir(full_path_cf) if f.endswith('annotated.csv')]
-                if len(annotated) == 1:
-                    if prop in annotation_dict['complete']:
-                        annotation_dict['complete'][prop].add(cat)
-                    else:
-                        annotation_dict['complete'][prop] = {cat}
-                else:
-                    if prop in annotation_dict['incomplete']:
-                        annotation_dict['incomplete'][prop].add(cat)
-                    else:
-                        annotation_dict['incomplete'][prop] = {cat}
+            files = os.listdir(full_path)
+            if 'annotation-done.csv' in files:
+                annotation_dict['complete'].add(prop)
+            else:
+                annotation_dict['incomplete'].add(prop)
     return annotation_dict
 
 def show_annotation_status(model):
     annotation_dict = get_annotation_status(model)
     # same category not annotated:
-    for prop in annotation_dict['complete'].keys():
+    print('completed:\n')
+    for prop in sorted(list(annotation_dict['complete'])):
         # cats open:
-        print('checking status of categories:')
-        if prop in annotation_dict['incomplete']:
-            print(prop)
-            print('Needs annotations:')
-            cats_open = annotation_dict['incomplete'][prop]
-            print(cats_open)
-        else:
-            print(prop, 'complete')
-
+        print(prop)
     print()
-    print('Properties not annotated yet:')
-    for prop in annotation_dict['incomplete']:
+    print('Incomplete:\n')
+    for prop in sorted(annotation_dict['incomplete']):
         if prop not in annotation_dict['complete']:
             print(prop)
             
             
+def get_property_annotations(model, prop):
+    dir_annotations = f'../analysis/{model}/annotation-tfidf-top20-raw-10000'
+    f_ann = f'{dir_annotations}/{prop}-pos/annotation-done.csv'
+    
+    ann_table = dict()
+    
+    with open(f_ann) as infile:
+        line = infile.read().split('\n')[0]
+    if '\t' in line:
+        delim = '\t'
+    else:
+        delim = ','
+    #print(f_ann)
+    #print(delim)
+    with open(f_ann) as infile:
+        data = list(csv.DictReader(infile, delimiter = delim))
+    all_categories = set()
+    for d in data:
+        categories = d['categories'].split(' ')
+        all_categories.update(categories)
+    for d in data:
+        d_row = dict()
+        context = d['context']
+        categories = d['categories'].split(' ')
+        evidence = d['evidence']
+        ev_found = False
+        for cat in all_categories:
+            if cat in categories:
+                d_row[cat]  = evidence
+                if evidence not in ['u', None, '-']:
+                    ev_found = True
+            else:
+                d_row[cat] = '-'
+        d_row['evidence'] = ev_found
+        ann_table[context] = d_row
+    df = pd.DataFrame(ann_table).T
+    return df
+
             
-def check_consistency(model, prop):
+            
+            
+def get_property_annotations_old(model, prop):
     dir_annotations = f'../analysis/{model}/annotation-tfidf-top20-raw-10000'
     dir_prop = f'{dir_annotations}/{prop}-pos'
     evidence_labels = {'i', 'p', 'r', 'n', 'b', 'r'}
@@ -442,3 +474,279 @@ def check_consistency(model, prop):
         cat_dict['evidence'] = ev_label
     df = pd.DataFrame(context_cat_dict).T
     return df
+
+
+
+
+def get_evidence_words(prop, model):
+    df = get_property_annotations(model, prop)
+    evidence_words_total = dict()
+    for i, row in df.iterrows():
+        if row['evidence'] == True:
+            row = dict(row)
+            ev_values = list(set([v for v in set(row.values()) if v not in {True, False, '-'}]))
+            assert len(ev_values) == 1, f'More than one label {ev_values}'
+            evidence_words_total[i] = ev_values[0]
+    return evidence_words_total
+
+
+def get_context_dicts(path):
+    context_count_dict = dict()
+    with open(path) as infile:
+        data = list(csv.DictReader(infile))
+    for n, d in enumerate(data, 1):
+        context = d['context']
+        d.pop('context')
+        d.pop('min_tfidf')
+        d.pop('max_tfidf')
+        d.pop('mean_diff')
+        #d['rank'] = n
+        context_count_dict[context] = d
+    
+    return context_count_dict
+
+
+def get_concepts(model, prop, label):
+    #dir_path = f'../analysis/{model}/tfidf_aggregated_concept_scores-raw-10000'
+    dir_path = f'../results/{model}/tfidf-raw-10000/each_target_vs_corpus/{prop}/{label}'
+    concepts = [f.split('.')[0] for f in os.listdir(dir_path)]
+    return concepts
+    
+    
+def get_concept_evidence_counts(prop, model):
+    overview_table = []
+    evidence_words_total = get_evidence_words(prop, model)
+    # get total counts
+    dir_path = f'../analysis/{model}/tfidf_aggregated_concept_scores-raw-10000'
+    path_all_pos = f'{dir_path}/{prop}-pos/all-pos/{prop}-pos.csv'
+    path_all_neg = f'{dir_path}/{prop}-neg.csv'
+    
+    data_pos = get_context_dicts(path_all_pos)
+    data_neg = get_context_dicts(path_all_neg)
+    
+    context_count_dict = dict()
+    label = 'pos'
+    concepts_pos = get_concepts(model, prop, label)
+    label = 'neg'
+    concepts_neg = get_concepts(model, prop, label)
+   
+    
+    for w, ev_type in evidence_words_total.items():
+        d = dict()
+        d_pos = data_pos[w]
+        # add concept counts
+        n_concepts_pos = int(d_pos['n_concepts'])
+        p_concepts = round(n_concepts_pos/len(concepts_pos), 2)
+        d_pos['p_concepts'] = p_concepts
+        d_pos['t_concepts'] = len(concepts_pos)
+        if w in data_neg:
+            d_neg = data_neg[w]
+            # add concept counts
+            n_concepts_neg = int(d_neg['n_concepts'])
+            p_concepts_neg = round(n_concepts_neg/len(concepts_neg), 2)
+            d_neg['p_concepts'] = p_concepts_neg
+            d_neg['t_concepts'] = len(concepts_neg)
+            d_neg_new = dict()
+            for k, v in d_neg.items(): 
+                d_neg_new[k+'-neg'] = v
+        else:
+            n_concepts_neg = 0
+            d_neg_new = dict()
+            p_concepts_neg = 0
+            for k in d_pos.keys():
+                d_neg_new[k+'-neg'] = '-'
+        
+                
+        d['word'] = w
+        d['evidence_type'] = ev_type
+        d['distinctiveness'] = p_concepts-p_concepts_neg
+        p, r, f1 = get_f1_distinctiveness(n_concepts_pos, n_concepts_neg, 
+                                          len(concepts_pos), len(concepts_neg))
+        d['f1_dist'] = f1
+        for k, v in d_pos.items():
+            d[k+'-pos'] = v
+        for k, v in d_neg_new.items():
+            d[k] = v
+        overview_table.append(d)
+    return overview_table 
+
+
+
+def get_concept_evidence(path_concepts, evidence_words_total):
+    concept_context_dict = defaultdict(set)
+    context_concept_dict= defaultdict(set)
+    total_concepts = set()
+    for f in os.listdir(path_concepts):
+        if  f.endswith('.csv'):
+            concept = f.split('.')[0]
+            total_concepts.add(concept)
+            with open(f'{path_concepts}/{f}') as infile:
+                data = list(csv.DictReader(infile))
+            for d in data:
+                context = d['']
+                diff = float(d['diff'])
+                if diff > 0:
+                    if context in evidence_words_total.keys():
+                        concept_context_dict[concept].add(context)
+                        context_concept_dict[context].add(concept)
+    return concept_context_dict, context_concept_dict, total_concepts
+    
+    
+def get_f1_distinctiveness(n_pos, n_neg, total_pos, total_neg):
+    
+    tp = n_pos
+    tn = total_neg - n_neg
+    fp = n_neg
+    fn = total_pos - n_pos
+    
+    if tp+fp != 0:
+        p = tp/(tp+fp)
+    else:
+        p = 0
+    if tp+fn != 0:
+        r = tp/(tp+fn)
+    else:
+        r = 0
+    
+    if p+r != 0:
+        f1 = 2 * ((p*r)/(p+r))
+    else:
+        f1=0
+    
+    return p, r, f1
+    
+
+def get_concept_context_overview(prop, model):
+
+    evidence_words_total = get_evidence_words(prop, model)
+    #print(evidence_words_total)
+
+    concept_dir = f'../results/{model}/tfidf-raw-10000/each_target_vs_corpus'
+    path_pos = f'{concept_dir}/{prop}/pos'
+    path_neg = f'{concept_dir}/{prop}/neg'
+    
+    c_e_pos, e_c_pos, t_pos = get_concept_evidence(path_pos, evidence_words_total)
+    c_e_neg, e_c_neg, t_neg = get_concept_evidence(path_neg, evidence_words_total)
+    #print(len(c_e_pos), len(c_e_neg))
+    
+ 
+    table = []
+    evidence_type = ['all', 'p', 'n', 'i', 'r', 'b', 'l']
+    
+    for et in evidence_type:
+        if et == 'all':
+            ev_words = evidence_words_total.keys()
+        else:
+            ev_words = [w for w, ev_type in 
+                        evidence_words_total.items() if ev_type == et]
+        #concept_ev_dict_pos = defaultdict(set)
+        #concept_ev_dict_neg = defaultdict(set)
+        concepts_et_pos = set()
+        concepts_et_neg = set()
+        for ew in ev_words:
+            # concepts with evidence words
+            concepts_pos = e_c_pos[ew]
+            concepts_neg = e_c_neg[ew]
+            concepts_et_pos.update(concepts_pos)
+            concepts_et_neg.update(concepts_neg)
+        n_pos = len(concepts_et_pos)
+        n_neg = len(concepts_et_neg)
+        p_pos = n_pos/len(t_pos)
+        p_neg = n_neg/len(t_neg)
+        d = dict()
+        p, r, f1 = get_f1_distinctiveness(n_pos, n_neg, len(t_pos), len(t_neg))
+        d['evidence'] = et
+        d['distinctiveness'] = p_pos-p_neg
+        d['f1_dist'] = f1
+        d['n_concepts_with_ev_pos'] = n_pos
+        d['p_concepts_with_ev_pos'] = p_pos
+        d['n_concepts_pos'] = len(t_pos)
+        d['n_concepts_with_ev_neg'] = n_pos
+        d['p_concepts_with_ev_neg'] = p_neg
+        d['n_concepts_neg'] = len(t_neg)
+        d['total_evidence_words'] = len(ev_words)
+        table.append(d)
+    
+    return table
+
+
+    
+
+
+
+
+#### updated version
+
+def aggregate_old_annotations(prop, model):
+    dir_annotations = f'../analysis/{model}/annotation-tfidf-top20-raw-10000'
+    dir_prop = f'{dir_annotations}/{prop}-pos'
+    context_cat_dict = defaultdict(set)
+    context_evidence_dict = dict()
+    for cat in os.listdir(dir_prop):
+        full_path = f'{dir_prop}/{cat}/{prop}-pos-annotated.csv'
+        if os.path.isfile(full_path):
+            with open(full_path) as infile:
+                data = list(csv.DictReader(infile))
+            for d in data:
+                context = d['context']
+                evidence = d['evidence']
+                context_cat_dict[context].add(cat)
+                context_evidence_dict[context] = evidence
+    path_for_annotation = f'{dir_prop}/annotation-done.csv'
+    with open(path_for_annotation, 'w') as outfile:
+        outfile.write('context,evidence,categories\n')
+        for context, categories in context_cat_dict.items():
+            evidence = context_evidence_dict[context]
+            outfile.write(f'{context},{evidence},{" ".join(categories)}\n')
+            
+            
+def summarize_annotation_table(prop, model):
+    dir_annotations = f'../analysis/{model}/annotation-tfidf-top20-raw-10000'
+    dir_prop = f'{dir_annotations}/{prop}-pos'
+    context_cat_dict = defaultdict(set)
+    for cat in os.listdir(dir_prop):
+        if cat not in  ['annotation.csv',  'annotation-done.csv']:
+            full_path = f'{dir_prop}/{cat}/{prop}-pos.csv'
+            with open(full_path) as infile:
+                data = list(csv.DictReader(infile))
+            for d in data:
+                context = d['context']
+                context_cat_dict[context].add(cat)
+    path_for_annotation = f'{dir_prop}/annotation.csv'
+    with open(path_for_annotation, 'w') as outfile:
+        outfile.write('context,evidence,categories\n')
+        for context, categories in context_cat_dict.items():
+            outfile.write(f'{context}, ,{" ".join(categories)}\n')
+            
+            
+            
+def get_prop_overview(model, prop):
+    prop_dict = dict()
+    prop_dict['property'] = prop
+
+    evidence_words = get_evidence_words(prop, model)
+    prop_dict['n_evidence_words'] = len(evidence_words)
+    evidence_type = [ 'p', 'n', 'i', 'r', 'b', 'l']
+    for e in evidence_type:
+        prop_dict[e] = 0
+    for ew, t in evidence_words.items():
+        prop_dict[t] += 1
+
+    # get combined distinctiveness
+    df_combined = pd.DataFrame(get_concept_context_overview(prop, model))
+    for i, row in df_combined.iterrows():
+        et = row['evidence']
+        if et == 'all':
+            prop_dict['combined_dist'] = row['distinctiveness']
+            prop_dict['combined_f1'] = row['f1_dist']
+
+    # get max distinctiveness
+    df_overview = pd.DataFrame(get_concept_evidence_counts(prop, model))
+    df_overview = df_overview.sort_values('distinctiveness', ascending=False)
+    for i, row in df_overview.iterrows():
+        prop_dict['max_dist'] = row['distinctiveness']
+        prop_dict['max_dist_f1'] = row['f1_dist']
+        prop_dict['max_dist_ev'] = row['word']
+        prop_dict['max_dist_t'] = row['evidence_type']
+        break
+    return prop_dict

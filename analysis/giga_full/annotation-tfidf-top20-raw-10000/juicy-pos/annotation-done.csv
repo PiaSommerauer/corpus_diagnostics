@@ -1,0 +1,91 @@
+context,evidence,categories
+camp,u,relation
+sections,u,relation
+coloring,u,relation
+buried,u,relation
+path,u,relation
+labor,u,relation
+department,u,relation
+collins,u,relation
+flight,u,relation
+turning,u,relation
+peaches,i,relation
+grapes,i,relation
+bottle,r,relation
+gin,u,relation
+prevent,u,relation
+concluded,u,relation
+silver,u,relation
+along,u,relation
+symbolic,u,relation
+bus,u,relation
+juicy,p,relation object fruit plant food vegetable animal all-pos
+fruit,i,object fruit plant food all-pos
+orange,i,object fruit plant food all-pos
+ripe,r,object fruit plant food all-pos
+pineapple,i,object fruit plant food all-pos
+flavors,u,object fruit plant food all-pos
+fruits,i,object fruit plant food all-pos
+citrus,i,object fruit plant food all-pos
+peach,i,fruit
+cherry,i,plant fruit food all-pos
+juice,p,plant fruit
+juices,p,object fruit plant food all-pos
+drink,i,object fruit food all-pos
+tangerine,i,plant fruit
+blueberry,i,fruit
+sorbet,i,plant fruit
+berries,i,fruit
+mango,i,object fruit plant food all-pos
+berry,i,fruit
+plum,i,fruit
+bright,u,plant object fruit food
+garden,u,object plant vegetable all-pos
+papaya,i,object plant food vegetable all-pos
+green,u,object plant vegetable
+picking,u,object plant food vegetable all-pos
+pomegranate,i,plant
+grapefruit,i,plant food all-pos
+cooked,u,vegetable
+mushroom,i,vegetable
+inches,u,vegetable
+soups,u,vegetable
+spoon,u,vegetable
+fields,u,vegetable
+menu,u,vegetable
+arrange,u,vegetable
+thick,u,vegetable
+transfer,u,vegetable
+delicious,u,vegetable
+okra,i,vegetable
+foliage,u,vegetable
+repeat,u,vegetable
+smoked,u,animal vegetable
+lunch,u,vegetable
+like,u,object food all-pos
+among,u,object food all-pos
+apple,i,food all-pos
+or,u,food all-pos
+restaurant,u,all-pos
+red,u,object food
+including,u,object
+melon,i,object
+shrimp,i,animal
+runs,u,animal
+lobster,i,animal
+eaten,u,animal
+features,u,animal
+chunks,u,animal
+200,u,animal
+la,u,animal
+there,u,animal
+missing,u,animal
+plump,u,animal
+grilled,u,animal
+abundance,u,animal
+each,u,animal
+hook,u,animal
+favorites,u,animal
+pull,u,animal
+oysters,i,animal
+live,u,animal

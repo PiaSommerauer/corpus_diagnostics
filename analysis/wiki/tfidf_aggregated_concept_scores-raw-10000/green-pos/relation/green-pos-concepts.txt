@@ -1,0 +1,12 @@
+elm
+dogwood
+olive
+eucalyptus
+bloodstone
+emerald
+sycamore
+pine
+ink
+fir
+lime
+paint

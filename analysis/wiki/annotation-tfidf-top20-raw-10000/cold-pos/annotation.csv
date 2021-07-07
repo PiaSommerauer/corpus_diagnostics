@@ -1,0 +1,88 @@
+context,evidence,categories
+flavor, ,relation
+sweet, ,relation food
+include, ,object all-pos relation
+taste, ,all-pos relation food
+abundance, ,relation
+brand, ,object all-pos relation food
+grown, ,relation
+local, ,relation
+abundant, ,relation
+such, ,relation
+quality, ,all-pos relation
+kinds, ,relation
+distributed, ,relation
+besides, ,relation
+locally, ,relation
+inc, ,relation
+contains, ,object all-pos relation
+typically, ,all-pos relation
+growing, ,relation
+content, ,relation
+cold, ,cold all-pos object measure relation food
+cake, ,object all-pos food
+drops, ,object all-pos measure
+sugar, ,object all-pos food
+items, ,object all-pos food
+bread, ,object all-pos measure
+candy, ,object all-pos
+containing, ,object all-pos food
+egg, ,object all-pos
+apple, ,object all-pos food
+cherry, ,all-pos
+soft, ,all-pos food
+wine, ,object all-pos food
+note, ,object all-pos measure
+typical, ,all-pos
+shaped, ,object
+found, ,object
+throws, ,object
+includes, ,object
+food, ,object
+just, ,object
+follow, ,cold
+dates, ,cold
+latter, ,cold
+highway, ,cold
+unnamed, ,cold
+aurora, ,cold
+44, ,cold
+39, ,cold
+350, ,cold
+54, ,cold
+21st, ,cold
+36, ,cold
+thousands, ,cold
+95, ,cold
+96, ,cold
+finland, ,cold
+california, ,cold
+paintings, ,cold measure
+shortened, ,cold
+bennett, ,cold
+foods, ,food
+served, ,food
+eaten, ,food
+ingredients, ,food
+cream, ,food
+milk, ,food
+eating, ,food
+name, ,food
+restaurant, ,food
+known, ,food
+window, ,measure
+painted, ,measure
+harry, ,measure
+wishes, ,measure
+variety, ,measure
+flowers, ,measure
+miller, ,measure
+hold, ,measure
+campbell, ,measure
+burial, ,measure
+invited, ,measure
+reception, ,measure
+ranging, ,measure
+portrait, ,measure
+dutch, ,measure
+arthur, ,measure

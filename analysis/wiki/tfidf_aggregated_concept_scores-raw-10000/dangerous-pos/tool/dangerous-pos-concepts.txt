@@ -1,0 +1,10 @@
+gang
+adze
+scalpel
+hammer
+hack
+blade
+mallet
+knife
+marlinspike
+bolo

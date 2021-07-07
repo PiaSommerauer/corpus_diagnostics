@@ -1,0 +1,4 @@
+lay_eggs
+n pos examples: 14
+cut-off: difference above 0
+max_features: 10000

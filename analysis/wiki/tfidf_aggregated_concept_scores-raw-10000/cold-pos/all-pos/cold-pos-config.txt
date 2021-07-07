@@ -1,0 +1,4 @@
+cold
+n pos examples: 67
+cut-off: difference above 0
+max_features: 10000

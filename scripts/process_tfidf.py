@@ -257,7 +257,7 @@ def main():
     
     cnt_type = 'raw'
     max_features = 10000
-    model = 'giga_full'
+    model = 'wiki'
     labels = ['pos', 'neg']
     #properties = ['square', 'dangerous']
     properties = get_properties()

@@ -1,0 +1,14 @@
+spindle
+club
+weatherboard
+stick
+spade
+stool
+bamboo
+bridge
+oak
+pine
+wood
+pencil
+fir
+rake

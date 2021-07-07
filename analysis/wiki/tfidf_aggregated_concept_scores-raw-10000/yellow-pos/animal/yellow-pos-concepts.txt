@@ -1,0 +1,9 @@
+lion
+giraffe
+goldfish
+wasp
+cheetah
+budgie
+locust
+hornet
+bee

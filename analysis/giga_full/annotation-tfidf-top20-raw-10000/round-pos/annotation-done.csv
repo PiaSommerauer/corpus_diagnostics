@@ -1,0 +1,115 @@
+context,evidence,categories
+carved,u,relation
+somewhere,u,relation
+pride,u,relation
+trips,u,relation
+dotted,u,relation food
+party,u,relation
+88,u,relation
+weather,u,relation
+springs,u,relation
+lane,u,relation
+mega,u,relation
+country,u,relation
+according,u,relation
+moss,u,relation
+lush,u,relation
+land,u,relation
+growing,u,relation object fruit plant vegetable all-pos
+band,u,relation
+yard,u,relation
+study,u,relation
+round,p,relation measure object fruit plant food vegetable all-pos
+crops,u,plant fruit
+planting,u,plant fruit
+harvest,u,plant fruit
+passion,u,fruit food all-pos
+festival,u,plant fruit
+production,u,plant fruit
+crop,u,plant fruit vegetable
+tropical,u,fruit
+banana,i,fruit
+pear,i,fruit
+pie,i,fruit food
+growers,u,plant fruit
+town,u,fruit
+patch,u,plant fruit
+farmer,u,plant fruit vegetable
+fields,u,plant fruit
+farming,u,fruit
+varieties,u,plant fruit
+fruit,i,fruit
+leaf,u,plant
+seeds,i,plant
+garden,u,plant
+annual,u,object plant food vegetable all-pos
+peeled,u,plant vegetable
+planted,u,plant
+seed,i,plant vegetable
+association,u,plant
+carrots,i,vegetable
+humble,u,food vegetable
+acre,u,vegetable
+producing,u,vegetable
+feta,u,vegetable
+maize,i,vegetable
+culinary,u,vegetable
+cubes,u,vegetable
+bright,u,object vegetable
+kidney,u,vegetable
+field,u,vegetable
+agricultural,u,vegetable
+difference,u,vegetable
+eaters,u,vegetable
+between,u,measure object all-pos
+also,u,food all-pos
+first,u,measure object all-pos
+will,u,object all-pos
+however,u,object all-pos
+circle,i,object all-pos
+about,u,food all-pos
+program,u,measure object all-pos
+past,u,object all-pos
+15,u,food all-pos
+jerry,u,object all-pos
+not,u,all-pos
+although,u,food all-pos
+should,u,all-pos
+simply,u,all-pos
+types,u,all-pos
+ring,i,all-pos
+likely,u,measure object
+mountain,u,measure object
+concerned,u,object
+largely,u,object
+72,u,object
+rain,u,object
+avoid,u,object
+ideas,u,object
+1960s,u,object
+bites,u,food
+rounds,u,food
+fruits,i,food
+dried,u,food
+dessert,r,food
+apple,i,food
+jam,r,food
+ripe,u,food
+lovers,u,food
+cut,u,food
+desserts,r,food
+pushing,u,measure
+force,u,measure
+nobody,u,measure
+determined,u,measure
+skills,u,measure
+closer,u,measure
+total,u,measure
+tight,u,measure
+1997,u,measure
+release,u,measure
+shoot,u,measure
+signs,u,measure
+beginning,u,measure
+shot,u,measure
+being,u,measure

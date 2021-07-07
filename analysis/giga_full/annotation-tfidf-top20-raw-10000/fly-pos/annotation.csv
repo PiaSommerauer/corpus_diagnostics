@@ -1,0 +1,89 @@
+context,evidence,categories
+airplanes,i,vehicle
+engineers,u,vehicle
+crews,r,vehicle
+flying,p,fly vehicle all-pos animal bird object food
+flights,p,vehicle
+official,u,vehicle
+morning,u,vehicle
+radio,u,vehicle
+aug,u,vehicle
+flight,p,vehicle all-pos object
+july,u,vehicle
+unmanned,u,vehicle
+engineer,u,vehicle
+television,u,vehicle
+fly,p,fly vehicle all-pos animal bird object food
+canadian,u,vehicle
+lockheed,r,vehicle
+missions,u,vehicle
+flown,p,fly vehicle all-pos animal bird object food
+sky,r,vehicle
+flies,p,fly vehicle all-pos animal bird object food
+flew,p,fly vehicle all-pos animal bird object food
+blue,u,fly
+wilson,r,fly
+focusing,u,fly
+opera,u,fly
+grain,u,fly
+opportunities,u,fly
+teach,u,fly
+territory,u,fly
+increases,u,fly
+speeds,u,fly
+spectators,u,fly
+demanded,u,fly
+km,u,fly
+retirement,u,fly
+method,u,fly
+wrecked,u,fly
+edwards,u,fly
+accomplished,u,fly
+capitol,u,fly
+refusing,u,fly
+wings,r,bird all-pos animal object
+bird,i,bird all-pos animal object
+birds,i,bird all-pos animal object
+came,u,all-pos animal object
+for,u,all-pos object
+wing,r,all-pos object
+dove,i,bird all-pos animal object
+northern,u,bird all-pos object
+program,u,all-pos object
+16,u,all-pos object
+overhead,r,all-pos object
+who,u,all-pos object
+hawk,i,all-pos animal object
+release,u,all-pos object
+air,r,all-pos object
+nest,r,bird animal
+population,u,bird animal
+billed,u,bird animal
+refuge,u,bird animal
+featured,u,bird animal
+duck,i,bird food
+pigeon,i,bird animal
+chicks,i,bird
+she,u,bird animal
+habitat,u,bird animal
+common,u,bird
+pass,u,food
+especially,u,food
+ginger,u,food
+wild,u,food
+liver,u,food
+menu,u,food
+lamb,u,food
+dishes,u,food
+frozen,u,food
+roast,u,food
+venison,u,food
+roasted,u,food
+meats,u,food
+cooked,u,food
+hunting,u,food
+beef,u,food
+quail,i,food
+pork,u,food
+author,u,animal
+james,u,animal

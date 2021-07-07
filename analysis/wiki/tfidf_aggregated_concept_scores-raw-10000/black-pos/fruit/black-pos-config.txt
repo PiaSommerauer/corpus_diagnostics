@@ -1,0 +1,4 @@
+black
+n pos examples: 6
+cut-off: difference above 0
+max_features: 10000

@@ -1,0 +1,99 @@
+context,evidence,categories
+paste,i,plant fruit
+green,u,plant vegetable fruit
+flour,i,fruit
+dinner,r,fruit
+hot,r,all-pos measure fruit object food
+dip,r,fruit
+serve,r,all-pos object fruit
+reserved,u,plant vegetable fruit
+menu,r,fruit
+potato,i,all-pos food plant vegetable cutlery object fruit
+liquid,r,plant fruit
+bean,i,all-pos food plant animal vegetable object fruit
+bowl,r,all-pos tool fruit object food
+cans,r,fruit
+mix,r,all-pos food plant vegetable object fruit
+recipe,r,all-pos food plant measure vegetable object fruit
+recipes,r,fruit
+cream,i,plant vegetable fruit object food
+egg,i,all-pos food plant measure vegetable object fruit
+filling,i,measure fruit
+cook,p,all-pos food plant measure animal tool vegetable cutlery object fruit
+cooking,p,all-pos food plant measure animal tool vegetable cutlery object fruit
+cooked,p,all-pos food plant measure animal tool vegetable cutlery object fruit
+chicken,i,all-pos object measure plant animal cutlery vegetable food
+add,r,all-pos object plant animal tool cutlery vegetable food
+fresh,r,plant all-pos vegetable food
+combine,r,plant vegetable food
+rice,i,all-pos object measure plant vegetable food
+cup,r,plant vegetable
+stuffed,r,plant vegetable
+mixture,r,plant
+sweet,r,plant all-pos food
+sugar,i,plant
+cooks,p,all-pos object measure plant animal vegetable food
+olive,i,food all-pos vegetable object
+strips,r,vegetable
+grown,u,vegetable
+chopped,r,vegetable
+soup,i,vegetable
+taste,r,all-pos animal object food
+cheese,i,measure all-pos object food
+warm,r,all-pos animal object measure
+serving,r,all-pos food
+salt,i,all-pos
+eat,r,object
+place,u,cutlery object tool
+pot,r,cutlery object tool
+topped,r,food
+breeding,u,animal
+there,u,animal
+20,u,animal
+half,r,animal measure
+business,u,animal
+live,u,animal
+filled,u,animal
+complete,u,animal
+sole,i,animal
+ban,u,animal
+salmon,i,animal
+mediterranean,r,animal
+washed,r,animal
+millions,u,animal
+eggs,i,animal
+eating,r,measure
+lightly,u,measure
+pan,r,measure
+frozen,r,measure
+fat,i,measure
+example,u,measure
+whole,r,measure
+fish,i,tool cutlery measure
+roll,r,measure
+or,u,cutlery measure
+prepared,r,cutlery tool
+pie,r,cutlery
+pieces,r,cutlery
+low,u,cutlery
+cover,r,cutlery tool
+gift,u,cutlery
+cool,r,cutlery
+about,u,cutlery
+coffee,i,cutlery
+fruit,i,cutlery
+slice,r,cutlery
+kitchen,r,cutlery
+95,u,tool
+one,u,tool
+turning,u,tool
+stand,u,tool
+combined,r,tool
+whose,u,tool
+99,u,tool
+great,u,tool
+choice,u,tool
+significant,u,tool
+cause,u,tool
+particularly,u,tool
+smile,u,tool

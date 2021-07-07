@@ -1,0 +1,78 @@
+context,evidence,categories
+herself,i,female all-pos animal object
+she,i,female all-pos object
+beautiful,b,female all-pos object communication
+lady,i,all-pos female animal mammal object
+anna,i,female all-pos object
+love,b,female all-pos animal object
+mary,i,all-pos object
+actress,i,all-pos female animal mammal object
+elizabeth,i,all-pos object
+maria,i,all-pos object
+lovely,b,female all-pos animal object
+joan,i,all-pos object
+her,i,female all-pos object
+jennifer,i,all-pos object
+ms,i,female all-pos animal communication
+marie,i,all-pos object
+dress,b,female all-pos object
+daughter,i,all-pos object
+beauty,b,female all-pos
+julie,i,all-pos object
+female,p,all-pos female animal mammal object
+grass,-,mammal
+pregnant,-,mammal
+defeating,-,mammal
+breeding,-,mammal
+producers,-,mammal
+show,u,mammal animal
+eat,-,mammal
+so,u,mammal animal
+feeding,-,mammal
+adult,-,mammal
+waste,u,mammal animal
+chased,-,mammal
+feed,-,mammal
+dangerous,-,mammal
+six,-,mammal
+states,-,mammal
+pregnancy,-,mammal
+margaret,i,object
+anne,i,object
+into,u,animal
+12,u,animal
+prompted,u,animal
+stories,u,animal
+half,u,animal
+da,u,animal
+sharp,u,animal
+wo,u,animal
+title,u,animal
+save,u,animal
+which,u,animal
+madonna,i,communication
+range,u,communication
+45,u,communication
+christina,i,communication
+fun,u,communication
+monica,i,communication
+cut,u,communication
+songs,u,communication
+reads,u,communication
+slow,u,communication
+carol,i,communication
+ice,u,communication
+barely,u,communication
+write,u,communication
+50,u,communication
+linda,i,communication
+heather,i,communication
+actual,u,communication
+sexy,b,female
+pink,b,female
+dresses,b,female
+becomes,u,female
+hair,b,female
+mrs,i,female
+blond,b,female
+or,u,female

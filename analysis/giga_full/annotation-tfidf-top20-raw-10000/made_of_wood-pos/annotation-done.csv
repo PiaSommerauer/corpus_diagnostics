@@ -1,0 +1,74 @@
+context,evidence,categories
+favorite,u,relation
+oak,p,relation all-pos
+tables,i,relation
+handsome,u,relation all-pos
+resembles,u,relation all-pos
+crowded,u,relation
+attractive,u,relation
+fields,u,relation
+umbrella,u,relation
+oldest,u,relation
+entirely,u,tool relation all-pos
+lit,u,relation
+haven,u,relation
+houses,u,relation
+grown,r,relation
+bend,r,relation
+appealing,u,relation
+rocky,u,relation
+paradise,u,relation
+heights,u,relation
+wooden,p,tool relation communication all-pos
+wood,p,relation all-pos
+pine,p,all-pos
+grand,u,all-pos
+perched,u,all-pos
+natural,r,all-pos
+roughly,u,all-pos
+each,u,all-pos
+furniture,i,all-pos
+adjacent,u,all-pos
+dry,u,all-pos
+estimated,u,all-pos
+cast,u,communication all-pos
+along,u,all-pos
+deck,u,tool all-pos
+donated,u,all-pos
+sits,u,all-pos
+enterprise,u,communication
+thinks,u,communication
+1998,u,communication
+assumed,u,communication
+1970,u,communication
+permanently,u,communication
+dale,u,communication
+visits,u,communication
+tracking,u,communication
+surviving,u,communication
+prestigious,u,communication
+revived,u,communication
+designer,u,communication
+shared,u,communication
+lend,u,communication
+releasing,u,communication
+fate,u,communication
+gulf,u,communication
+strictly,u,communication
+vintage,u,tool
+turns,u,tool
+partner,u,tool
+handled,i,tool
+folding,r,tool
+confessed,u,tool
+wield,u,tool
+teeth,u,tool
+confused,u,tool
+foil,u,tool
+skinny,u,tool
+bottle,u,tool
+feels,u,tool
+handy,u,tool
+opening,u,tool
+film,u,tool
+beat,u,tool

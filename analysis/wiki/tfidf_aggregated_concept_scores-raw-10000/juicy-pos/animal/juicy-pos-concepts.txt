@@ -1,0 +1,6 @@
+chicken
+crab
+lobster
+cob
+scallop
+sardine

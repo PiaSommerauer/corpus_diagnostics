@@ -1,0 +1,83 @@
+context,evidence,categories
+eggs,p,fish all-pos animal bird reptile food
+fish,i,fish all-pos animal food
+large,u,fish all-pos animal
+species,u,reptile all-pos animal
+egg,p,fish all-pos animal bird reptile food
+duck,i,bird all-pos animal
+begins,u,bird all-pos animal
+include,u,all-pos animal
+along,u,bird all-pos animal
+both,u,all-pos animal
+menu,u,bird all-pos animal
+size,u,all-pos animal
+fried,u,all-pos animal food
+salmon,i,fish all-pos animal food
+turning,u,all-pos animal
+bird,i,bird all-pos animal
+warm,u,all-pos animal food
+spring,u,all-pos animal
+rare,u,reptile all-pos animal
+hook,u,all-pos animal
+birds,i,bird
+goose,i,bird
+wings,r,bird
+week,u,bird
+neck,u,bird
+place,u,bird
+14,u,bird
+neither,u,bird
+avian,r,bird
+rely,u,bird
+sides,u,bird
+ducks,i,bird
+paying,i,bird
+lunch,u,bird
+lamb,u,fish food
+smoked,u,food
+roasted,u,food
+wrapped,u,food
+dish,u,food
+baked,u,food
+grilled,u,food
+tuna,i,fish food
+shrimp,i,food
+salt,u,food
+tomatoes,u,food
+add,u,food
+raw,u,food
+cooked,u,food
+spinach,u,food
+meal,u,food
+population,u,reptile
+healthy,u,reptile
+turtles,i,reptile
+preserve,u,reptile
+river,r,reptile
+habitat,u,reptile
+endangered,u,reptile
+raised,u,reptile
+beside,u,reptile
+resembling,u,reptile
+dies,u,reptile
+70s,u,reptile
+indigenous,u,reptile
+wilderness,u,reptile
+critically,u,reptile
+numbers,u,reptile
+headed,u,reptile
+fishermen,r,fish
+waters,r,fish
+fishing,r,fish
+catch,r,fish
+pound,u,fish
+caught,u,fish
+sole,i,fish
+maine,u,fish
+nice,u,fish
+seafood,r,fish
+bass,i,fish
+freshwater,r,fish
+atlantic,r,fish
+cod,i,fish
+trout,i,fish

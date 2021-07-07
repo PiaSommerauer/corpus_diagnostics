@@ -1,0 +1,11 @@
+atmosphere
+glass
+bottle
+candle
+drink
+kettle
+can
+mug
+hair
+winter
+finger

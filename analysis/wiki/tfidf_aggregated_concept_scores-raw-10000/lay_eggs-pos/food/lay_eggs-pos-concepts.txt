@@ -1,0 +1,14 @@
+stockfish
+chicken
+salmon
+trout
+quail
+duck
+flounder
+turkey
+halibut
+sardine
+pickerel
+plaice
+bass
+hen

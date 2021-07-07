@@ -1,0 +1,25 @@
+context,evidence,categories
+drove,r,all-pos object vehicle
+driving,r,all-pos object vehicle
+wheel,p,all-pos object vehicle
+parked,r,all-pos object vehicle
+drivers,r,all-pos object vehicle
+road,r,all-pos object vehicle
+drive,r,all-pos object vehicle
+drives,r,all-pos object vehicle
+bicycle,i,all-pos object vehicle
+driven,r,all-pos object vehicle
+streets,r,all-pos object vehicle
+past,u,all-pos object vehicle
+mini,i,all-pos object vehicle
+rolled,l,all-pos object vehicle
+son,u,object vehicle
+roads,r,all-pos object vehicle
+traveling,r,vehicle
+wheeled,p,vehicle
+speeding,r,vehicle
+vehicle,i,all-pos object vehicle
+wheels,p,all-pos object vehicle
+model,u,all-pos
+bike,i,all-pos object
+back,u,all-pos object

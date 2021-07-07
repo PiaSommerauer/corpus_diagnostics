@@ -1,0 +1,103 @@
+context,evidence,categories
+trees,i,relation
+ash,u,relation
+branches,r,all-pos object relation
+leaves,i,all-pos plant relation object food
+leaf,i,plant all-pos object relation
+nestled,u,relation
+lined,u,relation
+dotted,u,relation
+grove,i,relation
+forests,i,relation
+tree,i,relation
+pine,i,relation
+lush,n,relation
+lawn,i,relation
+avenue,u,relation
+breeze,u,relation
+stained,u,relation
+gardens,i,relation
+rows,u,object relation
+surrounded,u,relation
+green,p,all-pos object food plant animal relation vegetable fruit
+fruit,u,plant food fruit
+flavor,u,plant food fruit
+flavors,u,food fruit
+peach,u,fruit
+mint,i,all-pos plant fruit object food
+tart,u,fruit
+aroma,u,fruit
+scented,u,plant food fruit
+flavored,u,plant food fruit
+citrus,u,plant food vegetable fruit
+ripe,r,fruit
+sorbet,u,fruit
+watermelon,i,fruit
+orange,u,all-pos object fruit
+berry,u,fruit
+hint,u,fruit
+cherry,u,fruit
+infused,u,fruit
+pear,i,fruit
+fruits,u,fruit
+herbs,i,plant all-pos food
+garnish,i,plant food
+plants,i,plant all-pos vegetable object
+flowers,r,plant all-pos object
+grows,u,plant
+planted,u,plant
+plant,i,plant all-pos object
+variety,u,plant all-pos object
+grow,u,plant
+dried,u,plant vegetable food
+small,u,plant all-pos object
+chopped,u,vegetable
+crunchy,u,vegetable
+edible,u,vegetable
+inch,u,all-pos vegetable object
+strips,u,vegetable
+vegetables,i,vegetable
+toss,u,vegetable food
+cauliflower,u,vegetable
+onion,u,vegetable
+water,u,object vegetable
+chives,i,vegetable
+seedlings,u,vegetable
+sprinkle,u,vegetable
+chop,u,vegetable
+cut,u,all-pos vegetable object
+add,u,vegetable
+large,u,all-pos object
+bright,u,all-pos object
+contains,u,all-pos
+wrap,u,all-pos
+garden,i,all-pos object
+cool,u,all-pos object
+preserved,u,object
+garnished,r,food
+pineapple,i,food
+mix,u,food
+gently,u,food
+lemon,i,food
+spices,u,food
+sprinkled,u,food
+habitat,u,animal
+rare,u,animal
+endangered,u,animal
+500,u,animal
+named,u,animal
+29,u,animal
+recently,u,animal
+known,u,animal
+seen,u,animal
+oldest,u,animal
+lives,u,animal
+numbers,u,animal
+exhibit,u,animal
+creatures,u,animal
+like,u,animal
+forest,i,animal
+its,u,animal
+disturbing,u,animal
+colorful,u,animal
+range,u,animal

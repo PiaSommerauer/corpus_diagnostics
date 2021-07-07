@@ -1,0 +1,115 @@
+context,evidence,categories
+feather, ,relation
+seattle, ,relation
+ranks, ,relation
+applications, ,relation
+1891, ,relation
+essence, ,relation
+chemical, ,relation
+pioneering, ,relation
+delta, ,relation
+manufacturers, ,relation
+watches, ,relation
+96, ,relation
+ritual, ,relation
+180, ,relation
+patent, ,relation
+participate, ,relation
+panel, ,relation
+climate, ,relation
+tear, ,relation
+weighs, ,relation
+blue, ,plant all-pos animal object relation food bird
+commonly, ,plant
+adults, ,plant food
+herb, ,plant
+maid, ,plant
+confused, ,plant
+slight, ,plant
+shrub, ,plant
+clover, ,plant
+sage, ,plant
+exhibited, ,plant
+shiny, ,plant
+spreading, ,plant
+primary, ,plant
+perennial, ,plant
+plant, ,plant
+plants, ,plant
+names, ,plant
+feed, ,plant
+nectar, ,plant
+uncommon, ,plant
+entirely, ,object all-pos
+apart, ,object all-pos animal
+suitable, ,object all-pos
+supposed, ,object all-pos bird
+seen, ,object all-pos
+offers, ,all-pos
+likewise, ,object all-pos
+numbers, ,object all-pos animal
+goes, ,object all-pos
+entire, ,object all-pos food
+take, ,object all-pos
+nights, ,object all-pos
+giving, ,all-pos
+low, ,all-pos
+by, ,all-pos
+actually, ,object all-pos
+confined, ,object all-pos animal
+setting, ,all-pos
+guests, ,object all-pos
+return, ,all-pos
+bird, ,animal bird
+parrot, ,animal bird
+feathers, ,bird
+sounds, ,bird
+painting, ,bird
+loud, ,bird
+colourful, ,bird
+pheasant, ,bird
+pigeon, ,bird
+kite, ,bird
+capped, ,bird
+birds, ,bird
+jay, ,bird
+grey, ,animal bird
+rainbow, ,animal bird
+heron, ,animal bird
+black, ,bird
+tailed, ,bird
+hanging, ,animal bird
+collector, ,object
+utilized, ,object
+remain, ,object
+coming, ,object
+also, ,object
+for, ,object
+salmon, ,food
+tend, ,food
+numerous, ,food
+tourism, ,food
+1870s, ,food
+wisconsin, ,food
+et, ,food
+ontario, ,food
+indicate, ,food
+frequently, ,food
+locals, ,food
+locations, ,food
+occasional, ,food
+notably, ,food
+locally, ,food
+annual, ,food
+dramatically, ,food
+extinction, ,animal
+relatives, ,animal
+family, ,animal
+lived, ,animal
+suggests, ,animal
+surviving, ,animal
+prefers, ,animal
+pacific, ,animal
+zealand, ,animal
+thirty, ,animal
+species, ,animal

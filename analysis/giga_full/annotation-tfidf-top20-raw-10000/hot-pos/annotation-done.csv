@@ -1,0 +1,99 @@
+context,evidence,categories
+burned,r,relation
+chemicals,u,relation
+smoke,r,object relation
+cloud,u,relation
+62,u,relation
+declined,u,relation
+chemical,u,relation
+toxic,u,relation
+flame,i,object relation all-pos
+burnt,r,relation all-pos
+generate,u,relation
+substances,u,relation
+hills,u,relation
+56,u,relation
+maintained,u,relation
+sites,u,relation
+observed,u,relation
+eliminated,u,relation
+supplying,u,relation
+capture,u,relation
+hot,p,relation hot object measure food all-pos
+heat,p,object all-pos
+cooked,r,food all-pos
+crisp,r,food all-pos
+steam,i,object all-pos
+warmed,n,object all-pos
+cook,r,all-pos
+cooks,r,food all-pos
+warm,n,measure object all-pos
+arrange,u,measure all-pos
+burning,n,object all-pos
+smoked,r,food all-pos
+wood,u,object all-pos
+restaurant,u,all-pos
+meal,i,all-pos
+log,u,measure all-pos
+steamed,r,food all-pos
+oven,i,object all-pos
+iron,i,object
+works,u,object
+flames,i,object
+fired,r,object
+gas,i,object
+huge,u,object
+or,u,object
+conventional,u,object
+14,u,object
+pine,u,measure object
+recipes,u,food
+sprinkle,u,food
+baked,r,food
+flour,u,food
+serves,u,food
+noodles,i,food
+prepared,u,food
+tender,u,food
+mix,u,food
+sweet,u,food
+pour,u,food
+evenly,u,food
+salmon,u,food
+menu,u,food
+sausage,i,food
+while,u,hot
+20,u,hot
+friday,u,hot
+ignited,r,hot
+ashes,r,hot
+investigation,u,hot
+region,u,hot
+rapidly,u,hot
+authorities,u,hot
+modern,u,hot
+13,u,hot measure
+ravaged,u,hot
+17,u,hot
+fire,i,hot
+launch,u,hot
+north,u,hot
+dawn,u,hot
+responsible,u,hot
+40,u,hot
+sichuan,r,hot
+each,u,measure
+plays,u,measure
+seconds,u,measure
+plus,u,measure
+picks,u,measure
+lift,u,measure
+side,u,measure
+bubbles,r,measure
+costs,u,measure
+enough,u,measure
+tracking,u,measure
+79,u,measure
+repeat,u,measure
+workout,u,measure
+poisoned,u,measure

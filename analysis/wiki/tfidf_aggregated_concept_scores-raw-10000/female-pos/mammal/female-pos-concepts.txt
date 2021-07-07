@@ -1,0 +1,10 @@
+vixen
+tigress
+sow
+bitch
+mare
+cow
+queen
+doe
+ewe
+lioness

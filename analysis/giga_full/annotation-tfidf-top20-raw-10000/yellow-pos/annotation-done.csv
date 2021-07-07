@@ -1,0 +1,99 @@
+context,evidence,categories
+raised,u,relation
+followed,u,relation
+accounting,u,relation
+66,u,relation
+1997,u,relation
+answer,u,relation
+dates,u,relation
+opened,u,relation
+drop,u,relation
+turning,u,relation
+produces,u,relation
+80,u,relation
+effect,u,relation
+newly,u,relation
+endless,u,relation
+resulting,u,relation
+usual,u,relation
+barn,u,relation
+touching,u,relation
+hardest,u,relation
+yellow,p,animal fruit object all-pos relation food plant
+blueberries,u,fruit
+luscious,u,fruit food
+peach,i,fruit
+somewhat,u,plant fruit food
+tasted,u,fruit food
+cubes,u,fruit food
+apples,i,plant fruit food
+melon,i,fruit
+slice,u,fruit
+quarters,u,plant object fruit all-pos
+sweetness,u,fruit food
+peaches,i,fruit
+slices,u,fruit
+spice,i,fruit
+apple,i,plant fruit object food
+tart,u,fruit
+flavors,u,fruit
+apricot,i,fruit
+sweet,u,plant fruit
+peels,u,fruit
+this,u,plant all-pos object
+varieties,u,plant
+bubble,u,plant all-pos object food
+such,u,plant all-pos object
+preferred,u,plant all-pos object
+etc,u,plant
+bit,u,plant all-pos object food
+cut,u,plant
+variety,u,plant
+flowers,i,plant
+many,u,plant all-pos object
+blooming,u,plant
+cutting,u,plant
+cottage,u,plant
+smile,u,all-pos object
+year,u,all-pos animal object
+40,u,all-pos object
+she,u,all-pos
+or,u,all-pos food
+which,u,all-pos animal
+slightly,u,all-pos food
+yes,u,all-pos object
+larger,u,all-pos object
+million,u,all-pos object
+laid,u,all-pos
+august,u,all-pos object
+example,u,object
+queen,u,object
+lay,u,object
+half,u,object
+preferably,u,food
+blend,u,food
+recipes,u,food
+combination,u,food
+equal,u,food
+toast,u,food
+goods,u,food
+cocktail,u,food
+spiked,u,food
+park,u,animal
+film,u,animal
+animated,u,animal
+school,u,animal
+larry,u,animal
+girls,u,animal
+wings,u,animal
+stories,u,animal
+sticking,u,animal
+called,u,animal
+two,u,animal
+girl,u,animal
+harry,u,animal
+oldest,u,animal
+2006,u,animal
+planet,u,animal
+shot,u,animal
+area,u,animal

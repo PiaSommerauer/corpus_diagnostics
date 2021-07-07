@@ -1,0 +1,8 @@
+mussel
+chicken
+beef
+shrimp
+scallop
+prawn
+lobster
+bass

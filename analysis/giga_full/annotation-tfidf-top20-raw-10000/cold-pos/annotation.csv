@@ -1,0 +1,100 @@
+context,evidence,categories
+mix,u,relation
+spilled,u,relation
+cafe,u,all-pos relation
+organic,u,relation
+reduces,u,relation
+lots,u,relation
+check,u,relation
+grow,u,relation
+sample,u,all-pos relation
+cart,u,relation
+adds,u,relation
+sometimes,u,relation
+spirits,u,relation
+bottles,i,all-pos object relation
+honey,u,food relation
+concentrate,u,relation
+frozen,n,food all-pos object relation
+beer,i,relation
+gallons,u,relation
+soft,u,all-pos relation
+cold,p,all-pos measure cold relation object food
+variety,u,all-pos object measure
+giant,u,all-pos object
+glasses,i,all-pos object
+cherry,u,all-pos object
+jam,u,all-pos object
+pound,u,all-pos object
+regular,u,all-pos object
+toss,u,all-pos object
+frost,i,all-pos object
+loaded,u,all-pos
+miniature,u,all-pos object
+thirds,u,all-pos
+call,u,all-pos
+invented,u,all-pos object
+cups,u,all-pos food
+size,u,object
+placed,u,object
+grocery,u,object
+sits,u,object
+stuck,u,object
+underneath,u,object
+fits,u,object
+nearly,u,cold
+walks,u,cold
+dropping,u,cold
+disappearing,u,cold
+ambitious,u,cold
+map,u,cold
+sneak,u,cold
+districts,u,cold
+bulk,u,cold
+cemetery,u,cold
+inhabitants,u,cold
+longest,u,cold
+idaho,u,cold
+partner,u,cold
+rely,u,cold
+225,u,cold
+wolf,u,cold
+density,u,cold
+460,u,cold
+busy,u,cold
+flavored,u,food
+sweet,u,food
+fried,u,food
+vanilla,r,food
+spoon,u,food
+flavor,u,food
+sauce,u,food
+fruit,u,food
+lemon,u,food
+ingredients,u,food
+banana,u,food
+soup,u,food
+chilled,n,food
+blend,u,food
+combine,u,food
+diet,u,food
+cream,r,food
+window,u,measure
+worth,u,measure
+mark,u,measure
+reaches,u,measure
+tipped,u,measure
+grace,u,measure
+ones,u,measure
+birthday,u,measure
+pen,u,measure
+adult,u,measure
+holder,u,measure
+grandfather,u,measure
+paul,u,measure
+description,u,measure
+matched,u,measure
+cell,u,measure
+meaning,u,measure
+tips,u,measure
+sunset,u,measure

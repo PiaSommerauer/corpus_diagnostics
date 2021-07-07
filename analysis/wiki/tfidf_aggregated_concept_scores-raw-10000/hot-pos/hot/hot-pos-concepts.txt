@@ -1,0 +1,8 @@
+enchiladas
+lightning
+firewood
+fume
+flame
+coal
+spiciness
+campfire

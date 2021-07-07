@@ -1,0 +1,12 @@
+barbet
+gander
+goldeneye
+albatross
+sheldrake
+duck
+flamingo
+darter
+cob
+scaup
+duckling
+cygnet

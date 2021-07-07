@@ -1,0 +1,68 @@
+context,evidence,categories
+bird, ,animal all-pos-object object all-pos bird food
+birds, ,animal all-pos-object object all-pos bird food
+wings, ,animal all-pos-object object vehicle all-pos bird food
+flies, ,all-pos object animal all-pos-object
+population, ,animal all-pos-object object all-pos bird
+wildlife, ,animal all-pos-object object all-pos bird
+species, ,animal all-pos-object object all-pos bird
+fly, ,all-pos object animal all-pos-object
+nest, ,animal all-pos-object object all-pos bird
+flew, ,all-pos object animal all-pos-object
+habitat, ,animal all-pos-object object all-pos bird
+spread, ,all-pos object animal all-pos-object
+are, ,all-pos object animal all-pos-object
+eggs, ,animal all-pos-object object all-pos bird
+common, ,all-pos object animal all-pos-object
+box, ,all-pos object all-pos-object
+confirmed, ,all-pos object all-pos-object
+detected, ,all-pos object all-pos-object food
+survive, ,all-pos object animal all-pos-object
+refuge, ,all-pos bird object all-pos-object
+wing, ,animal all-pos-object object vehicle all-pos bird food
+crashed, ,vehicle
+friday, ,vehicle
+aircraft, ,vehicle
+conducting, ,vehicle
+indicating, ,vehicle
+visibility, ,vehicle
+similar, ,vehicle
+survived, ,vehicle
+caused, ,vehicle
+propeller, ,vehicle
+piloted, ,vehicle
+northwest, ,vehicle
+that, ,vehicle
+jet, ,vehicle
+loss, ,vehicle
+concluded, ,vehicle
+intact, ,vehicle
+unclear, ,vehicle
+alleged, ,vehicle
+foiled, ,vehicle
+duck, ,bird
+tailed, ,bird
+breeding, ,bird animal
+wild, ,bird food
+pigeon, ,bird food
+fox, ,bird
+managing, ,bird animal
+rare, ,bird
+hawk, ,bird
+stuffed, ,bird
+cooked, ,food
+commonly, ,food
+pig, ,food
+farms, ,food
+chicken, ,food
+turkey, ,food
+flavor, ,food
+thanksgiving, ,food
+sample, ,food
+frozen, ,food
+skinned, ,food
+chickens, ,food
+deer, ,food
+infected, ,food
+populations, ,animal
+like, ,animal

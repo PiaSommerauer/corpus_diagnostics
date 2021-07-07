@@ -1,0 +1,42 @@
+context,evidence,categories
+palace,u,relation
+320,u,relation
+youth,u,relation
+false,u,relation
+impression,u,relation
+tore,u,relation
+indian,u,relation
+drug,u,relation
+inevitable,u,relation
+policeman,u,relation
+ought,u,relation
+1970,u,relation
+germany,u,relation
+dean,u,relation
+student,u,relation
+permit,u,relation
+forum,u,relation
+units,u,relation
+personally,u,relation
+orleans,u,relation
+square,p,all-pos object relation
+rooms,i,all-pos object
+built,u,all-pos object
+sitting,u,all-pos object
+desk,i,all-pos object
+old,u,all-pos object
+photograph,i,all-pos object
+sheets,i,all-pos object
+note,i,all-pos object
+table,i,all-pos object
+phone,i,all-pos object
+installed,u,all-pos object
+pack,u,all-pos object
+boxes,i,all-pos object
+tiny,u,all-pos object
+stacked,u,all-pos object
+usually,u,all-pos object
+small,u,all-pos object
+can,u,all-pos object
+tables,i,all-pos object
+room,i,all-pos object

@@ -1,0 +1,110 @@
+context,evidence,categories
+fibers,u,relation
+touching,u,relation
+fragile,u,relation
+rio,u,relation
+reduction,u,relation
+gin,u,relation
+lid,u,relation
+neighboring,u,relation
+plunge,u,relation
+ribbon,i,relation
+honored,u,relation
+odds,u,relation
+industries,u,relation
+225,u,relation
+germany,u,relation
+trading,u,relation
+competing,u,relation
+proves,u,relation
+fountain,u,relation
+knowledge,u,relation
+blue,p,bird relation object plant food animal all-pos
+sprinkled,u,plant
+tea,u,plant
+covered,u,plant
+comes,u,object plant food all-pos
+aroma,u,plant
+cookie,u,plant
+edible,u,plant
+offerings,u,plant
+favorite,u,plant
+margin,u,plant
+nights,u,plant
+trendy,u,plant
+receives,u,plant
+reminiscent,u,plant
+ann,u,plant
+shared,u,object plant all-pos
+silky,u,plant
+ritual,u,plant
+recommends,u,plant
+finishing,u,plant
+in,u,object all-pos
+by,u,object animal all-pos
+causing,u,object all-pos
+various,u,object food all-pos
+person,u,object all-pos
+children,u,object all-pos
+dropping,u,object all-pos
+take,u,object all-pos
+spent,u,object animal all-pos
+inside,u,object all-pos
+their,u,all-pos
+approached,u,all-pos
+hardly,u,object all-pos
+bearing,u,all-pos
+either,u,object food all-pos
+hours,u,all-pos
+later,u,all-pos
+flies,u,bird animal
+perched,u,bird
+birds,i,bird animal
+feather,i,bird
+bird,i,bird animal
+rare,u,bird animal
+act,u,bird animal
+tested,u,bird animal
+2005,u,bird
+wings,u,bird
+flew,u,bird
+feathers,i,bird
+cage,u,bird
+young,u,bird
+government,u,bird
+tests,u,bird
+iconic,u,bird
+extinct,u,bird animal
+crow,u,bird
+malaysian,u,bird
+hit,u,object animal
+routine,u,object
+european,u,object
+similar,u,object
+all,u,object
+keep,u,object animal
+farmers,u,food
+production,u,food
+note,u,food
+product,u,food
+milk,u,food
+adding,u,food
+contain,u,food
+warm,u,food
+coffee,u,food
+contains,u,food
+cover,u,food
+ice,i,food
+renowned,u,food
+except,u,food
+serves,u,food
+filled,u,food
+half,u,food
+species,u,animal
+recently,u,animal
+lives,u,animal
+fish,i,animal
+scale,u,animal
+kills,u,animal
+feeding,u,animal
+number,u,animal

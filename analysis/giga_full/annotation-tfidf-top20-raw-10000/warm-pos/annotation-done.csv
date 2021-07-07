@@ -1,0 +1,99 @@
+context,evidence,categories
+mixing,u,relation
+begun,u,relation
+heated,n,all-pos object relation
+tons,u,relation
+instead,u,all-pos object relation
+boasts,u,relation
+driving,u,relation
+reduced,u,relation
+steam,i,relation
+mild,u,relation
+heavy,u,all-pos object relation
+rolls,u,relation food
+pronounced,u,relation
+villagers,u,relation
+processing,u,relation
+delivers,u,relation
+yields,u,relation
+recycled,u,relation
+stack,u,relation
+contain,u,relation
+warm,p,object food all-pos communication measure relation
+covered,r,all-pos communication object
+lined,r,all-pos object
+down,u,all-pos object
+traditional,u,all-pos object
+outer,u,all-pos object
+32,u,all-pos object measure
+entered,u,all-pos object
+climbed,u,all-pos object
+slipped,u,all-pos object
+room,i,all-pos object
+makes,u,all-pos
+perfect,u,all-pos
+lean,u,all-pos object
+hood,i,all-pos
+ran,u,all-pos
+under,u,all-pos object
+dark,u,object
+tan,u,object
+blanket,i,communication object
+wool,i,object
+faded,u,object
+chicken,i,food
+carrots,u,food
+cup,i,food
+quarters,u,food
+smoked,u,food
+slice,u,food
+remaining,u,food
+flavor,u,food
+flour,u,food
+half,u,food
+mushrooms,u,food
+sliced,u,food
+mix,u,food
+serve,u,food
+mixture,u,food
+stir,u,food
+add,u,food
+shrimp,u,food
+butter,u,food
+walls,u,measure
+reaches,u,measure
+shortly,u,measure
+branches,u,measure
+mark,u,measure
+22,u,measure
+protesters,u,measure
+breeze,u,measure
+figured,u,measure
+released,u,measure
+switch,u,measure
+loud,u,measure
+frank,u,measure
+cinnamon,u,measure
+rushed,u,measure
+celebrity,u,measure
+vocal,u,measure
+portugal,u,measure
+li,u,measure
+through,u,communication
+scientist,u,communication
+after,u,communication
+followed,u,communication
+literally,u,communication
+arrived,u,communication
+2003,u,communication
+doors,u,communication
+caused,u,communication
+break,u,communication
+artificial,u,communication
+wanting,u,communication
+gets,u,communication
+noticed,u,communication
+inmate,u,communication
+principal,u,communication
+sophisticated,u,communication
+river,u,communication

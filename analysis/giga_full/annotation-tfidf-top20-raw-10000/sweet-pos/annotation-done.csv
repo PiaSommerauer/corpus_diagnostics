@@ -1,0 +1,71 @@
+context,evidence,categories
+box,u,relation
+rival,u,relation
+candy,i,relation all-pos
+grapes,i,relation
+45,u,relation
+handed,u,relation
+distributed,u,relation
+750,u,relation
+flowing,u,relation
+25,u,relation
+buy,u,relation
+bought,u,relation
+caramel,i,relation object fruit food all-pos
+syrup,i,relation object fruit plant food all-pos
+excellent,u,relation
+shoppers,u,relation
+72,u,relation
+yeast,r,relation
+expand,u,relation
+took,u,relation
+sweet,p,relation object fruit plant food vegetable all-pos
+banana,i,object fruit plant food all-pos
+grape,i,object fruit plant food all-pos
+fruit,i,object fruit plant food all-pos
+peach,i,object fruit food all-pos
+apricot,i,fruit
+flavors,r,plant object fruit
+plum,i,plant object fruit food
+blueberry,i,plant object fruit all-pos
+strawberry,i,object fruit plant food all-pos
+blackberry,i,fruit
+jam,i,object fruit plant food all-pos
+cherry,i,object fruit food all-pos
+growers,u,plant fruit
+liqueur,i,fruit
+orange,i,plant object fruit
+pear,i,plant fruit
+hint,u,fruit
+sweetness,p,object plant food vegetable all-pos
+berry,i,object plant food all-pos
+flower,u,plant
+apple,i,object plant food all-pos
+planted,u,plant
+flavor,r,object plant
+coconut,i,object plant all-pos
+peel,u,vegetable
+potato,u,vegetable
+puree,u,vegetable
+inch,u,vegetable
+and,u,vegetable
+peeled,u,vegetable
+men,u,vegetable
+chip,u,vegetable
+field,u,vegetable
+baking,r,vegetable
+seeds,u,vegetable
+mixture,u,vegetable
+color,u,vegetable
+slice,r,vegetable
+into,u,vegetable
+beaten,u,vegetable
+saucepan,u,vegetable
+ready,u,vegetable
+so,u,food all-pos
+chocolate,i,food all-pos
+she,b,object all-pos
+dessert,i,food all-pos
+pure,u,food
+sugar,i,food
+or,u,food

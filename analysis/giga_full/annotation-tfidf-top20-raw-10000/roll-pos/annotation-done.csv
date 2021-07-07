@@ -1,0 +1,66 @@
+context,evidence,categories
+ride,r,vehicle
+stops,r,vehicle
+hills,r,vehicle
+raced,r,vehicle
+cliff,u,vehicle
+return,u,object vehicle all-pos
+gravel,u,vehicle
+williams,u,vehicle
+introduced,u,vehicle
+train,i,vehicle
+recently,u,object vehicle all-pos
+today,u,vehicle
+get,u,vehicle
+seat,u,vehicle
+view,u,vehicle
+taken,u,vehicle
+truck,i,vehicle
+mother,u,vehicle
+climb,u,vehicle
+many,u,vehicle
+rolling,p,measure object vehicle all-pos
+rolled,p,object vehicle all-pos
+rolls,p,measure object vehicle all-pos
+roll,p,measure object vehicle all-pos
+20,u,object all-pos
+half,u,measure object all-pos
+10,u,object all-pos
+40,u,object all-pos
+pretty,u,object all-pos
+35,u,object all-pos
+locked,u,object all-pos
+five,u,object all-pos
+spent,u,object all-pos
+better,u,object all-pos
+15,u,object all-pos
+30,u,all-pos
+22,u,object all-pos
+same,u,object all-pos
+but,u,all-pos
+minutes,u,all-pos
+by,u,all-pos
+of,u,all-pos
+per,u,measure object
+been,u,object
+1999,u,object
+2000,u,object
+17,u,object
+fish,u,measure
+wine,u,measure
+stays,u,measure
+1983,u,measure
+ounce,u,measure
+48,u,measure
+sample,u,measure
+paid,u,measure
+depending,u,measure
+sweet,u,measure
+according,u,measure
+apples,i,measure
+99,u,measure
+fresh,u,measure
+dipped,u,measure
+50,u,measure
+for,u,measure
+equivalent,u,measure

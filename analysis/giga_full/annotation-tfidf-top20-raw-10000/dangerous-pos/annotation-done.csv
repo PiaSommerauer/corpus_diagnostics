@@ -1,0 +1,132 @@
+context,evidence,categories
+shooting,i,object weapon all-pos
+armed,r,object weapon all-pos
+loaded,r,weapon
+equipped,u,weapon
+shoot,r,object weapon all-pos
+weapons,i,tool weapon
+fragments,u,weapon
+instantly,u,weapon
+firing,i,object weapon
+fire,i,weapon
+killing,i,object weapon all-pos
+footage,u,object weapon
+direction,u,weapon
+carries,u,weapon
+pointing,u,weapon
+bullets,i,weapon
+mounted,u,weapon
+ammunition,i,weapon
+soldier,b,object weapon all-pos
+rifle,i,weapon
+dangerous,p,criminal dangerous communication tool object weapon animal all-pos
+killed,r,object animal all-pos
+reportedly,u,all-pos
+attack,i,object animal all-pos
+apparently,u,object all-pos
+lethal,r,all-pos
+man,b,criminal object all-pos
+target,r,all-pos
+hiding,r,object all-pos
+captured,r,criminal object all-pos
+kill,r,all-pos
+dead,r,object all-pos
+authorities,r,object all-pos
+carried,u,all-pos
+battle,i,all-pos
+attacked,r,object animal all-pos
+threatened,r,object animal
+attempted,u,object
+allegedly,u,object
+riding,u,object animal
+anti,u,dangerous
+august,u,dangerous
+pacific,u,dangerous
+contributing,u,dangerous
+emerging,u,dangerous
+primary,u,dangerous
+resulted,u,dangerous
+reduced,u,dangerous
+dollars,u,dangerous
+mostly,u,dangerous
+rising,u,dangerous
+plagued,u,dangerous
+intense,u,dangerous
+2005,u,dangerous
+enormous,u,dangerous
+2006,u,dangerous
+multiple,u,dangerous
+epidemic,i,dangerous
+tide,r,dangerous
+highest,u,dangerous
+nicknamed,u,animal
+shots,i,animal
+fun,u,animal
+reputation,u,animal
+nine,u,animal
+experts,u,animal
+featured,u,animal
+survived,r,animal
+suspects,u,animal
+indicate,u,animal communication
+blamed,u,animal
+born,u,animal
+smiling,u,animal
+say,u,animal
+plays,u,animal
+the,u,communication
+wave,u,communication
+sophisticated,u,communication
+severely,u,communication
+due,u,communication
+signs,u,communication
+impact,u,communication
+sending,u,communication
+advanced,u,communication
+conditions,u,communication
+impossible,u,communication
+specialists,u,communication
+document,u,communication
+progress,u,communication
+farther,u,communication
+bearing,u,communication
+modified,u,communication
+occurred,u,communication
+escape,u,communication
+alleged,u,criminal
+engaged,u,criminal
+suspected,u,criminal
+convicted,r,criminal
+sentenced,r,criminal
+iraqi,b,criminal
+charging,r,criminal
+client,u,criminal
+convinced,u,criminal
+emerge,u,criminal
+killer,i,criminal
+terrorist,i,criminal
+sentence,r,criminal
+trial,r,criminal
+prison,r,criminal
+conspiracy,r,criminal
+described,u,criminal
+suspect,r,criminal
+delivered,u,tool
+uniform,b,tool
+around,u,tool
+hands,u,tool
+mighty,u,tool
+comic,u,tool
+executed,r,tool
+prime,u,tool
+wire,i,tool
+destroy,r,tool
+boy,u,tool
+flat,u,tool
+sound,u,tool
+slashed,r,tool
+book,u,tool
+machine,u,tool
+piece,u,tool
+breaking,r,tool
+cutting,r,tool
