@@ -62,7 +62,7 @@ def load_annotations(prop, model, category, max_features):
             else:
                 in_top_10=True
             d['top_20'] = in_top_10
-            if ev  in {'p', 'n', 'r', 'i', 'b'}:
+            if ev  in {'p', 'n', 'r', 'i', 'b', 'l'}:
                 d['evidence_type']  = ev
                 ev_dict_pos[word] = d
                 if word in neg_dict:
@@ -187,37 +187,7 @@ def count_evidence(concept_ev_dict, concept_label_dict):
             #n_ev_concepts_neg[n_evidence].add(concept)
     return ev_concept_dict_pos, ev_concept_dict_neg
              
-    
 
-def get_prop_overview(props, model):
-    prop_table = []
-    for prop in props:
-        concept_ev_dict, concept_label_dict = get_concept_context_matrix(prop, model)
-        concepts_pos = [c for c, l in concept_label_dict.items() if l == 'pos']
-        concepts_neg = [c for c, l in concept_label_dict.items() if l == 'neg']
-        ev_concept_dict_pos, ev_concept_dict_neg = count_evidence(concept_ev_dict, concept_label_dict)
-        total_pos = set()
-        total_neg = set()
-        for ev, concepts in ev_concept_dict_pos.items():
-            total_pos.update(concepts)
-        for ev, concepts in ev_concept_dict_neg.items():
-            total_neg.update(concepts)
-
-        prop_dict = dict()
-        n_pos = len(concepts_pos)
-        n_neg = len(concepts_neg)
-        #print(prop, n_pos, n_neg)
-        prop_dict['prop'] = prop
-        prop_dict['n_ev'] = len(ev_concept_dict_pos.keys())
-        prop_dict['total_pos'] = n_pos
-        #prop_dict['n_ev_pos'] = len(total_pos)
-        prop_dict['p_ev_pos'] = round(len(total_pos)/n_pos, 2)
-
-        prop_dict['total_neg'] = n_neg
-        #prop_dict['n_ev_neg'] = len(total_neg)
-        prop_dict['p_ev_neg'] = round(len(total_neg)/n_neg, 2)
-        prop_table.append(prop_dict)
-    return prop_table
 
 
 
@@ -436,47 +406,6 @@ def get_property_annotations(model, prop):
     return df
 
             
-            
-            
-def get_property_annotations_old(model, prop):
-    dir_annotations = f'../analysis/{model}/annotation-tfidf-top20-raw-10000'
-    dir_prop = f'{dir_annotations}/{prop}-pos'
-    evidence_labels = {'i', 'p', 'r', 'n', 'b', 'r'}
-    categories = set()
-    context_cat_dict = defaultdict(dict)
-    for cat in os.listdir(dir_prop):
-        categories.add(cat)
-        full_path = f'{dir_prop}/{cat}/{prop}-pos-annotated.csv'
-        if os.path.isfile(full_path):
-            with open(full_path) as infile:
-                data = list(csv.DictReader(infile))
-            for d in data:
-                context = d['context']
-                label  = d['evidence']
-                context_cat_dict[context][cat]=label
-
-    clean_context_cat_dict = dict()
-    for context, cat_dict in context_cat_dict.items():
-        annotations = cat_dict.values()
-        annotations_unique = set(annotations)
-        if any([l in annotations_unique for l in evidence_labels]):
-            ev_label = True
-        else:
-            ev_label = False
-        #print(len(set(annotations)))
-        cats_not_present = categories.difference(set(cat_dict.keys()))
-        for cat in cats_not_present:
-            cat_dict[cat] = '-'
-        if len(set(annotations_unique)) == 1:
-            cat_dict['consistent'] = True
-        else:
-            cat_dict['consistent'] = False 
-        cat_dict['evidence'] = ev_label
-    df = pd.DataFrame(context_cat_dict).T
-    return df
-
-
-
 
 def get_evidence_words(prop, model):
     df = get_property_annotations(model, prop)
@@ -511,62 +440,74 @@ def get_concepts(model, prop, label):
     dir_path = f'../results/{model}/tfidf-raw-10000/each_target_vs_corpus/{prop}/{label}'
     concepts = [f.split('.')[0] for f in os.listdir(dir_path)]
     return concepts
+
+
+def get_evidence_counts(ev_words, evidence_words_total, ev_cnt_dict):
+    
+
+    concepts_et_pos = set()
+    concepts_et_neg = set()
+    e_c_pos = ev_cnt_dict['pos']['e_c']
+    e_c_neg = ev_cnt_dict['neg']['e_c']
+    t_pos = ev_cnt_dict['pos']['t']
+    t_neg = ev_cnt_dict['neg']['t']
+    for ew in ev_words:
+        # concepts with evidence words
+        concepts_pos = e_c_pos[ew]
+        concepts_neg = e_c_neg[ew]
+        concepts_et_pos.update(concepts_pos)
+        concepts_et_neg.update(concepts_neg)
+    n_pos = len(concepts_et_pos)
+    n_neg = len(concepts_et_neg)
+    p_pos = n_pos/len(t_pos)
+    p_neg = n_neg/len(t_neg)
+    p, r, f1 = get_f1_distinctiveness(n_pos, n_neg, len(t_pos), len(t_neg))
+    word_dict = dict()
+    word_dict['p'] = p
+    word_dict['r'] = r
+    word_dict['f1'] = f1
+    word_dict['p_pos'] = p_pos
+    word_dict['n_pos'] = n_pos
+    word_dict['t_pos'] = len(t_pos)
+    word_dict['p_neg'] = p_neg
+    word_dict['n_neg']  = n_neg
+    word_dict['t_neg'] = len(t_neg)
+    return word_dict
+
+
+def get_evidence_concept_counts(model, prop, evidence_words_total):
+    concept_dir = f'../results/{model}/tfidf-raw-10000/each_target_vs_corpus'
+    path_pos = f'{concept_dir}/{prop}/pos'
+    path_neg = f'{concept_dir}/{prop}/neg'
+    c_e_pos, e_c_pos, t_pos = get_concept_evidence(path_pos, evidence_words_total)
+    c_e_neg, e_c_neg, t_neg = get_concept_evidence(path_neg, evidence_words_total)
+    
+    ev_cnt_dict=dict()
+    ev_cnt_dict['pos']  = dict()
+    ev_cnt_dict['pos']['e_c'] = e_c_pos
+    ev_cnt_dict['pos']['t'] = t_pos
+    ev_cnt_dict['neg']  = dict()
+    ev_cnt_dict['neg']['e_c'] = e_c_neg
+    ev_cnt_dict['neg']['t'] = t_neg
+    
+    return ev_cnt_dict
     
     
 def get_concept_evidence_counts(prop, model):
     overview_table = []
     evidence_words_total = get_evidence_words(prop, model)
-    # get total counts
-    dir_path = f'../analysis/{model}/tfidf_aggregated_concept_scores-raw-10000'
-    path_all_pos = f'{dir_path}/{prop}-pos/all-pos/{prop}-pos.csv'
-    path_all_neg = f'{dir_path}/{prop}-neg.csv'
-    
-    data_pos = get_context_dicts(path_all_pos)
-    data_neg = get_context_dicts(path_all_neg)
-    
-    context_count_dict = dict()
-    label = 'pos'
-    concepts_pos = get_concepts(model, prop, label)
-    label = 'neg'
-    concepts_neg = get_concepts(model, prop, label)
-   
-    
+    #print(evidence_words_total)
+
+    ev_cnt_dict = get_evidence_concept_counts(model, prop, evidence_words_total)
+
     for w, ev_type in evidence_words_total.items():
         d = dict()
-        d_pos = data_pos[w]
-        # add concept counts
-        n_concepts_pos = int(d_pos['n_concepts'])
-        p_concepts = round(n_concepts_pos/len(concepts_pos), 2)
-        d_pos['p_concepts'] = p_concepts
-        d_pos['t_concepts'] = len(concepts_pos)
-        if w in data_neg:
-            d_neg = data_neg[w]
-            # add concept counts
-            n_concepts_neg = int(d_neg['n_concepts'])
-            p_concepts_neg = round(n_concepts_neg/len(concepts_neg), 2)
-            d_neg['p_concepts'] = p_concepts_neg
-            d_neg['t_concepts'] = len(concepts_neg)
-            d_neg_new = dict()
-            for k, v in d_neg.items(): 
-                d_neg_new[k+'-neg'] = v
-        else:
-            n_concepts_neg = 0
-            d_neg_new = dict()
-            p_concepts_neg = 0
-            for k in d_pos.keys():
-                d_neg_new[k+'-neg'] = '-'
         
-                
+        ev_words = [w]
+        ev_cnts = get_evidence_counts(ev_words, evidence_words_total, ev_cnt_dict)     
         d['word'] = w
         d['evidence_type'] = ev_type
-        d['distinctiveness'] = p_concepts-p_concepts_neg
-        p, r, f1 = get_f1_distinctiveness(n_concepts_pos, n_concepts_neg, 
-                                          len(concepts_pos), len(concepts_neg))
-        d['f1_dist'] = f1
-        for k, v in d_pos.items():
-            d[k+'-pos'] = v
-        for k, v in d_neg_new.items():
-            d[k] = v
+        d.update(ev_cnts)
         overview_table.append(d)
     return overview_table 
 
@@ -614,6 +555,8 @@ def get_f1_distinctiveness(n_pos, n_neg, total_pos, total_neg):
         f1=0
     
     return p, r, f1
+
+
     
 
 def get_concept_context_overview(prop, model):
@@ -621,57 +564,25 @@ def get_concept_context_overview(prop, model):
     evidence_words_total = get_evidence_words(prop, model)
     #print(evidence_words_total)
 
-    concept_dir = f'../results/{model}/tfidf-raw-10000/each_target_vs_corpus'
-    path_pos = f'{concept_dir}/{prop}/pos'
-    path_neg = f'{concept_dir}/{prop}/neg'
+    ev_cnt_dict = get_evidence_concept_counts(model, prop, evidence_words_total)
     
-    c_e_pos, e_c_pos, t_pos = get_concept_evidence(path_pos, evidence_words_total)
-    c_e_neg, e_c_neg, t_neg = get_concept_evidence(path_neg, evidence_words_total)
-    #print(len(c_e_pos), len(c_e_neg))
-    
- 
     table = []
     evidence_type = ['all', 'p', 'n', 'i', 'r', 'b', 'l']
     
     for et in evidence_type:
+        d = dict()
         if et == 'all':
             ev_words = evidence_words_total.keys()
         else:
             ev_words = [w for w, ev_type in 
                         evidence_words_total.items() if ev_type == et]
-        #concept_ev_dict_pos = defaultdict(set)
-        #concept_ev_dict_neg = defaultdict(set)
-        concepts_et_pos = set()
-        concepts_et_neg = set()
-        for ew in ev_words:
-            # concepts with evidence words
-            concepts_pos = e_c_pos[ew]
-            concepts_neg = e_c_neg[ew]
-            concepts_et_pos.update(concepts_pos)
-            concepts_et_neg.update(concepts_neg)
-        n_pos = len(concepts_et_pos)
-        n_neg = len(concepts_et_neg)
-        p_pos = n_pos/len(t_pos)
-        p_neg = n_neg/len(t_neg)
-        d = dict()
-        p, r, f1 = get_f1_distinctiveness(n_pos, n_neg, len(t_pos), len(t_neg))
+        ev_cnts = get_evidence_counts(ev_words, evidence_words_total, ev_cnt_dict)
         d['evidence'] = et
-        d['distinctiveness'] = p_pos-p_neg
-        d['f1_dist'] = f1
-        d['n_concepts_with_ev_pos'] = n_pos
-        d['p_concepts_with_ev_pos'] = p_pos
-        d['n_concepts_pos'] = len(t_pos)
-        d['n_concepts_with_ev_neg'] = n_pos
-        d['p_concepts_with_ev_neg'] = p_neg
-        d['n_concepts_neg'] = len(t_neg)
+        d.update(ev_cnts)
         d['total_evidence_words'] = len(ev_words)
         table.append(d)
     
     return table
-
-
-    
-
 
 
 
@@ -705,7 +616,7 @@ def summarize_annotation_table(prop, model):
     dir_prop = f'{dir_annotations}/{prop}-pos'
     context_cat_dict = defaultdict(set)
     for cat in os.listdir(dir_prop):
-        if cat not in  ['annotation.csv',  'annotation-done.csv']:
+        if cat not in  ['annotation.csv',  'annotation-done.csv'] and '.' not in cat:
             full_path = f'{dir_prop}/{cat}/{prop}-pos.csv'
             with open(full_path) as infile:
                 data = list(csv.DictReader(infile))
@@ -737,16 +648,56 @@ def get_prop_overview(model, prop):
     for i, row in df_combined.iterrows():
         et = row['evidence']
         if et == 'all':
-            prop_dict['combined_dist'] = row['distinctiveness']
-            prop_dict['combined_f1'] = row['f1_dist']
+            #prop_dict['combined_dist'] = row['distinctiveness']
+            prop_dict['combined_p'] = row['p']
+            prop_dict['combined_r'] = row['r']
+            prop_dict['combined_f1'] = row['f1']
+            break
 
     # get max distinctiveness
     df_overview = pd.DataFrame(get_concept_evidence_counts(prop, model))
-    df_overview = df_overview.sort_values('distinctiveness', ascending=False)
+    df_overview = df_overview.sort_values('f1', ascending=False)
     for i, row in df_overview.iterrows():
-        prop_dict['max_dist'] = row['distinctiveness']
-        prop_dict['max_dist_f1'] = row['f1_dist']
+        #prop_dict['max_dist'] = row['distinctiveness']
+        prop_dict['max_dist_p'] = row['p']
+        prop_dict['max_dist_r'] = row['r']
+        prop_dict['max_dist_f1'] = row['f1']
         prop_dict['max_dist_ev'] = row['word']
         prop_dict['max_dist_t'] = row['evidence_type']
         break
     return prop_dict
+
+
+
+def check_consistency_across_corpora(df_wiki, df_giga):
+    evidence_type = ['p', 'n', 'i', 'r', 'b', 'l']
+    all_words = set(df_giga.index).union(set(df_wiki.index))
+
+    annotations = []
+    for w in all_words:
+        if w in df_giga.index:
+            row = df_giga.loc[w]
+            values = [v for k, v in row.items() if k != 'evidence' and v != '-']
+            value_giga = list(set(values))[0]
+        else:
+            value_giga = '-'
+        if w in df_wiki.index:
+            row = df_wiki.loc[w]
+            values = [v for k, v in row.items() if k != 'evidence' and v != '-']
+            value_wiki = list(set(values))[0]
+        else:
+            value_wiki = '-'
+    
+        agree = True
+        if value_wiki in evidence_type and value_giga in evidence_type:
+            if value_wiki != value_giga:
+                agree = False
+
+        d = dict()
+        d['word'] = w
+        d['giga'] = value_giga
+        d['wiki'] = value_wiki
+        d['in_line'] = agree
+        annotations.append(d)
+    df = pd.DataFrame(annotations)
+    return df
