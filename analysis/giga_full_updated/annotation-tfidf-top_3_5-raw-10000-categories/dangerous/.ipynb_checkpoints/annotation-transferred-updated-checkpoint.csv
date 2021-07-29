@@ -1,0 +1,326 @@
+context,evidence_type,categories
+been,u,animal
+are,u,animal
+against,u,animal
+during,u,animal
+attacked,r,animal
+attack,i,animal object
+attacks,i,animal no-cat
+had,u,animal
+killed,r,animal weapon object communication all no-cat
+used,u,animal weapon communication tool no-cat
+apparently,u,animal communication
+sent,u,animal
+maybe,u,animal
+shooting,i,animal object all weapon
+reports,u,animal
+make,u,animal
+more,u,animal no-cat
+just,u,animal
+attempts,u,animal
+loss,NA,animal
+row,u,animal
+say,u,animal
+died,NA,animal
+arm,u,animal tool
+wanted,NA,animal
+nine,NA,animal
+shot,NA,animal
+shots,NA,animal
+campaign,NA,animal no-cat
+whip,NA,animal
+crew,NA,animal
+authorities,r,animal criminal
+grabbed,NA,animal
+struck,u,animal
+ill,NA,animal
+born,NA,animal
+hit,NA,animal
+he,u,animal criminal
+operation,u,tool
+technique,u,tool
+heart,u,tool
+kicked,r,tool
+her,u,tool
+takes,u,tool
+laid,u,tool
+hat,u,tool
+knives,i,tool
+leather,u,tool
+recalls,u,tool
+neck,u,tool
+wielding,u,tool weapon
+stabbed,r,tool
+weapon,i,tool
+holding,u,tool
+crack,r,tool
+repeatedly,u,tool
+girlfriend,NA,tool
+old,NA,tool
+throat,NA,tool
+uses,NA,tool
+flat,NA,tool
+cutting,r,tool
+applied,NA,tool
+violent,NA,tool
+edged,NA,tool
+firmly,NA,tool
+camera,NA,tool
+pattern,NA,tool
+teen,NA,tool
+involves,NA,tool
+carrying,u,weapon communication
+loaded,r,weapon
+deadly,r,weapon communication no-cat
+armed,r,weapon communication
+carries,u,weapon communication no-cat
+death,r,weapon
+fire,i,weapon
+stone,u,weapon
+equipped,u,weapon
+equipment,u,weapon
+newspaper,u,weapon
+carried,u,weapon communication no-cat
+large,u,weapon
+shotgun,i,weapon
+discovered,u,weapon no-cat
+type,u,weapon no-cat
+instantly,NA,weapon
+described,NA,weapon
+former,u,criminal
+himself,u,criminal
+white,u,criminal
+police,r,criminal
+at,u,criminal
+alleged,r,criminal
+captured,r,criminal communication
+an,u,criminal
+one,u,criminal
+him,u,criminal
+gun,i,criminal
+being,u,criminal
+charged,u,criminal
+ordered,u,criminal
+john,u,criminal
+story,u,criminal
+killer,i,criminal
+charges,r,criminal
+based,NA,criminal
+shoot,r,object all
+fatal,n,object communication
+wave,u,communication
+destroying,r,communication
+worst,u,communication
+novel,u,communication
+destroy,r,communication
+were,u,communication
+believed,u,communication
+believe,u,communication
+conventional,u,communication
+grave,r,communication
+cause,u,communication no-cat
+unknown,u,communication no-cat
+advanced,u,communication
+possibility,u,communication no-cat
+dangerous,p,communication no-cat
+danger,p,communication
+sparked,u,communication
+belonging,NA,communication
+rounded,NA,communication
+egypt,NA,communication
+region,NA,communication
+facility,NA,communication
+accidentally,NA,communication
+causing,NA,communication no-cat
+swept,NA,communication
+uncovered,NA,communication no-cat
+bound,NA,communication
+device,NA,communication
+turns,NA,communication
+targets,NA,communication no-cat
+knowledge,NA,communication
+british,NA,communication
+possible,NA,communication
+wider,NA,communication
+western,NA,communication
+suspicion,NA,communication
+ongoing,NA,communication
+potential,NA,communication no-cat
+raids,NA,communication
+suggesting,NA,communication no-cat
+aircraft,NA,communication
+describe,NA,communication
+radical,NA,communication
+fears,NA,communication
+found,NA,communication
+lies,NA,communication
+appeared,NA,communication
+south,NA,communication
+mysterious,NA,communication
+engaged,NA,communication
+involve,NA,communication
+eight,NA,communication
+followers,NA,communication
+amid,NA,communication
+hero,NA,communication
+spread,NA,communication no-cat
+indicating,NA,communication
+mounted,NA,communication
+surfaced,NA,communication
+destruction,NA,communication
+attributed,NA,communication
+staged,NA,communication
+unidentified,NA,communication
+earth,NA,communication
+regime,NA,communication
+hunt,NA,communication
+resembles,NA,communication
+deliberately,NA,communication
+southern,NA,communication
+posed,NA,communication
+theory,u,communication no-cat
+leads,NA,communication no-cat
+suddenly,NA,communication
+twin,NA,communication
+damage,NA,communication
+eastern,u,communication no-cat
+traced,NA,communication
+remained,NA,communication
+indicate,NA,communication
+survived,NA,communication no-cat
+camp,NA,communication
+quoted,NA,communication
+dead,r,communication
+desperate,NA,communication
+ship,u,communication
+turkish,NA,communication
+turkey,NA,communication
+damaging,NA,communication
+orange,NA,communication
+burn,NA,communication
+apart,NA,communication
+scale,NA,communication no-cat
+lethal,n,all communication no-cat
+powered,NA,communication
+belgium,NA,communication
+proved,NA,communication
+aboard,NA,communication
+supply,u,communication no-cat
+surface,NA,communication
+launching,NA,communication
+alive,NA,communication
+destroyed,NA,communication
+resulting,NA,communication
+suffered,NA,communication
+nose,NA,communication
+hits,NA,communication
+contained,u,no-cat
+produces,u,no-cat
+amounts,u,no-cat
+containing,u,no-cat
+believes,u,no-cat
+seen,u,no-cat
+amount,u,no-cat
+effects,u,no-cat
+acts,u,no-cat
+affects,u,no-cat
+effective,u,no-cat
+target,r,no-cat
+nearly,u,no-cat
+exposed,r,no-cat
+evidence,u,no-cat
+highly,NA,no-cat
+kill,r,no-cat
+recent,NA,no-cat
+1998,NA,no-cat
+potent,NA,no-cat
+causes,NA,no-cat
+nervous,NA,no-cat
+especially,NA,no-cat
+grow,NA,no-cat
+producing,NA,no-cat
+nerve,NA,no-cat
+tide,NA,no-cat
+threatens,NA,no-cat
+reduce,NA,no-cat
+rare,NA,no-cat
+creates,NA,no-cat
+country,NA,no-cat
+linked,NA,no-cat
+considered,NA,no-cat
+majority,NA,no-cat
+particularly,NA,no-cat
+origin,NA,no-cat
+prepared,NA,no-cat
+how,NA,no-cat
+might,NA,no-cat
+kills,NA,no-cat
+least,NA,no-cat
+cure,NA,no-cat
+control,NA,no-cat
+chemical,NA,no-cat
+of,u,no-cat
+anti,NA,no-cat
+rid,NA,no-cat
+thousands,NA,no-cat
+produce,NA,no-cat
+us,NA,no-cat
+contain,NA,no-cat
+victim,NA,no-cat
+form,NA,no-cat
+given,NA,no-cat
+drug,NA,no-cat
+drugs,NA,no-cat
+tests,NA,no-cat
+identified,NA,no-cat
+experts,NA,no-cat
+adding,NA,no-cat
+treat,NA,no-cat
+times,u,no-cat
+responsible,NA,no-cat
+massive,NA,no-cat
+united,NA,no-cat
+dealing,NA,no-cat
+warning,NA,no-cat
+compound,NA,no-cat
+major,NA,no-cat
+parts,NA,no-cat
+common,NA,no-cat
+toll,NA,no-cat
+world,NA,no-cat
+promise,NA,no-cat
+aimed,NA,no-cat
+develop,NA,no-cat
+treating,NA,no-cat
+probably,NA,no-cat
+explaining,NA,no-cat
+europe,NA,no-cat
+somehow,NA,no-cat
+combat,NA,no-cat
+spike,NA,no-cat
+millions,NA,no-cat
+gives,NA,no-cat
+battling,NA,no-cat
+brought,NA,no-cat
+battle,NA,no-cat
+maintains,NA,no-cat
+shown,NA,no-cat
+strikes,NA,no-cat
+supplying,NA,no-cat
+eliminating,NA,no-cat
+noting,NA,no-cat
+extreme,NA,no-cat
+summit,NA,no-cat
+fallen,NA,no-cat
+figure,NA,no-cat
+delivered,NA,no-cat
+widespread,NA,no-cat
+sharp,NA,no-cat
+declared,NA,no-cat
+concern,NA,no-cat
+remote,NA,no-cat
+combination,NA,no-cat
+capable,NA,no-cat
+brings,NA,no-cat
+deliver,NA,no-cat
+exists,NA,no-cat

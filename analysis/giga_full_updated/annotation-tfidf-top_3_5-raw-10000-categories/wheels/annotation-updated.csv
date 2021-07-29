@@ -1,0 +1,61 @@
+context,evidence_type,categories
+driver, ,vehicle
+truck, ,vehicle no-cat
+drove, ,object all vehicle
+vehicle, ,vehicle no-cat
+wheel, ,object all vehicle no-cat
+parked, ,object all vehicle
+driving, ,all vehicle
+mounted, ,no-cat
+equipped, ,no-cat
+riding, ,no-cat
+toward, ,no-cat
+honda, ,no-cat
+accident, ,no-cat
+safety, ,no-cat
+75, ,no-cat
+collided, ,no-cat
+rear, ,no-cat
+crashed, ,no-cat
+earlier, ,no-cat
+injured, ,no-cat
+designed, ,no-cat
+adding, ,no-cat
+pulled, ,no-cat
+speed, ,no-cat
+gear, ,no-cat
+stable, ,no-cat
+17, ,no-cat
+atop, ,no-cat
+800, ,no-cat
+currently, ,no-cat
+driven, ,no-cat
+65, ,no-cat
+growing, ,no-cat
+rolling, ,no-cat
+patrol, ,no-cat
+injuries, ,no-cat
+23, ,no-cat
+vehicles, ,no-cat
+distance, ,no-cat
+bigger, ,no-cat
+ultra, ,no-cat
+seat, ,no-cat
+steep, ,no-cat
+strapped, ,no-cat
+contact, ,no-cat
+powered, ,no-cat
+maneuver, ,no-cat
+62, ,no-cat
+59, ,no-cat
+bicycle, ,no-cat
+poised, ,no-cat
+design, ,no-cat
+thus, ,no-cat
+unveiled, ,no-cat
+generation, ,no-cat
+hybrid, ,no-cat
+car, ,no-cat
+spin, ,no-cat
+bmw, ,no-cat
+boasts, ,no-cat

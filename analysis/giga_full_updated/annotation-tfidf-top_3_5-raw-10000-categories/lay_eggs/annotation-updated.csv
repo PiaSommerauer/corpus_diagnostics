@@ -1,0 +1,55 @@
+context,evidence_type,categories
+eggs, ,animal object all
+fish, ,animal food fish object all
+egg, ,animal object all
+salmon, ,food fish
+lamb, ,food fish
+000, ,food
+banned, ,food
+baked, ,food
+wrapped, ,food
+smoked, ,food
+roasted, ,food
+duck, ,bird
+bird, ,bird
+nest, ,bird
+habitat, ,no-cat bird
+thursday, ,bird
+including, ,bird
+along, ,bird
+third, ,bird
+week, ,bird
+population, ,bird
+set, ,bird
+house, ,bird
+fall, ,bird
+populations, ,fish bird
+viewers, ,bird
+american, ,bird
+goose, ,bird
+picture, ,bird
+begins, ,bird
+would, ,bird
+because, ,bird
+14, ,bird
+fishermen, ,fish
+fillets, ,fish
+known, ,fish
+waters, ,fish
+fishing, ,fish
+maine, ,fish
+size, ,fish
+trout, ,fish
+chicken, ,fish
+pike, ,fish
+atlantic, ,fish
+cod, ,fish
+wild, ,fish
+freshwater, ,fish
+tuna, ,fish
+swordfish, ,fish
+pound, ,fish
+seafood, ,fish
+spotted, ,fish
+nice, ,fish
+endangered, ,no-cat

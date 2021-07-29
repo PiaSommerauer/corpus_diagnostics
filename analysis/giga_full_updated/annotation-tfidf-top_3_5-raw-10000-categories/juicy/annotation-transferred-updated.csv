@@ -1,0 +1,87 @@
+context,evidence_type,categories
+banana,u,plant
+ripe,r,plant
+pineapple,i,plant food object fruit all
+fruit,i,plant
+shrimp,i,animal relation
+lobster,i,animal relation
+salad,i,animal relation
+mixture,u,animal
+each,u,animal
+bacon,u,animal
+grilled,u,animal
+smoked,u,animal
+chicken,i,animal relation
+lamb,i,animal
+corn,i,animal
+fry,u,animal relation
+stuffed,u,animal
+perfect,u,animal
+on,u,animal
+from,u,animal
+recipes,u,animal
+hook,u,animal
+90,u,animal
+plant,u,animal
+eaten,NA,animal
+runs,NA,animal
+prices,NA,animal
+missing,NA,animal
+200,NA,animal
+toss,NA,animal relation
+women,NA,animal
+attached,NA,animal
+eating,u,animal
+their,NA,animal
+beef,i,animal
+features,NA,animal
+flavored,u,animal
+whole,NA,animal
+there,u,animal
+orange,i,object food fruit all
+bright,u,relation food vegetable
+mango,i,food
+papaya,i,food
+for,u,vegetable
+simple,u,vegetable
+60,u,vegetable
+end,u,vegetable
+juices,p,relation object
+wine,i,fruit
+lime,i,relation
+juice,p,relation
+vinegar,r,relation
+drain,r,relation
+along,u,relation
+fragrant,u,relation
+grapefruit,i,relation
+tomato,i,relation
+garlic,u,relation
+fresh,r,relation
+teaspoons,u,relation
+parsley,u,relation
+canned,u,relation
+onion,i,relation
+grapes,i,relation
+puree,u,relation
+drained,NA,relation
+basil,NA,relation
+peaches,NA,relation
+red,u,relation
+cucumber,NA,relation
+cubes,NA,relation
+vinaigrette,r,relation
+packed,u,relation
+soaked,NA,relation
+olives,NA,relation
+light,NA,relation
+salmon,NA,relation
+salsa,NA,relation
+turning,NA,relation
+dressed,NA,relation
+waters,NA,relation
+buried,NA,relation
+green,NA,relation
+dried,u,relation
+substitute,u,relation
+fruits,i,all

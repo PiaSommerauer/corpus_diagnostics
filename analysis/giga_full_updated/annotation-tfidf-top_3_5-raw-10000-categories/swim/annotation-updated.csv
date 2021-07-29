@@ -1,0 +1,18 @@
+context,evidence_type,categories
+fish, ,animal object all fish
+fishing, ,animal food fish object all
+waters, ,animal object all
+catch, ,food
+species, ,food
+caught, ,food
+bass, ,food
+takes, ,bird
+duck, ,bird
+president, ,bird
+salmon, ,fish
+name, ,mammal
+known, ,mammal
+male, ,mammal
+lion, ,relation
+sea, ,relation
+trail, ,relation

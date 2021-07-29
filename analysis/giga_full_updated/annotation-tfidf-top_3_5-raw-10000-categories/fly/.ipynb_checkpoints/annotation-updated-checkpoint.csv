@@ -1,0 +1,25 @@
+context,evidence_type,categories
+flew, ,animal object all bird
+bird, ,animal
+flying, ,animal vehicle bird object all
+shot, ,food
+fly, ,object food all
+route, ,food
+november, ,food
+payload, ,vehicle
+overhead, ,vehicle
+study, ,vehicle
+experimental, ,vehicle
+hovering, ,vehicle
+airplanes, ,vehicle
+engineer, ,vehicle
+16, ,vehicle
+unmanned, ,vehicle
+drone, ,vehicle
+flown, ,vehicle
+aerial, ,vehicle
+altitude, ,vehicle
+ejected, ,vehicle
+demonstrated, ,vehicle
+quickly, ,vehicle
+as, ,bird

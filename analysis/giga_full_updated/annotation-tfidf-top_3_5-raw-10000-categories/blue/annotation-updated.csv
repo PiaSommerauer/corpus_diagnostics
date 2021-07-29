@@ -1,0 +1,37 @@
+context,evidence_type,categories
+among, ,plant
+recommends, ,plant
+instance, ,plant
+plants, ,plant
+classic, ,plant
+finishing, ,plant
+european, ,animal
+scale, ,animal
+bright, ,animal
+blue, ,animal all
+yellow, ,animal bird
+colorful, ,animal
+colored, ,animal relation
+lake, ,food
+waves, ,food
+sweeping, ,food
+generations, ,food
+wildlife, ,food
+450, ,food
+specialist, ,food
+poses, ,food
+port, ,food
+may, ,bird
+various, ,object all
+alleged, ,object
+midnight, ,object
+paint, ,relation
+attached, ,relation
+hammer, ,relation
+color, ,relation
+gave, ,relation
+era, ,relation
+recalled, ,relation
+covered, ,relation
+then, ,relation
+magic, ,all

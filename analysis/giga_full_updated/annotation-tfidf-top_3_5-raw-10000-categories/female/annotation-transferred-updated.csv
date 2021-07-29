@@ -1,0 +1,17 @@
+context,evidence_type,categories
+actress,i,animal mammal
+her,i,animal mammal female
+stories,u,animal
+she,i,female object communication mammal all
+herself,i,female object all mammal
+in,u,female
+haired,u,female
+lady,i,female mammal
+beautiful,b,object all
+birth,r,mammal
+grass,u,mammal
+pregnant,l,mammal
+pregnancy,l,mammal
+so,u,mammal
+baby,b,communication
+walk,u,communication

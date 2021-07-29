@@ -1,0 +1,36 @@
+context,evidence_type,categories
+sweet, ,plant food object fruit relation all
+banana, ,plant food object fruit all
+fruit, ,plant fruit
+jam, ,plant food object fruit all
+blueberry, ,plant
+berry, ,plant object
+potato, ,vegetable
+nickname, ,vegetable
+lovers, ,vegetable
+grape, ,fruit
+strawberry, ,fruit
+passion, ,fruit
+stand, ,relation
+candy, ,relation
+peaches, ,relation
+wines, ,relation
+festival, ,relation
+grapes, ,relation
+champagne, ,relation
+wine, ,relation
+apple, ,relation
+syrup, ,relation
+caramel, ,relation
+sweeter, ,relation
+reserved, ,relation
+real, ,relation
+bubble, ,relation
+visitor, ,relation
+entirely, ,relation
+apples, ,relation
+substitute, ,relation
+holiday, ,relation
+flowing, ,relation
+rival, ,relation
+wooden, ,relation

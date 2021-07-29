@@ -1,0 +1,55 @@
+context,evidence_type,categories
+eggs,p,animal object all
+fish,i,animal food fish object all
+egg,p,animal object all
+salmon,i,food fish
+lamb,u,food fish
+000,NA,food
+banned,u,food
+baked,u,food
+wrapped,u,food
+smoked,u,food
+roasted,u,food
+duck,i,bird
+bird,i,bird
+nest,r,bird
+habitat,u,no-cat bird
+thursday,u,bird
+including,u,bird
+along,u,bird
+third,u,bird
+week,u,bird
+population,u,bird
+set,u,bird
+house,u,bird
+fall,u,bird
+populations,u,fish bird
+viewers,u,bird
+american,u,bird
+goose,i,bird
+picture,u,bird
+begins,u,bird
+would,u,bird
+because,NA,bird
+14,NA,bird
+fishermen,r,fish
+fillets,u,fish
+known,u,fish
+waters,r,fish
+fishing,r,fish
+maine,u,fish
+size,u,fish
+trout,i,fish
+chicken,i,fish
+pike,i,fish
+atlantic,r,fish
+cod,i,fish
+wild,u,fish
+freshwater,r,fish
+tuna,i,fish
+swordfish,i,fish
+pound,NA,fish
+seafood,NA,fish
+spotted,u,fish
+nice,NA,fish
+endangered,u,no-cat

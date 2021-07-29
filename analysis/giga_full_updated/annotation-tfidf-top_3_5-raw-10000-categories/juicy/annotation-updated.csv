@@ -1,0 +1,87 @@
+context,evidence_type,categories
+banana, ,plant
+ripe, ,plant
+pineapple, ,plant food object fruit all
+fruit, ,plant
+shrimp, ,animal relation
+lobster, ,animal relation
+salad, ,animal relation
+mixture, ,animal
+each, ,animal
+bacon, ,animal
+grilled, ,animal
+smoked, ,animal
+chicken, ,animal relation
+lamb, ,animal
+corn, ,animal
+fry, ,animal relation
+stuffed, ,animal
+perfect, ,animal
+on, ,animal
+from, ,animal
+recipes, ,animal
+hook, ,animal
+90, ,animal
+plant, ,animal
+eaten, ,animal
+runs, ,animal
+prices, ,animal
+missing, ,animal
+200, ,animal
+toss, ,animal relation
+women, ,animal
+attached, ,animal
+eating, ,animal
+their, ,animal
+beef, ,animal
+features, ,animal
+flavored, ,animal
+whole, ,animal
+there, ,animal
+orange, ,object food fruit all
+bright, ,relation food vegetable
+mango, ,food
+papaya, ,food
+for, ,vegetable
+simple, ,vegetable
+60, ,vegetable
+end, ,vegetable
+juices, ,relation object
+wine, ,fruit
+lime, ,relation
+juice, ,relation
+vinegar, ,relation
+drain, ,relation
+along, ,relation
+fragrant, ,relation
+grapefruit, ,relation
+tomato, ,relation
+garlic, ,relation
+fresh, ,relation
+teaspoons, ,relation
+parsley, ,relation
+canned, ,relation
+onion, ,relation
+grapes, ,relation
+puree, ,relation
+drained, ,relation
+basil, ,relation
+peaches, ,relation
+red, ,relation
+cucumber, ,relation
+cubes, ,relation
+vinaigrette, ,relation
+packed, ,relation
+soaked, ,relation
+olives, ,relation
+light, ,relation
+salmon, ,relation
+salsa, ,relation
+turning, ,relation
+dressed, ,relation
+waters, ,relation
+buried, ,relation
+green, ,relation
+dried, ,relation
+substitute, ,relation
+fruits, ,all

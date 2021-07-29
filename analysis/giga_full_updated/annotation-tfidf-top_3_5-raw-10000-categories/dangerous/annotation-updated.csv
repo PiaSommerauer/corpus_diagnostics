@@ -1,0 +1,326 @@
+context,evidence_type,categories
+been, ,animal
+are, ,animal
+against, ,animal
+during, ,animal
+attacked, ,animal
+attack, ,animal object
+attacks, ,animal no-cat
+had, ,animal
+killed, ,animal weapon object communication all no-cat
+used, ,animal weapon communication tool no-cat
+apparently, ,animal communication
+sent, ,animal
+maybe, ,animal
+shooting, ,animal object all weapon
+reports, ,animal
+make, ,animal
+more, ,animal no-cat
+just, ,animal
+attempts, ,animal
+loss, ,animal
+row, ,animal
+say, ,animal
+died, ,animal
+arm, ,animal tool
+wanted, ,animal
+nine, ,animal
+shot, ,animal
+shots, ,animal
+campaign, ,animal no-cat
+whip, ,animal
+crew, ,animal
+authorities, ,animal criminal
+grabbed, ,animal
+struck, ,animal
+ill, ,animal
+born, ,animal
+hit, ,animal
+he, ,animal criminal
+operation, ,tool
+technique, ,tool
+heart, ,tool
+kicked, ,tool
+her, ,tool
+takes, ,tool
+laid, ,tool
+hat, ,tool
+knives, ,tool
+leather, ,tool
+recalls, ,tool
+neck, ,tool
+wielding, ,tool weapon
+stabbed, ,tool
+weapon, ,tool
+holding, ,tool
+crack, ,tool
+repeatedly, ,tool
+girlfriend, ,tool
+old, ,tool
+throat, ,tool
+uses, ,tool
+flat, ,tool
+cutting, ,tool
+applied, ,tool
+violent, ,tool
+edged, ,tool
+firmly, ,tool
+camera, ,tool
+pattern, ,tool
+teen, ,tool
+involves, ,tool
+carrying, ,weapon communication
+loaded, ,weapon
+deadly, ,weapon communication no-cat
+armed, ,weapon communication
+carries, ,weapon communication no-cat
+death, ,weapon
+fire, ,weapon
+stone, ,weapon
+equipped, ,weapon
+equipment, ,weapon
+newspaper, ,weapon
+carried, ,weapon communication no-cat
+large, ,weapon
+shotgun, ,weapon
+discovered, ,weapon no-cat
+type, ,weapon no-cat
+instantly, ,weapon
+described, ,weapon
+former, ,criminal
+himself, ,criminal
+white, ,criminal
+police, ,criminal
+at, ,criminal
+alleged, ,criminal
+captured, ,criminal communication
+an, ,criminal
+one, ,criminal
+him, ,criminal
+gun, ,criminal
+being, ,criminal
+charged, ,criminal
+ordered, ,criminal
+john, ,criminal
+story, ,criminal
+killer, ,criminal
+charges, ,criminal
+based, ,criminal
+shoot, ,object all
+fatal, ,object communication
+wave, ,communication
+destroying, ,communication
+worst, ,communication
+novel, ,communication
+destroy, ,communication
+were, ,communication
+believed, ,communication
+believe, ,communication
+conventional, ,communication
+grave, ,communication
+cause, ,communication no-cat
+unknown, ,communication no-cat
+advanced, ,communication
+possibility, ,communication no-cat
+dangerous, ,communication no-cat
+danger, ,communication
+sparked, ,communication
+belonging, ,communication
+rounded, ,communication
+egypt, ,communication
+region, ,communication
+facility, ,communication
+accidentally, ,communication
+causing, ,communication no-cat
+swept, ,communication
+uncovered, ,communication no-cat
+bound, ,communication
+device, ,communication
+turns, ,communication
+targets, ,communication no-cat
+knowledge, ,communication
+british, ,communication
+possible, ,communication
+wider, ,communication
+western, ,communication
+suspicion, ,communication
+ongoing, ,communication
+potential, ,communication no-cat
+raids, ,communication
+suggesting, ,communication no-cat
+aircraft, ,communication
+describe, ,communication
+radical, ,communication
+fears, ,communication
+found, ,communication
+lies, ,communication
+appeared, ,communication
+south, ,communication
+mysterious, ,communication
+engaged, ,communication
+involve, ,communication
+eight, ,communication
+followers, ,communication
+amid, ,communication
+hero, ,communication
+spread, ,communication no-cat
+indicating, ,communication
+mounted, ,communication
+surfaced, ,communication
+destruction, ,communication
+attributed, ,communication
+staged, ,communication
+unidentified, ,communication
+earth, ,communication
+regime, ,communication
+hunt, ,communication
+resembles, ,communication
+deliberately, ,communication
+southern, ,communication
+posed, ,communication
+theory, ,communication no-cat
+leads, ,communication no-cat
+suddenly, ,communication
+twin, ,communication
+damage, ,communication
+eastern, ,communication no-cat
+traced, ,communication
+remained, ,communication
+indicate, ,communication
+survived, ,communication no-cat
+camp, ,communication
+quoted, ,communication
+dead, ,communication
+desperate, ,communication
+ship, ,communication
+turkish, ,communication
+turkey, ,communication
+damaging, ,communication
+orange, ,communication
+burn, ,communication
+apart, ,communication
+scale, ,communication no-cat
+lethal, ,all communication no-cat
+powered, ,communication
+belgium, ,communication
+proved, ,communication
+aboard, ,communication
+supply, ,communication no-cat
+surface, ,communication
+launching, ,communication
+alive, ,communication
+destroyed, ,communication
+resulting, ,communication
+suffered, ,communication
+nose, ,communication
+hits, ,communication
+contained, ,no-cat
+produces, ,no-cat
+amounts, ,no-cat
+containing, ,no-cat
+believes, ,no-cat
+seen, ,no-cat
+amount, ,no-cat
+effects, ,no-cat
+acts, ,no-cat
+affects, ,no-cat
+effective, ,no-cat
+target, ,no-cat
+nearly, ,no-cat
+exposed, ,no-cat
+evidence, ,no-cat
+highly, ,no-cat
+kill, ,no-cat
+recent, ,no-cat
+1998, ,no-cat
+potent, ,no-cat
+causes, ,no-cat
+nervous, ,no-cat
+especially, ,no-cat
+grow, ,no-cat
+producing, ,no-cat
+nerve, ,no-cat
+tide, ,no-cat
+threatens, ,no-cat
+reduce, ,no-cat
+rare, ,no-cat
+creates, ,no-cat
+country, ,no-cat
+linked, ,no-cat
+considered, ,no-cat
+majority, ,no-cat
+particularly, ,no-cat
+origin, ,no-cat
+prepared, ,no-cat
+how, ,no-cat
+might, ,no-cat
+kills, ,no-cat
+least, ,no-cat
+cure, ,no-cat
+control, ,no-cat
+chemical, ,no-cat
+of, ,no-cat
+anti, ,no-cat
+rid, ,no-cat
+thousands, ,no-cat
+produce, ,no-cat
+us, ,no-cat
+contain, ,no-cat
+victim, ,no-cat
+form, ,no-cat
+given, ,no-cat
+drug, ,no-cat
+drugs, ,no-cat
+tests, ,no-cat
+identified, ,no-cat
+experts, ,no-cat
+adding, ,no-cat
+treat, ,no-cat
+times, ,no-cat
+responsible, ,no-cat
+massive, ,no-cat
+united, ,no-cat
+dealing, ,no-cat
+warning, ,no-cat
+compound, ,no-cat
+major, ,no-cat
+parts, ,no-cat
+common, ,no-cat
+toll, ,no-cat
+world, ,no-cat
+promise, ,no-cat
+aimed, ,no-cat
+develop, ,no-cat
+treating, ,no-cat
+probably, ,no-cat
+explaining, ,no-cat
+europe, ,no-cat
+somehow, ,no-cat
+combat, ,no-cat
+spike, ,no-cat
+millions, ,no-cat
+gives, ,no-cat
+battling, ,no-cat
+brought, ,no-cat
+battle, ,no-cat
+maintains, ,no-cat
+shown, ,no-cat
+strikes, ,no-cat
+supplying, ,no-cat
+eliminating, ,no-cat
+noting, ,no-cat
+extreme, ,no-cat
+summit, ,no-cat
+fallen, ,no-cat
+figure, ,no-cat
+delivered, ,no-cat
+widespread, ,no-cat
+sharp, ,no-cat
+declared, ,no-cat
+concern, ,no-cat
+remote, ,no-cat
+combination, ,no-cat
+capable, ,no-cat
+brings, ,no-cat
+deliver, ,no-cat
+exists, ,no-cat

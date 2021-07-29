@@ -1,0 +1,235 @@
+context,evidence_type,categories
+soup, ,animal measure no-cat
+oyster, ,animal
+salad, ,animal measure no-cat
+dishes, ,animal
+crab, ,animal
+sauce, ,animal measure no-cat
+fat, ,animal measure
+and, ,animal no-cat
+dish, ,animal food measure no-cat
+fish, ,animal tool measure cutlery
+fried, ,animal measure no-cat
+lobster, ,animal measure
+mixture, ,animal food measure
+each, ,animal measure
+tuna, ,animal
+salmon, ,animal measure
+menu, ,animal
+bean, ,animal measure
+cooked, ,animal measure
+basil, ,animal
+business, ,animal
+chicken, ,animal food all measure no-cat
+warm, ,animal measure
+add, ,animal cutlery object all measure no-cat
+flavor, ,animal measure
+all, ,animal
+farming, ,animal
+farmer, ,animal
+breeding, ,animal
+steamed, ,animal
+seafood, ,animal
+meat, ,animal measure
+smoked, ,animal
+population, ,animal
+sweet, ,animal measure
+tomato, ,animal food measure no-cat
+produces, ,animal
+fisherman, ,animal
+recipe, ,animal food object all measure no-cat
+stew, ,animal
+uses, ,animal
+bigger, ,animal
+meal, ,animal measure
+95, ,animal
+single, ,animal
+farms, ,animal
+completely, ,animal
+such, ,animal
+baked, ,animal
+stirring, ,animal
+trout, ,animal
+dip, ,animal measure
+arrange, ,animal measure
+contains, ,animal
+crispy, ,animal
+spaghetti, ,animal
+flavored, ,animal measure no-cat
+adds, ,animal
+fishery, ,animal
+oysters, ,animal
+tops, ,animal
+concerned, ,animal
+cake, ,animal
+vegetables, ,animal
+coffee, ,animal cutlery
+grow, ,animal
+pieces, ,animal measure
+perhaps, ,animal
+essence, ,animal
+methods, ,animal
+60, ,animal
+serves, ,animal
+lay, ,animal measure
+ban, ,animal
+taste, ,animal measure
+lives, ,animal
+varieties, ,animal
+atop, ,animal measure
+makes, ,animal
+shrimp, ,animal measure
+spicy, ,animal
+asparagus, ,animal
+dried, ,animal
+fisheries, ,animal
+with, ,animal measure
+risotto, ,animal
+grilled, ,animal measure
+prawns, ,animal
+rolls, ,animal
+topped, ,animal measure
+slice, ,animal measure cutlery
+roll, ,animal measure
+plate, ,animal measure cutlery
+raw, ,animal measure
+industry, ,animal
+crisp, ,animal measure
+delicious, ,animal measure
+mango, ,animal
+fry, ,animal
+fresh, ,animal
+cheese, ,animal measure cutlery
+treatment, ,animal
+commercial, ,animal
+per, ,animal
+few, ,animal
+stuffed, ,animal measure
+10, ,animal
+salt, ,animal measure
+beef, ,animal measure
+29, ,animal
+tossed, ,animal measure
+available, ,animal
+courses, ,animal
+purchase, ,animal
+largest, ,animal
+rest, ,animal
+whole, ,animal measure
+item, ,animal
+cold, ,animal measure
+offers, ,animal
+hot, ,animal measure
+course, ,animal
+table, ,animal
+mix, ,animal measure
+14, ,animal
+rice, ,animal all measure no-cat
+local, ,animal
+25, ,animal
+three, ,animal
+serving, ,tool
+kitchen, ,tool measure
+cook, ,tool measure cutlery
+bread, ,food measure no-cat
+dinner, ,measure cutlery
+combination, ,cutlery
+replacing, ,cutlery
+slices, ,measure cutlery
+fruit, ,measure cutlery
+bottom, ,measure cutlery
+gift, ,cutlery
+stand, ,cutlery
+egg, ,object measure
+potato, ,all measure no-cat
+sliced, ,measure
+pork, ,measure
+deep, ,measure
+fingers, ,measure
+wash, ,measure
+sandwich, ,measure
+wrap, ,measure
+or, ,measure no-cat
+dry, ,measure
+water, ,measure
+lamb, ,measure
+lemon, ,measure no-cat
+into, ,measure
+lightly, ,measure
+filling, ,measure
+fold, ,measure
+inch, ,measure
+half, ,measure
+pound, ,measure
+cooking, ,measure
+recipes, ,measure
+frozen, ,measure
+thick, ,measure
+thin, ,measure
+honey, ,measure
+pan, ,measure
+spinach, ,measure
+butter, ,measure
+greens, ,measure
+toss, ,measure
+bowl, ,measure
+combine, ,measure
+corn, ,measure
+pepper, ,measure no-cat
+eat, ,measure
+top, ,measure
+desired, ,measure
+trimmed, ,measure
+soft, ,measure
+cool, ,measure
+strips, ,measure
+cup, ,measure
+pile, ,measure
+eggs, ,measure
+bowls, ,measure
+olive, ,measure
+pasta, ,measure
+ounces, ,measure
+evenly, ,measure
+tablespoon, ,measure
+creamy, ,measure
+discard, ,measure
+filled, ,measure
+apple, ,measure
+portion, ,measure
+pot, ,measure
+stir, ,measure
+halves, ,measure
+flour, ,measure
+around, ,measure
+shallow, ,measure
+pumpkin, ,measure
+pie, ,measure
+cherry, ,measure
+container, ,measure
+fine, ,measure
+cooks, ,measure
+fork, ,measure
+heavy, ,measure
+sugar, ,measure
+processor, ,measure
+pull, ,measure
+crushed, ,measure
+golden, ,measure
+brush, ,measure
+bright, ,measure
+peel, ,measure
+minutes, ,measure
+chocolate, ,measure
+plump, ,measure
+chef, ,measure
+oven, ,measure
+flat, ,measure
+seasoned, ,measure
+green, ,no-cat
+garlic, ,no-cat
+ginger, ,no-cat
+onion, ,no-cat
+cream, ,no-cat
+roasted, ,no-cat
+curry, ,no-cat
