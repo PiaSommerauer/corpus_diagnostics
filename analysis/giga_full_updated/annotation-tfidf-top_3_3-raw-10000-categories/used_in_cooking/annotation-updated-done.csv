@@ -45,7 +45,7 @@ half,u,measure
 pound,r,measure relation
 meal,r,measure relation animal
 cooking,p,measure relation
-recipes,r,measure relation
+recipes,l,measure relation
 frozen,r,measure relation
 thick,u,measure relation
 thin,u,measure
@@ -97,7 +97,7 @@ olive,i,measure relation
 pasta,i,measure relation
 ounces,r,measure relation
 fat,i,measure animal
-recipe,r,measure food relation all animal no-cat object
+recipe,l,measure food relation all animal no-cat object
 evenly,u,measure relation
 tablespoon,r,measure relation
 creamy,r,measure relation
@@ -502,7 +502,7 @@ smoke,r,relation
 argue,u,relation
 crazy,u,relation
 intensity,u,relation
-oyster,u,animal
+oyster,i,animal
 dishes,r,animal
 and,u,animal no-cat
 menu,r,animal
