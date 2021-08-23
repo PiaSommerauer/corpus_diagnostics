@@ -9,7 +9,7 @@ piloted,r,vehicle
 propeller,r,vehicle
 conducting,u,vehicle
 fighter,u,vehicle
-fighters, ,vehicle
+fighters,u,vehicle
 supersonic,u,vehicle
 pilot,r,vehicle
 flew,l,vehicle

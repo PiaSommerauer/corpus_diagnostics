@@ -1484,7 +1484,7 @@ tyres,i,vehicle
 quickly,u,vehicle
 newspaper,u,vehicle
 strewn,u,vehicle
-embassy,uu,vehicle
+embassy,u,vehicle
 point,u,vehicle
 breakfast,u,blue vehicle
 sports,u,vehicle
@@ -1756,7 +1756,7 @@ trial,u,vehicle
 basically,u,vehicle
 beyond,u,vehicle
 likes,u,vehicle
-brick,iu,vehicle
+brick,u,vehicle
 shotgun,u,vehicle
 spotting,u,vehicle
 avoided,u,vehicle
