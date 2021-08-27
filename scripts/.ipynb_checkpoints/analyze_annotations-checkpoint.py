@@ -18,7 +18,10 @@ def get_annotation_status(model_name, top_cutoff, concept_cutoff):
             # get categories:
             files = os.listdir(full_path)
             # get number of words
-            path_file = f'{full_path}/annotation-updated.csv'
+            if model_name == 'wiki_updated':
+                path_file = f'{full_path}/annotation-transferred-updated.csv'
+            elif model_name == 'giga_full_updated':
+                path_file = f'{full_path}/annotation-updated.csv'
             with open(path_file) as infile:
                 lines = infile.read().strip().split('\n')
                 not_annotated = [l for l in lines if l.strip().split(',')[1] == 'NA']
@@ -64,7 +67,7 @@ def get_evidence_dict(model_name, prop, top_cutoff, concept_cutoff):
         
             
 
-def get_evidence_distribution(model_name, prop, top_cutoff, concept_cutoff):
+def get_evidence_density(model_name, prop, top_cutoff, concept_cutoff):
     
     # current file:
     annotation_name = f'annotation-tfidf-top_{top_cutoff}_{concept_cutoff}-raw-10000-categories'
@@ -89,4 +92,32 @@ def get_evidence_distribution(model_name, prop, top_cutoff, concept_cutoff):
     ev_counts_norm = dict()
     for ev, cnt in ev_cnts.items():
         ev_counts_norm[ev]  = cnt/total_contexts
+    return ev_counts_norm
+
+
+def get_evidence_diversity(model_name, prop, top_cutoff, concept_cutoff):
+    
+    # current file:
+    annotation_name = f'annotation-tfidf-top_{top_cutoff}_{concept_cutoff}-raw-10000-categories'
+    path_dir_annotation = f'../analysis/{model_name}/{annotation_name}/{prop}'
+    f_annotation = f'{path_dir_annotation}/annotation-updated-done.csv'
+    
+    ev_dict = get_evidence_dict(model_name, prop, top_cutoff, concept_cutoff)
+    
+    ev_cnts = Counter()
+    
+    for e, et in ev_dict.items():
+        ev_cnts[et] += 1
+        if et != 'u':
+            ev_cnts['all'] += 1
+        if et in ['p', 'l', 'n']:
+            ev_cnts['prop_specific'] += 1
+        elif et in ['i', 'r', 'b']:
+            ev_cnts['non-specific'] += 1
+    
+    total_contexts = len(ev_dict)
+    
+    ev_counts_norm = dict()
+    for ev, cnt in ev_cnts.items():
+        ev_counts_norm[ev]  = cnt
     return ev_counts_norm
