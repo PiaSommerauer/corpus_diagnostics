@@ -1,6 +1,7 @@
 from collections import defaultdict, Counter
 import os
 import csv
+import numpy as np
 
 
 def get_annotation_status(model_name, top_cutoff, concept_cutoff):
@@ -10,7 +11,7 @@ def get_annotation_status(model_name, top_cutoff, concept_cutoff):
     line_dict = dict()
 
     for f in os.listdir(dir_annotations):
-        if  not f.endswith('.csv') and not f.endswith('.ipynb_checkpoints'):
+        if  not f.endswith('.csv') and not f.endswith('.ipynb_checkpoints') and not f.endswith('.DS_Store'):
             prop = f.split('/')[-1]
             full_path = f'{dir_annotations}/{f}'
             
@@ -95,29 +96,56 @@ def get_evidence_density(model_name, prop, top_cutoff, concept_cutoff):
     return ev_counts_norm
 
 
-def get_evidence_diversity(model_name, prop, top_cutoff, concept_cutoff):
+def get_evidence_diversity(model_name, model, prop, evidence_types, top_cutoff, concept_cutoff):
     
     # current file:
     annotation_name = f'annotation-tfidf-top_{top_cutoff}_{concept_cutoff}-raw-10000-categories'
     path_dir_annotation = f'../analysis/{model_name}/{annotation_name}/{prop}'
     f_annotation = f'{path_dir_annotation}/annotation-updated-done.csv'
     
+    
     ev_dict = get_evidence_dict(model_name, prop, top_cutoff, concept_cutoff)
     
-    ev_cnts = Counter()
+    
+    ev_types_dict = defaultdict(list)
     
     for e, et in ev_dict.items():
-        ev_cnts[et] += 1
+        ev_types_dict[et].append(e)
         if et != 'u':
-            ev_cnts['all'] += 1
+            ev_types_dict['all'].append(e)
         if et in ['p', 'l', 'n']:
-            ev_cnts['prop_specific'] += 1
+            ev_types_dict['prop_specific'].append(e)
         elif et in ['i', 'r', 'b']:
-            ev_cnts['non-specific'] += 1
+            ev_types_dict['non-specific'].append(e)
     
-    total_contexts = len(ev_dict)
     
-    ev_counts_norm = dict()
-    for ev, cnt in ev_cnts.items():
-        ev_counts_norm[ev]  = cnt
-    return ev_counts_norm
+    et_counts = dict()
+    et_sims = dict()
+    for et, words in ev_types_dict.items():
+        if et in evidence_types:
+            et_counts[et]  = len(words)
+            mean_sim = get_mean_sim(model, words)
+            et_sims[et] = mean_sim
+    return et_counts, et_sims
+
+
+def get_mean_sim(model, evidence_words):
+    all_pairs = []
+    for e1 in evidence_words:
+        for e2 in evidence_words:
+            pair = {e1, e2}
+            if len(pair) ==2 and pair not in all_pairs:
+                all_pairs.append(pair)
+
+
+    all_similarities = []
+    for pair in all_pairs:
+        e1, e2 = list(pair)
+        sim = model.similarity(e1, e2)
+        all_similarities.append(sim)
+    
+    if len(all_similarities) > 0:
+        mean_sim = sum(all_similarities)/len(all_similarities)
+    else:
+        mean_sim = np.nan
+    return mean_sim
