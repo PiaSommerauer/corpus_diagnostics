@@ -67,7 +67,11 @@ def get_top_ev_categories(prop, model_name, top_cutoff, concept_cutoff):
     et_context_dict = defaultdict(set)
     for c, et in evidence_dict.items():
         et_context_dict[et].add(c)
-    et_sorted = ['p', 'n', 'l', 'i', 'r', 'b', 'u'] 
+        if et in ['p', 'l', 'n']:
+            et_context_dict['prop_specific'].add(c)
+        elif et in ['i', 'r',  'b']:
+            et_context_dict['non_specific'].add(c)
+    et_sorted = ['prop_specific', 'non_specific', 'p', 'n', 'l', 'i', 'r', 'b', 'u'] 
     et_cat_context_perf_dict = defaultdict(dict)
     
     # get top performance per evidence type for each category
@@ -119,7 +123,11 @@ def get_mean_ev_categories(prop, model_name, top_cutoff, concept_cutoff):
     et_context_dict = defaultdict(set)
     for c, et in evidence_dict.items():
         et_context_dict[et].add(c)
-    et_sorted = ['p', 'n', 'l', 'i', 'r', 'b', 'u'] 
+        if et in ['p', 'l', 'n']:
+            et_context_dict['prop_specific'].add(c)
+        elif et in ['i', 'r',  'b']:
+            et_context_dict['non_specific'].add(c)
+    et_sorted = ['prop_specific', 'non_specific', 'p', 'n', 'l', 'i', 'r', 'b', 'u'] 
     et_cat_context_perf_dict = defaultdict(dict)
     
     # get top performance per evidence type for each category
