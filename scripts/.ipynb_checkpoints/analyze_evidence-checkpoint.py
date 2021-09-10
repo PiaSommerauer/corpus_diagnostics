@@ -8,7 +8,7 @@ from collections import Counter, defaultdict
 
 def load_prop_data(prop):
     
-    path = f'../data/aggregated_semantic_info/{prop}.json'
+    path = f'../data/aggregated_semantic_info_scalar/{prop}.json'
     with open(path) as infile:
         concept_dict = json.load(infile)
     return concept_dict
