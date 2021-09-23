@@ -66,7 +66,7 @@ def get_evidence_sim_properties(model_name, model):
     columns = ['prop-specific', 'non-specific'] #, 'p', 'l', 'n', 'i', 'r', 'b', 'u']
     df = pd.DataFrame(table).set_index('property')[columns]
     # set nana to 0 before median
-    df = df.fillna(0.0)
+    #df = df.fillna(0.0)
     median = df.median(axis=0)
     df.loc['median'] = median
     
@@ -97,9 +97,10 @@ def get_evidence_sim_concept_category(model_name, evidence_type_dict,
             if t in ['p', 'n', 'l']:
                 t_c = 'prop-specific'
                 evidence_context_dict[t_c].append(c)
-            elif t in ['i', 'r', 'b']:
-                t_c = 'non-specific'
-                evidence_context_dict[t_c].append(c)
+            # too much computing time:
+#             elif t in ['i', 'r', 'b']:
+#                 t_c = 'non-specific'
+#                 evidence_context_dict[t_c].append(c)
     for t, contexts in evidence_context_dict.items():
         #n_contexts = len(contexts)
         mean_sim = get_mean_sim(model, contexts)
@@ -152,12 +153,12 @@ def get_evidence_sim_concepts(model_name, properties, model):
             keys.update(ev_sim_concept.keys())
             ev_sim_concept['pair'] = (prop, concept)
             table.append(ev_sim_concept)
+        print('finished property:', prop)
         
-    columns = ['label', 'prop-specific', 'non-specific']#, 'p', 'l', 'n', 'i', 'r', 'b', 'u']
+    columns = ['label', 'prop-specific']#, 'non-specific']#, 'p', 'l', 'n', 'i', 'r', 'b', 'u']
     columns = [c for c in columns if c in keys]
     df = pd.DataFrame(table).set_index('pair')
-    # set nana to 0 before median
-    df = df.fillna(0.0)
+    # do not set to 0
     median = df.median(axis=0)
     df.loc['median'] = median
     df = df[columns]
@@ -188,21 +189,20 @@ def main():
       
         model = KeyedVectors.load_word2vec_format(model_path, binary=False)
         print('loaded model', model_name)
-        #### prop
+#         #### prop
         
-#         print('loaded model', model_name)
-#         # properties
-#         level = 'properties'
-#         df = get_evidence_sim_properties(model_name, model)
-#         df = utils.raw_to_distance(df, reference_name = 'median')
-#         # to file
-#         path_dir = f'../analysis/{model_name}/{level}/'
-#         os.makedirs(path_dir, exist_ok=True)
-#         path_file = f'{path_dir}/{analysis_name}.csv'
-#         df.to_csv(path_file)
-#         print('analyzed', level)
+
+        # properties
+        level = 'properties'
+        df = get_evidence_sim_properties(model_name, model)
+        # to file
+        path_dir = f'../analysis/{model_name}/{level}/'
+        os.makedirs(path_dir, exist_ok=True)
+        path_file = f'{path_dir}/{analysis_name}.csv'
+        df.to_csv(path_file)
+        print('analyzed', level)
         
-        # pairs
+        #pairs
         level = 'pairs'
         df = get_evidence_sim_concepts(model_name, properties, model)
         # to file
@@ -211,6 +211,17 @@ def main():
         path_file = f'{path_dir}/{analysis_name}.csv'
         df.to_csv(path_file)
         print('finished analysis:', level)
+
+        # relations
+        level = 'relations'
+        pair_score_dict = relations.load_scores(analysis_name, model_name)
+        df = relations.relation_overview(pair_score_dict)
+        # to file:
+        path_dir = f'../analysis/{model_name}/{level}/'
+        os.makedirs(path_dir, exist_ok=True)
+        path_file = f'{path_dir}/{analysis_name}.csv'
+        df.to_csv(path_file)
+       
         
         
 if __name__ == '__main__':

@@ -1,7 +1,11 @@
 from itertools import permutations
+from collections import defaultdict
+
 import os
 import numpy as np
 import pandas as pd
+import json
+
 
 def load_relation_pairs(combination, order=True):
     
@@ -78,3 +82,77 @@ def relation_overview(pair_score_dict):
 
     df = pd.DataFrame(table).set_index('relation')
     return df
+
+
+
+def relations_to_file(properties):
+    path_dir = '../data/relations'
+    os.makedirs(path_dir, exist_ok=True)
+    relation_pair_dict = defaultdict(set)
+    for prop in properties:
+        prop_dict = utils.load_prop_data(prop)
+        rels_evidence = {'typical_of_property', 'variability_limited',
+                         'afforded_usual', 'affording_activity', 
+                         'variability_limited_scalar', 'variability_open_scalar'}
+        rels_no_evidence = {'typical_of_concept', 'afforded_unusual', 'implied_category', 'variability_open'}
+
+        for c, d in prop_dict.items():
+            # sort by lables
+            ml_label = d['ml_label']
+            if ml_label in {'all', 'some', 'all-some', 'few-some'}:
+                l = 'pos'
+            elif ml_label in {'few'}:
+                l = 'neg' 
+            relation_pair_dict[(l,)].add((prop, c))
+
+            # sort by subset of instances
+            if ml_label in {'all', 'all-some'}:
+                l_qu = 'all'
+            elif ml_label in {'some', 'few-some'}:
+                l_qu = 'some'
+            elif ml_label in {'few'}:
+                l_qu = 'few'
+            relation_pair_dict[(l_qu,)].add((prop, c))
+
+            # sort relations:
+            rel_dict = d['relations']
+            prop_rel_dict = defaultdict(list)
+            for rel, p in rel_dict.items():
+                prop_rel_dict[p].append(rel)
+            pos_props = sorted(list(prop_rel_dict.keys()), reverse=True)
+            relations = []
+            for p in pos_props:
+                if p > 0.5:
+                    relations.extend(prop_rel_dict[p])
+            relations = tuple(relations)
+            relation_pair_dict[relations].add((prop, c))
+
+            # sort relations according to hypotheses
+            relations = [rel for rel, p in rel_dict.items() if p > 0.5]
+            rel_ev = [rel for rel in relations if rel in rels_evidence]
+            rel_no_ev  = [rel for rel in relations if rel in rels_no_evidence]
+
+            if len(rel_ev) > 0:
+                hyp = 'evidence'
+            elif len(rel_no_ev) > 0:
+                hyp = 'no_evidence_pos'
+            else:
+                hyp = 'no_evidence_neg'
+            relation_pair_dict[(hyp, )].add((prop, c))
+
+        # to file
+        for rel, pairs in relation_pair_dict.items():
+            
+            name = '-'.join(rel)
+            path = f'{path_dir}/{name}.txt'
+            with open(path,  'w') as outfile:
+                for prop, c in pairs:
+                    outfile.write(f'{prop},{c}\n')
+                    
+                    
+if __name__ == '__main__':
+                    
+    properties = utils.get_properties()  
+    # exclude female from this analysis
+    properties = [prop for prop in properties  if prop != 'female']
+    relations_to_file(properties)

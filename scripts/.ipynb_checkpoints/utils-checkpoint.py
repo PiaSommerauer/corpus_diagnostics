@@ -1,6 +1,7 @@
 import pandas as pd
 import csv
 import os
+import json
 
 
 def get_properties():
@@ -24,13 +25,13 @@ def load_evidence_type_dict(prop, model_name):
         evidence_type_dict[c] = t
     return evidence_type_dict
 
-def raw_to_distance(df, reference_name = 'median'): 
+def raw_to_distance(df, score_names, reference_name = 'median', percent =  False): 
     
     df_dict = df.to_dict('index')
     df_dict_distance = dict()
     
     median_dict = df_dict[reference_name]
-    score_names = ['prop-specific', 'non-specific', 'p', 'l', 'n', 'i', 'r', 'b', 'u']
+    #score_names = ['prop-specific', 'non-specific', 'p', 'l', 'n', 'i', 'r', 'b', 'u']
     
     for i, d in df_dict.items():
         d_distance = dict()
@@ -38,7 +39,12 @@ def raw_to_distance(df, reference_name = 'median'):
             if k in score_names:
                 median = median_dict[k]
                 dist =  v -  median
-                d_distance[k] = dist
+                # distnace in percent:
+                dist_p = dist/median
+                if percent == False:
+                    d_distance[k] = dist
+                else:
+                    d_distance[k] = dist_p
             else:
                 d_distance[k] = v
             df_dict_distance[i] = d_distance
@@ -67,9 +73,19 @@ def get_categories_concept(prop, concept, model_name):
     
     dir_path = f'../results/{model_name}/tfidf-raw-10000/each_target_vs_corpus_per_category'
     path_prop = f'{dir_path}/{prop}/'
+    labels = ['pos', 'neg']
     
     for cat in os.listdir(path_prop):
-        full_path = f'{path_prop}/{cat}/pos/{concept}.csv'
-        if os.path.isfile(full_path):
-            categories.add(cat)
+        for label in labels:
+            full_path = f'{path_prop}/{cat}/{label}/{concept}.csv'
+            if os.path.isfile(full_path):
+                categories.add(cat)
     return categories
+
+
+def load_prop_data(prop):
+    
+    path = f'../data/aggregated_semantic_info_scalar/{prop}.json'
+    with open(path) as infile:
+        concept_dict = json.load(infile)
+    return concept_dict

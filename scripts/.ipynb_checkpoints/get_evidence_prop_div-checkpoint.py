@@ -53,7 +53,6 @@ def get_evidence_prop_div_concept_category(model_name, evidence_type_dict,
     
     context_candidates = [c for c in contexts if c in evidence_type_dict.keys()]
     n_candidates = len(context_candidates)
-    
     evidence_context_dict = defaultdict(list)
     for c in context_candidates:
         if c in evidence_type_dict:
@@ -62,6 +61,7 @@ def get_evidence_prop_div_concept_category(model_name, evidence_type_dict,
             if t in ['p', 'n', 'l']:
                 t_c = 'prop-specific'
                 evidence_context_dict[t_c].append(c)
+                #print(concept, c, label)
             elif t in ['i', 'r', 'b']:
                 t_c = 'non-specific'
                 evidence_context_dict[t_c].append(c)
@@ -87,6 +87,7 @@ def get_evidence_prop_div_concept(prop, concept, label,
         ev_prop_concept_cat = get_evidence_prop_div_concept_category(model_name, evidence_type_dict, 
                                                                      prop, concept, label,
                                                                      cat, cnt = cnt)
+       
 
         for ev, p in ev_prop_concept_cat.items():
             ev_prop_concept[ev] += p
@@ -144,6 +145,7 @@ def get_evidence_prop_div_concepts(model_name, properties, cnt):
             keys.update(ev_prop_concept.keys())
             ev_prop_concept['pair'] = (prop, concept)
             table.append(ev_prop_concept)
+        print('finished prop', prop)
         
     columns = ['label', 'prop-specific', 'non-specific', 'p', 'l', 'n', 'i', 'r', 'b', 'u']
     columns = [c for c in columns if c in keys]
@@ -161,76 +163,51 @@ def main():
     
     
     model_names = ['giga_full_updated', 'wiki_updated']
-    properties = utils.get_properties() 
+    analysis_names = ['proportion', 'diversity']
+    properties = utils.get_properties()
+  
     
     for model_name in model_names:
         
-        #### prop
-        analysis_name = 'proportion'
+        for analysis_name in analysis_names:
+            if analysis_name == 'proportion':
+                cnt = 'prop'
+            else:
+                cnt = 'div'
         
-        # properties
-        level = 'properties'
-        df = get_evidence_prop_div_properties(model_name, cnt = 'prop')
-        df = utils.raw_to_distance(df, reference_name = 'median')
-        # to file
-        path_dir = f'../analysis/{model_name}/{level}/'
-        os.makedirs(path_dir, exist_ok=True)
-        path_file = f'{path_dir}/{analysis_name}.csv'
-        df.to_csv(path_file)
+            #properties
+            level = 'properties'
+            df = get_evidence_prop_div_properties(model_name, cnt)
+            # to file:
+            path_dir = f'../analysis/{model_name}/{level}/'
+            os.makedirs(path_dir, exist_ok=True)
+            path_file = f'{path_dir}/{analysis_name}.csv'
+            df.to_csv(path_file)
+          
 
-        # pairs
-        level = 'pairs'
-        df = get_evidence_prop_div_concepts(model_name, properties, cnt = 'prop')
-        # to file
-        path_dir = f'../analysis/{model_name}/pairs/'
-        os.makedirs(path_dir, exist_ok=True)
-        path_file = f'{path_dir}/{analysis_name}.csv'
-        df.to_csv(path_file)
+            # pairs
+            level = 'pairs'
+            df = get_evidence_prop_div_concepts(model_name, properties, cnt)
+            # to file
+            path_dir = f'../analysis/{model_name}/pairs/'
+            os.makedirs(path_dir, exist_ok=True)
+            path_file = f'{path_dir}/{analysis_name}.csv'
+            df.to_csv(path_file)
+            print('finished', analysis_name, level)
         
-        # relations
-        level = 'relations'
-        pair_score_dict = relations.load_scores(analysis_name, model_name)
-        df = relations.relation_overview(pair_score_dict)
-        df = utils.raw_to_distance(df, reference_name = 'pos')
-        # to file:
-        path_dir = f'../analysis/{model_name}/{level}/'
-        os.makedirs(path_dir, exist_ok=True)
-        path_file = f'{path_dir}/{analysis_name}.csv'
-        df.to_csv(path_file)
-        
-        #### div
-        analysis_name = 'diversity'
-        
-        # properties
-        level = 'properties'
-        df = get_evidence_prop_div_properties(model_name, cnt = 'div')
-        df = utils.raw_to_distance(df, reference_name = 'median')
-        # to file
-        path_dir = f'../analysis/{model_name}/{level}/'
-        os.makedirs(path_dir, exist_ok=True)
-        path_file = f'{path_dir}/{analysis_name}.csv'
-        df.to_csv(path_file)
+            # relations
+            level = 'relations'
+            pair_score_dict = relations.load_scores(analysis_name, model_name)
+            df = relations.relation_overview(pair_score_dict)
+            
+            # to file:
+            path_dir = f'../analysis/{model_name}/{level}/'
+            os.makedirs(path_dir, exist_ok=True)
+            path_file = f'{path_dir}/{analysis_name}.csv'
+            df.to_csv(path_file)
+          
+            
 
-        # pairs
-        level = 'pairs'
-        df = get_evidence_prop_div_concepts(model_name, properties, cnt = 'div')
-        # to file
-        path_dir = f'../analysis/{model_name}/pairs/'
-        os.makedirs(path_dir, exist_ok=True)
-        path_file = f'{path_dir}/{analysis_name}.csv'
-        df.to_csv(path_file)
-        
-        # relations
-        level = 'relations'
-        pair_score_dict = relations.load_scores(analysis_name, model_name)
-        df = relations.relation_overview(pair_score_dict)
-        df = utils.raw_to_distance(df, reference_name = 'pos')
-        # to file:
-        path_dir = f'../analysis/{model_name}/{level}/'
-        os.makedirs(path_dir, exist_ok=True)
-        path_file = f'{path_dir}/{analysis_name}.csv'
-        df.to_csv(path_file)
-        
     
 if __name__ == '__main__':
     main()

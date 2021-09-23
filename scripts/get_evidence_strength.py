@@ -1,124 +1,243 @@
-import analyze_evidence
-
-from statistics  import median
-
-from collections import defaultdict
-import os
+from collections import Counter, defaultdict
+import pandas as pd
+import numpy as np
 import csv
+import os
+
+import utils
+import relations
 
 
-
-# compare evidence strength across properties - may not make too much sense...
-
-def get_properties():
-    properties = []
-    for path in os.listdir('../data/aggregated/'):
-        prop = path.split('.')[0]
-        if 'female-' not in prop and prop != '':
-            properties.append(prop)
-    return properties
-
-
-def get_evidence_strength_props(evidence_types, properties, model_name, top_cutoff, concept_cutoff):
-
-    prop_et_strength_dict = defaultdict(dict)
-
-    path_evidence = f'../analysis/{model_name}/evidence_{top_cutoff}_{concept_cutoff}-raw-10000-categories'
-
-    for prop in properties:
-        means_prop = []
-        prop_dict = analyze_evidence.load_prop_data(prop)
-        # only use pos examples:
-        pos_ml_labels = ['all', 'all-some', 'few-some', 'some']
-        concepts_pos = [c for c, d in prop_dict.items() if d['ml_label'] in pos_ml_labels]
-        for et in evidence_types:
-            means_et = []
-            path_dir = f'{path_evidence}/{prop}/{et}'
-            if os.path.isdir(path_dir):
-                ev_files = [f for f in os.listdir(path_dir) if f.endswith('.csv')]
-                for f in ev_files:
-                    full_path = f'{path_dir}/{f}'
-                    with open(full_path) as infile:
-                        data = list(csv.DictReader(infile))
-                        means = [float(d['mean']) for d in data if d[''] in concepts_pos]
-                        if len(means) > 0:
-                            mean = sum(means)/len(means)
-                        else:
-                            mean = 0.0
-                        #means_et.append(mean)
-                        means_prop.append(mean)
-        if len(means_prop) > 0:
-            mean_prop = sum(means_prop)/len(means_prop)
-        else:
-            mean_prop = 0.0
-        prop_et_strength_dict[prop]['strength'] = mean_prop
-        
-    return prop_et_strength_dict
+def get_categories(prop, model_name):
+    analysis_type = 'tfidf-raw-10000/each_target_vs_corpus_per_category'
+    path_dir = f'../results/{model_name}/{analysis_type}'
+    path_dir = f'{path_dir}/{prop}'
+    categories = set()
+    for d in os.listdir(path_dir):
+        if '.' not in d:
+            categories.add(d)
+    return categories
 
 
-def get_strength_dist_props(evidence_types, properties, model_name, top_cutoff, concept_cutoff):
+def get_context_strengths_concept(prop, concept, label, model_name, 
+                                evidence_type_dict):
+  
+    context_strength = dict()
+    # categories
+    categories = utils.get_categories_concept(prop, concept, model_name)
 
-    prop_et_strength_dict = defaultdict(dict)
-
-    path_evidence = f'../analysis/{model_name}/evidence_{top_cutoff}_{concept_cutoff}-raw-10000-categories'
+    # collect all relevant context of the concept
     
-    x_props = []
-    y_strengths = []
-    labels = []
-    for prop in properties:
-        means_prop = []
-        prop_dict = analyze_evidence.load_prop_data(prop)
-        # only use pos examples:
-        pos_ml_labels = ['all', 'all-some', 'few-some', 'some']
-        concepts_pos = [c for c, d in prop_dict.items() if d['ml_label'] in pos_ml_labels]
-        ml_labels_pos = [d['ml_label'] for c, d in prop_dict.items() if d['ml_label'] in pos_ml_labels]
-        for concept, l in zip(concepts_pos, ml_labels_pos):
-            means_concept = []
-            for et in evidence_types:
-                path_dir = f'{path_evidence}/{prop}/{et}'
-                if os.path.isdir(path_dir):
-                    ev_files = [f for f in os.listdir(path_dir) if f.endswith('.csv')]
-                    for f in ev_files:
-                        full_path = f'{path_dir}/{f}'
-                        with open(full_path) as infile:
-                            data = list(csv.DictReader(infile))
-                        for  d in data:
-                            if d[''] == concept:
-                                means_concept.append(float(d['mean']))
-                      
-            if len(means_concept) > 0:
-                mean_concept = median(means_concept)
-            else:
-                mean_concept = 0.0
-            x_props.append(prop)
-            y_strengths.append(mean_concept)
-            labels.append(l)
+    context_strengths = defaultdict(list)
+    
+    #print(evidence_type_dict.keys())
+  
+    for category in categories:
+
+        # collect strengths:
+        dir_path = f'../results/{model_name}/tfidf-raw-10000/each_target_vs_corpus_per_category'
+        full_path = f'{dir_path}/{prop}/{category}/{label}/{concept}.csv'
+
+        with open(full_path) as infile:
+            data = list(csv.DictReader(infile))
+        for d in data:
+            context = d['']
+            strength = float(d['target'])
+            if context in evidence_type_dict:
+                context_strengths[context].append(strength)
+    for context, strengths in context_strengths.items():
+        context_strength[context] = sum(strengths)/len(strengths)   
+    return context_strength 
+
+                
+
+
+def get_evidence_strength(prop, model_name, evidence_type_dict, calc):
+    
+    evidence_strength_dict = dict()
+    
+    type_evidence_dict = defaultdict(list)
+    
+    for c, t in evidence_type_dict.items():
+        type_evidence_dict[t].append(c)
+        if t in ['p', 'n', 'l']:
+            t_c = 'prop-specific'
+            type_evidence_dict[t_c].append(c)
+        elif t in ['i', 'r', 'b']:
+            t_c = 'non-specific'
+            type_evidence_dict[t_c].append(c)
             
-    df = pd.DataFrame(dict(prop=x_props, strength=y_strengths, label=labels))
+
+    concept_label_dict = dict()
+    concepts_pos = utils.get_examples(model_name, prop, 'pos')
+    concepts_neg = utils.get_examples(model_name, prop, 'neg')
+    for c in concepts_pos:
+        concept_label_dict[c] = 'pos'
+    for c in concepts_neg:
+        concept_label_dict[c] = 'neg'
+    
+    all_contexts_strengths = defaultdict(list)
+    context_strength_dict = dict()
+    for concept, label in concept_label_dict.items():
+        context_strengths_concept =  get_context_strengths_concept(prop, concept, label, model_name, 
+                            evidence_type_dict)
+        for c, strength in context_strengths_concept.items():
+            all_contexts_strengths[c].append(strength)
+    for c, strengths in all_contexts_strengths.items():
+        mean = sum(strengths)/len(strengths)
+        context_strength_dict[c] = mean
+    
+    
+    for t, contexts in type_evidence_dict.items():
+        strengths = [context_strength_dict[c] for c in contexts if c in context_strength_dict]
+        if calc == 'mean':
+            score = sum(strengths)/len(strengths)
+        elif calc == 'max':
+            score = max(strengths)
+        evidence_strength_dict[t] = score
+        
+    return evidence_strength_dict
+
+
+def get_evidence_strength_concept(prop, concept,  label, model_name, evidence_type_dict, calc):
+    
+    evidence_strength_dict = dict()
+    
+    type_evidence_dict = defaultdict(list)
+    
+    for c, t in evidence_type_dict.items():
+        type_evidence_dict[t].append(c)
+        if t in ['p', 'n', 'l']:
+            t_c = 'prop-specific'
+            type_evidence_dict[t_c].append(c)
+        elif t in ['i', 'r', 'b']:
+            t_c = 'non-specific'
+            type_evidence_dict[t_c].append(c)
+    context_strength_dict =  get_context_strengths_concept(prop, concept, 
+                                                 label, model_name, evidence_type_dict)
+    
+    for t, contexts in type_evidence_dict.items():
+        strengths = [context_strength_dict[c] for c in contexts if c in context_strength_dict]
+        if len(strengths) > 0:
+            if calc == 'mean':
+                score = sum(strengths)/len(strengths)
+            elif calc == 'max':
+                score = max(strengths)
+        else:
+            score = 0
+        evidence_strength_dict[t] = score
+        
+    return evidence_strength_dict
+
+     
+
+
+def get_evidence_strength_properties(model_name, calc):
+    
+    table = []
+    
+    properties = utils.get_properties()
+
+    for prop in properties:
+        evidence_type_dict = utils.load_evidence_type_dict(prop, model_name)
+        evidence_strength = get_evidence_strength(prop, model_name, evidence_type_dict, calc)
+        evidence_strength['property'] = prop
+        table.append(evidence_strength)
+        print('finished prop', prop)
+    
+    columns = ['prop-specific', 'non-specific', 'p', 'l', 'n', 'i', 'r', 'b', 'u']
+    df = pd.DataFrame(table).set_index('property')[columns]
+    # set nana to 0 before median
+    #df = df.fillna(0.0)
+    median = df.median(axis=0)
+    df.loc['median'] = median
+    
     return df
 
 
 
-def get_prop_strength_overview(model_name, top_cutoff, concept_cutoff):
+def get_evidence_strength_concepts(model_name, properties, calc):
     
-    data = dict()
+    table = []
+    keys = set()
     
-    ets = ['p', 'l', 'n']
-    ets_string = '_'.join(ets)
-    properties = get_properties()
+    for prop in properties:
+        concept_label_dict = dict()
+        concepts_pos = utils.get_examples(model_name, prop, 'pos')
+        concepts_neg = utils.get_examples(model_name, prop, 'neg')
+        for c in concepts_pos:
+            concept_label_dict[c] = 'pos'
+        for c in concepts_neg:
+            concept_label_dict[c] = 'neg'
+        evidence_type_dict = utils.load_evidence_type_dict(prop, model_name)
+        for concept, label in concept_label_dict.items():
+            ev_strength_concept =  get_evidence_strength_concept(prop, concept,  
+                                                             label, model_name, 
+                                                             evidence_type_dict, calc)
+            ev_strength_concept['label'] = label
+            keys.update(ev_strength_concept.keys())
+            ev_strength_concept['pair'] = (prop, concept)
+            table.append(ev_strength_concept)
+        print('finished prop', prop)
+        
+    columns = ['label', 'prop-specific', 'non-specific', 'p', 'l', 'n', 'i', 'r', 'b', 'u']
+    columns = [c for c in columns if c in keys]
+    df = pd.DataFrame(table).set_index('pair')
+    # set nana to 0 before median
+    #df = df.fillna(0.0)
+    median = df.median(axis=0)
+    df.loc['median'] = median
+    df = df[columns]
 
-    data_specific = get_evidence_strength_props(ets, properties, 
-                                     model_name, top_cutoff, concept_cutoff)
+    return df
 
 
-    ets = ['i', 'r', 'b']
-    data_non_specific = get_evidence_strength_props(ets, properties, 
-                                     model_name, top_cutoff, concept_cutoff)
+def main():
+    
+    
+    model_names = ['giga_full_updated', 'wiki_updated']
+    #analysis_names = ['dist-mean', 'dist-max']
+    analysis_names = ['str-mean', 'str-max']
+    properties = utils.get_properties() 
+    for model_name in model_names:
+        for analysis_name in analysis_names:
+            if analysis_name.endswith('-mean'):
+                calc = 'mean'
+            elif analysis_name.endswith('-max'):
+                calc = 'max'
+        
+            # properties
+            level = 'properties'
+            print()
+            print(level)
+            df = get_evidence_strength_properties(model_name, calc)
+            # to file
+            path_dir = f'../analysis/{model_name}/{level}/'
+            os.makedirs(path_dir, exist_ok=True)
+            path_file = f'{path_dir}/{analysis_name}.csv'
+            df.to_csv(path_file)
+# 
+            # pairs
+            level = 'pairs'
+            print()
+            print(level)
+            df = get_evidence_strength_concepts(model_name, properties, calc)
+            # to file
+            path_dir = f'../analysis/{model_name}/pairs/'
+            os.makedirs(path_dir, exist_ok=True)
+            path_file = f'{path_dir}/{analysis_name}.csv'
+            df.to_csv(path_file)
 
-    for p, d in data_specific.items():
+            # relations
+            level = 'relations'
+            pair_score_dict = relations.load_scores(analysis_name, model_name)
+            df = relations.relation_overview(pair_score_dict)
+            # to file:
+            path_dir = f'../analysis/{model_name}/{level}/'
+            os.makedirs(path_dir, exist_ok=True)
+            path_file = f'{path_dir}/{analysis_name}.csv'
+            df.to_csv(path_file)
 
-        data[p] = dict()
-        data[p]['prop_specific'] = d['strength']
-        d_non_sp = data_non_specific[p]
-        data[p]['non_specific'] = d_non_sp['strength']
-    return data
+    
+if __name__ == '__main__':
+    main()
