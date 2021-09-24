@@ -43,7 +43,7 @@ def load_scores(analysis_name, model_name):
 
     path_dir = f'../analysis/{model_name}/pairs/'
     path_file = f'{path_dir}/{analysis_name}.csv'
-    df = pd.read_csv(path_file)#.fillna(0.0)
+    df = pd.read_csv(path_file)
 
     pair_score_dict = dict()
     for i, row in df.iterrows():

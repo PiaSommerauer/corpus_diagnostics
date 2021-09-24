@@ -2,7 +2,7 @@ import pandas as pd
 import csv
 import os
 import json
-
+import numpy as np
 
 def get_properties():
     properties = []
@@ -25,7 +25,7 @@ def load_evidence_type_dict(prop, model_name):
         evidence_type_dict[c] = t
     return evidence_type_dict
 
-def raw_to_distance(df, score_names, reference_name = 'median', percent =  False): 
+def raw_to_distance(df, score_names, reference_name = 'median', score =  'dist-percent', sum_scores = ['sum']): 
     
     df_dict = df.to_dict('index')
     df_dict_distance = dict()
@@ -38,19 +38,46 @@ def raw_to_distance(df, score_names, reference_name = 'median', percent =  False
         for k, v in d.items():
             if k in score_names:
                 median = median_dict[k]
-                dist =  v -  median
-                # distnace in percent:
-                dist_p = dist/median
-                if percent == False:
-                    d_distance[k] = dist
+                if v == 0.0:
+                    v = np.nan
+                    dist = np.nan
+                    dist_p = np.nan
                 else:
-                    d_distance[k] = dist_p
-            else:
-                d_distance[k] = v
+                    dist =  v -  median
+                    # distnace in percent:
+                    dist_p = dist/median
+                if score == 'dist-raw':
+                    d_distance[k] = dist
+                elif score == 'dist-percent':
+                    d_distance[k] = dist_p 
+                elif score == 'raw':
+                    d_distance[k] = v
             df_dict_distance[i] = d_distance
     df_dict_distance[reference_name+'-reference'] = median_dict
-    df_dist = pd.DataFrame(df_dict_distance).T
-    return df_dist
+    #df_dist = pd.DataFrame(df_dict_distance).T
+    
+    # sum values: 
+    summed_dict = dict()
+    for p, d  in df_dict_distance.items():
+        new_d = dict()
+        new_d.update(d)
+        
+        for sum_score in sum_scores:
+            if sum_score == 'sum':
+                # only sum non_nan values 
+                vals = [v for v in d.values() if not np.isnan(v)]
+                if len(vals) > 0:
+                    new_d[sum_score] = sum(vals)/len(vals)
+                else:
+                    new_d[sum_score] = np.nan
+            elif sum_score == 'bin':
+                total = len(d)
+                above_zero = len([s for s in d.values() if s > 0 and not np.isnan(s)])
+                new_d[sum_score] = above_zero
+        summed_dict[p] = new_d
+        
+    df_dist_sum = pd.DataFrame(summed_dict).T
+    return df_dist_sum
 
 
 def get_examples(model_name, prop, label):

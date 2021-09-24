@@ -43,8 +43,12 @@ def get_evidence_sim(evidence_type_dict, model):
         elif t in ['i', 'r', 'b']:
             t_c = 'non-specific'
             type_evidence_dict[t_c].append(c)
+        elif t == 'u':
+            t_c = 'u'
+            type_evidence_dict[t_c].append(c)
                  
     for t, contexts in type_evidence_dict.items():
+        print(t, len(contexts))
         mean_sim = get_mean_sim(model, contexts)
         evidence_sim_dict[t] = mean_sim
         
@@ -58,12 +62,15 @@ def get_evidence_sim_properties(model_name, model):
     properties = utils.get_properties()
 
     for prop in properties:
+        print('starting property', prop)
         evidence_type_dict = utils.load_evidence_type_dict(prop, model_name)
         evidence_sim = get_evidence_sim(evidence_type_dict, model)
         evidence_sim['property'] = prop
         table.append(evidence_sim)
+        print('finished prop', prop)
     
-    columns = ['prop-specific', 'non-specific'] #, 'p', 'l', 'n', 'i', 'r', 'b', 'u']
+    #columns = ['prop-specific', 'non-specific', 'p', 'l', 'n', 'i', 'r', 'b', 'u']
+    columns = ['prop-specific', 'non-specific', 'u']
     df = pd.DataFrame(table).set_index('property')[columns]
     # set nana to 0 before median
     #df = df.fillna(0.0)
@@ -97,7 +104,7 @@ def get_evidence_sim_concept_category(model_name, evidence_type_dict,
             if t in ['p', 'n', 'l']:
                 t_c = 'prop-specific'
                 evidence_context_dict[t_c].append(c)
-            # too much computing time:
+            #too much computing time:
 #             elif t in ['i', 'r', 'b']:
 #                 t_c = 'non-specific'
 #                 evidence_context_dict[t_c].append(c)
@@ -155,7 +162,7 @@ def get_evidence_sim_concepts(model_name, properties, model):
             table.append(ev_sim_concept)
         print('finished property:', prop)
         
-    columns = ['label', 'prop-specific']#, 'non-specific']#, 'p', 'l', 'n', 'i', 'r', 'b', 'u']
+    columns = ['label', 'prop-specific']#, 'non-specific'], 'p', 'l', 'n', 'i', 'r', 'b', 'u']
     columns = [c for c in columns if c in keys]
     df = pd.DataFrame(table).set_index('pair')
     # do not set to 0
@@ -202,25 +209,25 @@ def main():
         df.to_csv(path_file)
         print('analyzed', level)
         
-        #pairs
-        level = 'pairs'
-        df = get_evidence_sim_concepts(model_name, properties, model)
-        # to file
-        path_dir = f'../analysis/{model_name}/pairs/'
-        os.makedirs(path_dir, exist_ok=True)
-        path_file = f'{path_dir}/{analysis_name}.csv'
-        df.to_csv(path_file)
-        print('finished analysis:', level)
+#         #pairs
+#         level = 'pairs'
+#         df = get_evidence_sim_concepts(model_name, properties, model)
+#         # to file
+#         path_dir = f'../analysis/{model_name}/pairs/'
+#         os.makedirs(path_dir, exist_ok=True)
+#         path_file = f'{path_dir}/{analysis_name}.csv'
+#         df.to_csv(path_file)
+#         print('finished analysis:', level)
 
-        # relations
-        level = 'relations'
-        pair_score_dict = relations.load_scores(analysis_name, model_name)
-        df = relations.relation_overview(pair_score_dict)
-        # to file:
-        path_dir = f'../analysis/{model_name}/{level}/'
-        os.makedirs(path_dir, exist_ok=True)
-        path_file = f'{path_dir}/{analysis_name}.csv'
-        df.to_csv(path_file)
+#         # relations
+#         level = 'relations'
+#         pair_score_dict = relations.load_scores(analysis_name, model_name)
+#         df = relations.relation_overview(pair_score_dict)
+#         # to file:
+#         path_dir = f'../analysis/{model_name}/{level}/'
+#         os.makedirs(path_dir, exist_ok=True)
+#         path_file = f'{path_dir}/{analysis_name}.csv'
+#         df.to_csv(path_file)
        
         
         
