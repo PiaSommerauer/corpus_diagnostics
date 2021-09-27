@@ -56,13 +56,15 @@ def get_evidence_dist(prop, model_name, evidence_type_dict, calc):
     
     for c, t in evidence_type_dict.items():
         type_evidence_dict[t].append(c)
+        t_c = 'all'
+        type_evidence_dict[t_c].append(c)
         if t in ['p', 'n', 'l']:
             t_c = 'prop-specific'
             type_evidence_dict[t_c].append(c)
         elif t in ['i', 'r', 'b']:
             t_c = 'non-specific'
             type_evidence_dict[t_c].append(c)
-            
+     
     context_f1_dict = get_context_f1_dict_categories(prop, model_name)
     
     for t, contexts in type_evidence_dict.items():
@@ -132,7 +134,7 @@ def get_evidence_dist_properties(model_name, calc):
         evidence_dist['property'] = prop
         table.append(evidence_dist)
     
-    columns = ['prop-specific', 'non-specific', 'p', 'l', 'n', 'i', 'r', 'b', 'u']
+    columns = ['all', 'prop-specific', 'non-specific', 'p', 'l', 'n', 'i', 'r', 'b', 'u']
     df = pd.DataFrame(table).set_index('property')[columns]
     # set nana to 0 before median
     #df = df.fillna(0.0)
@@ -203,24 +205,24 @@ def main():
             path_file = f'{path_dir}/{analysis_name}.csv'
             df.to_csv(path_file)
             
-            # pairs
-            level = 'pairs'
-            df = get_evidence_dist_concepts(model_name, properties, calc)
-            # to file
-            path_dir = f'../analysis/{model_name}/pairs/'
-            os.makedirs(path_dir, exist_ok=True)
-            path_file = f'{path_dir}/{analysis_name}.csv'
-            df.to_csv(path_file)
+#             # pairs
+#             level = 'pairs'
+#             df = get_evidence_dist_concepts(model_name, properties, calc)
+#             # to file
+#             path_dir = f'../analysis/{model_name}/pairs/'
+#             os.makedirs(path_dir, exist_ok=True)
+#             path_file = f'{path_dir}/{analysis_name}.csv'
+#             df.to_csv(path_file)
 
-            # relations
-            level = 'relations'
-            pair_score_dict = relations.load_scores(analysis_name, model_name)
-            df = relations.relation_overview(pair_score_dict)
-            # to file:
-            path_dir = f'../analysis/{model_name}/{level}/'
-            os.makedirs(path_dir, exist_ok=True)
-            path_file = f'{path_dir}/{analysis_name}.csv'
-            df.to_csv(path_file)
+#             # relations
+#             level = 'relations'
+#             pair_score_dict = relations.load_scores(analysis_name, model_name)
+#             df = relations.relation_overview(pair_score_dict)
+#             # to file:
+#             path_dir = f'../analysis/{model_name}/{level}/'
+#             os.makedirs(path_dir, exist_ok=True)
+#             path_file = f'{path_dir}/{analysis_name}.csv'
+#             df.to_csv(path_file)
       
         
       

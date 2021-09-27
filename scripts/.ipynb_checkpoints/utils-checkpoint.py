@@ -73,7 +73,11 @@ def raw_to_distance(df, score_names, reference_name = 'median', score =  'dist-p
             elif sum_score == 'bin':
                 total = len(d)
                 above_zero = len([s for s in d.values() if s > 0 and not np.isnan(s)])
-                new_d[sum_score] = above_zero
+                total = len([s for s in d.values() if not np.isnan(s)])
+                if total > 0:
+                    new_d[sum_score] = above_zero/total
+                else:
+                    new_d[sum_score] = 0
         summed_dict[p] = new_d
         
     df_dist_sum = pd.DataFrame(summed_dict).T

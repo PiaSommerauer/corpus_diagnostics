@@ -3,8 +3,11 @@ import pandas as pd
 import numpy as np
 import csv
 import os
+import itertools
 
 from gensim.models import KeyedVectors
+
+from sklearn.metrics.pairwise import cosine_similarity
 
 import utils
 import relations
@@ -12,22 +15,81 @@ import relations
 
 def get_mean_sim(model, evidence_words):
     all_pairs = []
-    for e1 in evidence_words:
-        for e2 in evidence_words:
-            pair = {e1, e2}
-            if len(pair) ==2 and pair not in all_pairs:
-                all_pairs.append(pair)
-
-    all_similarities = []
-    for pair in all_pairs:
-        e1, e2 = list(pair)
-        sim = model.similarity(e1, e2)
-        all_similarities.append(sim)
-    if len(all_similarities) > 0:
-        mean_sim = sum(all_similarities)/len(all_similarities)
+    words1 = []
+    words2 = []
+    
+    # check if evidence words in model vocab:
+    evidence_words = [w for w in evidence_words if w in model.vocab]
+    
+    
+    print('creating pairs')
+    pairs = list(itertools.combinations(evidence_words, 2))
+    print('created pairs', len(pairs))
+    
+    
+    n_pairs = len(pairs)
+    size_batches = 10000
+    if n_pairs > size_batches:
+        n_batches = int(n_pairs/size_batches)
     else:
-        mean_sim = np.nan
-    return mean_sim
+        n_batches = 1
+
+    batch_ints= []
+    previous_end = 0
+    for n in range(n_batches):
+        start = previous_end 
+        end = start+(size_batches)
+        previous_end = end
+        batch_ints.append((start, end))
+    if previous_end < n_pairs:
+        batch_ints.append((previous_end, n_pairs))
+
+    
+    cos_sum = 0.0
+    print('starting batches for pairs:',   n_batches)
+    for start, end in batch_ints:
+        print('load vecs')
+        words1 = [model[w1] for w1, w2 in pairs[start:end]]
+        words2 = [model[w2] for w1, w2 in pairs[start:end]]
+        print('loaded vecs')
+
+        # make two matrices:
+
+
+        words1 = np.array(words1)
+        words2 = np.array(words2)
+
+        print(words1.shape)
+        print(words2.shape)
+
+        print('calculating cosine')
+
+        if len(words1) > 0 and len(words2) > 0:
+            results = cosine_similarity(words1, words2)
+            i = 0
+            for v in results:
+                #print(v, i)
+                cos = v[i]
+                i += 1
+                cos_sum+= cos
+        else:
+            cos_sum += 0
+    print('finished batches')
+    print('calculating mean', cos_sum, n_pairs)
+    
+    if cos_sum > 0.0:
+        cos_mean = cos_sum/n_pairs
+    else:
+        cos_mean = np.nan
+#         if len(evidence_words) == 1:
+#             cos_mean = 1.0
+#         else:
+#             cos_mean = 0.0
+        
+    print('finished calculating cosine')
+
+
+    return cos_mean
 
 
 def get_evidence_sim(evidence_type_dict, model):
@@ -37,6 +99,8 @@ def get_evidence_sim(evidence_type_dict, model):
     
     for c, t in evidence_type_dict.items():
         #type_evidence_dict[t].append(c)
+        t_c = 'all'
+        type_evidence_dict[t_c].append(c)
         if t in ['p', 'n', 'l']:
             t_c = 'prop-specific'
             type_evidence_dict[t_c].append(c)
@@ -46,6 +110,7 @@ def get_evidence_sim(evidence_type_dict, model):
         elif t == 'u':
             t_c = 'u'
             type_evidence_dict[t_c].append(c)
+            
                  
     for t, contexts in type_evidence_dict.items():
         print(t, len(contexts))
@@ -70,7 +135,7 @@ def get_evidence_sim_properties(model_name, model):
         print('finished prop', prop)
     
     #columns = ['prop-specific', 'non-specific', 'p', 'l', 'n', 'i', 'r', 'b', 'u']
-    columns = ['prop-specific', 'non-specific', 'u']
+    columns = ['all', 'prop-specific', 'non-specific', 'u', 'all']
     df = pd.DataFrame(table).set_index('property')[columns]
     # set nana to 0 before median
     #df = df.fillna(0.0)
