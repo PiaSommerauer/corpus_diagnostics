@@ -68,6 +68,9 @@ def get_evidence_strength(prop, model_name, evidence_type_dict, calc):
         elif t in ['i', 'r', 'b']:
             t_c = 'non-specific'
             type_evidence_dict[t_c].append(c)
+        if t  in ['p', 'n', 'l', 'i', 'r', 'b']:
+            t_c = 'all-p'
+            type_evidence_dict[t_c].append(c)
             
 
     concept_label_dict = dict()
@@ -147,7 +150,7 @@ def get_evidence_strength_properties(model_name, calc):
         table.append(evidence_strength)
         print('finished prop', prop)
     
-    columns = ['all', 'prop-specific', 'non-specific', 'p', 'l', 'n', 'i', 'r', 'b', 'u']
+    columns = ['all', 'all-p', 'prop-specific', 'non-specific', 'p', 'l', 'n', 'i', 'r', 'b', 'u']
     df = pd.DataFrame(table).set_index('property')[columns]
     # set nana to 0 before median
     #df = df.fillna(0.0)
@@ -208,17 +211,17 @@ def main():
             elif analysis_name.endswith('-max'):
                 calc = 'max'
         
-            # properties
-            level = 'properties'
-            print()
-            print(level)
-            df = get_evidence_strength_properties(model_name, calc)
-            # to file
-            path_dir = f'../analysis/{model_name}/{level}/'
-            os.makedirs(path_dir, exist_ok=True)
-            path_file = f'{path_dir}/{analysis_name}.csv'
-            df.to_csv(path_file)
-# # 
+#             # properties
+#             level = 'properties'
+#             print()
+#             print(level)
+#             df = get_evidence_strength_properties(model_name, calc)
+#             # to file
+#             path_dir = f'../analysis/{model_name}/{level}/'
+#             os.makedirs(path_dir, exist_ok=True)
+#             path_file = f'{path_dir}/{analysis_name}.csv'
+#             df.to_csv(path_file)
+# # # 
 #             # pairs
 #             level = 'pairs'
 #             print()
@@ -230,15 +233,26 @@ def main():
 #             path_file = f'{path_dir}/{analysis_name}.csv'
 #             df.to_csv(path_file)
 
-#             # relations
-#             level = 'relations'
-#             pair_score_dict = relations.load_scores(analysis_name, model_name)
-#             df = relations.relation_overview(pair_score_dict)
-#             # to file:
-#             path_dir = f'../analysis/{model_name}/{level}/'
-#             os.makedirs(path_dir, exist_ok=True)
-#             path_file = f'{path_dir}/{analysis_name}.csv'
-#             df.to_csv(path_file)
+            # relations
+            level = 'relations'
+            pair_score_dict = relations.load_scores(analysis_name, model_name)
+            df = relations.relation_overview(pair_score_dict)
+            # to file:
+            path_dir = f'../analysis/{model_name}/{level}/'
+            os.makedirs(path_dir, exist_ok=True)
+            path_file = f'{path_dir}/{analysis_name}.csv'
+            df.to_csv(path_file)
+            
+            # relations - hyp
+            level = 'relations-hyp'
+
+            df = relations.relation_overview(pair_score_dict, mode = 'hyp')
+            
+            # to file:
+            path_dir = f'../analysis/{model_name}/{level}/'
+            os.makedirs(path_dir, exist_ok=True)
+            path_file = f'{path_dir}/{analysis_name}.csv'
+            df.to_csv(path_file)
 
     
 if __name__ == '__main__':

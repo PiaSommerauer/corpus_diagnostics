@@ -64,6 +64,9 @@ def get_evidence_dist(prop, model_name, evidence_type_dict, calc):
         elif t in ['i', 'r', 'b']:
             t_c = 'non-specific'
             type_evidence_dict[t_c].append(c)
+        if t  in ['p', 'n', 'l', 'i', 'r', 'b']:
+            t_c = 'all-p'
+            type_evidence_dict[t_c].append(c)
      
     context_f1_dict = get_context_f1_dict_categories(prop, model_name)
     
@@ -134,7 +137,7 @@ def get_evidence_dist_properties(model_name, calc):
         evidence_dist['property'] = prop
         table.append(evidence_dist)
     
-    columns = ['all', 'prop-specific', 'non-specific', 'p', 'l', 'n', 'i', 'r', 'b', 'u']
+    columns = ['all', 'all-p', 'prop-specific', 'non-specific', 'p', 'l', 'n', 'i', 'r', 'b', 'u']
     df = pd.DataFrame(table).set_index('property')[columns]
     # set nana to 0 before median
     #df = df.fillna(0.0)
@@ -170,7 +173,7 @@ def get_evidence_dist_concepts(model_name, properties, calc):
             table.append(ev_dist_concept)
         print('finished prop', prop)
         
-    columns = ['label', 'prop-specific', 'non-specific', 'p', 'l', 'n', 'i', 'r', 'b', 'u']
+    columns = ['label', 'all-p', 'prop-specific', 'non-specific', 'p', 'l', 'n', 'i', 'r', 'b', 'u']
     columns = [c for c in columns if c in keys]
     df = pd.DataFrame(table).set_index('pair')
     # set nana to 0 before median

@@ -25,6 +25,9 @@ def get_evidence_prop_div(evidence_type_dict, cnt = 'prop'):
         elif t in ['i', 'r', 'b']:
             t_c = 'non-specific'
             type_evidence_dict[t_c].append(c)
+        if t  in ['p', 'n', 'l', 'i', 'r', 'b']:
+            t_c = 'all-p'
+            type_evidence_dict[t_c].append(c)
         
     n_candidates = len(evidence_type_dict.keys())
                  
@@ -66,6 +69,9 @@ def get_evidence_prop_div_concept_category(model_name, evidence_type_dict,
                 #print(concept, c, label)
             elif t in ['i', 'r', 'b']:
                 t_c = 'non-specific'
+                evidence_context_dict[t_c].append(c)
+            if t  in ['p', 'n', 'l', 'i', 'r', 'b']:
+                t_c = 'all-p'
                 evidence_context_dict[t_c].append(c)
     for t, contexts in evidence_context_dict.items():
         n_contexts = len(contexts)
@@ -113,7 +119,7 @@ def get_evidence_prop_div_properties(model_name, cnt):
         evidence_prop['property'] = prop
         table.append(evidence_prop)
     
-    columns = ['all', 'prop-specific', 'non-specific', 'p', 'l', 'n', 'i', 'r', 'b', 'u']
+    columns = ['all', 'all-p', 'prop-specific', 'non-specific', 'p', 'l', 'n', 'i', 'r', 'b', 'u']
     df = pd.DataFrame(table).set_index('property')[columns]
     # set nana to 0 before median
     df = df.fillna(0.0)
@@ -178,13 +184,13 @@ def main():
                 cnt = 'div'
         
             #properties
-            level = 'properties'
-            df = get_evidence_prop_div_properties(model_name, cnt)
-            # to file:
-            path_dir = f'../analysis/{model_name}/{level}/'
-            os.makedirs(path_dir, exist_ok=True)
-            path_file = f'{path_dir}/{analysis_name}.csv'
-            df.to_csv(path_file)
+#             level = 'properties'
+#             df = get_evidence_prop_div_properties(model_name, cnt)
+#             # to file:
+#             path_dir = f'../analysis/{model_name}/{level}/'
+#             os.makedirs(path_dir, exist_ok=True)
+#             path_file = f'{path_dir}/{analysis_name}.csv'
+#             df.to_csv(path_file)
           
 
 #             # pairs
@@ -197,16 +203,21 @@ def main():
 #             df.to_csv(path_file)
 #             print('finished', analysis_name, level)
         
-#             # relations
-#             level = 'relations'
-#             pair_score_dict = relations.load_scores(analysis_name, model_name)
-#             df = relations.relation_overview(pair_score_dict)
+            # relations - strict
+            level = 'relations'
+            pair_score_dict = relations.load_scores(analysis_name, model_name)
+            df = relations.relation_overview(pair_score_dict, mode= 'strict')
             
-#             # to file:
-#             path_dir = f'../analysis/{model_name}/{level}/'
-#             os.makedirs(path_dir, exist_ok=True)
-#             path_file = f'{path_dir}/{analysis_name}.csv'
-#             df.to_csv(path_file)
+            # relations - hyp
+            level = 'relations-hyp'
+
+            df = relations.relation_overview(pair_score_dict, mode = 'hyp')
+            
+            # to file:
+            path_dir = f'../analysis/{model_name}/{level}/'
+            os.makedirs(path_dir, exist_ok=True)
+            path_file = f'{path_dir}/{analysis_name}.csv'
+            df.to_csv(path_file)
           
             
 

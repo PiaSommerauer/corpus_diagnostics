@@ -110,6 +110,9 @@ def get_evidence_sim(evidence_type_dict, model):
         elif t == 'u':
             t_c = 'u'
             type_evidence_dict[t_c].append(c)
+        if t  in ['p', 'n', 'l', 'i', 'r', 'b']:
+            t_c = 'all-p'
+            type_evidence_dict[t_c].append(c)
             
                  
     for t, contexts in type_evidence_dict.items():
@@ -135,7 +138,7 @@ def get_evidence_sim_properties(model_name, model):
         print('finished prop', prop)
     
     #columns = ['prop-specific', 'non-specific', 'p', 'l', 'n', 'i', 'r', 'b', 'u']
-    columns = ['all', 'prop-specific', 'non-specific', 'u', 'all']
+    columns = ['all', 'all-p', 'prop-specific', 'non-specific', 'u']
     df = pd.DataFrame(table).set_index('property')[columns]
     # set nana to 0 before median
     #df = df.fillna(0.0)

@@ -1,5 +1,6 @@
 from itertools import permutations
 from collections import defaultdict
+import utils
 
 import os
 import numpy as np
@@ -31,6 +32,38 @@ def load_relation_pairs(combination, order=True):
     return all_pairs
 
 
+
+def load_relation_pairs_hyp(target_rel):
+    rels_evidence = {'typical_of_property', 'variability_limited',  'afforded_usual', 'affording_activity'}
+    rels_no_evidence = {'typical_of_concept', 'afforded_unusual', 'implied_category', 'variability_open'}
+    target_rel = target_rel[0]
+    # find combinations in which only one relation is associated with evidence
+    # if no relation is associated with evidence, take the top non-evidence relation
+    all_pairs = set()
+    path_dir = '../data/relations'
+    all_files = os.listdir(path_dir)
+    for f in all_files:
+        rels = f.split('.')[0].split('-')
+        #print(rels)
+        if target_rel in rels:
+            rels_ev = [r for r in rels if r in rels_evidence]
+            if len(rels_ev) == 1 and target_rel == rels_ev[0]:
+                #load data
+                with open(f'{path_dir}/{f}') as infile:
+                    lines = infile.read().strip().split('\n')
+                    all_pairs.update([tuple(l.split(',')) for l in lines])
+            else:
+                # only take if isolated or top:
+                if rels[0] == target_rel:
+                    with open(f'{path_dir}/{f}') as infile:
+                        lines = infile.read().strip().split('\n')
+                    all_pairs.update([tuple(l.split(',')) for l in lines])
+                    
+                
+        
+    return all_pairs
+
+
 def str_to_tuple(pair_str):
     
     pair_str = pair_str.strip('(').strip(')').replace("'", '')
@@ -54,7 +87,7 @@ def load_scores(analysis_name, model_name):
     return pair_score_dict
 
 
-def relation_overview(pair_score_dict):
+def relation_overview(pair_score_dict, mode = 'strict'):
 
     relations =  ['pos', 'neg', 'all', 'some', 'few',
                          'evidence', 'no_evidence_pos', 'no_evidence_neg',
@@ -67,7 +100,10 @@ def relation_overview(pair_score_dict):
 
     table = []
     for rel in relations:
-        pairs = load_relation_pairs([rel], order=False)
+        if mode == 'strict':
+            pairs = load_relation_pairs([rel], order=True)
+        elif mode == 'hyp':
+            pairs = load_relation_pairs_hyp([rel])
         scores = []
         for pair in pairs:
             if pair in pair_score_dict.keys():
@@ -103,6 +139,8 @@ def relations_to_file(properties):
                 l = 'pos'
             elif ml_label in {'few'}:
                 l = 'neg' 
+            else:
+                l = 'no-label'
             relation_pair_dict[(l,)].add((prop, c))
 
             # sort by subset of instances
@@ -116,38 +154,43 @@ def relations_to_file(properties):
 
             # sort relations:
             rel_dict = d['relations']
-            prop_rel_dict = defaultdict(list)
+            p_rel_dict = defaultdict(list)
             for rel, p in rel_dict.items():
-                prop_rel_dict[p].append(rel)
-            pos_props = sorted(list(prop_rel_dict.keys()), reverse=True)
-            relations = []
-            for p in pos_props:
                 if p > 0.5:
-                    relations.extend(prop_rel_dict[p])
-            relations = tuple(relations)
-            relation_pair_dict[relations].add((prop, c))
+                    p_rel_dict[p].append(rel)
+            sorted_p = sorted(list(p_rel_dict.keys()), reverse=True)
+            rel_comb = []
+            for p in sorted_p:
+                rels = sorted(p_rel_dict[p])
+                # join if the same score
+                rels = '__'.join(rels)
+                rel_comb.append(rels)
+            rel_comb_t = tuple(rel_comb)
+            relation_pair_dict[rel_comb_t].add((prop, c))
 
-            # sort relations according to hypotheses
-            relations = [rel for rel, p in rel_dict.items() if p > 0.5]
-            rel_ev = [rel for rel in relations if rel in rels_evidence]
-            rel_no_ev  = [rel for rel in relations if rel in rels_no_evidence]
+            rel_ev = [rel for rel in rel_comb if rel in rels_evidence]
+            rel_no_ev  = [rel for rel in rel_comb if rel in rels_no_evidence]
 
-            if len(rel_ev) > 0:
+            if len(rel_ev) > 0 and l=='pos':
                 hyp = 'evidence'
-            elif len(rel_no_ev) > 0:
+            elif len(rel_no_ev) > 0 and l=='pos':
                 hyp = 'no_evidence_pos'
-            else:
+            elif l == 'neg' and len(rel_ev) == 0 and len(rel_no_ev) ==  0:
                 hyp = 'no_evidence_neg'
+            else:
+                hyp  = 'no-hyp'
             relation_pair_dict[(hyp, )].add((prop, c))
-
-        # to file
-        for rel, pairs in relation_pair_dict.items():
             
-            name = '-'.join(rel)
-            path = f'{path_dir}/{name}.txt'
-            with open(path,  'w') as outfile:
-                for prop, c in pairs:
-                    outfile.write(f'{prop},{c}\n')
+    print(len(relation_pair_dict[('evidence',)]) + len(relation_pair_dict[('no_evidence_pos',)]))
+
+    # to file
+    for rel, pairs in relation_pair_dict.items():
+
+        name = '-'.join(rel)
+        path = f'{path_dir}/{name}.txt'
+        with open(path,  'w') as outfile:
+            for prop, c in pairs:
+                outfile.write(f'{prop},{c}\n')
                     
                     
 if __name__ == '__main__':
