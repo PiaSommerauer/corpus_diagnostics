@@ -26,7 +26,7 @@ holding,u,measure
 beside,u,measure
 between,u,measure
 every,u,cold measure food
-finger,u,measure
+finger,i,measure
 knife,u,measure
 pale,u,communication measure
 lay,u,cold measure
@@ -248,14 +248,14 @@ even,u,food
 not,u,food
 lemon,u,food
 frozen,n,communication object food all
-cake,u,food
-fruit,u,food
+cake,i,food
+fruit,i,food
 pour,u,food
 out,u,food
 glasses,i,food
 can,i,food
 up,u,cold food
-0,NA,cold food
+0,u,cold food
 had,u,food
 on,u,cold food
 fried,u,food
@@ -496,7 +496,7 @@ prints,u,communication
 mineral,u,communication
 spot,u,communication
 seal,u,communication
-mud,u,communication cold
+mud,i,communication cold
 falls,u,communication
 shipped,u,communication
 cracks,u,communication
@@ -1053,7 +1053,7 @@ resort,u,cold
 built,u,cold
 shut,u,cold
 sea,u,cold
-river,u,cold
+river,i,cold
 kingdom,u,cold
 systems,u,cold
 tourist,u,cold

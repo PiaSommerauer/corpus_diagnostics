@@ -1,0 +1,179 @@
+context,evidence_type,categories
+black, ,relation
+shaped, ,relation
+towering, ,relation
+gold, ,relation
+metal, ,relation
+shiny, ,relation
+inch, ,relation
+bearing, ,relation
+trees, ,relation
+surrounding, ,relation
+texas, ,relation
+million, ,relation
+picked, ,relation
+leading, ,relation
+dates, ,relation
+fingers, ,relation
+shade, ,relation
+named, ,relation
+tree, ,relation
+history, ,relation
+le, ,bird
+marie, ,bird
+ink, ,bird
+pal, ,bird
+jean, ,bird
+ballpoint, ,bird
+stroke, ,bird
+paper, ,bird
+fountain, ,bird
+veto, ,bird
+pals, ,bird
+pilot, ,bird
+chirac, ,bird
+pen, ,bird
+poison, ,bird
+faulkner, ,bird
+name, ,bird
+notebook, ,bird
+pencil, ,bird
+front, ,bird
+spinach, ,fruit
+my, ,fruit
+fruits, ,fruit object plant
+eating, ,fruit
+now, ,fruit
+watermelon, ,fruit
+about, ,fruit food
+using, ,fruit
+try, ,fruit plant
+garden, ,fruit plant
+bottom, ,fruit
+patch, ,fruit plant
+tasty, ,fruit
+first, ,fruit food all
+thing, ,fruit
+come, ,fruit
+stone, ,fruit
+largest, ,fruit
+refers, ,fruit
+eat, ,fruit
+ii, ,animal
+championships, ,animal
+champion, ,animal
+organization, ,animal
+holder, ,animal
+finals, ,animal
+series, ,animal
+championship, ,animal
+record, ,animal
+organisation, ,animal
+qualifying, ,animal
+champions, ,animal
+title, ,animal
+number, ,animal
+forum, ,animal
+center, ,animal
+as, ,animal
+soccer, ,animal
+has, ,animal
+second, ,animal
+also, ,food all
+between, ,food all
+pastry, ,food
+tops, ,food
+humble, ,food all
+pear, ,food
+half, ,food
+18, ,food
+15, ,food all
+almond, ,food
+edge, ,food
+firm, ,food
+passion, ,food object all
+grape, ,food
+another, ,food
+did, ,food
+known, ,food
+third, ,food
+money, ,measure
+shot, ,measure
+apples, ,measure
+roll, ,measure
+plates, ,measure
+beginning, ,measure
+23, ,measure
+main, ,measure
+remember, ,measure
+briefly, ,measure
+throughout, ,measure
+return, ,measure
+large, ,measure
+amount, ,measure
+do, ,measure
+place, ,measure
+outside, ,measure
+minutes, ,measure
+shrimp, ,measure
+deep, ,measure
+dog, ,round
+tossing, ,round
+toss, ,round
+playing, ,round
+disc, ,round
+throw, ,round
+sized, ,round
+play, ,round
+catch, ,round
+like, ,round
+golf, ,round
+played, ,round
+size, ,round
+flying, ,round
+beach, ,round
+fetch, ,round
+thrown, ,round
+morrison, ,round
+toys, ,round
+the, ,round
+annual, ,object all
+growing, ,object plant all
+combination, ,object
+however, ,object all
+avoid, ,object all
+bright, ,object
+palm, ,object all
+ones, ,object plant
+72, ,object
+concerned, ,object
+largely, ,object
+past, ,object
+unique, ,object
+circle, ,object
+column, ,object
+boss, ,object all
+determined, ,object
+ideas, ,object
+leaves, ,plant
+vegetables, ,plant
+sauteed, ,plant
+squash, ,plant
+pumpkin, ,plant
+ground, ,plant
+thick, ,plant
+thin, ,plant
+greens, ,plant
+leaf, ,plant
+ham, ,plant
+juice, ,plant
+bell, ,plant
+less, ,plant
+ring, ,all
+will, ,all
+types, ,all
+not, ,all
+mountain, ,all
+town, ,all
+holes, ,all
+jerry, ,all

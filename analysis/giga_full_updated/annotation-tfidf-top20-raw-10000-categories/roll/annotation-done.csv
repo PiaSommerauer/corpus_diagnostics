@@ -1,0 +1,182 @@
+context,evidence_type,categories
+the,u,weapon relation tool
+blocks,u,relation
+of,u,relation
+from,u,relation
+pool,u,relation
+iron,u,mammal relation animal
+old,u,relation
+wooden,u,relation
+across,u,relation
+garden,u,relation
+empty,u,relation
+bearing,u,relation
+damaged,u,relation
+into,u,weapon relation communication
+space,u,relation
+will,u,relation
+five,u,relation all
+been,u,relation animal
+big,u,relation animal
+central,u,relation
+ramp,r,vehicle
+ride,r,vehicle
+wheels,l,vehicle
+his,u,vehicle
+shop,u,vehicle
+on,u,vehicle
+bicycle,i,vehicle
+rides,r,vehicle
+to,u,vehicle
+and,u,tool vehicle
+rider,r,vehicle
+jump,u,vehicle
+wheel,l,vehicle
+boy,u,vehicle
+racing,r,vehicle
+toy,i,vehicle
+boys,u,vehicle
+driveway,r,vehicle
+gear,u,vehicle
+dirt,u,vehicle
+he,u,tool
+when,u,tool
+what,u,tool no-cat
+they,u,tool
+0,u,tool
+witnesses,u,tool
+we,u,tool
+him,u,tool
+that,u,tool
+she,u,tool
+never,u,tool
+as,u,tool
+it,u,tool
+which,u,tool
+looked,u,tool
+in,u,tool
+bodies,u,tool
+was,u,tool
+fat,u,mammal animal
+raising,u,animal
+heart,u,animal
+headed,u,animal
+feet,u,animal
+whole,u,animal
+pit,u,animal
+industry,u,animal
+products,u,animal
+traditional,u,animal
+chinese,u,animal
+year,u,animal
+test,u,animal
+steel,u,animal
+at,u,animal
+china,u,animal
+banned,u,animal
+yard,u,no-cat
+official,u,no-cat
+30,u,no-cat all
+week,u,no-cat
+past,u,no-cat
+spent,u,no-cat object all
+home,u,no-cat
+spends,u,no-cat
+walls,u,no-cat
+pair,u,no-cat
+house,u,no-cat
+sort,u,no-cat
+throw,u,no-cat
+equivalent,u,no-cat
+children,u,no-cat
+loved,u,no-cat
+ninth,u,no-cat
+notes,u,no-cat
+beat,u,no-cat
+drop,u,measure
+filled,u,measure
+poured,u,measure
+bottom,u,weapon measure
+fish,u,measure
+containing,u,measure
+wine,u,measure
+50,u,measure
+collecting,u,measure
+liquid,u,measure
+dropping,u,measure
+glasses,u,measure
+12,u,measure
+99,u,measure
+sold,u,measure
+amp,u,measure
+available,u,measure
+person,u,measure
+butter,u,measure
+also,u,measure
+mine,u,weapon communication
+coal,u,communication
+flooded,u,communication
+trapped,u,weapon communication
+rescuers,u,communication
+shaft,u,communication
+rescue,u,communication
+deep,u,weapon communication
+meters,u,weapon communication
+drill,u,communication
+working,u,weapon communication
+beneath,u,communication
+escape,u,weapon communication
+water,u,weapon communication
+entrance,u,communication
+meter,u,communication
+theme,u,communication
+cage,u,weapon communication
+tunnel,u,communication
+collapsed,u,weapon
+drive,u,weapon
+drilling,u,weapon
+drilled,u,weapon
+lift,u,weapon
+down,r,weapon
+blind,u,weapon
+steering,u,weapon
+where,u,weapon
+guinea,u,mammal
+farms,u,mammal
+pig,u,mammal
+farm,u,mammal
+farmer,u,mammal
+farmers,u,mammal
+lipstick,u,mammal
+organs,u,mammal
+pork,u,mammal
+porky,u,mammal
+roast,u,mammal
+babe,u,mammal
+pigs,u,mammal
+prophet,u,mammal
+suckling,u,mammal
+poke,u,mammal
+cells,u,mammal
+roasted,u,mammal
+35,u,object all
+pretty,u,object all
+locked,u,object all
+40,u,object all
+half,u,object all
+better,u,object all
+20,u,object all
+return,u,object all
+wrapped,u,object
+2000,u,object all
+19,u,object
+22,u,object
+per,u,object all
+46,u,object all
+1999,u,object all
+different,u,object
+15,u,object all
+recently,u,object all
+same,u,object all
+10,u,all
+compared,u,all

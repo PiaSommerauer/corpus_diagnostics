@@ -1,0 +1,196 @@
+context,evidence_type,categories
+lime, ,relation fruit communication
+juice, ,relation fruit plant
+vinegar, ,relation communication
+drain, ,relation
+along, ,relation
+lobster, ,relation animal
+fragrant, ,relation
+dried, ,relation
+substitute, ,relation
+grapefruit, ,relation food object all
+tomato, ,relation
+garlic, ,relation
+fresh, ,relation fruit
+teaspoons, ,relation
+parsley, ,relation
+canned, ,relation fish
+onion, ,relation
+grapes, ,relation
+juices, ,relation fruit food object plant all
+puree, ,relation
+for, ,vegetable
+bright, ,vegetable food object
+simple, ,vegetable
+60, ,vegetable
+end, ,vegetable
+little, ,vegetable
+coat, ,vegetable
+better, ,vegetable
+fruit, ,vegetable fruit food object plant all
+soups, ,vegetable
+color, ,vegetable
+growing, ,vegetable
+depth, ,vegetable
+open, ,vegetable
+big, ,vegetable
+half, ,vegetable
+banana, ,vegetable plant
+does, ,vegetable
+turn, ,vegetable
+out, ,vegetable
+pineapple, ,fruit food object plant all
+wine, ,fruit
+orange, ,fruit food object plant all
+ripe, ,fruit food object plant all
+red, ,fruit object all
+fruits, ,fruit food object plant all
+lemon, ,fruit communication
+like, ,fruit fish object plant all
+strawberries, ,fruit
+flavors, ,fruit food communication object all
+cherry, ,fruit food communication object plant all
+sweet, ,fruit
+citrus, ,fruit food object plant all
+berries, ,fruit
+watermelon, ,fruit
+mill, ,juicy
+mongering, ,juicy
+innuendo, ,juicy
+false, ,juicy
+speculation, ,juicy
+heard, ,juicy
+circulating, ,juicy
+mongers, ,juicy
+that, ,juicy
+truth, ,juicy
+circulated, ,juicy
+unfounded, ,juicy
+spreading, ,juicy
+spread, ,juicy
+denied, ,juicy
+persistent, ,juicy
+gossip, ,juicy
+rumor, ,juicy
+it, ,juicy
+there, ,juicy
+mango, ,food object all
+papaya, ,food object plant all
+melon, ,food all
+peach, ,food communication plant
+among, ,food object all
+tropical, ,food
+apple, ,food all
+drink, ,food object
+sweetness, ,food
+shrimp, ,animal fish
+salad, ,animal no-cat
+mixture, ,animal
+each, ,animal
+bacon, ,animal
+grilled, ,mammal animal no-cat
+smoked, ,animal
+chicken, ,animal no-cat
+lamb, ,animal no-cat
+corn, ,mammal animal
+fry, ,animal
+stuffed, ,animal
+perfect, ,animal
+on, ,mammal animal
+from, ,animal
+recipes, ,animal
+hook, ,animal
+90, ,animal
+plant, ,animal
+fried, ,no-cat
+soup, ,no-cat
+cooked, ,no-cat
+beef, ,no-cat
+cups, ,no-cat
+roasted, ,no-cat
+add, ,no-cat
+sauce, ,no-cat communication
+pieces, ,no-cat
+dish, ,no-cat
+recipe, ,no-cat
+frozen, ,no-cat
+or, ,no-cat
+eating, ,no-cat
+baked, ,no-cat
+eat, ,no-cat
+boats, ,measure
+grounds, ,measure
+pulling, ,measure
+symbol, ,measure
+wrap, ,measure
+consistency, ,measure
+industry, ,measure
+could, ,measure
+catch, ,measure
+japanese, ,measure
+countries, ,measure
+ranging, ,measure
+tonight, ,measure
+means, ,measure
+few, ,measure
+grade, ,measure
+wraps, ,measure
+fair, ,measure
+10, ,measure
+generally, ,measure
+jam, ,communication plant
+chocolate, ,communication
+strawberry, ,communication
+blackberry, ,communication
+vinaigrette, ,communication
+cream, ,communication
+cake, ,communication
+preserves, ,communication
+coulis, ,communication
+seedless, ,communication
+flavored, ,communication
+sorbet, ,communication plant
+vanilla, ,communication
+cans, ,fish
+anchovy, ,fish
+cannery, ,fish
+sardine, ,fish
+packed, ,fish
+canneries, ,fish
+tin, ,fish
+toast, ,fish
+squid, ,fish
+canning, ,fish
+hake, ,fish
+fishery, ,fish
+fish, ,fish
+fishing, ,fish
+mackerel, ,fish
+tins, ,fish
+sandwich, ,fish
+kernels, ,mammal
+cos, ,mammal
+melchor, ,mammal
+castro, ,mammal
+bolivian, ,mammal
+conn, ,mammal
+potatoes, ,mammal
+bourse, ,mammal
+the, ,mammal
+nam, ,mammal
+cob, ,mammal
+knife, ,mammal
+watchdog, ,mammal
+oven, ,mammal
+cut, ,mammal
+ears, ,mammal
+regulator, ,mammal
+picking, ,object all
+juicy, ,object
+passion, ,object plant
+is, ,plant
+now, ,plant
+of, ,plant
+punch, ,plant
+restaurant, ,all
+garden, ,all

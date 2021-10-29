@@ -1,0 +1,258 @@
+context,evidence_type,categories
+paint, ,relation
+attached, ,relation
+hammer, ,relation
+color, ,relation
+gave, ,relation
+era, ,relation
+recalled, ,relation
+colored, ,relation animal
+covered, ,relation
+then, ,relation
+edges, ,relation
+colors, ,relation
+blue, ,relation animal blue all
+tipped, ,relation all
+narrow, ,relation
+chip, ,relation
+lightly, ,relation
+sharp, ,relation
+thin, ,relation
+fashion, ,relation
+carrying, ,vehicle communication all
+passengers, ,vehicle
+passenger, ,vehicle
+ride, ,vehicle
+tour, ,vehicle
+boarded, ,vehicle
+stop, ,vehicle
+traveling, ,vehicle
+accident, ,vehicle
+crashed, ,vehicle
+rides, ,vehicle
+speeding, ,vehicle
+riding, ,vehicle
+people, ,vehicle
+tours, ,vehicle
+packed, ,vehicle
+tourists, ,measure vehicle
+metro, ,vehicle
+route, ,vehicle
+heading, ,vehicle
+tip, ,vegetable
+titanic, ,vegetable
+sank, ,vegetable
+1912, ,vegetable
+maiden, ,vegetable
+liner, ,vegetable
+just, ,vegetable
+an, ,vegetable
+antarctic, ,vegetable
+struck, ,vegetable
+ship, ,vegetable
+antarctica, ,vegetable
+atlantic, ,vegetable
+hitting, ,vegetable
+hit, ,bird vegetable
+only, ,vegetable fish
+voyage, ,vegetable
+striking, ,vegetable plant
+collision, ,vegetable
+newfoundland, ,vegetable
+yellow, ,bird animal
+may, ,bird
+pet, ,bird
+saved, ,bird animal
+featuring, ,bird
+created, ,bird
+colorful, ,bird animal object all
+money, ,bird
+book, ,bird
+bright, ,bird animal
+cage, ,bird
+which, ,bird fish
+india, ,bird
+lives, ,bird communication
+rare, ,bird
+spent, ,bird
+remains, ,bird
+cats, ,bird
+recently, ,bird
+jelly, ,fruit
+cherry, ,fruit
+flavors, ,fruit
+raspberry, ,fruit
+blackberry, ,fruit
+scones, ,fruit
+cedar, ,fruit food
+strawberry, ,fruit
+chocolate, ,fruit
+currant, ,fruit
+bushes, ,fruit
+flavored, ,fruit
+cassis, ,fruit
+aromas, ,fruit
+wine, ,measure fruit
+flavor, ,fruit
+tea, ,measure fruit
+cranberry, ,fruit
+berries, ,fruit
+vodka, ,fruit
+european, ,animal
+scale, ,animal object
+fish, ,animal fish
+birds, ,animal female
+liquor, ,animal
+trout, ,animal fish
+clear, ,animal object all
+flies, ,animal
+smaller, ,animal
+various, ,animal object all
+meal, ,animal fish
+shop, ,animal
+painful, ,animal
+butterfly, ,animal
+lake, ,food blue
+waves, ,food
+sweeping, ,food
+generations, ,food
+wildlife, ,food
+450, ,food
+specialist, ,food
+poses, ,food
+port, ,food
+steaming, ,food
+ban, ,food
+cultivated, ,food plant
+eastern, ,food
+protected, ,food
+counting, ,food
+forests, ,food
+reaches, ,food
+waste, ,food
+feet, ,food blue
+drinking, ,measure
+coffee, ,measure
+act, ,measure
+tap, ,measure
+making, ,measure
+would, ,measure
+seeing, ,measure
+allowing, ,measure
+slowly, ,measure
+warm, ,measure
+entire, ,measure
+20th, ,measure
+japanese, ,measure
+heart, ,measure
+sunny, ,measure
+million, ,measure
+rainbow, ,measure
+flu, ,female
+h5n1, ,female
+strain, ,female
+outbreak, ,female
+nest, ,female
+virus, ,female
+outbreaks, ,female
+larry, ,female
+poultry, ,female
+infected, ,female
+pandemic, ,female
+migratory, ,female
+species, ,female
+detected, ,female
+bird, ,female
+human, ,female
+deadly, ,female
+cases, ,female
+spread, ,female
+taxi, ,communication
+19, ,communication
+16, ,communication
+parks, ,communication
+village, ,communication
+magic, ,object communication all
+bag, ,communication
+passes, ,communication
+fatal, ,communication
+mile, ,communication blue
+broke, ,communication
+42, ,communication
+watched, ,communication
+cape, ,communication
+suspicious, ,communication
+taipei, ,communication
+teenage, ,communication
+joined, ,communication
+resort, ,blue
+black, ,blue
+into, ,blue
+city, ,blue
+hotel, ,blue
+across, ,blue
+fishing, ,blue
+indian, ,blue
+sits, ,blue
+san, ,blue
+park, ,blue
+spray, ,blue
+floor, ,blue
+surface, ,blue
+villages, ,blue
+beside, ,blue
+seafood, ,fish
+fried, ,fish
+reef, ,fish
+sea, ,fish
+cook, ,fish
+coral, ,fish
+ate, ,fish
+sharks, ,fish
+squid, ,fish
+their, ,fish
+grouper, ,fish
+juvenile, ,fish
+population, ,fish
+lots, ,fish
+how, ,fish
+shared, ,object all
+midnight, ,object
+air, ,object all
+slim, ,object
+alleged, ,object
+fits, ,object
+waving, ,object all
+naked, ,object
+waited, ,object all
+take, ,object all
+cover, ,object
+nights, ,object
+use, ,object
+designed, ,object all
+anyone, ,object
+among, ,plant
+recommends, ,plant
+instance, ,plant
+plants, ,plant
+classic, ,plant
+finishing, ,plant
+they, ,plant
+born, ,plant
+garden, ,plant
+wild, ,plant
+buds, ,plant
+lacks, ,plant
+de, ,plant
+scented, ,plant
+shops, ,plant
+maine, ,plant
+methods, ,plant
+method, ,plant
+held, ,all
+intended, ,all
+wedding, ,all
+underneath, ,all
+flame, ,all
+art, ,all
+los, ,all

@@ -126,7 +126,7 @@ updated,u,relation
 publication,u,relation
 stated,u,relation
 cartoon,u,relation
-file,u,relation
+file,i,relation
 monthly,u,relation
 print,u,relation
 account,u,relation
@@ -308,7 +308,7 @@ worked,u,relation
 said,u,relation
 featuring,u,relation
 expensive,u,relation
-kitchen,u,relation
+kitchen,i,relation
 john,u,relation
 addition,u,relation
 taken,u,relation food

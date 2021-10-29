@@ -1,0 +1,205 @@
+context,evidence_type,categories
+lady,i,relation animal female communication mammal object all
+vampire,NA,relation
+song,NA,relation
+eyed,NA,relation
+blond,b,relation
+dresses,b,relation
+piano,NA,relation
+madonna,i,relation
+soul,NA,relation
+fashion,NA,relation
+band,NA,relation
+silent,NA,relation
+disco,NA,relation
+plays,NA,relation female
+nickname,NA,relation
+queen,NA,relation no-cat female
+keeps,NA,relation
+she,i,relation animal female communication fish mammal object all
+sweet,NA,relation
+polish,NA,relation
+jungle,NA,bird
+rain,NA,bird
+brazil,NA,bird
+brazilian,NA,bird
+com,NA,bird
+sales,NA,bird
+publishers,NA,bird
+apple,NA,bird
+mouth,NA,bird
+noble,NA,bird
+environmental,NA,bird
+acre,NA,bird
+download,NA,bird
+customer,NA,bird
+99,NA,bird
+sell,NA,bird
+company,NA,bird
+store,NA,bird
+at,NA,bird
+an,NA,bird
+actress,i,animal communication mammal object all
+her,i,mammal animal communication female
+stories,u,animal
+herself,i,animal female mammal object all
+so,u,mammal animal
+jennifer,i,mammal animal object all
+played,NA,mammal animal female
+da,u,animal
+sharp,u,animal
+refers,NA,animal
+read,NA,animal
+prompted,u,animal
+lovely,b,animal all object female
+editor,NA,animal fish
+richardson,NA,animal
+joan,i,animal object all
+rachel,NA,animal
+maria,i,mammal animal object all
+cornish,NA,food
+eng,NA,food
+eggs,NA,food
+egg,NA,food
+guinea,NA,food
+mother,NA,food
+guarding,NA,food
+pecked,NA,food
+teeth,NA,food
+roasted,NA,food
+hen,NA,food
+mushrooms,NA,food
+ng,NA,food
+house,NA,food
+chickens,NA,food
+stag,NA,food
+fox,NA,food
+harriers,NA,food
+speckled,NA,food
+scarce,NA,food
+dad,NA,no-cat
+keeping,NA,no-cat
+kept,NA,no-cat
+remained,NA,no-cat
+mum,NA,no-cat
+stayed,NA,no-cat
+my,NA,no-cat
+about,NA,no-cat
+staying,NA,no-cat
+on,NA,no-cat
+lindsay,NA,no-cat
+davenport,NA,no-cat
+pup,NA,no-cat
+subject,NA,no-cat
+keep,NA,no-cat
+intentions,NA,no-cat
+has,NA,no-cat
+word,NA,no-cat
+stay,NA,no-cat
+pal,NA,measure
+squads,NA,measure
+zoltan,NA,measure
+liberation,NA,measure
+pals,NA,measure
+terrorist,NA,measure
+basque,NA,measure
+gonzalez,NA,measure
+yossi,NA,measure
+fridman,NA,measure
+barrionuevo,NA,measure
+eta,NA,measure
+luft,NA,measure
+anti,NA,measure
+groups,NA,measure
+ben,NA,measure
+initials,NA,measure
+1983,NA,measure
+gal,NA,measure
+von,NA,measure
+in,NA,female
+haired,NA,female
+with,NA,female
+beautiful,b,female object all
+tries,NA,female
+favorite,NA,female
+or,u,female
+dressed,NA,female
+women,NA,female
+tale,NA,female
+of,NA,female
+the,NA,female
+roxie,NA,criminal
+trunk,NA,criminal
+hart,NA,criminal
+merry,NA,criminal
+singing,NA,criminal
+velma,NA,criminal
+chicago,NA,criminal
+faye,NA,criminal
+hindley,NA,criminal
+pickax,NA,criminal
+karla,NA,criminal
+winnie,NA,criminal
+novelist,NA,criminal
+celebrity,NA,criminal
+bisexual,NA,criminal
+judd,NA,criminal
+auditioned,NA,criminal
+jazz,NA,criminal
+stylish,NA,criminal
+1931,NA,criminal
+baby,NA,communication
+walk,NA,communication
+like,NA,communication
+sex,NA,communication
+likes,NA,communication
+girl,NA,communication
+angel,NA,communication
+fun,u,communication
+university,NA,communication
+bed,NA,communication
+art,NA,communication
+wine,NA,communication
+friends,NA,communication
+45,u,communication
+grace,NA,communication
+everyone,NA,communication
+magazines,NA,fish
+harper,NA,fish
+chanel,NA,fish
+claire,NA,fish
+marie,i,object fish all
+essence,NA,fish
+publisher,NA,fish
+elizabeth,i,object fish all
+represented,NA,fish
+agnes,NA,fish
+ms,i,fish
+rhine,NA,fish
+designer,NA,fish
+editors,NA,fish
+1966,NA,fish
+college,NA,fish
+issue,NA,fish
+jane,NA,object fish
+birth,NA,mammal
+grass,u,mammal
+pregnant,l,mammal
+pregnancy,l,mammal
+feed,r,mammal
+adopted,NA,mammal
+obvious,NA,mammal
+grandmother,NA,mammal
+pop,NA,mammal
+adult,u,mammal
+singer,NA,mammal
+anna,i,object all
+mary,i,object all
+margaret,i,object all
+julie,i,object all
+dress,b,object all
+beauty,b,object all
+anne,i,object all
+alice,NA,object
+love,b,all
+kate,NA,all

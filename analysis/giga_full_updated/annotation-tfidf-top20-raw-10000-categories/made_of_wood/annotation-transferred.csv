@@ -1,0 +1,194 @@
+context,evidence_type,categories
+wooden,p,relation tool measure communication object all
+used,NA,relation
+oak,p,relation food communication object all
+inch,NA,measure relation no-cat communication
+tall,NA,relation no-cat
+plastic,NA,measure relation
+across,NA,relation
+beside,NA,relation
+flower,NA,relation no-cat
+sits,u,relation
+hang,NA,relation
+warm,NA,relation
+lit,u,relation
+deck,u,relation vehicle object all
+box,NA,relation
+using,NA,relation
+yellow,NA,relation
+hole,NA,relation
+wood,p,relation no-cat communication
+tops,NA,relation
+rentals,NA,vehicle
+lake,NA,vehicle
+floating,NA,vehicle
+rent,NA,vehicle
+rental,NA,vehicle
+marina,NA,vehicle
+staying,NA,vehicle
+rented,NA,vehicle
+foot,NA,vehicle
+lived,NA,vehicle
+from,NA,vehicle
+aboard,NA,vehicle
+boat,NA,vehicle
+surrounded,NA,vehicle
+lives,NA,vehicle
+capsized,NA,vehicle
+000,NA,vehicle cutlery
+powell,NA,vehicle
+river,NA,vehicle
+grind,NA,cutlery
+jobs,NA,cutlery
+workforce,NA,cutlery
+500,NA,cutlery
+knife,NA,cutlery
+an,NA,cutlery
+the,NA,cutlery
+unilever,NA,cutlery
+plans,NA,tool cutlery
+wield,u,cutlery
+deodorants,NA,cutlery
+wielded,NA,cutlery
+400,NA,cutlery
+deodorant,NA,cutlery
+handles,NA,cutlery
+murderer,NA,cutlery
+200,NA,cutlery
+spray,NA,cutlery
+300,NA,cutlery
+skinny,u,tool
+copper,NA,tool
+versions,NA,tool
+confused,u,tool
+via,NA,tool
+turns,u,tool
+feels,u,tool
+done,NA,tool
+degree,NA,tool
+should,NA,tool
+steep,NA,tool
+pipe,NA,tool
+without,NA,tool
+fashion,NA,tool
+tells,NA,tool
+atop,NA,tool
+useful,NA,tool
+distinctive,NA,tool
+bass,NA,animal
+up,NA,animal
+fort,NA,animal
+corps,NA,animal
+kit,NA,animal
+beats,NA,animal
+snare,NA,animal
+banging,NA,animal
+beat,u,animal
+guitar,NA,animal
+roll,NA,animal
+machine,NA,animal
+band,NA,animal
+for,NA,animal
+ear,NA,animal
+pounding,NA,animal
+song,NA,animal
+trying,NA,animal
+drum,NA,animal
+bands,NA,animal
+sit,NA,food
+sat,NA,food
+points,NA,food
+chair,NA,food
+topped,NA,measure food
+swimming,NA,food
+meal,NA,food
+everyone,NA,food
+money,NA,food
+lead,NA,food
+family,NA,food
+lay,NA,food
+diving,NA,food
+players,NA,food
+tea,NA,food
+spot,NA,food
+big,NA,food
+run,NA,food
+got,NA,food
+pole,NA,no-cat
+thick,NA,no-cat
+black,NA,weapon no-cat
+decorated,NA,no-cat
+shaped,NA,measure no-cat communication
+giant,NA,no-cat
+favorite,u,no-cat
+piece,NA,no-cat
+rocks,NA,no-cat
+fishing,NA,no-cat
+tables,i,no-cat
+soft,NA,no-cat
+lovely,NA,no-cat
+native,NA,no-cat
+plenty,NA,no-cat
+old,NA,no-cat
+above,NA,measure communication
+gun,NA,measure
+jumped,NA,measure
+hitting,NA,measure
+hit,NA,measure
+lock,NA,measure
+fish,NA,measure
+rocket,NA,measure
+beer,NA,measure
+metal,NA,measure
+loaded,NA,measure
+roof,NA,measure
+lowered,NA,measure
+bullets,NA,measure
+grabbed,NA,measure
+anchor,NA,communication
+switching,NA,communication
+hook,NA,communication
+developed,NA,communication
+serves,NA,object communication all
+yards,NA,communication
+placed,NA,communication
+uses,NA,communication
+perfectly,NA,communication
+designer,u,weapon communication
+bend,r,weapon communication
+recovered,NA,communication
+discovery,NA,communication
+spokeswoman,NA,communication
+management,NA,weapon
+bent,NA,weapon
+lean,NA,weapon
+labor,NA,weapon
+runs,NA,weapon
+championship,NA,weapon
+basketball,NA,weapon
+steering,NA,weapon
+pace,NA,weapon
+fourth,NA,weapon
+spring,NA,weapon
+join,NA,weapon
+publicity,NA,weapon
+signing,NA,weapon
+fiberglass,NA,weapon
+indians,NA,weapon
+70s,NA,weapon
+pine,p,object all
+perched,u,object all
+roughly,u,object all
+handsome,u,object all
+adjacent,u,object all
+grand,u,object all
+entirely,u,object all
+feet,NA,object all
+furniture,i,object all
+dry,u,object all
+look,NA,object all
+resembles,u,object all
+crafted,NA,object all
+along,u,object all
+each,u,object all
+nails,NA,object all

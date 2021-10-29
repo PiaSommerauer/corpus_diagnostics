@@ -1,0 +1,205 @@
+context,evidence_type,categories
+lady, ,relation animal female communication mammal object all
+vampire, ,relation
+song, ,relation
+eyed, ,relation
+blond, ,relation
+dresses, ,relation
+piano, ,relation
+madonna, ,relation
+soul, ,relation
+fashion, ,relation
+band, ,relation
+silent, ,relation
+disco, ,relation
+plays, ,relation female
+nickname, ,relation
+queen, ,relation no-cat female
+keeps, ,relation
+she, ,relation animal female communication fish mammal object all
+sweet, ,relation
+polish, ,relation
+jungle, ,bird
+rain, ,bird
+brazil, ,bird
+brazilian, ,bird
+com, ,bird
+sales, ,bird
+publishers, ,bird
+apple, ,bird
+mouth, ,bird
+noble, ,bird
+environmental, ,bird
+acre, ,bird
+download, ,bird
+customer, ,bird
+99, ,bird
+sell, ,bird
+company, ,bird
+store, ,bird
+at, ,bird
+an, ,bird
+actress, ,animal communication mammal object all
+her, ,mammal animal communication female
+stories, ,animal
+herself, ,animal female mammal object all
+so, ,mammal animal
+jennifer, ,mammal animal object all
+played, ,mammal animal female
+da, ,animal
+sharp, ,animal
+refers, ,animal
+read, ,animal
+prompted, ,animal
+lovely, ,animal all object female
+editor, ,animal fish
+richardson, ,animal
+joan, ,animal object all
+rachel, ,animal
+maria, ,mammal animal object all
+cornish, ,food
+eng, ,food
+eggs, ,food
+egg, ,food
+guinea, ,food
+mother, ,food
+guarding, ,food
+pecked, ,food
+teeth, ,food
+roasted, ,food
+hen, ,food
+mushrooms, ,food
+ng, ,food
+house, ,food
+chickens, ,food
+stag, ,food
+fox, ,food
+harriers, ,food
+speckled, ,food
+scarce, ,food
+dad, ,no-cat
+keeping, ,no-cat
+kept, ,no-cat
+remained, ,no-cat
+mum, ,no-cat
+stayed, ,no-cat
+my, ,no-cat
+about, ,no-cat
+staying, ,no-cat
+on, ,no-cat
+lindsay, ,no-cat
+davenport, ,no-cat
+pup, ,no-cat
+subject, ,no-cat
+keep, ,no-cat
+intentions, ,no-cat
+has, ,no-cat
+word, ,no-cat
+stay, ,no-cat
+pal, ,measure
+squads, ,measure
+zoltan, ,measure
+liberation, ,measure
+pals, ,measure
+terrorist, ,measure
+basque, ,measure
+gonzalez, ,measure
+yossi, ,measure
+fridman, ,measure
+barrionuevo, ,measure
+eta, ,measure
+luft, ,measure
+anti, ,measure
+groups, ,measure
+ben, ,measure
+initials, ,measure
+1983, ,measure
+gal, ,measure
+von, ,measure
+in, ,female
+haired, ,female
+with, ,female
+beautiful, ,female object all
+tries, ,female
+favorite, ,female
+or, ,female
+dressed, ,female
+women, ,female
+tale, ,female
+of, ,female
+the, ,female
+roxie, ,criminal
+trunk, ,criminal
+hart, ,criminal
+merry, ,criminal
+singing, ,criminal
+velma, ,criminal
+chicago, ,criminal
+faye, ,criminal
+hindley, ,criminal
+pickax, ,criminal
+karla, ,criminal
+winnie, ,criminal
+novelist, ,criminal
+celebrity, ,criminal
+bisexual, ,criminal
+judd, ,criminal
+auditioned, ,criminal
+jazz, ,criminal
+stylish, ,criminal
+1931, ,criminal
+baby, ,communication
+walk, ,communication
+like, ,communication
+sex, ,communication
+likes, ,communication
+girl, ,communication
+angel, ,communication
+fun, ,communication
+university, ,communication
+bed, ,communication
+art, ,communication
+wine, ,communication
+friends, ,communication
+45, ,communication
+grace, ,communication
+everyone, ,communication
+magazines, ,fish
+harper, ,fish
+chanel, ,fish
+claire, ,fish
+marie, ,object fish all
+essence, ,fish
+publisher, ,fish
+elizabeth, ,object fish all
+represented, ,fish
+agnes, ,fish
+ms, ,fish
+rhine, ,fish
+designer, ,fish
+editors, ,fish
+1966, ,fish
+college, ,fish
+issue, ,fish
+jane, ,object fish
+birth, ,mammal
+grass, ,mammal
+pregnant, ,mammal
+pregnancy, ,mammal
+feed, ,mammal
+adopted, ,mammal
+obvious, ,mammal
+grandmother, ,mammal
+pop, ,mammal
+adult, ,mammal
+singer, ,mammal
+anna, ,object all
+mary, ,object all
+margaret, ,object all
+julie, ,object all
+dress, ,object all
+beauty, ,object all
+anne, ,object all
+alice, ,object
+love, ,all
+kate, ,all

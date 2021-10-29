@@ -1,0 +1,233 @@
+context,evidence_type,categories
+grandmother, ,relation
+tossed, ,relation
+neighbor, ,relation
+cloth, ,relation
+black, ,relation vegetable food object all
+perhaps, ,relation
+cheers, ,relation
+uniform, ,relation
+wearing, ,relation
+wore, ,relation
+lamb, ,relation
+hair, ,relation
+tan, ,relation
+tossing, ,relation
+dresses, ,relation
+collar, ,relation
+fitting, ,measure relation
+tight, ,relation
+glen, ,relation
+fabric, ,relation
+of, ,fruit vegetable
+little, ,vegetable
+like, ,vegetable reptile
+pink, ,vegetable
+under, ,vegetable food plant
+one, ,vegetable all
+deep, ,vegetable
+colors, ,vegetable
+violet, ,vegetable
+using, ,vegetable
+bistro, ,vegetable
+restaurants, ,vegetable plant
+delicious, ,vegetable
+meal, ,vegetable
+banana, ,vegetable
+honey, ,vegetable
+was, ,vegetable
+hints, ,vegetable
+almost, ,vegetable
+nest, ,bird communication
+ever, ,bird no-cat
+habitat, ,bird
+populations, ,bird
+miles, ,bird
+following, ,bird
+tim, ,bird
+devastated, ,bird
+above, ,bird
+winter, ,bird
+ii, ,bird
+nearly, ,bird
+last, ,bird
+11, ,bird
+creature, ,bird
+until, ,bird
+united, ,bird
+father, ,bird
+eggs, ,bird
+15, ,bird
+picker, ,fruit plant
+director, ,fruit
+picking, ,fruit food plant
+discovered, ,fruit food
+sits, ,fruit
+ugly, ,fruit no-cat
+called, ,fruit
+young, ,fruit
+sometimes, ,fruit
+your, ,fruit
+featuring, ,fruit
+dozens, ,fruit
+city, ,fruit
+caught, ,fruit
+herself, ,fruit
+labeled, ,fruit
+mother, ,fruit
+cover, ,measure fruit
+brought, ,fruit no-cat
+introduction, ,animal
+tracking, ,animal
+likely, ,animal
+evidence, ,animal object all
+suddenly, ,animal object all
+any, ,animal
+victim, ,animal object all
+person, ,animal
+raising, ,animal
+worst, ,animal
+understand, ,animal
+ears, ,animal
+prevent, ,animal
+bigger, ,animal
+can, ,mammal animal
+vulnerable, ,animal object all
+identified, ,animal object all
+been, ,animal object all
+circles, ,animal
+broken, ,animal
+named, ,food
+species, ,reptile food communication
+bearing, ,food
+three, ,food
+size, ,food
+appeared, ,food
+inspired, ,food
+except, ,food plant
+first, ,food
+sitting, ,food
+loose, ,food
+la, ,food
+feet, ,food
+beneath, ,food object
+jeans, ,food plant
+branch, ,food
+spread, ,no-cat
+red, ,no-cat
+europe, ,no-cat
+market, ,no-cat
+past, ,no-cat
+canada, ,no-cat
+way, ,no-cat
+add, ,no-cat
+lot, ,no-cat
+500, ,no-cat
+without, ,no-cat object
+machine, ,no-cat
+central, ,no-cat
+everything, ,no-cat
+thanks, ,no-cat
+larger, ,no-cat
+causing, ,no-cat
+shot, ,measure
+smoked, ,measure
+cuts, ,measure
+high, ,measure
+contemporary, ,measure
+surface, ,measure
+cool, ,measure
+act, ,measure
+sit, ,measure
+smoke, ,measure
+heat, ,measure
+fingers, ,measure
+place, ,measure
+gold, ,measure
+salt, ,measure
+turned, ,measure
+corp, ,measure
+watched, ,measure
+irwin, ,reptile
+australian, ,reptile
+shedding, ,reptile
+australia, ,reptile
+python, ,reptile
+as, ,reptile plant
+star, ,reptile
+dubbed, ,reptile
+enclosure, ,reptile
+cry, ,reptile
+that, ,reptile
+from, ,reptile
+native, ,reptile
+park, ,reptile
+ancient, ,reptile
+territory, ,reptile
+character, ,reptile
+giant, ,reptile
+flu, ,communication
+h5n1, ,communication
+outbreak, ,communication
+larry, ,communication
+strain, ,communication
+virus, ,mammal communication
+outbreaks, ,communication
+poultry, ,communication
+deadly, ,communication
+pandemic, ,communication
+cases, ,communication
+infected, ,communication
+migratory, ,communication
+detected, ,communication
+watchers, ,communication
+bird, ,communication
+confirmed, ,communication
+birds, ,communication
+really, ,mammal
+abandoned, ,mammal
+come, ,mammal
+bag, ,mammal
+humans, ,mammal
+disappeared, ,mammal
+similar, ,mammal
+rats, ,mammal
+farm, ,mammal
+isolated, ,mammal
+health, ,mammal
+tested, ,mammal
+remove, ,mammal
+police, ,mammal
+especially, ,mammal
+around, ,mammal
+finally, ,mammal
+rat, ,mammal
+fire, ,object all
+enormous, ,object all
+put, ,object
+revealed, ,object all
+found, ,object
+emerged, ,object all
+allegedly, ,object
+strange, ,object all
+stage, ,object
+eye, ,object all
+looked, ,object all
+beach, ,plant
+call, ,plant
+carries, ,plant
+lace, ,plant
+chic, ,plant
+stream, ,plant
+wool, ,plant
+linda, ,plant
+distributors, ,plant
+sam, ,plant
+nuts, ,plant
+jersey, ,plant
+tank, ,plant
+equipped, ,all
+claiming, ,all
+another, ,all
+seen, ,all
+could, ,all

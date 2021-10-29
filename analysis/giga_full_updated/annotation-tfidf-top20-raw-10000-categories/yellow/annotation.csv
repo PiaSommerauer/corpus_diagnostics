@@ -1,0 +1,269 @@
+context,evidence_type,categories
+any, ,relation
+fashioned, ,relation
+sales, ,relation
+name, ,relation
+originally, ,relation
+good, ,relation plant
+selling, ,relation
+making, ,relation
+invented, ,relation
+lobby, ,relation
+sounds, ,relation
+cardboard, ,relation
+accounting, ,relation
+cheap, ,relation
+blame, ,relation
+recommends, ,relation
+whiskey, ,relation
+answer, ,relation
+lightly, ,relation
+number, ,relation
+driver, ,vehicle no-cat
+collided, ,vehicle
+passengers, ,vehicle
+drivers, ,vehicle
+ride, ,vehicle
+terminal, ,vehicle
+tour, ,vehicle
+boarded, ,vehicle
+stops, ,vehicle no-cat
+traveling, ,vehicle
+bus, ,vehicle
+mini, ,vehicle
+travelling, ,vehicle
+fares, ,vehicle
+service, ,vehicle
+rides, ,vehicle
+lahore, ,vehicle
+commuter, ,vehicle
+fare, ,vehicle
+transit, ,vehicle
+dijon, ,vegetable
+gas, ,vegetable
+nerve, ,vegetable
+vinegar, ,vegetable
+seeds, ,vegetable
+sarin, ,vegetable
+honey, ,vegetable
+teaspoon, ,vegetable
+ketchup, ,vegetable
+yellow, ,vegetable object all
+mayonnaise, ,vegetable
+greens, ,vegetable
+garlic, ,vegetable
+vx, ,vegetable
+tablespoon, ,vegetable
+salt, ,vegetable
+lemon, ,vegetable
+pepper, ,vegetable
+dry, ,vegetable
+mustard, ,vegetable
+helicopter, ,bird
+smugglers, ,bird
+duchess, ,bird
+smuggler, ,bird
+books, ,bird
+character, ,bird
+cartoon, ,bird
+pet, ,bird fish
+bryan, ,bird
+elvis, ,bird
+royalties, ,bird
+earnings, ,bird
+budgie, ,bird
+merchandising, ,bird
+ranged, ,bird
+highly, ,bird
+negotiating, ,bird
+adventures, ,bird
+she, ,bird
+creatures, ,bird
+diced, ,fruit
+cut, ,fruit
+blueberries, ,fruit
+combined, ,fruit
+peeled, ,fruit
+medium, ,fruit
+sliced, ,fruit
+grilled, ,fruit
+sage, ,fruit
+leaving, ,fruit plant
+inch, ,fruit
+available, ,fruit
+apples, ,fruit food
+place, ,fruit
+begins, ,fruit
+quarter, ,fruit food
+90, ,fruit
+perfectly, ,fruit
+intended, ,fruit
+knife, ,fruit
+school, ,animal no-cat
+line, ,animal
+hit, ,animal
+money, ,animal
+built, ,animal
+sticking, ,animal
+girls, ,animal
+park, ,animal
+film, ,animal
+lone, ,animal
+actually, ,animal
+studied, ,animal
+parents, ,animal
+2006, ,animal
+fate, ,animal
+various, ,animal
+print, ,mammal animal object
+sub, ,animal
+possibly, ,animal
+18, ,animal object
+somewhat, ,food plant all
+sipping, ,food
+apple, ,food object all
+bubbly, ,food
+operating, ,food
+cents, ,food
+half, ,food
+150, ,food
+quarters, ,food object all
+goods, ,food
+lemonade, ,food
+ale, ,food
+cheddar, ,food fish
+pear, ,food
+rings, ,food
+sunny, ,food
+cocktails, ,food
+sweeter, ,food
+station, ,no-cat
+blew, ,no-cat
+crashed, ,no-cat
+shuttle, ,no-cat
+bomber, ,no-cat
+metro, ,no-cat
+stations, ,no-cat
+rode, ,no-cat
+waiting, ,no-cat
+operators, ,no-cat
+montgomery, ,no-cat
+traveled, ,no-cat
+at, ,no-cat
+hour, ,no-cat
+route, ,no-cat
+heading, ,no-cat
+stopped, ,no-cat
+andy, ,measure
+beds, ,measure
+petals, ,measure plant
+flower, ,measure object
+grant, ,measure
+buds, ,measure
+pots, ,measure
+arrangements, ,measure
+gardens, ,measure
+garden, ,measure
+mound, ,measure
+lotus, ,measure
+shop, ,measure
+olonga, ,measure
+growers, ,measure
+arranging, ,measure
+vegetable, ,measure
+bedecked, ,measure
+bed, ,measure
+pot, ,measure
+dunlap, ,yellow
+corp, ,yellow
+oster, ,yellow
+ama, ,yellow
+sunbeam, ,yellow
+perelman, ,yellow
+coleman, ,yellow
+appliance, ,yellow
+stock, ,yellow
+albert, ,yellow
+delray, ,yellow
+appliances, ,yellow
+waste, ,yellow
+products, ,yellow
+andersen, ,yellow
+executive, ,yellow
+raton, ,yellow
+levin, ,yellow
+endorse, ,yellow
+000, ,yellow
+crackers, ,fish
+pond, ,fish
+bowl, ,fish
+pepperidge, ,fish
+goldfish, ,fish
+swallowing, ,fish
+koi, ,fish
+bowls, ,fish
+swimming, ,fish
+farm, ,fish
+cats, ,fish
+blender, ,fish
+aquarium, ,fish
+tank, ,fish
+carp, ,fish
+live, ,fish
+swim, ,fish
+swallowed, ,fish
+zebra, ,mammal
+elephant, ,mammal
+lion, ,mammal
+elephants, ,mammal
+antelope, ,mammal
+male, ,mammal
+female, ,mammal
+stuffed, ,mammal
+buffalo, ,mammal
+tiger, ,mammal
+prints, ,mammal
+mascot, ,mammal
+leopard, ,mammal
+hotel, ,mammal
+legs, ,mammal
+camel, ,mammal
+africa, ,mammal
+bear, ,mammal
+extinct, ,mammal
+40, ,object all
+boxes, ,object all
+yes, ,object all
+island, ,object
+bubble, ,object plant all
+cooperative, ,object
+smile, ,object all
+1988, ,object all
+flowers, ,object
+girl, ,object all
+august, ,object
+preferred, ,object all
+trade, ,object all
+shapes, ,object
+this, ,plant
+poppy, ,plant
+miss, ,plant
+my, ,plant
+on, ,plant
+another, ,plant
+experts, ,plant
+help, ,plant
+favorites, ,plant
+bought, ,plant
+example, ,plant
+between, ,plant
+do, ,plant
+smart, ,plant
+cottage, ,plant
+sun, ,all
+displays, ,all
+remarkable, ,all
+smoking, ,all
+earn, ,all
+poster, ,all
+reception, ,all

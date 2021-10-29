@@ -1,0 +1,182 @@
+context,evidence_type,categories
+the,NA,weapon relation tool
+blocks,NA,relation
+of,u,relation
+from,NA,relation
+pool,NA,relation
+iron,NA,mammal relation animal
+old,NA,relation
+wooden,NA,relation
+across,NA,relation
+garden,NA,relation
+empty,NA,relation
+bearing,NA,relation
+damaged,NA,relation
+into,NA,weapon relation communication
+space,NA,relation
+will,NA,relation
+five,u,relation all
+been,u,relation animal
+big,NA,relation animal
+central,NA,relation
+ramp,NA,vehicle
+ride,r,vehicle
+wheels,NA,vehicle
+his,NA,vehicle
+shop,NA,vehicle
+on,NA,vehicle
+bicycle,NA,vehicle
+rides,NA,vehicle
+to,NA,vehicle
+and,NA,tool vehicle
+rider,NA,vehicle
+jump,NA,vehicle
+wheel,NA,vehicle
+boy,NA,vehicle
+racing,NA,vehicle
+toy,NA,vehicle
+boys,NA,vehicle
+driveway,NA,vehicle
+gear,NA,vehicle
+dirt,NA,vehicle
+he,NA,tool
+when,NA,tool
+what,NA,tool no-cat
+they,NA,tool
+000,NA,tool
+witnesses,NA,tool
+we,NA,tool
+him,NA,tool
+that,NA,tool
+she,NA,tool
+never,NA,tool
+as,NA,tool
+it,NA,tool
+which,NA,tool
+looked,NA,tool
+in,NA,tool
+bodies,NA,tool
+was,NA,tool
+fat,NA,mammal animal
+raising,NA,animal
+heart,NA,animal
+headed,NA,animal
+feet,NA,animal
+whole,NA,animal
+pit,NA,animal
+industry,NA,animal
+products,NA,animal
+traditional,NA,animal
+chinese,NA,animal
+year,NA,animal
+test,NA,animal
+steel,NA,animal
+at,NA,animal
+china,NA,animal
+banned,NA,animal
+yard,NA,no-cat
+official,NA,no-cat
+30,u,no-cat all
+week,NA,no-cat
+past,NA,no-cat
+spent,u,no-cat object all
+home,NA,no-cat
+spends,NA,no-cat
+walls,NA,no-cat
+pair,NA,no-cat
+house,NA,no-cat
+sort,NA,no-cat
+throw,NA,no-cat
+equivalent,u,no-cat
+children,NA,no-cat
+loved,NA,no-cat
+ninth,NA,no-cat
+notes,NA,no-cat
+beat,NA,no-cat
+drop,NA,measure
+filled,NA,measure
+poured,NA,measure
+bottom,NA,weapon measure
+fish,u,measure
+containing,NA,measure
+wine,u,measure
+50,u,measure
+collecting,NA,measure
+liquid,NA,measure
+dropping,NA,measure
+glasses,NA,measure
+12,NA,measure
+99,u,measure
+sold,NA,measure
+amp,NA,measure
+available,NA,measure
+person,NA,measure
+butter,NA,measure
+also,NA,measure
+mine,NA,weapon communication
+coal,NA,communication
+flooded,NA,communication
+trapped,NA,weapon communication
+rescuers,NA,communication
+shaft,NA,communication
+rescue,NA,communication
+deep,NA,weapon communication
+meters,NA,weapon communication
+drill,NA,communication
+working,NA,weapon communication
+beneath,NA,communication
+escape,NA,weapon communication
+water,NA,weapon communication
+entrance,NA,communication
+meter,NA,communication
+theme,NA,communication
+cage,NA,weapon communication
+tunnel,NA,communication
+collapsed,NA,weapon
+drive,NA,weapon
+drilling,NA,weapon
+drilled,NA,weapon
+lift,NA,weapon
+down,NA,weapon
+blind,NA,weapon
+steering,NA,weapon
+where,NA,weapon
+guinea,NA,mammal
+farms,NA,mammal
+pig,NA,mammal
+farm,NA,mammal
+farmer,NA,mammal
+farmers,NA,mammal
+lipstick,NA,mammal
+organs,NA,mammal
+pork,NA,mammal
+porky,NA,mammal
+roast,NA,mammal
+babe,NA,mammal
+pigs,NA,mammal
+prophet,NA,mammal
+suckling,NA,mammal
+poke,NA,mammal
+cells,NA,mammal
+roasted,NA,mammal
+35,u,object all
+pretty,u,object all
+locked,u,object all
+40,u,object all
+half,u,object all
+better,u,object all
+20,u,object all
+return,u,object all
+wrapped,NA,object
+2000,u,object all
+19,NA,object
+22,u,object
+per,u,object all
+46,NA,object all
+1999,u,object all
+different,NA,object
+15,u,object all
+recently,u,object all
+same,u,object all
+10,u,all
+compared,NA,all

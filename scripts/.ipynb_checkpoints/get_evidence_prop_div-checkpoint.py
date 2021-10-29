@@ -55,7 +55,7 @@ def get_evidence_prop_div_concept_category(model_name, evidence_type_dict,
     with open(full_path) as infile:
         data = list(csv.DictReader(infile))
     contexts = [d[''] for d  in data if float(d['diff']) > 0]
-    
+   
     context_candidates = [c for c in contexts if c in evidence_type_dict.keys()]
     n_candidates = len(context_candidates)
     evidence_context_dict = defaultdict(list)
@@ -149,6 +149,8 @@ def get_evidence_prop_div_concepts(model_name, properties, cnt):
             ev_prop_concept =  get_evidence_prop_div_concept(prop, concept, label,
                                                              evidence_type_dict, 
                                                              model_name, cnt=cnt)
+#             if label == 'neg':
+#                 print(ev_prop_concept)
             ev_prop_concept['label'] = label
             keys.update(ev_prop_concept.keys())
             ev_prop_concept['pair'] = (prop, concept)
@@ -173,7 +175,7 @@ def main():
     model_names = ['giga_full_updated', 'wiki_updated']
     analysis_names = ['proportion', 'diversity']
     properties = utils.get_properties()
-  
+    evidence_types = ['prop-specific', 'non-specific', 'l', 'p']
     
     for model_name in model_names:
         
@@ -203,21 +205,25 @@ def main():
 #             df.to_csv(path_file)
 #             print('finished', analysis_name, level)
         
-            # relations - strict
-            level = 'relations'
-            pair_score_dict = relations.load_scores(analysis_name, model_name)
-            df = relations.relation_overview(pair_score_dict, mode= 'strict')
-            
-            # relations - hyp
-            level = 'relations-hyp'
+            # relations
+            for evidence_type in evidence_types:
+                level = 'relations'
+                pair_score_dict = relations.load_scores(analysis_name, model_name, evidence_type)
+                df = relations.relation_overview(pair_score_dict, evidence_type)
+                # to file:
+                path_dir = f'../analysis/{model_name}/{level}/'
+                os.makedirs(path_dir, exist_ok=True)
+                path_file = f'{path_dir}/{analysis_name}_{evidence_type}.csv'
+                df.to_csv(path_file)
 
-            df = relations.relation_overview(pair_score_dict, mode = 'hyp')
-            
-            # to file:
-            path_dir = f'../analysis/{model_name}/{level}/'
-            os.makedirs(path_dir, exist_ok=True)
-            path_file = f'{path_dir}/{analysis_name}.csv'
-            df.to_csv(path_file)
+                # relations - hyp
+                level = 'relations-hyp'
+                df = relations.relation_overview(pair_score_dict, evidence_type, mode = 'hyp')
+                # to file:
+                path_dir = f'../analysis/{model_name}/{level}/'
+                os.makedirs(path_dir, exist_ok=True)
+                path_file = f'{path_dir}/{analysis_name}_{evidence_type}.csv'
+                df.to_csv(path_file)
           
             
 

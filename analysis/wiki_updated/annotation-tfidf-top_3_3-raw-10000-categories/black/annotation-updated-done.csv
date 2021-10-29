@@ -82,7 +82,7 @@ very,u,fruit
 daniel,u,food fruit
 pronounced,u,fruit
 whose,u,fruit
-jean,u,fruit
+jean,i,fruit
 prominent,u,fruit
 historic,u,fruit
 johnny,u,fruit
@@ -312,7 +312,7 @@ sky,i,fruit
 yet,u,fruit
 signature,u,fruit
 establishment,u,fruit
-darker,u,fruit
+darker,r,fruit
 max,u,fruit
 sun,u,fruit
 wine,u,fruit
@@ -612,7 +612,7 @@ queens,u,measure
 combined,u,measure
 true,u,measure
 gray,u,measure
-human,u,measure
+human,i,measure
 washington,u,measure
 focused,u,measure
 crowned,u,measure
@@ -724,7 +724,7 @@ time,u,bird
 relatives,u,bird
 robin,u,bird
 prefers,u,bird
-pelican,u,bird
+pelican,i,bird
 stork,u,bird
 post,u,bird
 books,i,bird

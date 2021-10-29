@@ -1,0 +1,179 @@
+context,evidence_type,categories
+black,u,relation
+shaped,u,relation
+towering,u,relation
+gold,u,relation
+metal,u,relation
+shiny,u,relation
+inch,u,relation
+bearing,u,relation
+trees,u,relation
+surrounding,u,relation
+texas,u,relation
+million,u,relation
+picked,u,relation
+leading,u,relation
+dates,u,relation
+fingers,i,relation
+shade,u,relation
+named,u,relation
+tree,u,relation
+history,u,relation
+le,u,bird
+marie,u,bird
+ink,u,bird
+pal,u,bird
+jean,u,bird
+ballpoint,i,bird
+stroke,u,bird
+paper,u,bird
+fountain,u,bird
+veto,u,bird
+pals,u,bird
+pilot,u,bird
+chirac,u,bird
+pen,i,bird
+poison,u,bird
+faulkner,u,bird
+name,u,bird
+notebook,u,bird
+pencil,i,bird
+front,u,bird
+spinach,u,fruit
+my,u,fruit
+fruits,i,fruit object plant
+eating,u,fruit
+now,u,fruit
+watermelon,i,fruit
+about,u,fruit food
+using,u,fruit
+try,u,fruit plant
+garden,u,fruit plant
+bottom,u,fruit
+patch,u,fruit plant
+tasty,u,fruit
+first,u,fruit food all
+thing,u,fruit
+come,u,fruit
+stone,u,fruit
+largest,u,fruit
+refers,u,fruit
+eat,u,fruit
+ii,u,animal
+championships,u,animal
+champion,u,animal
+organization,u,animal
+holder,u,animal
+finals,u,animal
+series,u,animal
+championship,u,animal
+record,u,animal
+organisation,u,animal
+qualifying,u,animal
+champions,u,animal
+title,u,animal
+number,u,animal
+forum,u,animal
+center,u,animal
+as,u,animal
+soccer,u,animal
+has,u,animal
+second,u,animal
+also,u,food all
+between,u,food all
+pastry,u,food
+tops,u,food
+humble,u,food all
+pear,i,food
+half,u,food
+18,u,food
+15,u,food all
+almond,i,food
+edge,u,food
+firm,u,food
+passion,u,food object all
+grape,i,food
+another,u,food
+did,u,food
+known,u,food
+third,u,food
+money,u,measure
+shot,u,measure
+apples,i,measure
+roll,l,measure
+plates,i,measure
+beginning,u,measure
+23,u,measure
+main,u,measure
+remember,u,measure
+briefly,u,measure
+throughout,u,measure
+return,u,measure
+large,u,measure
+amount,u,measure
+do,u,measure
+place,u,measure
+outside,u,measure
+minutes,u,measure
+shrimp,u,measure
+deep,u,measure
+dog,u,round
+tossing,u,round
+toss,u,round
+playing,u,round
+disc,i,round
+throw,u,round
+sized,u,round
+play,u,round
+catch,r,round
+like,u,round
+golf,r,round
+played,u,round
+size,u,round
+flying,u,round
+beach,u,round
+fetch,r,round
+thrown,r,round
+morrison,u,round
+toys,u,round
+the,u,round
+annual,u,object all
+growing,u,object plant all
+combination,u,object
+however,u,object all
+avoid,u,object all
+bright,u,object
+palm,u,object all
+ones,u,object plant
+72,u,object
+concerned,u,object
+largely,u,object
+past,u,object
+unique,u,object
+circle,i,object
+column,u,object
+boss,u,object all
+determined,u,object
+ideas,u,object
+leaves,u,plant
+vegetables,i,plant
+sauteed,u,plant
+squash,i,plant
+pumpkin,i,plant
+ground,u,plant
+thick,u,plant
+thin,u,plant
+greens,u,plant
+leaf,u,plant
+ham,u,plant
+juice,u,plant
+bell,u,plant
+less,u,plant
+ring,i,all
+will,u,all
+types,u,all
+not,u,all
+mountain,u,all
+town,u,all
+holes,u,all
+jerry,u,all

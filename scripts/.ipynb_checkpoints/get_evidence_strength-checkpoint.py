@@ -201,6 +201,7 @@ def main():
     
     
     model_names = ['giga_full_updated', 'wiki_updated']
+    evidence_types = ['prop-specific', 'non-specific', 'l', 'p']
     #analysis_names = ['dist-mean', 'dist-max']
     analysis_names = ['str-mean', 'str-max']
     properties = utils.get_properties() 
@@ -234,25 +235,24 @@ def main():
 #             df.to_csv(path_file)
 
             # relations
-            level = 'relations'
-            pair_score_dict = relations.load_scores(analysis_name, model_name)
-            df = relations.relation_overview(pair_score_dict)
-            # to file:
-            path_dir = f'../analysis/{model_name}/{level}/'
-            os.makedirs(path_dir, exist_ok=True)
-            path_file = f'{path_dir}/{analysis_name}.csv'
-            df.to_csv(path_file)
-            
-            # relations - hyp
-            level = 'relations-hyp'
+            for evidence_type in evidence_types:
+                level = 'relations'
+                pair_score_dict = relations.load_scores(analysis_name, model_name, evidence_type)
+                df = relations.relation_overview(pair_score_dict, evidence_type)
+                # to file:
+                path_dir = f'../analysis/{model_name}/{level}/'
+                os.makedirs(path_dir, exist_ok=True)
+                path_file = f'{path_dir}/{analysis_name}_{evidence_type}.csv'
+                df.to_csv(path_file)
 
-            df = relations.relation_overview(pair_score_dict, mode = 'hyp')
-            
-            # to file:
-            path_dir = f'../analysis/{model_name}/{level}/'
-            os.makedirs(path_dir, exist_ok=True)
-            path_file = f'{path_dir}/{analysis_name}.csv'
-            df.to_csv(path_file)
+                # relations - hyp
+                level = 'relations-hyp'
+                df = relations.relation_overview(pair_score_dict, evidence_type, mode = 'hyp')
+                # to file:
+                path_dir = f'../analysis/{model_name}/{level}/'
+                os.makedirs(path_dir, exist_ok=True)
+                path_file = f'{path_dir}/{analysis_name}_{evidence_type}.csv'
+                df.to_csv(path_file)
 
     
 if __name__ == '__main__':

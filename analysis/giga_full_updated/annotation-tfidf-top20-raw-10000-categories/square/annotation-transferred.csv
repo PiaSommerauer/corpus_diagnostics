@@ -1,0 +1,134 @@
+context,evidence_type,categories
+with,NA,relation
+are,NA,relation food
+desk,i,relation object all
+as,NA,relation
+simple,NA,relation
+by,NA,relation
+works,NA,relation all
+elaborate,NA,relation
+features,NA,relation
+old,u,relation object all
+said,NA,relation
+but,NA,relation
+have,NA,relation
+up,NA,relation food
+fine,NA,relation square
+set,NA,relation all
+fashioned,NA,relation
+all,NA,relation
+out,NA,relation
+hidden,NA,relation
+kitchen,NA,square food object all
+dinner,NA,food
+sit,NA,food object all
+on,NA,food
+and,NA,food
+table,i,square food object all
+back,NA,food
+wooden,NA,food plant
+they,NA,food
+thanksgiving,NA,food
+be,NA,food
+showing,NA,food
+book,NA,no-cat food
+you,NA,food
+or,NA,food
+wines,NA,food
+foot,NA,food
+your,NA,food
+remove,NA,no-cat
+cookie,NA,no-cat
+response,NA,no-cat
+reply,NA,no-cat
+comments,NA,no-cat
+edges,NA,no-cat
+thick,NA,no-cat
+large,NA,no-cat
+form,NA,no-cat
+character,NA,no-cat
+sometimes,NA,no-cat
+until,NA,no-cat
+cardboard,NA,measure no-cat plant
+transfer,NA,no-cat
+depth,NA,no-cat
+carefully,NA,no-cat
+fill,NA,no-cat
+yet,NA,no-cat
+note,i,no-cat
+the,NA,measure plant
+edge,NA,measure
+inside,NA,measure plant
+box,NA,measure
+dvd,NA,measure plant
+press,NA,measure
+success,NA,measure
+film,NA,measure plant
+scores,NA,measure
+movies,NA,measure plant
+click,NA,measure
+that,NA,measure
+hits,NA,measure
+films,NA,measure plant
+tickets,NA,measure
+records,NA,measure
+opened,NA,measure
+witness,NA,measure plant
+music,NA,measure
+room,i,square object communication all
+rooms,i,square object communication all
+casual,NA,square
+wining,NA,square
+tables,i,square object all
+restaurant,NA,square
+hall,NA,square
+halls,NA,square
+shopping,NA,square
+lodging,NA,square
+chairs,NA,square
+restaurants,NA,square
+living,NA,square
+area,NA,square
+formal,NA,square
+establishments,NA,square
+hotel,NA,square
+000,NA,communication
+software,NA,communication
+applications,NA,communication
+500,NA,communication
+includes,NA,communication
+hotels,NA,communication
+for,NA,communication
+dining,NA,object communication all
+holders,NA,communication
+processing,NA,communication
+operating,NA,communication
+400,NA,communication
+amp,NA,communication
+corporate,NA,communication
+600,NA,communication
+into,NA,communication plant
+including,NA,communication
+calif,NA,communication
+built,u,object all
+sitting,u,object all
+installed,u,object all
+where,NA,object all
+upstairs,NA,object all
+office,NA,object all
+design,NA,object
+library,NA,object
+her,NA,object all
+sits,NA,object all
+boxes,i,object
+batter,NA,plant
+weekend,NA,plant
+containing,NA,plant
+ball,NA,plant
+score,NA,plant
+plastic,NA,plant
+movie,NA,plant
+hollywood,NA,plant
+jewel,NA,plant
+metal,NA,plant
+used,NA,all

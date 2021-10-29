@@ -274,7 +274,7 @@ drinks,i,measure
 candy,i,measure
 wide,u,measure
 proof,u,measure
-frog,u,measure
+frog,i,measure
 500,u,measure
 cups,i,measure
 16,u,vehicle measure
@@ -480,7 +480,7 @@ nursery,u,measure
 politics,u,measure
 cure,u,measure
 applies,u,measure
-parakeet,u,bird
+parakeet,i,bird
 british,u,bird
 known,u,bird
 parrots,i,bird
@@ -1367,7 +1367,7 @@ sides,u,blue
 away,u,vehicle blue
 wave,u,blue
 red,u,blue
-night,u,vehicle blue
+night,i,vehicle blue
 adventure,u,blue
 spectacular,u,blue
 except,u,blue

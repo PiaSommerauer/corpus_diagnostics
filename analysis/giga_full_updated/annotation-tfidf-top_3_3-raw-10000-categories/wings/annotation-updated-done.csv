@@ -222,7 +222,7 @@ evolved,u,food
 announcement,u,food
 talking,u,food
 eve,u,food
-hawk,u,food
+hawk,i,food
 alternative,u,food
 nasty,u,food
 homemade,u,food
@@ -407,7 +407,7 @@ farmer,u,food
 why,u,food
 flip,u,food
 conducted,u,food
-wing,u,food
+wing,p,food
 35,u,food
 rose,u,food
 month,u,food
@@ -500,7 +500,7 @@ sides,u,food
 sisters,u,food
 memorable,u,food
 grew,u,food
-guinea,u,food
+guinea,i,food
 rearing,u,food
 complaining,u,food
 fortune,u,food

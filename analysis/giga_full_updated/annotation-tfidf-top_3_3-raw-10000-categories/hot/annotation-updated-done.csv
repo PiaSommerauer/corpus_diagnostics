@@ -2,7 +2,7 @@ context,evidence_type,categories
 water,i,measure
 table,u,measure
 fill,u,measure
-kitchen,r,measure
+kitchen,i,measure
 add,u,measure
 filling,u,measure
 milk,u,measure

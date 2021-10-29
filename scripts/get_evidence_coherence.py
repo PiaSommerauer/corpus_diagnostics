@@ -13,22 +13,29 @@ import utils
 import relations
 
 
-def get_mean_sim(model, evidence_words):
-    all_pairs = []
+def get_all_pairs(type_evidence_dict, model):
+    
+    pair_evidence_dict = defaultdict(set)
+    print('creating pairs')
+    for t, contexts in type_evidence_dict.items():
+        if len(contexts) > 1:
+            contexts = [w for w in contexts if w in model.vocab]
+            pairs = list(itertools.combinations(contexts, 2))
+            for pair in pairs:
+                pair_evidence_dict[pair].add(t)
+    print('created pairs', len(pair_evidence_dict))
+    return pair_evidence_dict
+    
+    
+
+def get_sim(model, pairs):
     words1 = []
     words2 = []
-    
+    pair_cos_dict = dict()
     # check if evidence words in model vocab:
-    evidence_words = [w for w in evidence_words if w in model.vocab]
-    
-    
-    print('creating pairs')
-    pairs = list(itertools.combinations(evidence_words, 2))
-    print('created pairs', len(pairs))
-    
     
     n_pairs = len(pairs)
-    size_batches = 10000
+    size_batches = 25000
     if n_pairs > size_batches:
         n_batches = int(n_pairs/size_batches)
     else:
@@ -44,18 +51,16 @@ def get_mean_sim(model, evidence_words):
     if previous_end < n_pairs:
         batch_ints.append((previous_end, n_pairs))
 
-    
-    cos_sum = 0.0
+
     print('starting batches for pairs:',   n_batches)
     for start, end in batch_ints:
+        pairs_batch = pairs[start:end]
         print('load vecs')
-        words1 = [model[w1] for w1, w2 in pairs[start:end]]
-        words2 = [model[w2] for w1, w2 in pairs[start:end]]
+        words1 = [model[w1] for w1, w2 in pairs_batch]
+        words2 = [model[w2] for w1, w2 in pairs_batch]
         print('loaded vecs')
 
         # make two matrices:
-
-
         words1 = np.array(words1)
         words2 = np.array(words2)
 
@@ -67,32 +72,16 @@ def get_mean_sim(model, evidence_words):
         if len(words1) > 0 and len(words2) > 0:
             results = cosine_similarity(words1, words2)
             i = 0
-            for v in results:
+            for v, (w1, w2)  in zip(results, pairs_batch):
                 #print(v, i)
                 cos = v[i]
                 i += 1
-                cos_sum+= cos
-        else:
-            cos_sum += 0
-    print('finished batches')
-    print('calculating mean', cos_sum, n_pairs)
-    
-    if cos_sum > 0.0:
-        cos_mean = cos_sum/n_pairs
-    else:
-        cos_mean = np.nan
-#         if len(evidence_words) == 1:
-#             cos_mean = 1.0
-#         else:
-#             cos_mean = 0.0
-        
-    print('finished calculating cosine')
+                #print(w1, w2, cos)
+                pair_cos_dict[(w1, w2)] = cos
+    return pair_cos_dict
 
 
-    return cos_mean
-
-
-def get_evidence_sim(evidence_type_dict, model):
+def get_evidence_sim(evidence_type_dict, model, evidence_types):
     
     evidence_sim_dict = dict()
     type_evidence_dict = defaultdict(list)
@@ -114,34 +103,50 @@ def get_evidence_sim(evidence_type_dict, model):
             t_c = 'all-p'
             type_evidence_dict[t_c].append(c)
             
-                 
-    for t, contexts in type_evidence_dict.items():
-        print(t, len(contexts))
-        mean_sim = get_mean_sim(model, contexts)
-        evidence_sim_dict[t] = mean_sim
-        
+    
+    pair_evidence_dict = get_all_pairs(type_evidence_dict, model)
+    pairs = []
+    for pair, ets in pair_evidence_dict.items():
+        for et in ets:
+            if et in evidence_types:
+                pairs.append(pair)
+    pair_cos_dict = get_sim(model, pairs)
+    
+    evidence_cos_dict = defaultdict(list)
+    
+    for pair, cos in pair_cos_dict.items():
+        ets = pair_evidence_dict[pair]
+        for et in ets:
+            evidence_cos_dict[et].append(cos)
+    
+    for t_c, contexts in type_evidence_dict.items():
+        if t_c in evidence_cos_dict:
+            cosines = evidence_cos_dict[t_c]
+            mean_cos = sum(cosines)/len(cosines)
+        elif len(contexts) == 1:
+            mean_cos = 1.0
+        else:
+            print('no contexts')
+            mean_cos = np.nan
+        evidence_sim_dict[t_c] = mean_cos
+    
     return evidence_sim_dict
 
 
-def get_evidence_sim_properties(model_name, model):
+def get_evidence_sim_properties(model_name, model, properties):
     
     table = []
     
-    properties = utils.get_properties()
-
+    columns = ['all', 'prop-specific', 'non-specific', 'u']
     for prop in properties:
         print('starting property', prop)
         evidence_type_dict = utils.load_evidence_type_dict(prop, model_name)
-        evidence_sim = get_evidence_sim(evidence_type_dict, model)
+        evidence_sim = get_evidence_sim(evidence_type_dict, model, columns)
         evidence_sim['property'] = prop
         table.append(evidence_sim)
         print('finished prop', prop)
     
-    #columns = ['prop-specific', 'non-specific', 'p', 'l', 'n', 'i', 'r', 'b', 'u']
-    columns = ['all', 'all-p', 'prop-specific', 'non-specific', 'u']
     df = pd.DataFrame(table).set_index('property')[columns]
-    # set nana to 0 before median
-    #df = df.fillna(0.0)
     median = df.median(axis=0)
     df.loc['median'] = median
     
@@ -172,10 +177,6 @@ def get_evidence_sim_concept_category(model_name, evidence_type_dict,
             if t in ['p', 'n', 'l']:
                 t_c = 'prop-specific'
                 evidence_context_dict[t_c].append(c)
-            #too much computing time:
-#             elif t in ['i', 'r', 'b']:
-#                 t_c = 'non-specific'
-#                 evidence_context_dict[t_c].append(c)
     for t, contexts in evidence_context_dict.items():
         #n_contexts = len(contexts)
         mean_sim = get_mean_sim(model, contexts)
@@ -244,13 +245,15 @@ def main():
     
     
     
-    model_names = ['giga_full_updated', 'wiki_updated']
+    #model_names = ['giga_full_updated', 'wiki_updated']
+    model_names = ['wiki_updated']
     analysis_name = 'coherence'
     
     path_giga = '/Users/piasommerauer/Data/DSM/corpus_exploration/giga_full/sgns_pinit1/sgns_rand_pinit1.words'
     path_wiki = '/Users/piasommerauer/Data/DSM/corpus_exploration/wiki_full/trained_for_analysis_June2021/sgns_pinit1/sgns_rand_pinit1.words'
   
     properties = utils.get_properties() 
+    #properties = ['fly']
     
     for model_name in model_names:
         
@@ -269,7 +272,7 @@ def main():
 
         # properties
         level = 'properties'
-        df = get_evidence_sim_properties(model_name, model)
+        df = get_evidence_sim_properties(model_name, model, properties)
         # to file
         path_dir = f'../analysis/{model_name}/{level}/'
         os.makedirs(path_dir, exist_ok=True)

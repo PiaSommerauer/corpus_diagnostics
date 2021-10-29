@@ -1,0 +1,182 @@
+context,evidence_type,categories
+the, ,weapon relation tool
+blocks, ,relation
+of, ,relation
+from, ,relation
+pool, ,relation
+iron, ,mammal relation animal
+old, ,relation
+wooden, ,relation
+across, ,relation
+garden, ,relation
+empty, ,relation
+bearing, ,relation
+damaged, ,relation
+into, ,weapon relation communication
+space, ,relation
+will, ,relation
+five, ,relation all
+been, ,relation animal
+big, ,relation animal
+central, ,relation
+ramp, ,vehicle
+ride, ,vehicle
+wheels, ,vehicle
+his, ,vehicle
+shop, ,vehicle
+on, ,vehicle
+bicycle, ,vehicle
+rides, ,vehicle
+to, ,vehicle
+and, ,tool vehicle
+rider, ,vehicle
+jump, ,vehicle
+wheel, ,vehicle
+boy, ,vehicle
+racing, ,vehicle
+toy, ,vehicle
+boys, ,vehicle
+driveway, ,vehicle
+gear, ,vehicle
+dirt, ,vehicle
+he, ,tool
+when, ,tool
+what, ,tool no-cat
+they, ,tool
+000, ,tool
+witnesses, ,tool
+we, ,tool
+him, ,tool
+that, ,tool
+she, ,tool
+never, ,tool
+as, ,tool
+it, ,tool
+which, ,tool
+looked, ,tool
+in, ,tool
+bodies, ,tool
+was, ,tool
+fat, ,mammal animal
+raising, ,animal
+heart, ,animal
+headed, ,animal
+feet, ,animal
+whole, ,animal
+pit, ,animal
+industry, ,animal
+products, ,animal
+traditional, ,animal
+chinese, ,animal
+year, ,animal
+test, ,animal
+steel, ,animal
+at, ,animal
+china, ,animal
+banned, ,animal
+yard, ,no-cat
+official, ,no-cat
+30, ,no-cat all
+week, ,no-cat
+past, ,no-cat
+spent, ,no-cat object all
+home, ,no-cat
+spends, ,no-cat
+walls, ,no-cat
+pair, ,no-cat
+house, ,no-cat
+sort, ,no-cat
+throw, ,no-cat
+equivalent, ,no-cat
+children, ,no-cat
+loved, ,no-cat
+ninth, ,no-cat
+notes, ,no-cat
+beat, ,no-cat
+drop, ,measure
+filled, ,measure
+poured, ,measure
+bottom, ,weapon measure
+fish, ,measure
+containing, ,measure
+wine, ,measure
+50, ,measure
+collecting, ,measure
+liquid, ,measure
+dropping, ,measure
+glasses, ,measure
+12, ,measure
+99, ,measure
+sold, ,measure
+amp, ,measure
+available, ,measure
+person, ,measure
+butter, ,measure
+also, ,measure
+mine, ,weapon communication
+coal, ,communication
+flooded, ,communication
+trapped, ,weapon communication
+rescuers, ,communication
+shaft, ,communication
+rescue, ,communication
+deep, ,weapon communication
+meters, ,weapon communication
+drill, ,communication
+working, ,weapon communication
+beneath, ,communication
+escape, ,weapon communication
+water, ,weapon communication
+entrance, ,communication
+meter, ,communication
+theme, ,communication
+cage, ,weapon communication
+tunnel, ,communication
+collapsed, ,weapon
+drive, ,weapon
+drilling, ,weapon
+drilled, ,weapon
+lift, ,weapon
+down, ,weapon
+blind, ,weapon
+steering, ,weapon
+where, ,weapon
+guinea, ,mammal
+farms, ,mammal
+pig, ,mammal
+farm, ,mammal
+farmer, ,mammal
+farmers, ,mammal
+lipstick, ,mammal
+organs, ,mammal
+pork, ,mammal
+porky, ,mammal
+roast, ,mammal
+babe, ,mammal
+pigs, ,mammal
+prophet, ,mammal
+suckling, ,mammal
+poke, ,mammal
+cells, ,mammal
+roasted, ,mammal
+35, ,object all
+pretty, ,object all
+locked, ,object all
+40, ,object all
+half, ,object all
+better, ,object all
+20, ,object all
+return, ,object all
+wrapped, ,object
+2000, ,object all
+19, ,object
+22, ,object
+per, ,object all
+46, ,object all
+1999, ,object all
+different, ,object
+15, ,object all
+recently, ,object all
+same, ,object all
+10, ,all
+compared, ,all

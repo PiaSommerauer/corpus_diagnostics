@@ -1,0 +1,275 @@
+context,evidence_type,categories
+independent,u,relation
+was,u,relation
+arm,u,relation tool
+with,u,relation
+pursuing,u,relation
+newspaper,u,weapon relation food
+by,u,relation
+recorded,u,relation
+say,u,relation
+on,u,mammal relation
+tore,u,relation
+below,u,relation
+15,u,mammal relation
+later,u,relation
+had,u,relation animal
+thriller,u,relation
+filled,u,relation
+300,u,relation
+access,u,relation
+north,u,relation fish
+political,u,vehicle
+systems,u,vehicle
+attempts,u,animal vehicle
+can,u,vehicle
+networks,u,vehicle
+try,u,vehicle
+steal,u,vehicle
+proof,u,vehicle
+could,u,vehicle
+if,u,vehicle
+bunker,u,vehicle
+used,u,tool vehicle cutlery animal weapon
+software,u,vehicle
+intelligence,u,vehicle
+upset,u,vehicle
+wedge,u,vehicle
+using,u,vehicle
+work,u,vehicle
+gonzalez,u,vehicle
+gary,u,vehicle
+hook,u,cutlery
+chef,u,cutlery
+occasional,u,cutlery
+executed,u,cutlery
+undergo,u,cutlery
+recalls,u,tool cutlery
+ray,u,cutlery
+heart,u,tool cutlery
+neck,u,tool cutlery
+do,u,cutlery
+never,u,cutlery
+fashion,u,cutlery
+fit,u,cutlery
+these,u,cutlery
+author,u,cutlery
+white,u,cutlery criminal
+slices,u,cutlery
+surprisingly,u,cutlery
+opted,u,cutlery
+operation,u,tool
+technique,u,tool
+kicked,r,tool
+her,u,tool
+takes,u,tool
+laid,u,tool
+hat,u,tool
+knives,i,tool
+leather,u,tool
+wielding,u,weapon tool
+stabbed,r,tool
+weapon,i,tool
+holding,u,tool
+crack,r,tool
+repeatedly,u,tool
+codeine,i,medication
+overdose,i,medication
+drip,u,medication
+lethal,n,measure object medication all
+marijuana,u,medication
+milligrams,u,measure medication
+morphine,i,medication
+sedative,u,medication
+injected,r,medication
+vials,u,medication
+injection,r,medication
+0,u,medication
+similar,u,medication
+oral,u,medication
+die,u,medication
+large,u,weapon medication
+times,u,medication
+instead,u,medication
+fatal,n,measure object medication
+supply,u,medication
+been,u,mammal animal
+are,u,mammal animal
+against,u,mammal animal
+during,u,mammal animal
+he,u,animal criminal
+attacked,r,animal
+attack,i,animal object fish all
+attacks,i,mammal animal
+killed,r,weapon animal object all
+apparently,u,animal object communication all
+sent,u,animal
+maybe,u,animal
+shooting,i,weapon animal object all
+reports,u,animal
+make,u,animal
+more,u,animal
+just,u,animal
+toledo,u,food
+inch,u,food
+steel,u,food
+metal,u,food
+propeller,u,food
+ii,u,food
+cutting,r,food
+angle,u,food
+broken,r,food
+movies,u,food
+attached,u,food
+shaped,u,food fish
+broke,r,food
+teeth,r,food
+engine,u,food
+ohio,u,food
+boot,u,food
+struck,u,food
+tool,u,food
+cause,u,no-cat communication
+theory,u,no-cat
+contained,u,no-cat
+dangerous,p,no-cat communication
+produces,u,no-cat
+unknown,u,no-cat communication
+amounts,u,no-cat
+containing,u,no-cat
+believes,u,no-cat
+seen,u,no-cat
+amount,u,no-cat
+effects,u,no-cat
+acts,u,no-cat
+affects,u,no-cat
+effective,u,no-cat
+eastern,u,no-cat
+target,r,no-cat all
+nearly,u,mammal no-cat
+exposed,r,no-cat
+evidence,u,no-cat
+radiation,i,measure
+vaccine,u,measure
+chemotherapy,r,measure
+milligram,u,measure
+healthy,u,measure
+dose,r,measure
+aspirin,u,measure
+nevirapine,r,measure
+of,u,measure reptile
+reality,u,measure
+medication,r,measure
+heavy,u,measure
+pills,r,measure
+skepticism,u,measure
+mg,u,measure
+administered,u,measure
+vitamin,u,measure
+river,i,reptile
+bites,i,reptile
+snake,i,reptile
+bite,i,reptile
+pit,u,reptile
+bitten,r,reptile
+jake,u,reptile
+rivers,i,reptile
+the,u,reptile fish
+eyes,u,reptile
+dragon,i,reptile
+infested,u,reptile
+handlers,u,reptile
+slithered,u,reptile
+handler,u,reptile
+black,u,reptile
+and,u,reptile
+tail,u,reptile
+pet,u,reptile
+former,u,criminal
+himself,u,criminal
+police,r,criminal
+at,u,criminal
+alleged,r,all object criminal
+captured,r,all object criminal
+an,u,criminal
+one,u,criminal
+him,u,mammal criminal
+gun,i,object criminal
+authorities,r,criminal
+being,u,criminal
+charged,u,all criminal
+ordered,u,criminal
+john,u,criminal
+story,u,criminal
+killer,i,criminal
+charges,r,criminal
+carried,u,weapon communication
+wave,u,communication
+destroying,r,communication
+worst,u,communication
+novel,u,communication
+destroy,r,communication
+were,u,communication
+believed,u,communication
+deadly,r,weapon object communication
+believe,u,communication
+conventional,u,communication
+grave,r,communication
+advanced,u,communication
+possibility,u,communication
+danger,p,communication
+sparked,u,communication
+submarine,u,fish
+warship,i,fish
+korean,u,fish
+sank,r,fish
+sunk,r,fish
+cheonan,u,fish
+moscow,u,fish
+boats,u,fish
+kursk,u,fish
+dprk,u,fish
+tubes,u,fish
+fired,r,fish
+boat,u,fish
+sinking,r,fish
+ship,u,fish
+explosion,i,fish
+carrying,u,weapon
+loaded,r,weapon
+armed,r,weapon object all
+carries,u,weapon
+death,r,weapon
+fire,i,weapon
+stone,u,weapon
+equipped,u,weapon
+equipment,u,weapon
+shotgun,i,weapon
+discovered,u,weapon
+type,u,weapon
+500,u,mammal
+there,u,mammal
+row,u,mammal
+mask,u,mammal
+threatened,r,mammal
+driver,u,mammal
+54,u,mammal
+person,u,mammal
+demonstrated,u,mammal
+22,u,mammal
+think,u,mammal
+shoot,r,object all
+man,b,object
+killing,i,object all
+soldier,b,object all
+dead,r,object all
+firing,i,object
+fake,u,object
+footage,u,object
+confronted,u,object
+kill,r,all
+weapons,i,all
+sentence,r,all
+reportedly,u,all
+machine,u,all
+hiding,r,all

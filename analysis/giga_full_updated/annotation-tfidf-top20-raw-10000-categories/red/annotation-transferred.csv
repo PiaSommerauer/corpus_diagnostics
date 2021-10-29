@@ -1,0 +1,252 @@
+context,evidence_type,categories
+reflected,u,relation
+heard,u,relation
+forever,NA,relation
+songs,NA,relation
+james,NA,relation
+tom,NA,relation
+football,NA,relation
+character,u,relation animal
+wife,u,relation animal
+martin,NA,relation
+admits,NA,relation
+image,NA,relation
+writing,NA,relation
+positive,NA,relation
+ultimately,NA,relation
+belong,u,relation
+mystery,NA,relation
+trained,NA,relation
+poster,NA,relation
+song,NA,relation
+carrying,NA,vehicle
+tour,NA,vehicle
+injured,NA,vehicle
+traveling,NA,vehicle
+exploded,NA,vehicle
+blew,u,vehicle red
+near,NA,vehicle
+crashed,NA,vehicle
+when,NA,vehicle
+were,NA,vehicle
+explosion,NA,vehicle
+killing,NA,vehicle
+ripped,NA,vehicle
+blast,NA,vehicle
+off,NA,vehicle
+injuring,NA,vehicle
+tourists,NA,vehicle
+northern,NA,vehicle
+wreckage,NA,vehicle
+hit,u,vehicle
+sugar,NA,vegetable
+red,p,bird vegetable fruit plant all
+spices,NA,vegetable
+lime,NA,vegetable
+color,i,vegetable object plant all
+by,NA,vegetable
+savory,u,vegetable
+ginger,NA,vegetable
+roasted,NA,vegetable
+soup,i,vegetable
+eggplant,NA,vegetable
+stewed,u,vegetable
+chili,NA,vegetable
+her,NA,vegetable object plant
+horseradish,NA,vegetable food
+grass,NA,vegetable
+coat,NA,vegetable
+11,NA,vegetable
+anise,NA,vegetable
+shallow,NA,vegetable
+hundred,NA,bird
+flowers,NA,bird
+andrews,NA,bird
+symbol,NA,bird
+cock,NA,bird
+fights,NA,bird
+weather,NA,bird
+award,NA,bird
+pacino,NA,bird
+midnight,NA,bird
+statue,NA,bird
+named,NA,bird
+from,NA,bird
+iii,NA,bird
+14th,NA,bird
+got,NA,bird
+fighting,NA,bird
+prestigious,NA,bird
+perched,NA,bird
+flames,NA,red
+burns,NA,red
+regular,NA,red
+arena,NA,red
+hall,NA,red
+21,NA,red
+host,u,mammal red
+ken,NA,red
+star,NA,red
+streak,u,red
+31,NA,red
+44,NA,red
+1967,NA,red
+earned,NA,red
+at,u,red
+simmering,NA,red
+seething,NA,red
+erupted,NA,red
+protests,NA,red
+summer,NA,fruit plant
+currant,NA,fruit food
+wine,i,weapon fruit food plant
+intense,u,fruit food
+picked,NA,fruit
+black,NA,fruit plant
+right,NA,fruit food
+blueberry,u,fruit
+elegant,NA,fruit food plant all
+what,NA,fruit
+introduced,NA,fruit
+features,u,fruit object all
+life,NA,fruit
+champagne,NA,fruit food
+though,NA,fruit
+shows,NA,fruit object all
+vines,NA,weapon fruit
+harder,NA,fruit
+picking,NA,fruit
+warner,NA,mammal animal
+director,NA,animal
+joseph,u,animal
+latter,NA,animal
+16,u,animal
+films,NA,animal
+brings,NA,animal
+begins,u,animal
+wait,NA,animal
+lane,NA,animal
+1998,NA,animal
+creating,NA,animal
+1991,u,animal all
+hampshire,NA,animal
+crack,u,animal
+naturally,NA,animal
+split,NA,animal no-cat
+formidable,NA,animal
+concentrated,u,food
+vibrant,u,food
+sherry,NA,food
+lovely,u,food
+plum,i,food plant
+plenty,u,food object plant all
+accent,NA,food
+depending,u,food
+preserve,NA,food
+cider,u,food
+sweetness,u,food
+wish,u,food all
+concentration,NA,food
+forgot,NA,no-cat
+light,NA,no-cat
+pass,NA,no-cat
+managed,NA,no-cat
+added,NA,no-cat
+green,u,measure no-cat
+roll,NA,no-cat
+base,NA,no-cat
+french,NA,no-cat
+slightly,u,no-cat
+camera,NA,no-cat
+level,NA,no-cat
+microphone,NA,no-cat
+intended,NA,no-cat
+clock,NA,no-cat
+greek,NA,no-cat
+spanish,NA,no-cat
+slide,NA,no-cat
+pieces,NA,no-cat
+ceiling,NA,measure
+plastic,NA,measure
+thick,NA,measure
+covered,NA,measure
+sheet,NA,measure
+topped,NA,measure
+plates,u,measure
+sculpture,NA,measure
+twisted,NA,measure
+small,NA,measure
+painted,NA,measure
+bowls,NA,measure
+onto,NA,measure
+thin,NA,measure
+huge,NA,measure
+surface,NA,measure
+atop,NA,measure
+dishes,u,measure
+cleaned,NA,measure
+juice,NA,weapon
+growers,NA,weapon
+varieties,u,weapon plant
+tomatoes,NA,weapon
+gilbert,NA,weapon
+harvest,NA,weapon
+wines,NA,weapon
+nuts,NA,weapon
+cherry,i,weapon
+jelly,NA,weapon
+variety,u,weapon
+grower,NA,weapon
+growing,NA,weapon
+leaves,NA,weapon
+skins,NA,weapon
+stuffed,NA,weapon
+noir,NA,weapon
+chardonnay,NA,weapon
+20th,NA,mammal
+network,NA,mammal
+fox,NA,mammal
+sports,NA,mammal
+television,NA,mammal
+president,NA,mammal
+tv,NA,mammal
+hunting,NA,mammal
+corp,NA,mammal
+net,NA,mammal
+told,u,mammal object
+in,NA,mammal
+trot,NA,mammal
+animated,NA,mammal
+owns,u,mammal
+michael,NA,mammal
+desert,NA,mammal
+owned,NA,mammal
+burst,u,object all
+modern,NA,object all
+hand,u,object
+carries,u,object all
+sister,NA,object
+whose,NA,object
+colorful,NA,object plant
+bright,NA,object all
+steel,u,object all
+very,NA,object
+frank,u,object all
+touches,NA,object
+pick,NA,object
+know,NA,object
+white,NA,plant
+roses,i,plant
+flower,i,plant
+species,NA,plant
+yellow,u,plant
+garden,NA,plant
+sun,NA,plant
+actually,NA,plant
+like,NA,plant
+apart,u,all
+terry,NA,all
+legend,NA,all
+henry,NA,all
+parker,NA,all
+putting,NA,all

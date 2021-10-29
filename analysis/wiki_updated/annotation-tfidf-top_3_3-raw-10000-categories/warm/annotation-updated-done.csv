@@ -335,7 +335,7 @@ supported,u,no-cat
 extension,u,no-cat
 forest,u,no-cat
 project,u,no-cat
-jean,u,no-cat
+jean,i,no-cat
 involved,u,no-cat
 chicago,u,no-cat
 we,u,no-cat
@@ -343,7 +343,7 @@ test,u,no-cat
 banned,u,no-cat
 vary,u,no-cat
 block,u,no-cat
-glass,u,no-cat
+glass,i,no-cat
 seed,u,no-cat
 remembered,u,no-cat
 played,u,no-cat
@@ -500,7 +500,7 @@ agency,u,no-cat
 family,u,no-cat
 act,u,no-cat
 caf,u,no-cat
-people,u,no-cat
+people,i,no-cat
 warehouse,u,no-cat
 australia,u,no-cat
 founded,u,no-cat
@@ -623,7 +623,7 @@ smoke,r,no-cat
 electric,r,no-cat
 are,u,relation no-cat
 dressed,u,relation
-leather,u,relation
+leather,i,relation
 removed,u,relation food warm
 recommended,u,relation food
 meaning,u,relation
@@ -639,7 +639,7 @@ while,u,relation
 pair,u,relation communication
 metal,u,relation
 thick,u,relation measure communication
-suit,u,relation
+suit,i,relation
 enough,u,relation
 further,u,relation
 largely,u,relation
@@ -657,14 +657,14 @@ blue,u,communication
 filled,u,communication
 attached,u,communication
 wearing,u,communication
-nose,u,communication
+nose,i,communication
 front,u,communication warm
 orange,u,communication no-cat
 hanging,u,communication
 containing,u,communication food warm no-cat
 shot,u,communication
 beneath,u,communication
-cloth,u,communication no-cat
+cloth,i,communication no-cat
 inches,u,communication
 tiny,u,communication
 rubber,u,communication no-cat
@@ -679,7 +679,7 @@ bay,u,communication no-cat
 wrapped,u,communication
 pink,u,communication no-cat
 red,u,communication warm
-mask,u,communication
+mask,i,communication
 hole,u,communication no-cat
 stretched,u,communication
 ball,u,communication
@@ -904,7 +904,7 @@ top,u,no-cat
 green,u,no-cat
 lower,u,no-cat
 hills,u,no-cat
-winter,u,no-cat
+winter,r,no-cat
 area,u,no-cat
 multi,u,no-cat
 students,u,no-cat

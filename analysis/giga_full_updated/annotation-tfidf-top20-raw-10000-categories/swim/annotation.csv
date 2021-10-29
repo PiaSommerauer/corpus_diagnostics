@@ -1,0 +1,211 @@
+context,evidence_type,categories
+lion, ,relation
+sea, ,relation food
+trail, ,relation
+spot, ,relation communication
+top, ,relation
+coast, ,relation
+fish, ,relation animal food measure fish object all
+east, ,relation
+british, ,relation
+island, ,relation
+lions, ,relation
+dark, ,relation
+born, ,relation
+located, ,relation
+identified, ,relation
+museum, ,relation
+village, ,relation
+drawing, ,relation
+reading, ,relation
+killer, ,mammal relation
+mouse, ,vehicle
+dog, ,vehicle
+scan, ,vehicle
+cat, ,vehicle
+tabasco, ,vehicle
+litter, ,vehicle
+hat, ,vehicle
+scans, ,vehicle
+thief, ,vehicle
+stevens, ,vehicle
+pet, ,vehicle
+fat, ,vehicle
+cheshire, ,vehicle
+meow, ,vehicle
+cradle, ,vehicle
+stray, ,vehicle
+tin, ,vehicle
+cats, ,vehicle
+the, ,vehicle
+and, ,vehicle communication
+takes, ,bird
+car, ,bird
+feature, ,bird
+biggest, ,bird
+removing, ,bird
+duck, ,bird
+president, ,bird
+half, ,bird
+example, ,bird
+is, ,bird animal object all
+floating, ,bird
+noir, ,bird
+broadcast, ,bird
+particularly, ,bird
+trailer, ,bird
+troubles, ,bird
+neck, ,bird reptile
+tip, ,bird animal object all
+analysis, ,bird
+permanent, ,bird
+fishing, ,animal food fish object all
+waters, ,animal food fish object all
+far, ,animal object all
+trout, ,animal food fish object all
+hot, ,animal object all
+serves, ,animal object all
+name, ,mammal animal object all
+pound, ,animal object all
+pacific, ,animal object all
+whale, ,animal object all
+known, ,mammal animal object all
+swimming, ,animal object all
+catfish, ,animal food fish object all
+salmon, ,animal food fish object all
+populations, ,animal food fish object all
+creatures, ,animal object all
+biologists, ,animal object all
+catch, ,food
+species, ,food fish
+caught, ,food
+bass, ,measure food
+cod, ,measure food
+atlantic, ,food
+catching, ,food
+fillets, ,food
+herring, ,food
+fishery, ,food
+sardines, ,food fish
+swordfish, ,food
+front, ,no-cat
+won, ,no-cat
+considered, ,no-cat
+former, ,no-cat
+french, ,no-cat
+400, ,no-cat
+2004, ,no-cat
+2001, ,no-cat
+on, ,no-cat
+bob, ,no-cat
+200, ,no-cat
+here, ,no-cat
+11, ,no-cat
+five, ,no-cat
+from, ,reptile no-cat
+said, ,no-cat
+23, ,no-cat
+strong, ,no-cat
+remains, ,no-cat
+asian, ,no-cat
+knock, ,measure
+yellow, ,measure
+sniper, ,measure
+their, ,measure
+birds, ,measure
+behind, ,measure
+dugout, ,measure
+appropriations, ,measure
+liverpool, ,measure
+surf, ,measure
+they, ,measure
+usual, ,measure
+wooden, ,measure
+little, ,measure
+your, ,measure
+over, ,measure
+fillet, ,measure
+bites, ,reptile
+bitten, ,reptile
+poisonous, ,reptile
+dragon, ,reptile
+coiled, ,reptile
+handlers, ,reptile
+slithered, ,reptile
+foot, ,reptile
+tree, ,reptile
+wrapped, ,reptile
+tail, ,reptile
+kill, ,reptile
+cobra, ,reptile
+anaconda, ,reptile
+python, ,reptile
+rabbit, ,reptile
+slithering, ,reptile
+eating, ,reptile
+fate, ,communication
+beach, ,communication
+hunters, ,communication
+border, ,communication
+bag, ,communication
+with, ,communication
+it, ,communication
+an, ,communication
+plastic, ,communication
+minute, ,communication
+meat, ,communication
+tight, ,communication
+game, ,communication
+his, ,communication
+place, ,communication
+calif, ,communication
+team, ,communication
+try, ,communication
+eat, ,fish
+fished, ,fish
+pounds, ,fish
+small, ,fish
+fishermen, ,fish
+tuna, ,fish
+are, ,fish
+perch, ,fish
+000, ,fish
+shrimp, ,fish
+fisheries, ,fish
+male, ,mammal
+christmas, ,mammal
+story, ,mammal
+works, ,mammal
+oldest, ,mammal
+project, ,mammal
+pair, ,mammal
+spotted, ,mammal
+call, ,mammal
+beloved, ,mammal
+crew, ,mammal
+her, ,mammal
+nose, ,mammal
+becomes, ,mammal
+favorite, ,mammal
+type, ,mammal
+looks, ,mammal
+tampa, ,plant
+guantanamo, ,plant
+green, ,plant
+packers, ,plant
+area, ,plant
+cuba, ,plant
+bengal, ,plant
+buccaneers, ,plant
+francisco, ,plant
+chesapeake, ,plant
+rays, ,plant
+subic, ,plant
+devil, ,plant
+prudhoe, ,plant
+detainees, ,plant
+lightning, ,plant
+montego, ,plant
+san, ,plant
+pigs, ,plant
+naval, ,plant

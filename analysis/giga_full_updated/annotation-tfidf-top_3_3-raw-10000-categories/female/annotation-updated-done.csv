@@ -3,9 +3,9 @@ her,i,mammal female animal communication
 she,i,female mammal all communication object
 herself,i,mammal female object all
 in,u,female
-haired,u,female
+haired,b,female
 lady,i,mammal female communication
-birth,r,mammal
+birth,l,mammal
 grass,u,mammal
 pregnant,l,mammal
 pregnancy,l,mammal
@@ -15,10 +15,10 @@ beautiful,b,object all
 baby,b,communication
 walk,u,communication
 like,u,communication
-sex,u,communication
+sex,b,communication
 likes,u,communication
 girl,i,communication
-angel,u,communication
+angel,b,communication
 fun,u,communication
 university,u,communication
 bed,u,communication
@@ -26,7 +26,7 @@ art,u,communication
 wine,u,communication
 friends,u,communication
 45,u,communication
-grace,u,communication
+grace,b,communication
 everyone,u,communication
 married,b,communication
 reading,u,communication

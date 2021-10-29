@@ -1,0 +1,158 @@
+context,evidence_type,categories
+burned, ,relation
+chemical, ,relation
+died, ,relation
+burning, ,relation object all
+burnt, ,relation food all
+pieces, ,relation
+flame, ,relation object all
+virtually, ,relation
+substances, ,relation
+lived, ,relation
+melted, ,relation
+picked, ,relation
+900, ,relation
+consists, ,relation
+lit, ,relation
+pile, ,relation
+bits, ,relation
+dust, ,relation
+coal, ,relation
+thick, ,relation
+rice, ,hot
+heat, ,hot all
+dry, ,hot
+produce, ,hot
+equivalent, ,hot
+metal, ,hot
+cooking, ,hot
+cooked, ,hot all
+pine, ,hot
+smoke, ,hot
+burns, ,hot
+fields, ,hot
+hand, ,hot
+fruit, ,hot
+instance, ,hot
+preparation, ,hot
+dinner, ,hot
+hour, ,hot
+smell, ,hot
+meat, ,hot
+oven, ,food
+remove, ,food
+easy, ,food
+pan, ,food
+crisp, ,food all
+menu, ,food
+minutes, ,food all
+duck, ,food
+preparing, ,food
+evenly, ,food
+cooled, ,food
+restaurant, ,food
+cooks, ,food all
+fit, ,food
+easily, ,food
+ham, ,food
+buttered, ,food
+flour, ,food
+stove, ,food
+signature, ,no-cat
+towel, ,no-cat
+serving, ,no-cat
+the, ,no-cat plant
+main, ,no-cat
+pizza, ,no-cat
+glass, ,no-cat
+pour, ,measure no-cat
+this, ,no-cat
+towels, ,no-cat
+served, ,measure no-cat
+flavors, ,no-cat
+by, ,no-cat
+microwave, ,no-cat
+to, ,no-cat
+with, ,no-cat
+serve, ,no-cat
+is, ,no-cat
+of, ,no-cat plant
+dessert, ,no-cat
+water, ,measure
+table, ,measure
+fill, ,measure
+kitchen, ,measure
+add, ,measure
+filling, ,measure
+milk, ,measure
+filled, ,measure
+tea, ,measure plant
+combine, ,measure
+stir, ,measure
+breakfast, ,measure
+stirring, ,measure
+empty, ,measure
+container, ,measure
+juice, ,measure
+dish, ,measure
+bowl, ,measure
+000, ,communication plant
+live, ,communication
+reached, ,communication
+reach, ,communication
+safely, ,communication
+control, ,communication
+10, ,communication
+shoot, ,communication
+return, ,communication
+trash, ,communication
+500, ,communication
+50, ,communication
+destroy, ,communication
+small, ,communication
+20, ,communication
+100, ,communication
+set, ,communication
+city, ,communication
+workers, ,communication
+30, ,communication
+hot, ,object plant all
+fired, ,object
+steam, ,object all
+works, ,object
+wood, ,object all
+creating, ,object
+12, ,object
+huge, ,object
+200, ,object
+warmed, ,object all
+raised, ,object
+itself, ,object
+300, ,object
+400, ,object
+natural, ,object
+ash, ,object
+gas, ,object
+per, ,object all
+iced, ,plant
+coffee, ,plant
+party, ,plant
+sipping, ,plant
+drinking, ,plant
+drink, ,plant
+afternoon, ,plant
+bags, ,plant
+and, ,plant
+sweet, ,plant
+at, ,plant
+day, ,plant
+drinks, ,plant
+sip, ,plant
+shop, ,plant
+smoked, ,all
+arrange, ,all
+cook, ,all
+fancy, ,all
+tender, ,all
+warm, ,all
+each, ,all

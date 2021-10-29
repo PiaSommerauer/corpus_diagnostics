@@ -1,0 +1,145 @@
+context,evidence_type,categories
+grilled,u,relation food
+grill,u,relation
+salmon,i,relation animal food fish object all
+miller,u,relation
+sauce,u,relation
+chicken,i,relation fish
+town,u,relation
+fish,i,relation animal food fish object all
+fishermen,r,relation fish
+shrimp,i,relation animal object all
+cod,i,relation fish
+fillets,u,relation fish
+fashion,u,relation
+of,u,relation
+turning,u,relation
+atlantic,r,relation animal fish object all
+toast,u,relation
+medium,u,relation
+bread,u,relation
+day,u,relation
+duck,i,bird animal measure mammal object all
+bird,i,bird animal object all
+nest,r,bird no-cat
+habitat,u,bird no-cat
+thursday,u,bird
+including,u,bird
+along,u,bird
+third,u,bird
+week,u,bird
+population,u,bird no-cat
+set,u,bird
+house,u,bird
+fall,u,bird
+populations,u,bird fish
+viewers,u,bird
+american,u,bird
+goose,i,measure bird
+picture,u,bird
+begins,u,bird
+would,u,bird
+eggs,p,animal no-cat mammal object all
+egg,p,mammal animal object all
+fried,u,animal object all
+smoked,u,animal food object all
+fishing,r,animal food communication fish object all
+menu,u,animal object all
+waters,r,animal object fish all
+river,r,animal no-cat object all
+warm,u,animal object all
+birds,i,animal object all
+species,u,animal no-cat object all
+steak,u,animal object all
+lay,p,animal object all
+soup,u,animal object all
+lamb,u,food fish
+0,u,food
+banned,u,food
+baked,u,food
+wrapped,u,food
+roasted,u,measure food
+go,u,food
+tuna,i,food fish
+stuffed,u,food
+fisheries,r,food
+runs,u,food
+tomato,u,food
+mixture,u,food
+cheese,u,food
+open,u,food
+endangered,u,no-cat
+nicknamed,u,no-cat
+covered,u,no-cat
+resembling,u,no-cat
+sandy,u,no-cat
+dark,u,no-cat
+back,u,no-cat
+words,u,no-cat
+discovered,u,no-cat
+meat,u,no-cat
+animal,i,no-cat
+spotted,u,no-cat
+rare,u,no-cat
+caught,u,no-cat
+lame,u,measure
+donald,u,measure
+daffy,u,measure
+roast,u,measure
+session,u,measure
+confit,u,measure
+soo,u,measure
+peking,u,measure
+han,u,measure
+breast,u,measure
+hunting,u,measure
+breasts,u,measure
+quacks,r,measure
+lbw,u,measure
+fat,u,measure
+pond,u,measure
+liver,u,measure
+striped,u,communication
+drums,u,communication
+guitar,u,communication
+baritone,u,communication
+largemouth,u,communication
+drum,u,communication
+sea,r,communication
+bass,i,communication
+piano,u,communication
+lance,u,communication
+anglers,r,communication
+smallmouth,i,communication
+chilean,u,communication
+player,u,communication
+guitarist,u,communication
+strait,u,communication
+sid,u,communication
+plc,u,communication
+clarinet,u,communication
+known,u,fish
+maine,u,fish
+size,u,fish
+trout,i,fish
+pike,i,fish
+wild,u,fish
+freshwater,r,fish
+swordfish,i,fish
+billed,u,mammal
+genome,u,mammal
+sty,u,mammal
+mammals,u,mammal
+mammal,u,mammal
+genes,u,mammal
+laying,p,mammal
+beaked,l,mammal
+chromosomes,u,mammal
+genetic,u,mammal
+animals,i,mammal
+retained,u,mammal
+man,u,mammal
+researchers,u,mammal
+characteristics,u,mammal
+dna,u,mammal
+spurs,u,mammal

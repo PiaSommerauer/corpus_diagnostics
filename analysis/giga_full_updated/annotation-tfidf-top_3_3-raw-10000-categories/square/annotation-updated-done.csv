@@ -441,7 +441,7 @@ gotten,u,relation
 lend,u,relation
 arrival,u,relation
 web,u,relation
-page,u,relation
+page,i,relation
 to,u,relation
 photo,u,relation
 same,u,food relation
@@ -660,7 +660,7 @@ place,u,relation
 residence,u,relation
 400,u,relation
 rare,u,relation
-toilet,u,relation
+toilet,i,relation
 under,u,relation
 finished,u,relation
 900,u,relation
@@ -1304,7 +1304,7 @@ tampa,u,relation
 hide,u,relation
 maine,u,relation
 built,u,object all
-kitchen,u,food
+kitchen,i,food
 dinner,u,food
 sit,u,food
 and,u,food
@@ -1449,7 +1449,7 @@ trailer,u,food
 airy,u,food
 contests,u,food
 mary,u,food
-rack,u,food
+rack,i,food
 preference,u,food
 convert,u,food
 loaf,u,food

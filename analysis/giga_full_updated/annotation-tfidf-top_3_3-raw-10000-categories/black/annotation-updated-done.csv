@@ -1,6 +1,6 @@
 context,evidence_type,categories
 suddenly,u,animal bird object all
-fire,u,object all
+fire,r,object all
 enormous,u,object
 shot,u,measure no-cat
 smoked,u,measure
@@ -11,7 +11,7 @@ surface,u,fruit measure
 cool,r,measure no-cat
 act,u,measure no-cat
 sit,u,fruit measure no-cat
-cover,u,fruit measure
+cover,i,fruit measure
 smoke,i,measure
 heat,u,measure no-cat
 fingers,u,fruit measure
@@ -403,7 +403,7 @@ underneath,u,no-cat
 work,u,no-cat
 control,u,no-cat
 waiting,u,no-cat
-coffee,u,no-cat
+coffee,i,no-cat
 vacation,u,no-cat
 valley,u,no-cat
 product,u,no-cat
@@ -523,7 +523,7 @@ ranch,u,no-cat
 losing,u,no-cat
 passed,u,no-cat
 nine,u,no-cat
-suit,u,no-cat
+suit,i,no-cat
 rich,u,no-cat
 picture,u,no-cat
 maybe,u,no-cat
@@ -693,7 +693,7 @@ maintenance,u,no-cat
 lots,u,no-cat
 passengers,u,no-cat
 threat,u,no-cat
-pit,u,no-cat
+pit,i,no-cat
 trailer,i,no-cat
 objects,i,no-cat
 needs,u,no-cat
@@ -882,7 +882,7 @@ parties,u,fruit
 stage,u,fruit
 reference,u,fruit
 types,u,fruit
-oven,u,fruit
+oven,i,fruit
 there,u,fruit
 did,u,fruit
 ca,u,fruit

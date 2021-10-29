@@ -1,0 +1,196 @@
+context,evidence_type,categories
+lime,NA,relation fruit communication
+juice,p,relation fruit plant
+vinegar,NA,relation communication
+drain,NA,relation
+along,u,relation
+lobster,i,relation animal
+fragrant,NA,relation
+dried,NA,relation
+substitute,NA,relation
+grapefruit,i,relation food object all
+tomato,NA,relation
+garlic,NA,relation
+fresh,NA,relation fruit
+teaspoons,NA,relation
+parsley,NA,relation
+canned,NA,relation fish
+onion,NA,relation
+grapes,i,relation
+juices,p,relation fruit food object plant all
+puree,NA,relation
+for,NA,vegetable
+bright,u,vegetable food object
+simple,NA,vegetable
+60,NA,vegetable
+end,NA,vegetable
+little,NA,vegetable
+coat,NA,vegetable
+better,NA,vegetable
+fruit,i,vegetable fruit food object plant all
+soups,u,vegetable
+color,NA,vegetable
+growing,NA,vegetable
+depth,NA,vegetable
+open,NA,vegetable
+big,NA,vegetable
+half,NA,vegetable
+banana,NA,vegetable plant
+does,NA,vegetable
+turn,NA,vegetable
+out,NA,vegetable
+pineapple,i,fruit food object plant all
+wine,NA,fruit
+orange,i,fruit food object plant all
+ripe,r,fruit food object plant all
+red,u,fruit object all
+fruits,i,fruit food object plant all
+lemon,NA,fruit communication
+like,u,fruit fish object plant all
+strawberries,NA,fruit
+flavors,u,fruit food communication object all
+cherry,i,fruit food communication object plant all
+sweet,NA,fruit
+citrus,i,fruit food object plant all
+berries,i,fruit
+watermelon,NA,fruit
+mill,NA,juicy
+mongering,NA,juicy
+innuendo,NA,juicy
+false,NA,juicy
+speculation,NA,juicy
+heard,NA,juicy
+circulating,NA,juicy
+mongers,NA,juicy
+that,NA,juicy
+truth,NA,juicy
+circulated,NA,juicy
+unfounded,NA,juicy
+spreading,NA,juicy
+spread,NA,juicy
+denied,NA,juicy
+persistent,NA,juicy
+gossip,NA,juicy
+rumor,NA,juicy
+it,NA,juicy
+there,u,juicy
+mango,i,food object all
+papaya,i,food object plant all
+melon,i,food all
+peach,i,food communication plant
+among,u,food object all
+tropical,NA,food
+apple,i,food all
+drink,i,food object
+sweetness,NA,food
+shrimp,i,animal fish
+salad,NA,animal no-cat
+mixture,NA,animal
+each,u,animal
+bacon,NA,animal
+grilled,u,mammal animal no-cat
+smoked,u,animal
+chicken,NA,animal no-cat
+lamb,NA,animal no-cat
+corn,NA,mammal animal
+fry,NA,animal
+stuffed,NA,animal
+perfect,NA,animal
+on,NA,mammal animal
+from,NA,animal
+recipes,NA,animal
+hook,u,animal
+90,NA,animal
+plant,NA,animal
+fried,NA,no-cat
+soup,NA,no-cat
+cooked,u,no-cat
+beef,NA,no-cat
+cups,NA,no-cat
+roasted,NA,no-cat
+add,NA,no-cat
+sauce,NA,no-cat communication
+pieces,NA,no-cat
+dish,NA,no-cat
+recipe,NA,no-cat
+frozen,NA,no-cat
+or,u,no-cat
+eating,NA,no-cat
+baked,NA,no-cat
+eat,NA,no-cat
+boats,NA,measure
+grounds,NA,measure
+pulling,NA,measure
+symbol,NA,measure
+wrap,NA,measure
+consistency,NA,measure
+industry,NA,measure
+could,NA,measure
+catch,NA,measure
+japanese,NA,measure
+countries,NA,measure
+ranging,NA,measure
+tonight,NA,measure
+means,NA,measure
+few,NA,measure
+grade,NA,measure
+wraps,NA,measure
+fair,NA,measure
+10,NA,measure
+generally,NA,measure
+jam,NA,communication plant
+chocolate,NA,communication
+strawberry,NA,communication
+blackberry,NA,communication
+vinaigrette,NA,communication
+cream,NA,communication
+cake,NA,communication
+preserves,NA,communication
+coulis,NA,communication
+seedless,NA,communication
+flavored,NA,communication
+sorbet,i,communication plant
+vanilla,NA,communication
+cans,NA,fish
+anchovy,NA,fish
+cannery,NA,fish
+sardine,NA,fish
+packed,NA,fish
+canneries,NA,fish
+tin,NA,fish
+toast,NA,fish
+squid,NA,fish
+canning,NA,fish
+hake,NA,fish
+fishery,NA,fish
+fish,NA,fish
+fishing,NA,fish
+mackerel,NA,fish
+tins,NA,fish
+sandwich,NA,fish
+kernels,NA,mammal
+cos,NA,mammal
+melchor,NA,mammal
+castro,NA,mammal
+bolivian,NA,mammal
+conn,NA,mammal
+potatoes,NA,mammal
+bourse,NA,mammal
+the,NA,mammal
+nam,NA,mammal
+cob,NA,mammal
+knife,NA,mammal
+watchdog,NA,mammal
+oven,NA,mammal
+cut,NA,mammal
+ears,NA,mammal
+regulator,NA,mammal
+picking,u,object all
+juicy,p,object
+passion,NA,object plant
+is,NA,plant
+now,NA,plant
+of,NA,plant
+punch,NA,plant
+restaurant,u,all
+garden,u,all

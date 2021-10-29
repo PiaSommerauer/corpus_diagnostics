@@ -1,0 +1,145 @@
+context,evidence_type,categories
+grilled,u,relation food
+grill,NA,relation
+salmon,i,relation animal food fish object all
+miller,NA,relation
+sauce,NA,relation
+chicken,NA,relation fish
+town,NA,relation
+fish,i,relation animal food fish object all
+fishermen,r,relation fish
+shrimp,i,relation animal object all
+cod,i,relation fish
+fillets,NA,relation fish
+fashion,NA,relation
+of,NA,relation
+turning,u,relation
+atlantic,r,relation animal fish object all
+toast,NA,relation
+medium,NA,relation
+bread,NA,relation
+day,NA,relation
+duck,i,bird animal measure mammal object all
+bird,i,bird animal object all
+nest,NA,bird no-cat
+habitat,u,bird no-cat
+thursday,NA,bird
+including,NA,bird
+along,u,bird
+third,NA,bird
+week,u,bird
+population,u,bird no-cat
+set,NA,bird
+house,NA,bird
+fall,NA,bird
+populations,NA,bird fish
+viewers,NA,bird
+american,NA,bird
+goose,i,measure bird
+picture,NA,bird
+begins,u,bird
+would,NA,bird
+eggs,p,animal no-cat mammal object all
+egg,p,mammal animal object all
+fried,u,animal object all
+smoked,u,animal food object all
+fishing,r,animal food communication fish object all
+menu,u,animal object all
+waters,r,animal object fish all
+river,r,animal no-cat object all
+warm,u,animal object all
+birds,i,animal object all
+species,u,animal no-cat object all
+steak,NA,animal object all
+lay,NA,animal object all
+soup,NA,animal object all
+lamb,u,food fish
+000,NA,food
+banned,NA,food
+baked,u,food
+wrapped,u,food
+roasted,u,measure food
+go,NA,food
+tuna,i,food fish
+stuffed,NA,food
+fisheries,NA,food
+runs,NA,food
+tomato,NA,food
+mixture,NA,food
+cheese,NA,food
+open,NA,food
+endangered,u,no-cat
+nicknamed,NA,no-cat
+covered,NA,no-cat
+resembling,u,no-cat
+sandy,NA,no-cat
+dark,NA,no-cat
+back,NA,no-cat
+words,NA,no-cat
+discovered,NA,no-cat
+meat,NA,no-cat
+animal,NA,no-cat
+spotted,NA,no-cat
+rare,u,no-cat
+caught,u,no-cat
+lame,NA,measure
+donald,NA,measure
+daffy,NA,measure
+roast,NA,measure
+session,NA,measure
+confit,NA,measure
+soo,NA,measure
+peking,NA,measure
+han,NA,measure
+breast,NA,measure
+hunting,NA,measure
+breasts,NA,measure
+quacks,NA,measure
+lbw,NA,measure
+fat,NA,measure
+pond,NA,measure
+liver,NA,measure
+striped,NA,communication
+drums,NA,communication
+guitar,NA,communication
+baritone,NA,communication
+largemouth,NA,communication
+drum,NA,communication
+sea,NA,communication
+bass,i,communication
+piano,NA,communication
+lance,NA,communication
+anglers,NA,communication
+smallmouth,NA,communication
+chilean,NA,communication
+player,NA,communication
+guitarist,NA,communication
+strait,NA,communication
+sid,NA,communication
+plc,NA,communication
+clarinet,NA,communication
+known,NA,fish
+maine,u,fish
+size,u,fish
+trout,i,fish
+pike,NA,fish
+wild,NA,fish
+freshwater,r,fish
+swordfish,NA,fish
+billed,NA,mammal
+genome,NA,mammal
+sty,NA,mammal
+mammals,NA,mammal
+mammal,NA,mammal
+genes,NA,mammal
+laying,NA,mammal
+beaked,NA,mammal
+chromosomes,NA,mammal
+genetic,NA,mammal
+animals,NA,mammal
+retained,NA,mammal
+man,NA,mammal
+researchers,NA,mammal
+characteristics,NA,mammal
+dna,NA,mammal
+spurs,NA,mammal

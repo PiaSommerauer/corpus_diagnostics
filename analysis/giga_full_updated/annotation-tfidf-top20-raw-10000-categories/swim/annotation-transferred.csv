@@ -1,0 +1,211 @@
+context,evidence_type,categories
+lion,NA,relation
+sea,r,relation food
+trail,NA,relation
+spot,NA,relation communication
+top,NA,relation
+coast,NA,relation
+fish,i,relation animal food measure fish object all
+east,NA,relation
+british,NA,relation
+island,NA,relation
+lions,NA,relation
+dark,NA,relation
+born,NA,relation
+located,NA,relation
+identified,NA,relation
+museum,NA,relation
+village,NA,relation
+drawing,NA,relation
+reading,NA,relation
+killer,NA,mammal relation
+mouse,NA,vehicle
+dog,NA,vehicle
+scan,NA,vehicle
+cat,NA,vehicle
+tabasco,NA,vehicle
+litter,NA,vehicle
+hat,NA,vehicle
+scans,NA,vehicle
+thief,NA,vehicle
+stevens,NA,vehicle
+pet,NA,vehicle
+fat,NA,vehicle
+cheshire,NA,vehicle
+meow,NA,vehicle
+cradle,NA,vehicle
+stray,NA,vehicle
+tin,NA,vehicle
+cats,NA,vehicle
+the,NA,vehicle
+and,NA,vehicle communication
+takes,u,bird
+car,NA,bird
+feature,NA,bird
+biggest,NA,bird
+removing,u,bird
+duck,i,bird
+president,u,bird
+half,NA,bird
+example,NA,bird
+is,u,bird animal object all
+floating,n,bird
+noir,NA,bird
+broadcast,NA,bird
+particularly,NA,bird
+trailer,NA,bird
+troubles,NA,bird
+neck,u,bird reptile
+tip,NA,bird animal object all
+analysis,NA,bird
+permanent,NA,bird
+fishing,r,animal food fish object all
+waters,r,animal food fish object all
+far,u,animal object all
+trout,i,animal food fish object all
+hot,u,animal object all
+serves,u,animal object all
+name,u,mammal animal object all
+pound,u,animal object all
+pacific,r,animal object all
+whale,NA,animal object all
+known,u,mammal animal object all
+swimming,p,animal object all
+catfish,i,animal food fish object all
+salmon,i,animal food fish object all
+populations,u,animal food fish object all
+creatures,u,animal object all
+biologists,u,animal object all
+catch,r,food
+species,NA,food fish
+caught,r,food
+bass,i,measure food
+cod,NA,measure food
+atlantic,r,food
+catching,r,food
+fillets,r,food
+herring,NA,food
+fishery,r,food
+sardines,NA,food fish
+swordfish,NA,food
+front,NA,no-cat
+won,NA,no-cat
+considered,NA,no-cat
+former,NA,no-cat
+french,NA,no-cat
+400,NA,no-cat
+2004,NA,no-cat
+2001,NA,no-cat
+on,NA,no-cat
+bob,NA,no-cat
+200,NA,no-cat
+here,NA,no-cat
+11,NA,no-cat
+five,NA,no-cat
+from,NA,reptile no-cat
+said,NA,no-cat
+23,NA,no-cat
+strong,NA,no-cat
+remains,NA,no-cat
+asian,NA,no-cat
+knock,NA,measure
+yellow,NA,measure
+sniper,NA,measure
+their,NA,measure
+birds,NA,measure
+behind,NA,measure
+dugout,NA,measure
+appropriations,NA,measure
+liverpool,NA,measure
+surf,NA,measure
+they,NA,measure
+usual,NA,measure
+wooden,NA,measure
+little,NA,measure
+your,NA,measure
+over,NA,measure
+fillet,NA,measure
+bites,NA,reptile
+bitten,NA,reptile
+poisonous,NA,reptile
+dragon,NA,reptile
+coiled,NA,reptile
+handlers,NA,reptile
+slithered,NA,reptile
+foot,NA,reptile
+tree,NA,reptile
+wrapped,NA,reptile
+tail,NA,reptile
+kill,NA,reptile
+cobra,NA,reptile
+anaconda,NA,reptile
+python,NA,reptile
+rabbit,NA,reptile
+slithering,NA,reptile
+eating,u,reptile
+fate,NA,communication
+beach,NA,communication
+hunters,NA,communication
+border,NA,communication
+bag,NA,communication
+with,NA,communication
+it,NA,communication
+an,NA,communication
+plastic,NA,communication
+minute,NA,communication
+meat,NA,communication
+tight,NA,communication
+game,NA,communication
+his,NA,communication
+place,NA,communication
+calif,NA,communication
+team,NA,communication
+try,NA,communication
+eat,NA,fish
+fished,NA,fish
+pounds,NA,fish
+small,NA,fish
+fishermen,r,fish
+tuna,i,fish
+are,NA,fish
+perch,i,fish
+000,NA,fish
+shrimp,i,fish
+fisheries,NA,fish
+male,NA,mammal
+christmas,NA,mammal
+story,NA,mammal
+works,NA,mammal
+oldest,NA,mammal
+project,NA,mammal
+pair,NA,mammal
+spotted,NA,mammal
+call,NA,mammal
+beloved,NA,mammal
+crew,NA,mammal
+her,NA,mammal
+nose,NA,mammal
+becomes,NA,mammal
+favorite,NA,mammal
+type,NA,mammal
+looks,u,mammal
+tampa,NA,plant
+guantanamo,NA,plant
+green,NA,plant
+packers,NA,plant
+area,NA,plant
+cuba,NA,plant
+bengal,NA,plant
+buccaneers,NA,plant
+francisco,NA,plant
+chesapeake,NA,plant
+rays,NA,plant
+subic,NA,plant
+devil,NA,plant
+prudhoe,NA,plant
+detainees,NA,plant
+lightning,NA,plant
+montego,NA,plant
+san,NA,plant
+pigs,NA,plant
+naval,NA,plant

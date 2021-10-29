@@ -141,7 +141,7 @@ significant,u,no-cat
 project,u,no-cat
 estimates,u,no-cat
 mid,u,no-cat
-tank,u,no-cat
+tank,i,no-cat
 suspect,u,no-cat
 prepared,u,no-cat
 flies,u,no-cat

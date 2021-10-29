@@ -1,0 +1,252 @@
+context,evidence_type,categories
+reflected,u,relation
+heard,u,relation
+forever,u,relation
+songs,u,relation
+james,u,relation
+tom,u,relation
+football,u,relation
+character,u,relation animal
+wife,u,relation animal
+martin,u,relation
+admits,u,relation
+image,u,relation
+writing,u,relation
+positive,u,relation
+ultimately,u,relation
+belong,u,relation
+mystery,u,relation
+trained,u,relation
+poster,u,relation
+song,u,relation
+carrying,u,vehicle
+tour,u,vehicle
+injured,u,vehicle
+traveling,u,vehicle
+exploded,u,vehicle
+blew,u,vehicle red
+near,u,vehicle
+crashed,u,vehicle
+when,u,vehicle
+were,u,vehicle
+explosion,u,vehicle
+killing,u,vehicle
+ripped,u,vehicle
+blast,u,vehicle
+off,u,vehicle
+injuring,u,vehicle
+tourists,u,vehicle
+northern,u,vehicle
+wreckage,u,vehicle
+hit,u,vehicle
+sugar,u,vegetable
+red,p,bird vegetable fruit plant all
+spices,i,vegetable
+lime,u,vegetable
+color,i,vegetable object plant all
+by,u,vegetable
+savory,u,vegetable
+ginger,u,vegetable
+roasted,u,vegetable
+soup,i,vegetable
+eggplant,u,vegetable
+stewed,u,vegetable
+chili,i,vegetable
+her,u,vegetable object plant
+horseradish,u,vegetable food
+grass,u,vegetable
+coat,i,vegetable
+11,u,vegetable
+anise,u,vegetable
+shallow,u,vegetable
+hundred,u,bird
+flowers,i,bird
+andrews,u,bird
+symbol,u,bird
+cock,u,bird
+fights,u,bird
+weather,u,bird
+award,u,bird
+pacino,u,bird
+midnight,u,bird
+statue,u,bird
+named,u,bird
+from,u,bird
+iii,u,bird
+14th,u,bird
+got,u,bird
+fighting,u,bird
+prestigious,u,bird
+perched,u,bird
+flames,i,red
+burns,r,red
+regular,u,red
+arena,u,red
+hall,u,red
+21,u,red
+host,u,mammal red
+ken,u,red
+star,u,red
+streak,u,red
+31,u,red
+44,u,red
+1967,u,red
+earned,u,red
+at,u,red
+simmering,u,red
+seething,u,red
+erupted,u,red
+protests,u,red
+summer,u,fruit plant
+currant,i,fruit food
+wine,i,weapon fruit food plant
+intense,u,fruit food
+picked,u,fruit
+black,u,fruit plant
+right,u,fruit food
+blueberry,u,fruit
+elegant,u,fruit food plant all
+what,u,fruit
+introduced,u,fruit
+features,u,fruit object all
+life,u,fruit
+champagne,u,fruit food
+though,u,fruit
+shows,u,fruit object all
+vines,u,weapon fruit
+harder,u,fruit
+picking,u,fruit
+warner,u,mammal animal
+director,u,animal
+joseph,u,animal
+latter,u,animal
+16,u,animal
+films,u,animal
+brings,u,animal
+begins,u,animal
+wait,u,animal
+lane,u,animal
+1998,u,animal
+creating,u,animal
+1991,u,animal all
+hampshire,u,animal
+crack,u,animal
+naturally,u,animal
+split,u,animal no-cat
+formidable,u,animal
+concentrated,u,food
+vibrant,u,food
+sherry,u,food
+lovely,u,food
+plum,i,food plant
+plenty,u,food object plant all
+accent,u,food
+depending,u,food
+preserve,u,food
+cider,u,food
+sweetness,u,food
+wish,u,food all
+concentration,u,food
+forgot,u,no-cat
+light,u,no-cat
+pass,u,no-cat
+managed,u,no-cat
+added,u,no-cat
+green,u,measure no-cat
+roll,u,no-cat
+base,u,no-cat
+french,u,no-cat
+slightly,u,no-cat
+camera,u,no-cat
+level,u,no-cat
+microphone,u,no-cat
+intended,u,no-cat
+clock,u,no-cat
+greek,u,no-cat
+spanish,u,no-cat
+slide,u,no-cat
+pieces,u,no-cat
+ceiling,u,measure
+plastic,u,measure
+thick,u,measure
+covered,u,measure
+sheet,i,measure
+topped,u,measure
+plates,u,measure
+sculpture,u,measure
+twisted,u,measure
+small,u,measure
+painted,u,measure
+bowls,u,measure
+onto,u,measure
+thin,u,measure
+huge,u,measure
+surface,u,measure
+atop,u,measure
+dishes,u,measure
+cleaned,u,measure
+juice,i,weapon
+growers,u,weapon
+varieties,u,weapon plant
+tomatoes,i,weapon
+gilbert,u,weapon
+harvest,u,weapon
+wines,u,weapon
+nuts,u,weapon
+cherry,i,weapon
+jelly,i,weapon
+variety,u,weapon
+grower,u,weapon
+growing,u,weapon
+leaves,i,weapon
+skins,u,weapon
+stuffed,u,weapon
+noir,u,weapon
+chardonnay,u,weapon
+20th,u,mammal
+network,u,mammal
+fox,i,mammal
+sports,u,mammal
+television,u,mammal
+president,u,mammal
+tv,u,mammal
+hunting,u,mammal
+corp,u,mammal
+net,u,mammal
+told,u,mammal object
+in,u,mammal
+trot,u,mammal
+animated,u,mammal
+owns,u,mammal
+michael,u,mammal
+desert,u,mammal
+owned,u,mammal
+burst,u,object all
+modern,u,object all
+hand,u,object
+carries,u,object all
+sister,u,object
+whose,u,object
+colorful,r,object plant
+bright,u,object all
+steel,u,object all
+very,u,object
+frank,u,object all
+touches,u,object
+pick,u,object
+know,u,object
+white,u,plant
+roses,i,plant
+flower,i,plant
+species,u,plant
+yellow,u,plant
+garden,u,plant
+sun,i,plant
+actually,u,plant
+like,u,plant
+apart,u,all
+terry,u,all
+legend,u,all
+henry,u,all
+parker,u,all
+putting,u,all

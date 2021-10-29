@@ -1,6 +1,6 @@
 context,evidence_type,categories
 toss,u,vegetable
-water,u,vegetable plant object measure
+water,i,vegetable plant object measure
 place,u,vegetable fruit plant
 onions,i,vegetable
 carrots,u,vegetable
@@ -55,7 +55,7 @@ mild,u,vegetable
 remove,u,vegetable measure
 preferably,u,vegetable measure
 sprinkled,u,vegetable
-grapefruit,u,vegetable fruit food
+grapefruit,i,vegetable fruit food
 choy,i,vegetable
 chops,u,vegetable
 shoots,i,vegetable
@@ -202,7 +202,7 @@ dishes,i,measure
 beside,u,measure
 salad,i,measure
 fine,u,measure
-fruit,u,measure
+fruit,i,measure
 towering,u,measure
 space,i,measure
 cups,i,measure

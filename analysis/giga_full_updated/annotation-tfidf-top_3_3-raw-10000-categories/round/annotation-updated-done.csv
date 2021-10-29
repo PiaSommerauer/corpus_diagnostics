@@ -284,7 +284,7 @@ climbing,u,relation
 silver,u,relation
 pile,u,relation
 squares,u,relation
-pastry,u,food relation
+pastry,i,food relation
 box,u,relation
 ring,i,relation
 cast,u,relation

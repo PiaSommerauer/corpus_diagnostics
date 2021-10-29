@@ -297,7 +297,7 @@ crop,u,measure
 traditionally,u,measure
 name,u,measure
 goat,u,measure
-flower,u,measure
+flower,i,measure
 meaning,u,measure
 found,u,measure
 collective,u,measure
@@ -808,7 +808,7 @@ enabling,u,vehicle
 article,u,vehicle
 purely,u,vehicle
 accordingly,u,vehicle
-grape,u,food
+grape,i,food
 cider,i,food
 red,p,vegetable food plant fruit
 colored,r,measure
@@ -954,7 +954,7 @@ pine,u,measure
 serves,u,vehicle measure
 properly,u,measure
 chicken,u,measure
-ginger,u,measure
+ginger,i,measure
 farmer,u,measure
 associated,u,measure
 possibly,u,measure

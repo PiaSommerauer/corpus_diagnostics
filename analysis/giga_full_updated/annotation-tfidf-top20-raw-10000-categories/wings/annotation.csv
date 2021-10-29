@@ -1,0 +1,208 @@
+context,evidence_type,categories
+through, ,relation
+makes, ,relation
+can, ,relation
+spotted, ,measure relation
+little, ,relation
+below, ,relation
+cloud, ,relation
+enough, ,relation
+checked, ,relation
+gray, ,relation
+decorated, ,relation
+colors, ,relation
+real, ,relation
+web, ,relation
+ranch, ,relation
+somehow, ,relation
+stream, ,relation
+engines, ,relation
+landed, ,relation
+runway, ,relation vehicle
+crashed, ,vehicle
+similar, ,vehicle
+visibility, ,vehicle
+indicating, ,vehicle
+hunt, ,vehicle
+northwest, ,vehicle
+piloted, ,vehicle
+propeller, ,vehicle
+conducting, ,vehicle
+fighter, ,measure vehicle
+fighters, ,vehicle
+supersonic, ,vehicle
+pilot, ,vehicle
+flew, ,vehicle object all
+flying, ,vehicle
+flown, ,vehicle
+aviation, ,vehicle
+cockpit, ,vehicle
+downed, ,vehicle
+bird, ,bird animal measure female object all
+nest, ,bird animal female object all
+species, ,bird measure female object all
+duck, ,bird
+followed, ,bird animal
+birds, ,bird animal food object all
+numbers, ,bird
+north, ,bird
+hawk, ,bird communication
+eye, ,bird
+fox, ,bird
+parts, ,bird
+its, ,bird animal
+red, ,bird
+wings, ,bird animal food object all
+rare, ,bird
+feathers, ,measure bird
+following, ,bird
+yellow, ,bird animal
+stuffed, ,bird
+perched, ,animal
+flies, ,animal food measure object all
+are, ,animal
+wildlife, ,animal object all
+refuge, ,animal object all
+manager, ,animal
+featured, ,animal
+described, ,animal
+wood, ,animal
+wing, ,animal
+buzz, ,animal
+came, ,animal
+club, ,animal
+found, ,food
+it, ,food
+hidden, ,food
+quail, ,food
+pigeon, ,food
+hatched, ,food
+game, ,food
+one, ,food
+near, ,food
+several, ,food
+this, ,food
+commonly, ,food
+clear, ,food
+raised, ,food
+probably, ,food
+eggs, ,food object all
+roasted, ,food
+pine, ,no-cat
+new, ,no-cat
+trees, ,no-cat
+000, ,no-cat
+golf, ,no-cat
+engine, ,no-cat
+turbo, ,no-cat
+models, ,no-cat
+bombardier, ,no-cat
+rear, ,no-cat
+production, ,no-cat
+damage, ,no-cat
+1964, ,no-cat
+colorado, ,no-cat
+ash, ,no-cat
+which, ,no-cat
+mexico, ,no-cat
+tiny, ,no-cat
+parked, ,no-cat
+mustang, ,no-cat
+forum, ,measure
+round, ,measure
+missed, ,measure
+stroke, ,measure
+airlines, ,measure
+flight, ,measure
+exercise, ,measure
+jet, ,measure
+final, ,measure
+cup, ,measure
+tournament, ,measure
+plane, ,measure
+tie, ,measure
+attorney, ,measure
+flu, ,female
+h5n1, ,female
+strain, ,female
+outbreak, ,female
+larry, ,female
+virus, ,female
+outbreaks, ,female
+poultry, ,female
+infected, ,female
+migratory, ,female
+detected, ,female object all
+deadly, ,female
+pandemic, ,female
+cases, ,female
+spread, ,female object all
+lady, ,female
+watchers, ,female
+strikes, ,communication
+suspected, ,communication
+surveillance, ,communication
+confirm, ,communication
+feeds, ,communication
+official, ,communication
+areas, ,communication
+territory, ,communication
+wingspan, ,communication
+neighbouring, ,communication
+have, ,communication
+region, ,communication
+bordering, ,communication
+against, ,communication
+confirmed, ,object communication all
+reported, ,communication
+administration, ,communication
+capable, ,communication
+combat, ,communication
+freddie, ,fish
+kemar, ,fish
+stephen, ,fish
+max, ,fish
+morgan, ,fish
+economist, ,fish
+stanley, ,fish
+papa, ,fish
+jay, ,fish
+trainer, ,fish
+hal, ,fish
+pacquiao, ,fish
+infested, ,fish
+tandy, ,fish
+roach, ,fish
+drummer, ,fish
+motel, ,fish
+said, ,fish
+tyson, ,fish
+chief, ,fish
+toss, ,mammal
+swinging, ,mammal
+baseball, ,mammal
+elected, ,mammal
+pad, ,mammal
+mitzvah, ,mammal
+ball, ,mammal
+swing, ,mammal
+electing, ,mammal
+at, ,mammal
+bat, ,mammal
+inning, ,mammal
+to, ,mammal
+pitch, ,mammal
+his, ,mammal
+corked, ,mammal
+first, ,mammal
+overs, ,mammal
+wicket, ,mammal
+broken, ,mammal
+population, ,object all
+fly, ,object all
+habitat, ,object all
+managing, ,object all
+breeding, ,object all
+common, ,object all
+highly, ,object
+islands, ,all

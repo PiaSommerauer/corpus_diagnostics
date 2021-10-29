@@ -1,7 +1,7 @@
 context,evidence_type,categories
-built, ,object all
-table, ,relation object all
-rooms, ,relation object all
+built, ,all object
+table, ,all object relation
+rooms, ,all object relation
 with, ,relation
 are, ,relation
 desk, ,relation

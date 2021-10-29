@@ -283,7 +283,7 @@ non,u,no-cat
 italian,u,no-cat
 28,u,no-cat
 1999,u,no-cat
-bear,u,no-cat
+bear,i,no-cat
 1981,u,no-cat
 chinese,u,no-cat
 selected,u,no-cat
@@ -395,7 +395,7 @@ martin,u,no-cat
 prevent,u,no-cat
 major,u,no-cat
 bird,i,no-cat
-deer,u,no-cat
+deer,i,no-cat
 christopher,u,no-cat
 meets,u,no-cat
 colombian,u,no-cat
@@ -697,7 +697,7 @@ upset,u,no-cat
 breakfast,u,no-cat
 br,u,no-cat
 movies,u,no-cat
-mouse,u,no-cat
+mouse,i,no-cat
 monkey,u,no-cat
 vernon,u,no-cat
 care,u,no-cat

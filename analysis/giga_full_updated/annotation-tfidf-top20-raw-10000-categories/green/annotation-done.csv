@@ -1,0 +1,243 @@
+context,evidence_type,categories
+shade,u,relation
+green,p,relation animal fruit no-cat measure object all
+branches,r,relation all
+lined,u,relation
+walls,i,measure relation
+leaf,i,relation food all
+painted,r,relation
+spreading,u,relation object
+pine,i,relation
+forests,i,relation
+gum,u,relation
+towering,u,relation
+cedar,i,relation
+facility,u,relation
+ash,u,relation
+lawn,i,relation
+landscape,i,relation
+breeze,u,relation
+backdrop,u,relation
+48,u,relation
+toss,u,vegetable food
+water,u,vegetable measure object plant all
+place,u,vegetable object plant
+onions,i,vegetable
+carrots,u,vegetable
+peas,i,vegetable
+vegetables,i,vegetable
+cauliflower,u,vegetable
+peppers,i,vegetable
+or,u,vegetable
+oranges,u,fruit vegetable food
+chop,u,vegetable
+sprinkle,u,vegetable
+taste,u,vegetable
+chives,i,vegetable
+crunchy,u,vegetable
+fish,u,vegetable
+citrus,u,vegetable food plant
+heat,u,vegetable
+trim,u,vegetable
+bright,u,bird animal object all
+pet,u,bird
+earnings,u,bird
+saved,u,bird
+yellow,u,bird
+featuring,u,bird
+front,u,bird
+written,u,bird
+from,u,bird
+involved,u,bird
+proceeds,u,bird
+scale,u,bird
+sales,u,bird
+display,u,bird
+package,u,bird
+clients,u,bird
+future,u,bird
+colorful,u,bird
+talking,u,bird
+expected,u,bird
+simple,u,fruit
+divide,u,fruit
+orange,u,fruit no-cat all
+kiwi,i,fruit
+guava,i,fruit
+chunks,u,fruit
+slices,u,fruit
+tangy,u,fruit
+flesh,u,fruit
+likely,u,fruit plant
+still,u,fruit
+perfect,u,fruit
+each,u,fruit
+well,u,fruit
+papaya,i,fruit
+pineapple,i,fruit
+puree,u,fruit
+grapefruit,u,fruit food plant
+belongs,u,animal
+exhibit,u,animal no-cat
+oldest,u,animal
+threatened,u,animal
+seen,u,animal
+soft,u,animal object
+extinct,u,animal
+habitat,u,animal
+temple,u,animal
+guinea,u,animal
+reached,u,animal
+lots,u,animal
+precious,u,animal
+live,u,animal
+reduced,u,animal
+step,u,animal
+inch,u,animal all
+remains,u,animal
+leaves,i,food weapon object plant all
+mint,i,food object plant all
+garnish,i,food
+anise,u,food
+fresh,r,food
+thin,u,measure food
+flowers,r,food object all
+gently,u,food all
+fruit,u,food
+watercress,i,food
+cucumbers,i,food
+drizzle,u,food
+mango,i,food
+lemon,i,food
+nuts,u,weapon food
+speed,u,no-cat
+stolen,u,no-cat
+hands,u,no-cat
+appeared,u,no-cat
+area,u,no-cat
+turtle,i,no-cat
+la,u,no-cat
+production,u,no-cat
+compound,u,no-cat
+filmed,u,no-cat
+blow,u,no-cat
+south,u,no-cat
+camera,u,no-cat
+oversized,u,no-cat
+slowly,u,no-cat
+bus,u,no-cat
+built,u,no-cat
+plastic,u,measure
+juice,i,weapon measure
+thick,u,measure all
+containers,u,measure
+pieces,u,measure
+topped,u,measure communication
+plates,u,measure
+cut,u,measure object all
+fill,u,measure
+bits,u,measure
+small,u,measure plant all
+boxes,u,measure
+crushed,u,measure
+onto,u,measure
+large,u,measure
+atop,u,measure
+maple,i,green
+toronto,u,green
+sundin,u,green
+mats,i,green
+canadiens,u,green
+quinn,u,green
+defenseman,u,green
+goalie,u,green
+islanders,u,green
+outshot,u,green
+devils,u,green
+nhl,u,green
+flyers,u,green
+hockey,u,green
+bruins,u,green
+sabres,u,green
+domi,u,green
+pat,u,green
+ot,u,green
+scored,u,green
+item,u,communication
+legislative,u,communication
+on,u,communication plant
+ambitious,u,communication
+summit,u,communication
+top,u,communication
+reform,u,communication
+hidden,u,communication
+political,u,communication
+doha,u,communication
+items,u,communication
+meeting,u,communication
+talks,u,communication
+high,u,communication
+issue,u,communication
+apec,u,communication
+his,u,communication
+be,u,communication
+for,u,communication
+growers,u,weapon
+varieties,u,weapon
+wine,u,weapon
+tomatoes,i,weapon
+vines,i,weapon
+gilbert,u,weapon
+harvest,u,weapon
+wines,u,weapon
+cherry,u,weapon
+jelly,i,weapon
+variety,u,weapon
+grower,u,weapon
+growing,u,weapon
+skins,u,weapon
+stuffed,u,weapon
+noir,u,weapon
+chardonnay,u,weapon
+cup,u,mammal
+largest,u,mammal
+of,u,mammal
+holder,u,mammal
+0,u,mammal
+record,u,mammal
+ranked,u,mammal
+economy,u,mammal
+rugby,u,mammal
+no,u,mammal
+at,u,mammal
+heritage,u,mammal
+leaders,u,mammal
+producer,u,mammal
+most,u,mammal
+won,u,mammal
+forum,u,mammal
+china,u,mammal
+second,u,mammal
+third,u,mammal
+splash,u,object
+plant,i,object all
+fine,u,object
+cool,u,object all
+squeezed,u,object all
+roses,u,object plant
+soil,u,object
+container,u,object
+wrap,u,object all
+ones,u,object
+called,u,plant
+actually,u,plant
+preserved,u,plant
+found,u,plant
+around,u,plant
+list,u,plant
+bunch,u,plant
+damage,u,plant
+common,u,plant
+find,u,plant
+plants,i,all
+garden,i,all

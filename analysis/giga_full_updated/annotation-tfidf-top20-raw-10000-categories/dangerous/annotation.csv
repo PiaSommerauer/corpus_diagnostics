@@ -1,0 +1,275 @@
+context,evidence_type,categories
+independent, ,relation
+was, ,relation
+arm, ,relation tool
+with, ,relation
+pursuing, ,relation
+newspaper, ,weapon relation food
+by, ,relation
+recorded, ,relation
+say, ,relation
+on, ,mammal relation
+tore, ,relation
+below, ,relation
+15, ,mammal relation
+later, ,relation
+had, ,relation animal
+thriller, ,relation
+filled, ,relation
+300, ,relation
+access, ,relation
+north, ,relation fish
+political, ,vehicle
+systems, ,vehicle
+attempts, ,animal vehicle
+can, ,vehicle
+networks, ,vehicle
+try, ,vehicle
+steal, ,vehicle
+proof, ,vehicle
+could, ,vehicle
+if, ,vehicle
+bunker, ,vehicle
+used, ,tool vehicle cutlery animal weapon
+software, ,vehicle
+intelligence, ,vehicle
+upset, ,vehicle
+wedge, ,vehicle
+using, ,vehicle
+work, ,vehicle
+gonzalez, ,vehicle
+gary, ,vehicle
+hook, ,cutlery
+chef, ,cutlery
+occasional, ,cutlery
+executed, ,cutlery
+undergo, ,cutlery
+recalls, ,tool cutlery
+ray, ,cutlery
+heart, ,tool cutlery
+neck, ,tool cutlery
+do, ,cutlery
+never, ,cutlery
+fashion, ,cutlery
+fit, ,cutlery
+these, ,cutlery
+author, ,cutlery
+white, ,cutlery criminal
+slices, ,cutlery
+surprisingly, ,cutlery
+opted, ,cutlery
+operation, ,tool
+technique, ,tool
+kicked, ,tool
+her, ,tool
+takes, ,tool
+laid, ,tool
+hat, ,tool
+knives, ,tool
+leather, ,tool
+wielding, ,weapon tool
+stabbed, ,tool
+weapon, ,tool
+holding, ,tool
+crack, ,tool
+repeatedly, ,tool
+codeine, ,medication
+overdose, ,medication
+drip, ,medication
+lethal, ,measure object medication all
+marijuana, ,medication
+milligrams, ,measure medication
+morphine, ,medication
+sedative, ,medication
+injected, ,medication
+vials, ,medication
+injection, ,medication
+000, ,medication
+similar, ,medication
+oral, ,medication
+die, ,medication
+large, ,weapon medication
+times, ,medication
+instead, ,medication
+fatal, ,measure object medication
+supply, ,medication
+been, ,mammal animal
+are, ,mammal animal
+against, ,mammal animal
+during, ,mammal animal
+he, ,animal criminal
+attacked, ,animal
+attack, ,animal object fish all
+attacks, ,mammal animal
+killed, ,weapon animal object all
+apparently, ,animal object communication all
+sent, ,animal
+maybe, ,animal
+shooting, ,weapon animal object all
+reports, ,animal
+make, ,animal
+more, ,animal
+just, ,animal
+toledo, ,food
+inch, ,food
+steel, ,food
+metal, ,food
+propeller, ,food
+ii, ,food
+cutting, ,food
+angle, ,food
+broken, ,food
+movies, ,food
+attached, ,food
+shaped, ,food fish
+broke, ,food
+teeth, ,food
+engine, ,food
+ohio, ,food
+boot, ,food
+struck, ,food
+tool, ,food
+cause, ,no-cat communication
+theory, ,no-cat
+contained, ,no-cat
+dangerous, ,no-cat communication
+produces, ,no-cat
+unknown, ,no-cat communication
+amounts, ,no-cat
+containing, ,no-cat
+believes, ,no-cat
+seen, ,no-cat
+amount, ,no-cat
+effects, ,no-cat
+acts, ,no-cat
+affects, ,no-cat
+effective, ,no-cat
+eastern, ,no-cat
+target, ,no-cat all
+nearly, ,mammal no-cat
+exposed, ,no-cat
+evidence, ,no-cat
+radiation, ,measure
+vaccine, ,measure
+chemotherapy, ,measure
+milligram, ,measure
+healthy, ,measure
+dose, ,measure
+aspirin, ,measure
+nevirapine, ,measure
+of, ,measure reptile
+reality, ,measure
+medication, ,measure
+heavy, ,measure
+pills, ,measure
+skepticism, ,measure
+mg, ,measure
+administered, ,measure
+vitamin, ,measure
+river, ,reptile
+bites, ,reptile
+snake, ,reptile
+bite, ,reptile
+pit, ,reptile
+bitten, ,reptile
+jake, ,reptile
+rivers, ,reptile
+the, ,reptile fish
+eyes, ,reptile
+dragon, ,reptile
+infested, ,reptile
+handlers, ,reptile
+slithered, ,reptile
+handler, ,reptile
+black, ,reptile
+and, ,reptile
+tail, ,reptile
+pet, ,reptile
+former, ,criminal
+himself, ,criminal
+police, ,criminal
+at, ,criminal
+alleged, ,all object criminal
+captured, ,all object criminal
+an, ,criminal
+one, ,criminal
+him, ,mammal criminal
+gun, ,object criminal
+authorities, ,criminal
+being, ,criminal
+charged, ,all criminal
+ordered, ,criminal
+john, ,criminal
+story, ,criminal
+killer, ,criminal
+charges, ,criminal
+carried, ,weapon communication
+wave, ,communication
+destroying, ,communication
+worst, ,communication
+novel, ,communication
+destroy, ,communication
+were, ,communication
+believed, ,communication
+deadly, ,weapon object communication
+believe, ,communication
+conventional, ,communication
+grave, ,communication
+advanced, ,communication
+possibility, ,communication
+danger, ,communication
+sparked, ,communication
+submarine, ,fish
+warship, ,fish
+korean, ,fish
+sank, ,fish
+sunk, ,fish
+cheonan, ,fish
+moscow, ,fish
+boats, ,fish
+kursk, ,fish
+dprk, ,fish
+tubes, ,fish
+fired, ,fish
+boat, ,fish
+sinking, ,fish
+ship, ,fish
+explosion, ,fish
+carrying, ,weapon
+loaded, ,weapon
+armed, ,weapon object all
+carries, ,weapon
+death, ,weapon
+fire, ,weapon
+stone, ,weapon
+equipped, ,weapon
+equipment, ,weapon
+shotgun, ,weapon
+discovered, ,weapon
+type, ,weapon
+500, ,mammal
+there, ,mammal
+row, ,mammal
+mask, ,mammal
+threatened, ,mammal
+driver, ,mammal
+54, ,mammal
+person, ,mammal
+demonstrated, ,mammal
+22, ,mammal
+think, ,mammal
+shoot, ,object all
+man, ,object
+killing, ,object all
+soldier, ,object all
+dead, ,object all
+firing, ,object
+fake, ,object
+footage, ,object
+confronted, ,object
+kill, ,all
+weapons, ,all
+sentence, ,all
+reportedly, ,all
+machine, ,all
+hiding, ,all

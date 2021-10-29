@@ -1,0 +1,170 @@
+context,evidence_type,categories
+chicken,i,relation bird food no-cat measure mammal object all
+tomato,NA,relation no-cat food
+bean,i,relation animal object
+bowls,NA,relation
+onion,NA,relation no-cat
+vegetable,NA,relation
+salad,NA,relation bird animal food no-cat
+soup,i,relation bird animal food no-cat measure
+pot,r,relation
+cans,r,relation
+potato,i,relation no-cat food object all
+cream,i,relation no-cat object
+puree,NA,relation
+cabbage,NA,relation
+bowl,r,relation tool object all
+recipe,r,relation no-cat food object all
+broth,NA,mammal relation bird
+vegetables,NA,relation food
+garlic,NA,relation no-cat food
+nuts,NA,relation
+cheese,i,tool vehicle cutlery measure object all
+meat,NA,measure bird vehicle cutlery
+breakfast,NA,vehicle
+cook,p,tool vehicle cutlery measure object all
+factory,NA,vehicle
+pizza,NA,vehicle
+biscuits,NA,vehicle
+pasta,NA,vehicle
+mixture,r,animal vehicle cutlery food
+or,u,measure vehicle no-cat
+biscuit,NA,vehicle
+sliced,NA,measure vehicle
+slices,NA,vehicle cutlery
+blood,NA,vehicle
+pound,NA,vehicle communication
+slice,r,measure vehicle cutlery
+beer,NA,vehicle
+shaped,NA,vehicle
+butter,NA,vehicle
+lean,NA,vehicle
+fried,NA,bird animal food no-cat
+breasts,NA,bird
+cooked,p,measure bird animal food
+grilled,NA,bird
+pork,NA,measure bird mammal
+breast,NA,bird
+beef,NA,measure bird mammal
+skinless,NA,bird
+boneless,NA,bird
+pox,NA,bird
+cups,NA,bird
+roast,NA,mammal bird
+thighs,NA,bird
+sauce,NA,bird animal food no-cat measure
+steak,NA,weapon bird
+fish,i,tool cutlery animal communication object
+plate,NA,measure tool cutlery
+dinner,r,cutlery
+combination,NA,cutlery
+add,r,no-cat cutlery object all
+coffee,i,cutlery
+replacing,NA,cutlery
+fruit,i,cutlery
+bottom,NA,cutlery
+gift,u,cutlery
+stand,u,tool cutlery
+kitchen,r,weapon tool cutlery
+thin,NA,cutlery
+cooking,p,cutlery
+serving,r,tool object all
+fork,NA,tool
+bright,NA,tool
+pinch,NA,tool
+95,u,tool
+fishing,NA,tool communication
+fat,i,tool animal
+knight,NA,tool
+cool,r,tool
+half,r,tool
+lifting,NA,tool
+sugar,i,tool object all
+fla,NA,tool
+oyster,NA,animal
+dishes,NA,animal
+crab,NA,animal
+and,NA,animal no-cat
+dish,NA,animal no-cat food
+lobster,NA,animal
+each,NA,animal
+tuna,NA,animal
+salmon,i,animal communication
+menu,r,animal
+basil,NA,animal
+bread,NA,no-cat food
+flavor,NA,food
+flavored,NA,food
+tomatoes,NA,food
+onions,NA,food
+fresh,r,food all
+pepper,NA,no-cat food
+green,u,no-cat
+ginger,NA,no-cat
+lemon,NA,no-cat
+deep,NA,measure
+fingers,NA,measure
+wash,NA,measure
+sandwich,NA,measure
+wrap,NA,measure
+dry,NA,measure
+water,NA,measure
+sea,NA,communication
+bass,NA,communication
+karen,NA,communication
+hall,NA,communication
+shops,NA,communication
+electric,NA,communication
+lake,NA,communication
+caught,NA,communication
+playing,NA,communication
+plays,NA,communication
+line,NA,communication
+voice,NA,communication
+fishermen,NA,communication
+boat,NA,communication
+string,NA,communication
+singer,NA,communication
+paring,NA,weapon
+stabbed,NA,weapon
+sharp,NA,weapon
+edge,NA,weapon
+butcher,NA,weapon
+serrated,NA,weapon
+blade,NA,weapon
+throat,NA,weapon
+wounds,NA,weapon
+inch,NA,weapon
+chef,NA,weapon
+pocket,NA,weapon
+carving,NA,weapon
+slashed,NA,weapon
+with,NA,weapon
+putty,NA,weapon
+knife,NA,weapon
+cut,NA,weapon
+imports,NA,mammal
+cattle,NA,mammal
+ban,u,mammal
+corned,NA,mammal
+exports,NA,mammal
+cow,NA,mammal
+mad,NA,mammal
+import,NA,mammal
+british,NA,mammal
+products,NA,mammal
+up,NA,mammal
+stew,NA,mammal
+ground,NA,mammal
+tenderloin,NA,mammal
+lamb,NA,mammal
+egg,i,object all
+rice,i,object all
+mix,r,object all
+taste,r,object all
+serve,r,object all
+hot,r,object all
+olive,i,object all
+salt,i,object all
+sweet,r,all
+warm,r,all

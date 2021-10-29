@@ -615,7 +615,7 @@ scout,u,relation
 climate,u,relation
 wounding,u,relation
 swing,u,relation
-gang,u,relation
+gang,i,relation
 congo,u,relation
 truck,u,relation
 attorneys,u,relation
@@ -658,7 +658,7 @@ boys,u,relation
 scrap,u,relation
 pitch,u,relation
 extended,u,relation
-bow,u,relation
+bow,i,relation
 par,u,relation
 germany,u,relation
 officially,u,relation
@@ -838,7 +838,7 @@ pakistan,b,relation
 defense,u,relation
 technical,u,relation
 station,u,relation
-fire,u,weapon relation
+fire,i,weapon relation
 900,u,relation
 disclose,u,relation
 formal,u,relation

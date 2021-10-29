@@ -1,0 +1,100 @@
+context,evidence_type,categories
+driver, ,vehicle communication
+truck, ,vehicle no-cat
+drove, ,vehicle object all
+vehicle, ,vehicle
+wheel, ,vehicle no-cat object all
+parked, ,vehicle object all
+driving, ,vehicle object all
+drivers, ,vehicle object communication all
+seat, ,vehicle
+road, ,vehicle object all
+car, ,vehicle
+vehicles, ,vehicle
+bicycle, ,animal vehicle object all
+drive, ,vehicle object all
+driven, ,vehicle object all
+garage, ,vehicle
+bus, ,vehicle
+drives, ,vehicle object all
+streets, ,vehicle object all
+cars, ,vehicle
+libby, ,animal
+motor, ,animal
+motorized, ,animal
+riding, ,animal no-cat communication
+motorcycle, ,animal
+riders, ,animal
+razor, ,animal
+dick, ,animal
+electric, ,animal
+maker, ,animal
+ride, ,animal communication
+powered, ,animal
+helmet, ,animal
+bike, ,animal object all
+rode, ,animal
+manufacturer, ,animal
+honda, ,animal no-cat
+former, ,animal
+scooter, ,animal
+mounted, ,no-cat
+equipped, ,no-cat
+toward, ,no-cat
+accident, ,no-cat
+safety, ,no-cat
+75, ,no-cat
+collided, ,no-cat communication
+rear, ,no-cat
+crashed, ,no-cat communication
+earlier, ,no-cat
+injured, ,no-cat
+designed, ,no-cat
+adding, ,no-cat
+pulled, ,no-cat
+speed, ,no-cat
+gear, ,no-cat
+think, ,measure
+fuel, ,measure
+anti, ,measure
+external, ,measure
+institute, ,measure
+shells, ,measure
+gallon, ,measure
+oxygen, ,measure
+shell, ,measure
+tops, ,measure
+fired, ,measure
+rockets, ,measure
+washington, ,measure
+missiles, ,measure
+foam, ,measure
+brookings, ,measure
+septic, ,measure
+based, ,measure
+artillery, ,measure
+mines, ,measure
+carrying, ,communication
+overturned, ,communication
+stop, ,communication
+traveling, ,communication
+travelling, ,communication
+aboard, ,communication
+service, ,communication
+crowded, ,communication
+blew, ,communication
+tel, ,communication
+in, ,communication
+near, ,communication
+shelters, ,communication
+ripped, ,communication
+rolled, ,object all
+past, ,object all
+roads, ,object all
+tracks, ,object all
+automobile, ,object all
+wheeled, ,object
+mini, ,object all
+shop, ,object
+model, ,all
+chassis, ,all

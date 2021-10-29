@@ -191,7 +191,7 @@ chinese,r,animal
 clean,u,relation
 closely,u,relation
 coated,u,relation
-coconut,r,relation
+coconut,i,relation
 color,u,no-cat
 combined,r,relation
 combining,r,relation
@@ -637,7 +637,7 @@ portion,r,relation
 pound,r,measure
 pounds,r,relation
 poured,r,relation
-powder,r,relation
+powder,i,relation
 processed,r,relation
 processing,r,relation
 produces,r,animal
@@ -664,7 +664,7 @@ combination,u,relation measure
 commercial,u,relation animal
 consumed,u,relation animal
 contained,u,relation
-deep,u,relation measure animal no-cat
+deep,r,relation measure animal no-cat
 drops,u,relation
 enjoy,u,relation
 etc,u,relation

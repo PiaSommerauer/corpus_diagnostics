@@ -1,0 +1,258 @@
+context,evidence_type,categories
+paint,NA,relation
+attached,NA,relation
+hammer,NA,relation
+color,NA,relation
+gave,NA,relation
+era,NA,relation
+recalled,NA,relation
+colored,NA,relation animal
+covered,u,relation
+then,NA,relation
+edges,NA,relation
+colors,NA,relation
+blue,p,relation animal blue all
+tipped,NA,relation all
+narrow,NA,relation
+chip,NA,relation
+lightly,NA,relation
+sharp,NA,relation
+thin,NA,relation
+fashion,NA,relation
+carrying,NA,vehicle communication all
+passengers,NA,vehicle
+passenger,NA,vehicle
+ride,NA,vehicle
+tour,NA,vehicle
+boarded,NA,vehicle
+stop,NA,vehicle
+traveling,NA,vehicle
+accident,NA,vehicle
+crashed,NA,vehicle
+rides,NA,vehicle
+speeding,NA,vehicle
+riding,NA,vehicle
+people,NA,vehicle
+tours,NA,vehicle
+packed,NA,vehicle
+tourists,NA,measure vehicle
+metro,NA,vehicle
+route,NA,vehicle
+heading,NA,vehicle
+tip,NA,vegetable
+titanic,NA,vegetable
+sank,NA,vegetable
+1912,NA,vegetable
+maiden,NA,vegetable
+liner,NA,vegetable
+just,NA,vegetable
+an,NA,vegetable
+antarctic,NA,vegetable
+struck,NA,vegetable
+ship,NA,vegetable
+antarctica,NA,vegetable
+atlantic,NA,vegetable
+hitting,NA,vegetable
+hit,u,bird vegetable
+only,NA,vegetable fish
+voyage,NA,vegetable
+striking,NA,vegetable plant
+collision,NA,vegetable
+newfoundland,NA,vegetable
+yellow,NA,bird animal
+may,NA,bird
+pet,NA,bird
+saved,NA,bird animal
+featuring,NA,bird
+created,NA,bird
+colorful,NA,bird animal object all
+money,NA,bird
+book,NA,bird
+bright,NA,bird animal
+cage,u,bird
+which,NA,bird fish
+india,NA,bird
+lives,u,bird communication
+rare,u,bird
+spent,u,bird
+remains,NA,bird
+cats,NA,bird
+recently,u,bird
+jelly,NA,fruit
+cherry,NA,fruit
+flavors,NA,fruit
+raspberry,NA,fruit
+blackberry,NA,fruit
+scones,NA,fruit
+cedar,NA,fruit food
+strawberry,NA,fruit
+chocolate,NA,fruit
+currant,NA,fruit
+bushes,NA,fruit
+flavored,NA,fruit
+cassis,NA,fruit
+aromas,NA,fruit
+wine,NA,measure fruit
+flavor,NA,fruit
+tea,u,measure fruit
+cranberry,NA,fruit
+berries,NA,fruit
+vodka,NA,fruit
+european,u,animal
+scale,u,animal object
+fish,i,animal fish
+birds,i,animal female
+liquor,NA,animal
+trout,NA,animal fish
+clear,NA,animal object all
+flies,u,animal
+smaller,NA,animal
+various,u,animal object all
+meal,NA,animal fish
+shop,NA,animal
+painful,NA,animal
+butterfly,NA,animal
+lake,NA,food blue
+waves,NA,food
+sweeping,NA,food
+generations,NA,food
+wildlife,NA,food
+450,NA,food
+specialist,NA,food
+poses,NA,food
+port,NA,food
+steaming,NA,food
+ban,NA,food
+cultivated,NA,food plant
+eastern,NA,food
+protected,NA,food
+counting,NA,food
+forests,NA,food
+reaches,NA,food
+waste,NA,food
+feet,NA,food blue
+drinking,NA,measure
+coffee,u,measure
+act,u,measure
+tap,NA,measure
+making,NA,measure
+would,NA,measure
+seeing,NA,measure
+allowing,NA,measure
+slowly,NA,measure
+warm,u,measure
+entire,NA,measure
+20th,NA,measure
+japanese,NA,measure
+heart,NA,measure
+sunny,NA,measure
+million,NA,measure
+rainbow,NA,measure
+flu,NA,female
+h5n1,NA,female
+strain,NA,female
+outbreak,NA,female
+nest,NA,female
+virus,NA,female
+outbreaks,NA,female
+larry,NA,female
+poultry,NA,female
+infected,NA,female
+pandemic,NA,female
+migratory,NA,female
+species,u,female
+detected,NA,female
+bird,i,female
+human,NA,female
+deadly,NA,female
+cases,NA,female
+spread,NA,female
+taxi,NA,communication
+19,NA,communication
+16,NA,communication
+parks,NA,communication
+village,NA,communication
+magic,NA,object communication all
+bag,NA,communication
+passes,NA,communication
+fatal,NA,communication
+mile,NA,communication blue
+broke,NA,communication
+42,NA,communication
+watched,NA,communication
+cape,NA,communication
+suspicious,NA,communication
+taipei,NA,communication
+teenage,NA,communication
+joined,NA,communication
+resort,NA,blue
+black,NA,blue
+into,NA,blue
+city,NA,blue
+hotel,NA,blue
+across,NA,blue
+fishing,NA,blue
+indian,NA,blue
+sits,NA,blue
+san,NA,blue
+park,NA,blue
+spray,NA,blue
+floor,NA,blue
+surface,NA,blue
+villages,NA,blue
+beside,NA,blue
+seafood,NA,fish
+fried,NA,fish
+reef,NA,fish
+sea,NA,fish
+cook,NA,fish
+coral,NA,fish
+ate,NA,fish
+sharks,NA,fish
+squid,NA,fish
+their,u,fish
+grouper,NA,fish
+juvenile,NA,fish
+population,NA,fish
+lots,NA,fish
+how,NA,fish
+shared,u,object all
+midnight,NA,object
+air,NA,object all
+slim,NA,object
+alleged,NA,object
+fits,NA,object
+waving,NA,object all
+naked,NA,object
+waited,NA,object all
+take,u,object all
+cover,u,object
+nights,u,object
+use,NA,object
+designed,NA,object all
+anyone,NA,object
+among,NA,plant
+recommends,u,plant
+instance,NA,plant
+plants,NA,plant
+classic,NA,plant
+finishing,u,plant
+they,NA,plant
+born,NA,plant
+garden,NA,plant
+wild,NA,plant
+buds,NA,plant
+lacks,NA,plant
+de,NA,plant
+scented,NA,plant
+shops,NA,plant
+maine,NA,plant
+methods,NA,plant
+method,NA,plant
+held,NA,all
+intended,NA,all
+wedding,NA,all
+underneath,NA,all
+flame,NA,all
+art,NA,all
+los,NA,all

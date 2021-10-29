@@ -462,7 +462,7 @@ similarly,u,no-cat
 shade,u,relation
 thick,u,relation measure
 pulp,u,fruit
-fruit,u,measure fruit
+fruit,i,measure fruit
 orange,u,fruit
 flesh,u,fruit
 milk,u,measure
@@ -495,7 +495,7 @@ consumption,u,measure
 plastic,u,measure
 large,u,measure
 wood,u,measure
-water,u,measure
+water,i,measure
 decorated,u,measure
 filled,u,measure
 thin,u,measure

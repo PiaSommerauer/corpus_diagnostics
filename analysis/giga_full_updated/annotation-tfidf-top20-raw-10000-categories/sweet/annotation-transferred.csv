@@ -1,0 +1,162 @@
+context,evidence_type,categories
+stand,NA,relation
+candy,i,relation all
+sweet,p,relation vegetable fruit no-cat food object plant all
+peaches,NA,relation
+wines,NA,relation
+festival,NA,relation
+grapes,i,relation fruit
+flowing,u,relation
+rival,u,relation
+wooden,NA,relation
+champagne,NA,relation fruit
+wine,NA,relation
+apple,i,relation fruit food object plant all
+syrup,i,relation fruit food object plant all
+caramel,i,relation food object plant all
+sweeter,NA,relation
+reserved,NA,relation
+real,NA,relation
+bubble,NA,relation
+visitor,NA,relation
+potato,u,tool vegetable
+nickname,NA,vegetable
+lovers,NA,vegetable
+jam,i,vegetable fruit food object plant all
+sugar,i,vegetable food communication
+banana,i,vegetable fruit food object plant all
+quarter,NA,vegetable
+one,NA,vegetable
+golden,NA,vegetable
+annual,NA,vegetable
+mean,NA,vegetable
+crushed,NA,vegetable
+sometimes,NA,vegetable
+chunks,NA,vegetable
+side,NA,vegetable
+stick,NA,vegetable
+ripe,NA,vegetable
+fun,NA,vegetable
+pie,NA,vegetable
+corn,NA,mammal bird animal
+cos,NA,mammal bird animal
+kernels,NA,mammal bird animal
+melchor,NA,mammal bird animal
+conn,NA,mammal bird animal
+bourse,NA,mammal bird animal
+castro,NA,mammal bird animal
+bolivian,NA,mammal bird animal
+potatoes,NA,mammal bird animal
+on,NA,mammal bird animal
+the,NA,mammal bird
+pipe,NA,mammal bird animal
+watchdog,NA,mammal bird animal
+knife,NA,mammal bird
+ears,NA,mammal bird animal
+cut,NA,mammal bird animal
+regulator,NA,mammal bird animal
+nam,NA,mammal bird animal
+cob,NA,mammal bird animal
+off,NA,bird
+webb,NA,tool
+melin,NA,tool
+hilton,NA,tool
+chandler,NA,tool
+ewen,NA,tool
+couch,NA,tool
+sofa,NA,tool
+foot,NA,tool
+idaho,NA,tool
+humble,NA,tool
+arthur,NA,tool
+bremner,NA,tool
+muggsy,NA,tool
+lang,NA,tool
+spud,NA,tool
+mr,NA,tool
+sacramento,NA,tool
+guard,NA,tool
+wilkins,NA,tool
+grape,i,fruit food object plant all
+fruit,i,fruit no-cat food object plant all
+strawberry,i,fruit food object all
+passion,NA,fruit plant
+plum,i,fruit food object plant all
+blueberry,i,fruit object plant all
+pineapple,NA,fruit
+sweetness,p,fruit food plant all
+pear,i,fruit food object plant all
+peach,i,fruit food object plant all
+tart,NA,fruit
+flavors,r,fruit object
+cherry,i,fruit food object plant all
+olympic,NA,animal
+brazilian,NA,animal
+husk,NA,animal
+berry,i,food object plant all
+dessert,i,food object
+chocolate,i,no-cat food communication all
+ice,NA,food all
+fruits,NA,food
+aroma,NA,no-cat
+color,u,no-cat
+adds,NA,no-cat
+add,NA,no-cat
+mild,NA,no-cat
+delicate,NA,no-cat
+flavor,r,no-cat
+vanilla,NA,no-cat
+taste,NA,no-cat
+lemon,NA,no-cat
+fat,NA,no-cat
+butter,NA,no-cat communication
+and,u,no-cat
+ingredients,NA,no-cat
+fresh,NA,no-cat
+rich,NA,no-cat
+citrus,NA,no-cat
+to,NA,measure
+later,NA,measure
+yet,NA,measure
+setting,NA,measure
+release,NA,measure
+court,NA,measure
+up,NA,measure
+not,NA,measure
+fix,NA,measure
+have,NA,measure
+but,NA,measure
+is,NA,measure
+negotiations,NA,measure
+give,NA,measure
+would,NA,measure
+pushed,NA,measure
+visit,NA,measure
+effective,NA,measure
+determined,NA,measure
+did,NA,measure
+sheet,NA,communication
+jar,NA,communication
+sheets,NA,communication
+monster,NA,communication
+recipe,NA,communication
+chip,u,communication
+baking,r,communication
+cracker,NA,communication
+cookies,NA,communication
+cookie,NA,communication
+recipes,NA,communication
+bake,NA,communication
+jars,NA,communication
+cake,NA,communication
+crust,NA,communication
+oatmeal,NA,communication
+cream,NA,communication
+oven,NA,mammal
+orange,i,object
+coconut,i,object plant
+pomegranate,NA,object
+features,NA,plant
+pecan,NA,plant
+notes,NA,plant
+honey,NA,all

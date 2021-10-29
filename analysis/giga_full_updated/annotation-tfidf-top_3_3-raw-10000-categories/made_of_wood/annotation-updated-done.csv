@@ -20,8 +20,8 @@ sits,u,no-cat relation
 hang,u,no-cat relation
 warm,u,no-cat relation
 lit,u,relation
-deck,u,food relation
-pine,u,object all
+deck,i,food relation
+pine,p,object all
 perched,u,object all
 sit,u,food
 sat,u,food
@@ -560,7 +560,7 @@ lets,u,weapon
 backward,u,weapon
 singer,u,weapon
 lower,u,weapon
-rod,u,weapon
+rod,i,weapon
 governor,u,weapon
 closer,u,weapon
 casting,u,weapon
@@ -574,7 +574,7 @@ vertical,u,weapon
 67,u,weapon
 valley,u,weapon
 tonight,u,weapon
-clock,u,weapon
+clock,i,weapon
 conditions,u,weapon
 56,u,weapon
 connected,u,weapon

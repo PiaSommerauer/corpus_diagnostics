@@ -582,7 +582,7 @@ cleaner,u,measure
 stall,u,measure no-cat animal
 flush,u,measure
 30,u,measure no-cat
-glass,u,measure
+glass,i,measure
 fresh,u,relation measure vehicle animal
 tiny,u,measure
 himself,u,measure vehicle animal
@@ -1593,7 +1593,7 @@ all,u,animal vehicle
 learning,u,vehicle
 strapped,u,vehicle
 legs,u,vehicle
-roller,u,relation vehicle
+roller,i,relation vehicle
 goes,u,vehicle
 pavement,u,vehicle
 upcoming,u,vehicle
@@ -1710,7 +1710,7 @@ blocks,u,relation vehicle
 trying,u,vehicle
 before,u,vehicle
 because,u,vehicle
-bearing,u,relation vehicle
+bearing,l,relation vehicle
 treated,u,vehicle
 best,u,no-cat animal vehicle
 taxis,i,vehicle
@@ -2692,7 +2692,7 @@ toppled,u,vehicle
 builder,u,vehicle
 builders,u,vehicle
 bundled,u,vehicle
-bucket,u,vehicle
+bucket,i,vehicle
 tooling,u,vehicle
 brief,u,vehicle
 swerved,u,vehicle
@@ -3590,7 +3590,7 @@ acre,u,animal no-cat
 last,u,animal
 down,u,animal
 line,u,animal
-pipe,u,animal
+pipe,i,animal
 eagle,u,animal
 ordered,u,animal
 survived,u,animal

@@ -37,7 +37,7 @@ combination,u,tool
 carriage,i,tool
 swing,u,tool
 pull,u,tool
-bridge,u,tool
+bridge,i,tool
 allowed,u,tool
 instead,u,tool
 raise,u,tool
@@ -307,7 +307,7 @@ rig,u,weapon
 structural,u,weapon
 sideways,u,weapon
 fins,u,weapon
-timber,u,weapon
+timber,p,weapon
 1931,u,weapon
 limb,u,weapon
 day,u,vehicle
@@ -394,7 +394,7 @@ native,u,no-cat
 rich,u,no-cat
 species,u,no-cat
 deep,u,no-cat
-pine,u,no-cat
+pine,p,no-cat
 tall,u,no-cat
 tea,u,food no-cat
 natural,u,no-cat

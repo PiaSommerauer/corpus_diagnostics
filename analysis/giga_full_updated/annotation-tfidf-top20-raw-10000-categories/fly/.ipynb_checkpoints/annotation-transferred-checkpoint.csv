@@ -1,0 +1,188 @@
+context,evidence_type,categories
+engines,NA,relation
+black,NA,relation
+manufacturer,NA,relation
+tail,NA,relation
+blue,u,relation
+beads,NA,relation
+900,NA,relation
+makes,NA,relation
+involving,NA,relation
+evening,NA,relation
+sat,NA,relation
+color,NA,relation
+division,NA,relation
+sweden,NA,relation
+spotted,NA,relation
+belongs,NA,relation
+cloud,NA,relation no-cat
+actor,NA,relation
+kraft,NA,relation
+colors,NA,relation
+payload,NA,vehicle
+overhead,r,vehicle no-cat object all
+study,NA,vehicle
+experimental,NA,vehicle
+hovering,NA,vehicle
+airplanes,i,vehicle
+flying,p,bird vehicle animal food object all
+engineer,u,vehicle
+16,u,vehicle
+unmanned,u,vehicle
+drone,NA,vehicle
+flown,p,vehicle object communication all
+aerial,NA,vehicle
+altitude,NA,vehicle
+ejected,NA,vehicle
+demonstrated,NA,vehicle
+quickly,NA,vehicle
+reportedly,NA,vehicle
+engineers,u,vehicle
+aviation,NA,vehicle
+flew,p,bird animal communication object all
+as,NA,bird
+ever,NA,bird
+nest,r,bird animal object all
+died,NA,bird
+wings,r,bird animal object all
+flies,p,bird animal object all
+had,NA,bird
+tailed,NA,bird
+dove,i,bird animal object all
+duck,i,bird animal
+dead,NA,bird food
+numbers,NA,bird
+population,u,bird
+populations,NA,bird
+went,NA,bird
+came,u,bird
+so,NA,bird
+fox,NA,bird
+bird,i,animal object all
+birds,i,animal object all
+fly,p,animal food communication object all
+billed,u,animal object
+hawk,i,animal object fish all
+fields,NA,animal
+habitat,u,animal food
+flight,p,animal object all
+refuge,u,animal
+northern,u,animal
+featured,u,animal
+wing,r,animal object all
+james,u,animal
+shot,NA,food
+route,NA,food
+november,NA,food
+female,NA,food
+injured,NA,food
+least,NA,food
+killing,NA,food
+province,NA,food
+village,NA,food
+dying,NA,food
+providing,NA,food
+wild,u,food
+shoot,NA,food
+them,NA,food
+dined,NA,food
+especially,u,food
+the,NA,no-cat
+tv,NA,no-cat
+night,NA,no-cat
+diving,NA,no-cat
+into,NA,no-cat
+sky,r,no-cat communication
+above,NA,no-cat
+sun,NA,no-cat
+in,NA,no-cat
+visible,NA,no-cat
+stars,NA,no-cat
+filled,NA,no-cat
+satellite,NA,no-cat
+light,NA,no-cat
+reported,NA,no-cat
+is,NA,no-cat
+that,NA,no-cat
+from,NA,no-cat
+netanyahu,NA,measure
+benjamin,NA,measure
+liberal,NA,measure
+republican,NA,measure object all
+politician,NA,measure
+al,NA,measure
+army,NA,measure
+leader,NA,measure
+commander,NA,measure
+fighter,NA,measure
+rear,NA,measure
+claimed,NA,measure
+banned,NA,measure
+prime,NA,measure
+shane,NA,measure
+minister,NA,measure
+democrats,NA,measure
+columbia,NA,measure
+elections,NA,measure
+seats,NA,measure
+tom,NA,communication
+surfing,NA,communication
+string,NA,communication
+shaped,NA,communication
+novel,NA,communication
+dragon,NA,communication
+tournament,NA,communication
+like,NA,communication
+played,NA,communication
+craft,NA,communication
+shape,NA,communication
+international,NA,communication
+nine,NA,communication
+oldest,NA,communication
+meter,NA,communication
+senior,NA,communication
+helicopter,NA,fish
+47,NA,fish
+ch,NA,fish
+helicopters,NA,fish
+salmon,NA,fish
+mh,NA,fish
+coho,NA,fish
+downing,NA,fish
+sockeye,NA,fish
+rotor,NA,fish
+puget,NA,fish
+crashed,NA,fish
+fallujah,NA,fish
+transport,NA,fish
+blackhawk,NA,fish
+kunar,NA,fish
+chopper,NA,fish
+puma,NA,fish
+crash,NA,fish
+mattel,NA,mammal
+biz,NA,mammal
+story,NA,mammal
+toy,NA,mammal
+toys,NA,mammal
+hasbro,NA,mammal
+store,NA,mammal
+makers,NA,mammal
+stores,NA,mammal
+maker,NA,mammal
+manufacturers,NA,mammal
+retailer,NA,mammal
+pixar,NA,mammal
+guns,NA,mammal
+industry,NA,mammal
+fair,NA,mammal
+plush,NA,mammal
+retailers,NA,mammal
+dolls,NA,mammal
+recalls,NA,mammal
+air,r,object all
+highly,NA,object all
+indian,NA,object
+prison,NA,object all
+bright,NA,all
+plane,NA,all

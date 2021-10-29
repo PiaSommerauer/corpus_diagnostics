@@ -1,0 +1,194 @@
+context,evidence_type,categories
+wooden,p,relation tool measure communication object all
+used,u,relation
+oak,p,relation food communication object all
+inch,u,measure relation no-cat communication
+tall,u,relation no-cat
+plastic,u,measure relation
+across,u,relation
+beside,r,relation
+flower,u,relation no-cat
+sits,u,relation
+hang,u,relation
+warm,u,relation
+lit,u,relation
+deck,u,relation vehicle object all
+box,i,relation
+using,u,relation
+yellow,u,relation
+hole,u,relation
+wood,p,relation no-cat communication
+tops,i,relation
+rentals,u,vehicle
+lake,u,vehicle
+floating,r,vehicle
+rent,u,vehicle
+rental,u,vehicle
+marina,u,vehicle
+staying,u,vehicle
+rented,u,vehicle
+foot,u,vehicle
+lived,u,vehicle
+from,u,vehicle
+aboard,u,vehicle
+boat,i,vehicle
+surrounded,u,vehicle
+lives,u,vehicle
+capsized,u,vehicle
+0,u,vehicle cutlery
+powell,u,vehicle
+river,u,vehicle
+grind,u,cutlery
+jobs,u,cutlery
+workforce,u,cutlery
+500,u,cutlery
+knife,u,cutlery
+an,u,cutlery
+the,u,cutlery
+unilever,u,cutlery
+plans,u,tool cutlery
+wield,u,cutlery
+deodorants,u,cutlery
+wielded,u,cutlery
+400,u,cutlery
+deodorant,u,cutlery
+handles,i,cutlery
+murderer,u,cutlery
+200,u,cutlery
+spray,u,cutlery
+300,u,cutlery
+skinny,u,tool
+copper,u,tool
+versions,u,tool
+confused,u,tool
+via,u,tool
+turns,u,tool
+feels,u,tool
+done,u,tool
+degree,u,tool
+should,u,tool
+steep,u,tool
+pipe,i,tool
+without,u,tool
+fashion,u,tool
+tells,u,tool
+atop,u,tool
+useful,u,tool
+distinctive,u,tool
+bass,u,animal
+up,u,animal
+fort,u,animal
+corps,u,animal
+kit,u,animal
+beats,u,animal
+snare,u,animal
+banging,u,animal
+beat,u,animal
+guitar,i,animal
+roll,u,animal
+machine,u,animal
+band,u,animal
+for,u,animal
+ear,u,animal
+pounding,u,animal
+song,u,animal
+trying,u,animal
+drum,i,animal
+bands,u,animal
+sit,u,food
+sat,u,food
+points,u,food
+chair,i,food
+topped,u,measure food
+swimming,u,food
+meal,u,food
+everyone,u,food
+money,u,food
+lead,u,food
+family,u,food
+lay,u,food
+diving,u,food
+players,u,food
+tea,u,food
+spot,u,food
+big,u,food
+run,u,food
+got,u,food
+pole,i,no-cat
+thick,u,no-cat
+black,r,weapon no-cat
+decorated,u,no-cat
+shaped,r,measure no-cat communication
+giant,u,no-cat
+favorite,u,no-cat
+piece,u,no-cat
+rocks,u,no-cat
+fishing,u,no-cat
+tables,i,no-cat
+soft,u,no-cat
+lovely,u,no-cat
+native,u,no-cat
+plenty,u,no-cat
+old,u,no-cat
+above,u,measure communication
+gun,u,measure
+jumped,u,measure
+hitting,u,measure
+hit,u,measure
+lock,u,measure
+fish,u,measure
+rocket,u,measure
+beer,u,measure
+metal,u,measure
+loaded,u,measure
+roof,i,measure
+lowered,u,measure
+bullets,u,measure
+grabbed,u,measure
+anchor,u,communication
+switching,u,communication
+hook,u,communication
+developed,u,communication
+serves,u,object communication all
+yards,u,communication
+placed,u,communication
+uses,u,communication
+perfectly,u,communication
+designer,u,weapon communication
+bend,u,weapon communication
+recovered,u,communication
+discovery,u,communication
+spokeswoman,u,communication
+management,u,weapon
+bent,r,weapon
+lean,u,weapon
+labor,u,weapon
+runs,u,weapon
+championship,u,weapon
+basketball,u,weapon
+steering,u,weapon
+pace,u,weapon
+fourth,u,weapon
+spring,u,weapon
+join,u,weapon
+publicity,u,weapon
+signing,u,weapon
+fiberglass,u,weapon
+indians,u,weapon
+70s,u,weapon
+pine,u,object all
+perched,u,object all
+roughly,u,object all
+handsome,u,object all
+adjacent,u,object all
+grand,u,object all
+entirely,u,object all
+feet,u,object all
+furniture,i,object all
+dry,u,object all
+look,u,object all
+resembles,u,object all
+crafted,u,object all
+along,u,object all
+each,u,object all
+nails,r,object all

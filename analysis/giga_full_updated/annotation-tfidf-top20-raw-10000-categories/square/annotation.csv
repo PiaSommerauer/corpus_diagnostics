@@ -1,0 +1,134 @@
+context,evidence_type,categories
+with, ,relation
+are, ,relation food
+desk, ,relation object all
+as, ,relation
+simple, ,relation
+by, ,relation
+works, ,relation all
+elaborate, ,relation
+features, ,relation
+old, ,relation object all
+said, ,relation
+but, ,relation
+have, ,relation
+up, ,relation food
+fine, ,relation square
+set, ,relation all
+fashioned, ,relation
+all, ,relation
+out, ,relation
+hidden, ,relation
+kitchen, ,square food object all
+dinner, ,food
+sit, ,food object all
+on, ,food
+and, ,food
+table, ,square food object all
+back, ,food
+wooden, ,food plant
+they, ,food
+thanksgiving, ,food
+be, ,food
+showing, ,food
+book, ,no-cat food
+you, ,food
+or, ,food
+wines, ,food
+foot, ,food
+your, ,food
+remove, ,no-cat
+cookie, ,no-cat
+response, ,no-cat
+reply, ,no-cat
+comments, ,no-cat
+edges, ,no-cat
+thick, ,no-cat
+large, ,no-cat
+form, ,no-cat
+character, ,no-cat
+sometimes, ,no-cat
+until, ,no-cat
+cardboard, ,measure no-cat plant
+transfer, ,no-cat
+depth, ,no-cat
+carefully, ,no-cat
+fill, ,no-cat
+yet, ,no-cat
+note, ,no-cat
+the, ,measure plant
+edge, ,measure
+inside, ,measure plant
+box, ,measure
+dvd, ,measure plant
+press, ,measure
+success, ,measure
+film, ,measure plant
+scores, ,measure
+movies, ,measure plant
+click, ,measure
+that, ,measure
+hits, ,measure
+films, ,measure plant
+tickets, ,measure
+records, ,measure
+opened, ,measure
+witness, ,measure plant
+music, ,measure
+room, ,square object communication all
+rooms, ,square object communication all
+casual, ,square
+wining, ,square
+tables, ,square object all
+restaurant, ,square
+hall, ,square
+halls, ,square
+shopping, ,square
+lodging, ,square
+chairs, ,square
+restaurants, ,square
+living, ,square
+area, ,square
+formal, ,square
+establishments, ,square
+hotel, ,square
+000, ,communication
+software, ,communication
+applications, ,communication
+500, ,communication
+includes, ,communication
+hotels, ,communication
+for, ,communication
+dining, ,object communication all
+holders, ,communication
+processing, ,communication
+operating, ,communication
+400, ,communication
+amp, ,communication
+corporate, ,communication
+600, ,communication
+into, ,communication plant
+including, ,communication
+calif, ,communication
+built, ,object all
+sitting, ,object all
+installed, ,object all
+where, ,object all
+upstairs, ,object all
+office, ,object all
+design, ,object
+library, ,object
+her, ,object all
+sits, ,object all
+boxes, ,object
+batter, ,plant
+weekend, ,plant
+containing, ,plant
+ball, ,plant
+score, ,plant
+plastic, ,plant
+movie, ,plant
+hollywood, ,plant
+jewel, ,plant
+metal, ,plant
+used, ,all

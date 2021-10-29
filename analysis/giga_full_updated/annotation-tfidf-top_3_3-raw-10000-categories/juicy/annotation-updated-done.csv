@@ -57,7 +57,7 @@ mango,i,food
 papaya,i,food
 mixture,u,animal no-cat
 each,u,animal no-cat
-bacon,u,animal
+bacon,i,animal
 grilled,u,animal no-cat
 smoked,u,animal
 lamb,i,animal no-cat
@@ -93,7 +93,7 @@ slices,u,animal no-cat
 cakes,i,animal
 fisheries,u,animal
 fried,u,animal no-cat
-bean,u,animal
+bean,i,animal
 with,u,animal
 seafood,i,animal
 of,u,animal
@@ -149,7 +149,7 @@ floating,u,animal
 inch,u,animal no-cat
 hot,u,animal no-cat
 stuffing,u,animal no-cat
-ginger,u,animal no-cat
+ginger,i,animal no-cat
 steaks,u,animal
 tail,u,animal
 apple,i,animal no-cat
@@ -264,7 +264,7 @@ ravioli,u,animal
 mousse,u,animal
 asparagus,i,animal
 sauteed,u,animal
-coconut,u,animal
+coconut,i,animal
 prawn,i,animal
 cod,i,animal
 meat,i,animal
@@ -790,7 +790,7 @@ tasting,u,no-cat
 de,u,no-cat
 bunch,u,no-cat
 dust,u,no-cat
-candy,u,no-cat
+candy,i,no-cat
 entire,u,no-cat
 acre,u,no-cat
 painting,u,no-cat

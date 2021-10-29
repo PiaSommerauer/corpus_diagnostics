@@ -1,0 +1,158 @@
+context,evidence_type,categories
+burned,r,relation
+chemical,u,relation
+died,NA,relation
+burning,n,relation object all
+burnt,r,relation food all
+pieces,NA,relation
+flame,i,relation object all
+virtually,NA,relation
+substances,u,relation
+lived,NA,relation
+melted,NA,relation
+picked,NA,relation
+900,NA,relation
+consists,NA,relation
+lit,NA,relation
+pile,NA,relation
+bits,NA,relation
+dust,NA,relation
+coal,NA,relation
+thick,NA,relation
+rice,NA,hot
+heat,p,hot all
+dry,NA,hot
+produce,NA,hot
+equivalent,NA,hot
+metal,NA,hot
+cooking,NA,hot
+cooked,r,hot all
+pine,u,hot
+smoke,r,hot
+burns,NA,hot
+fields,NA,hot
+hand,NA,hot
+fruit,NA,hot
+instance,NA,hot
+preparation,NA,hot
+dinner,NA,hot
+hour,NA,hot
+smell,NA,hot
+meat,NA,hot
+oven,i,food
+remove,NA,food
+easy,NA,food
+pan,NA,food
+crisp,r,food all
+menu,u,food
+minutes,NA,food all
+duck,NA,food
+preparing,NA,food
+evenly,u,food
+cooled,NA,food
+restaurant,u,food
+cooks,r,food all
+fit,NA,food
+easily,NA,food
+ham,NA,food
+buttered,NA,food
+flour,u,food
+stove,NA,food
+signature,NA,no-cat
+towel,NA,no-cat
+serving,NA,no-cat
+the,NA,no-cat plant
+main,NA,no-cat
+pizza,NA,no-cat
+glass,NA,no-cat
+pour,u,measure no-cat
+this,NA,no-cat
+towels,NA,no-cat
+served,NA,measure no-cat
+flavors,NA,no-cat
+by,NA,no-cat
+microwave,NA,no-cat
+to,NA,no-cat
+with,NA,no-cat
+serve,NA,no-cat
+is,NA,no-cat
+of,NA,no-cat plant
+dessert,NA,no-cat
+water,NA,measure
+table,NA,measure
+fill,NA,measure
+kitchen,NA,measure
+add,NA,measure
+filling,NA,measure
+milk,NA,measure
+filled,NA,measure
+tea,NA,measure plant
+combine,NA,measure
+stir,NA,measure
+breakfast,NA,measure
+stirring,NA,measure
+empty,NA,measure
+container,NA,measure
+juice,NA,measure
+dish,NA,measure
+bowl,NA,measure
+000,NA,communication plant
+live,NA,communication
+reached,NA,communication
+reach,NA,communication
+safely,NA,communication
+control,NA,communication
+10,NA,communication
+shoot,NA,communication
+return,NA,communication
+trash,NA,communication
+500,NA,communication
+50,NA,communication
+destroy,NA,communication
+small,NA,communication
+20,u,communication
+100,NA,communication
+set,NA,communication
+city,NA,communication
+workers,NA,communication
+30,NA,communication
+hot,p,object plant all
+fired,r,object
+steam,i,object all
+works,u,object
+wood,u,object all
+creating,NA,object
+12,NA,object
+huge,u,object
+200,NA,object
+warmed,n,object all
+raised,NA,object
+itself,NA,object
+300,NA,object
+400,NA,object
+natural,NA,object
+ash,NA,object
+gas,i,object
+per,NA,object all
+iced,NA,plant
+coffee,NA,plant
+party,NA,plant
+sipping,NA,plant
+drinking,NA,plant
+drink,NA,plant
+afternoon,NA,plant
+bags,NA,plant
+and,NA,plant
+sweet,u,plant
+at,NA,plant
+day,NA,plant
+drinks,NA,plant
+sip,NA,plant
+shop,NA,plant
+smoked,r,all
+arrange,u,all
+cook,r,all
+fancy,NA,all
+tender,u,all
+warm,n,all
+each,u,all

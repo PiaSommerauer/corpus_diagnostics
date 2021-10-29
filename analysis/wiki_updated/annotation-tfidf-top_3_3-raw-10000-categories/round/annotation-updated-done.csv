@@ -255,7 +255,7 @@ awarded,u,relation
 dense,u,relation
 illinois,u,relation
 kid,u,relation
-world,u,relation
+world,i,relation
 hard,u,relation
 along,u,relation
 2005,u,relation
@@ -383,7 +383,7 @@ pond,i,relation
 celebrated,u,relation
 soldier,u,relation
 borders,u,relation
-round,u,relation
+round,p,relation
 nineteenth,u,relation
 churches,u,relation
 highly,u,relation

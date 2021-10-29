@@ -1,0 +1,188 @@
+context,evidence_type,categories
+engines, ,relation
+black, ,relation
+manufacturer, ,relation
+tail, ,relation
+blue, ,relation
+beads, ,relation
+900, ,relation
+makes, ,relation
+involving, ,relation
+evening, ,relation
+sat, ,relation
+color, ,relation
+division, ,relation
+sweden, ,relation
+spotted, ,relation
+belongs, ,relation
+cloud, ,relation no-cat
+actor, ,relation
+kraft, ,relation
+colors, ,relation
+payload, ,vehicle
+overhead, ,vehicle no-cat object all
+study, ,vehicle
+experimental, ,vehicle
+hovering, ,vehicle
+airplanes, ,vehicle
+flying, ,bird vehicle animal food object all
+engineer, ,vehicle
+16, ,vehicle
+unmanned, ,vehicle
+drone, ,vehicle
+flown, ,vehicle object communication all
+aerial, ,vehicle
+altitude, ,vehicle
+ejected, ,vehicle
+demonstrated, ,vehicle
+quickly, ,vehicle
+reportedly, ,vehicle
+engineers, ,vehicle
+aviation, ,vehicle
+flew, ,bird animal communication object all
+as, ,bird
+ever, ,bird
+nest, ,bird animal object all
+died, ,bird
+wings, ,bird animal object all
+flies, ,bird animal object all
+had, ,bird
+tailed, ,bird
+dove, ,bird animal object all
+duck, ,bird animal
+dead, ,bird food
+numbers, ,bird
+population, ,bird
+populations, ,bird
+went, ,bird
+came, ,bird
+so, ,bird
+fox, ,bird
+bird, ,animal object all
+birds, ,animal object all
+fly, ,animal food communication object all
+billed, ,animal object
+hawk, ,animal object fish all
+fields, ,animal
+habitat, ,animal food
+flight, ,animal object all
+refuge, ,animal
+northern, ,animal
+featured, ,animal
+wing, ,animal object all
+james, ,animal
+shot, ,food
+route, ,food
+november, ,food
+female, ,food
+injured, ,food
+least, ,food
+killing, ,food
+province, ,food
+village, ,food
+dying, ,food
+providing, ,food
+wild, ,food
+shoot, ,food
+them, ,food
+dined, ,food
+especially, ,food
+the, ,no-cat
+tv, ,no-cat
+night, ,no-cat
+diving, ,no-cat
+into, ,no-cat
+sky, ,no-cat communication
+above, ,no-cat
+sun, ,no-cat
+in, ,no-cat
+visible, ,no-cat
+stars, ,no-cat
+filled, ,no-cat
+satellite, ,no-cat
+light, ,no-cat
+reported, ,no-cat
+is, ,no-cat
+that, ,no-cat
+from, ,no-cat
+netanyahu, ,measure
+benjamin, ,measure
+liberal, ,measure
+republican, ,measure object all
+politician, ,measure
+al, ,measure
+army, ,measure
+leader, ,measure
+commander, ,measure
+fighter, ,measure
+rear, ,measure
+claimed, ,measure
+banned, ,measure
+prime, ,measure
+shane, ,measure
+minister, ,measure
+democrats, ,measure
+columbia, ,measure
+elections, ,measure
+seats, ,measure
+tom, ,communication
+surfing, ,communication
+string, ,communication
+shaped, ,communication
+novel, ,communication
+dragon, ,communication
+tournament, ,communication
+like, ,communication
+played, ,communication
+craft, ,communication
+shape, ,communication
+international, ,communication
+nine, ,communication
+oldest, ,communication
+meter, ,communication
+senior, ,communication
+helicopter, ,fish
+47, ,fish
+ch, ,fish
+helicopters, ,fish
+salmon, ,fish
+mh, ,fish
+coho, ,fish
+downing, ,fish
+sockeye, ,fish
+rotor, ,fish
+puget, ,fish
+crashed, ,fish
+fallujah, ,fish
+transport, ,fish
+blackhawk, ,fish
+kunar, ,fish
+chopper, ,fish
+puma, ,fish
+crash, ,fish
+mattel, ,mammal
+biz, ,mammal
+story, ,mammal
+toy, ,mammal
+toys, ,mammal
+hasbro, ,mammal
+store, ,mammal
+makers, ,mammal
+stores, ,mammal
+maker, ,mammal
+manufacturers, ,mammal
+retailer, ,mammal
+pixar, ,mammal
+guns, ,mammal
+industry, ,mammal
+fair, ,mammal
+plush, ,mammal
+retailers, ,mammal
+dolls, ,mammal
+recalls, ,mammal
+air, ,object all
+highly, ,object all
+indian, ,object
+prison, ,object all
+bright, ,all
+plane, ,all

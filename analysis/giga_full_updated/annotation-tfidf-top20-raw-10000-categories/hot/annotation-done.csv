@@ -1,0 +1,158 @@
+context,evidence_type,categories
+burned,r,relation
+chemical,u,relation
+died,u,relation
+burning,n,relation object all
+burnt,r,relation food all
+pieces,u,relation
+flame,i,relation object all
+virtually,u,relation
+substances,u,relation
+lived,u,relation
+melted,r,relation
+picked,u,relation
+900,u,relation
+consists,u,relation
+lit,r,relation
+pile,u,relation
+bits,u,relation
+dust,u,relation
+coal,i,relation
+thick,u,relation
+rice,i,hot
+heat,p,hot all
+dry,r,hot
+produce,u,hot
+equivalent,u,hot
+metal,u,hot
+cooking,r,hot
+cooked,r,hot all
+pine,u,hot
+smoke,r,hot
+burns,r,hot
+fields,u,hot
+hand,u,hot
+fruit,u,hot
+instance,u,hot
+preparation,u,hot
+dinner,i,hot
+hour,u,hot
+smell,u,hot
+meat,u,hot
+oven,i,food
+remove,u,food
+easy,u,food
+pan,i,food
+crisp,r,food all
+menu,u,food
+minutes,u,food all
+duck,u,food
+preparing,u,food
+evenly,u,food
+cooled,r,food
+restaurant,u,food
+cooks,r,food all
+fit,u,food
+easily,u,food
+ham,u,food
+buttered,u,food
+flour,u,food
+stove,i,food
+signature,u,no-cat
+towel,u,no-cat
+serving,u,no-cat
+the,u,no-cat plant
+main,u,no-cat
+pizza,i,no-cat
+glass,u,no-cat
+pour,u,measure no-cat
+this,u,no-cat
+towels,u,no-cat
+served,u,measure no-cat
+flavors,u,no-cat
+by,u,no-cat
+microwave,r,no-cat
+to,u,no-cat
+with,u,no-cat
+serve,u,no-cat
+is,u,no-cat
+of,u,no-cat plant
+dessert,u,no-cat
+water,i,measure
+table,u,measure
+fill,u,measure
+kitchen,r,measure
+add,u,measure
+filling,u,measure
+milk,u,measure
+filled,u,measure
+tea,i,measure plant
+combine,u,measure
+stir,u,measure
+breakfast,r,measure
+stirring,u,measure
+empty,u,measure
+container,u,measure
+juice,u,measure
+dish,i,measure
+bowl,u,measure
+000,u,communication plant
+live,u,communication
+reached,u,communication
+reach,u,communication
+safely,u,communication
+control,u,communication
+10,u,communication
+shoot,u,communication
+return,u,communication
+trash,u,communication
+500,u,communication
+50,u,communication
+destroy,u,communication
+small,u,communication
+20,u,communication
+100,u,communication
+set,u,communication
+city,u,communication
+workers,u,communication
+30,u,communication
+hot,p,object plant all
+fired,r,object
+steam,i,object all
+works,u,object
+wood,u,object all
+creating,u,object
+12,u,object
+huge,u,object
+200,u,object
+warmed,n,object all
+raised,u,object
+itself,u,object
+300,u,object
+400,u,object
+natural,u,object
+ash,r,object
+gas,i,object
+per,u,object all
+iced,u,plant
+coffee,i,plant
+party,u,plant
+sipping,r,plant
+drinking,u,plant
+drink,i,plant
+afternoon,u,plant
+bags,u,plant
+and,u,plant
+sweet,u,plant
+at,u,plant
+day,u,plant
+drinks,u,plant
+sip,r,plant
+shop,u,plant
+smoked,r,all
+arrange,u,all
+cook,r,all
+fancy,u,all
+tender,u,all
+warm,n,all
+each,u,all

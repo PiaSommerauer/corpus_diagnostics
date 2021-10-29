@@ -1,0 +1,275 @@
+context,evidence_type,categories
+independent,NA,relation
+was,NA,relation
+arm,NA,relation tool
+with,NA,relation
+pursuing,NA,relation
+newspaper,NA,weapon relation food
+by,NA,relation
+recorded,NA,relation
+say,u,relation
+on,NA,mammal relation
+tore,NA,relation
+below,NA,relation
+15,NA,mammal relation
+later,NA,relation
+had,NA,relation animal
+thriller,NA,relation
+filled,NA,relation
+300,NA,relation
+access,NA,relation
+north,NA,relation fish
+political,NA,vehicle
+systems,NA,vehicle
+attempts,NA,animal vehicle
+can,NA,vehicle
+networks,NA,vehicle
+try,NA,vehicle
+steal,NA,vehicle
+proof,NA,vehicle
+could,NA,vehicle
+if,NA,vehicle
+bunker,NA,vehicle
+used,NA,tool vehicle cutlery animal weapon
+software,NA,vehicle
+intelligence,NA,vehicle
+upset,NA,vehicle
+wedge,NA,vehicle
+using,NA,vehicle
+work,NA,vehicle
+gonzalez,NA,vehicle
+gary,NA,vehicle
+hook,NA,cutlery
+chef,NA,cutlery
+occasional,NA,cutlery
+executed,r,cutlery
+undergo,NA,cutlery
+recalls,NA,tool cutlery
+ray,NA,cutlery
+heart,NA,tool cutlery
+neck,NA,tool cutlery
+do,NA,cutlery
+never,NA,cutlery
+fashion,NA,cutlery
+fit,NA,cutlery
+these,NA,cutlery
+author,NA,cutlery
+white,NA,cutlery criminal
+slices,NA,cutlery
+surprisingly,NA,cutlery
+opted,NA,cutlery
+operation,NA,tool
+technique,NA,tool
+kicked,NA,tool
+her,NA,tool
+takes,NA,tool
+laid,NA,tool
+hat,NA,tool
+knives,NA,tool
+leather,NA,tool
+wielding,NA,weapon tool
+stabbed,NA,tool
+weapon,NA,tool
+holding,NA,tool
+crack,NA,tool
+repeatedly,NA,tool
+codeine,NA,medication
+overdose,NA,medication
+drip,NA,medication
+lethal,r,measure object medication all
+marijuana,NA,medication
+milligrams,NA,measure medication
+morphine,NA,medication
+sedative,NA,medication
+injected,NA,medication
+vials,NA,medication
+injection,NA,medication
+000,NA,medication
+similar,NA,medication
+oral,NA,medication
+die,NA,medication
+large,NA,weapon medication
+times,NA,medication
+instead,NA,medication
+fatal,NA,measure object medication
+supply,NA,medication
+been,NA,mammal animal
+are,NA,mammal animal
+against,NA,mammal animal
+during,NA,mammal animal
+he,NA,animal criminal
+attacked,r,animal
+attack,i,animal object fish all
+attacks,NA,mammal animal
+killed,r,weapon animal object all
+apparently,u,animal object communication all
+sent,NA,animal
+maybe,NA,animal
+shooting,i,weapon animal object all
+reports,NA,animal
+make,NA,animal
+more,NA,animal
+just,NA,animal
+toledo,NA,food
+inch,NA,food
+steel,NA,food
+metal,NA,food
+propeller,NA,food
+ii,NA,food
+cutting,r,food
+angle,NA,food
+broken,NA,food
+movies,NA,food
+attached,NA,food
+shaped,NA,food fish
+broke,NA,food
+teeth,NA,food
+engine,NA,food
+ohio,NA,food
+boot,NA,food
+struck,NA,food
+tool,NA,food
+cause,NA,no-cat communication
+theory,NA,no-cat
+contained,NA,no-cat
+dangerous,p,no-cat communication
+produces,NA,no-cat
+unknown,NA,no-cat communication
+amounts,NA,no-cat
+containing,NA,no-cat
+believes,NA,no-cat
+seen,NA,no-cat
+amount,NA,no-cat
+effects,NA,no-cat
+acts,NA,no-cat
+affects,NA,no-cat
+effective,NA,no-cat
+eastern,NA,no-cat
+target,r,no-cat all
+nearly,NA,mammal no-cat
+exposed,NA,no-cat
+evidence,NA,no-cat
+radiation,NA,measure
+vaccine,NA,measure
+chemotherapy,NA,measure
+milligram,NA,measure
+healthy,NA,measure
+dose,NA,measure
+aspirin,NA,measure
+nevirapine,NA,measure
+of,NA,measure reptile
+reality,NA,measure
+medication,NA,measure
+heavy,NA,measure
+pills,NA,measure
+skepticism,NA,measure
+mg,NA,measure
+administered,NA,measure
+vitamin,NA,measure
+river,NA,reptile
+bites,NA,reptile
+snake,NA,reptile
+bite,NA,reptile
+pit,NA,reptile
+bitten,NA,reptile
+jake,NA,reptile
+rivers,NA,reptile
+the,u,reptile fish
+eyes,NA,reptile
+dragon,NA,reptile
+infested,NA,reptile
+handlers,NA,reptile
+slithered,NA,reptile
+handler,NA,reptile
+black,NA,reptile
+and,NA,reptile
+tail,NA,reptile
+pet,NA,reptile
+former,NA,criminal
+himself,NA,criminal
+police,NA,criminal
+at,NA,criminal
+alleged,u,all object criminal
+captured,r,all object criminal
+an,NA,criminal
+one,NA,criminal
+him,NA,mammal criminal
+gun,NA,object criminal
+authorities,r,criminal
+being,NA,criminal
+charged,NA,all criminal
+ordered,NA,criminal
+john,NA,criminal
+story,NA,criminal
+killer,i,criminal
+charges,NA,criminal
+carried,u,weapon communication
+wave,u,communication
+destroying,NA,communication
+worst,NA,communication
+novel,NA,communication
+destroy,r,communication
+were,NA,communication
+believed,NA,communication
+deadly,NA,weapon object communication
+believe,NA,communication
+conventional,NA,communication
+grave,NA,communication
+advanced,u,communication
+possibility,NA,communication
+danger,NA,communication
+sparked,NA,communication
+submarine,NA,fish
+warship,NA,fish
+korean,NA,fish
+sank,NA,fish
+sunk,NA,fish
+cheonan,NA,fish
+moscow,NA,fish
+boats,NA,fish
+kursk,NA,fish
+dprk,NA,fish
+tubes,NA,fish
+fired,NA,fish
+boat,NA,fish
+sinking,NA,fish
+ship,NA,fish
+explosion,NA,fish
+carrying,NA,weapon
+loaded,r,weapon
+armed,r,weapon object all
+carries,u,weapon
+death,NA,weapon
+fire,i,weapon
+stone,NA,weapon
+equipped,u,weapon
+equipment,NA,weapon
+shotgun,NA,weapon
+discovered,NA,weapon
+type,NA,weapon
+500,NA,mammal
+there,NA,mammal
+row,NA,mammal
+mask,NA,mammal
+threatened,r,mammal
+driver,NA,mammal
+54,NA,mammal
+person,NA,mammal
+demonstrated,NA,mammal
+22,NA,mammal
+think,NA,mammal
+shoot,r,object all
+man,b,object
+killing,i,object all
+soldier,b,object all
+dead,r,object all
+firing,i,object
+fake,NA,object
+footage,u,object
+confronted,NA,object
+kill,r,all
+weapons,i,all
+sentence,r,all
+reportedly,u,all
+machine,u,all
+hiding,r,all

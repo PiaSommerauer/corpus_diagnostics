@@ -1,0 +1,243 @@
+context,evidence_type,categories
+shade,NA,relation
+green,p,relation animal fruit no-cat measure object all
+branches,r,relation all
+lined,u,relation
+walls,NA,measure relation
+leaf,i,relation food all
+painted,NA,relation
+spreading,NA,relation object
+pine,i,relation
+forests,i,relation
+gum,NA,relation
+towering,NA,relation
+cedar,NA,relation
+facility,NA,relation
+ash,u,relation
+lawn,i,relation
+landscape,NA,relation
+breeze,u,relation
+backdrop,NA,relation
+48,NA,relation
+toss,u,vegetable food
+water,u,vegetable measure object plant all
+place,NA,vegetable object plant
+onions,NA,vegetable
+carrots,NA,vegetable
+peas,NA,vegetable
+vegetables,i,vegetable
+cauliflower,u,vegetable
+peppers,NA,vegetable
+or,NA,vegetable
+oranges,NA,fruit vegetable food
+chop,u,vegetable
+sprinkle,u,vegetable
+taste,NA,vegetable
+chives,i,vegetable
+crunchy,u,vegetable
+fish,NA,vegetable
+citrus,u,vegetable food plant
+heat,NA,vegetable
+trim,NA,vegetable
+bright,u,bird animal object all
+pet,NA,bird
+earnings,NA,bird
+saved,NA,bird
+yellow,NA,bird
+featuring,NA,bird
+front,NA,bird
+written,NA,bird
+from,NA,bird
+involved,NA,bird
+proceeds,NA,bird
+scale,NA,bird
+sales,NA,bird
+display,NA,bird
+package,NA,bird
+clients,NA,bird
+future,NA,bird
+colorful,u,bird
+talking,NA,bird
+expected,NA,bird
+simple,NA,fruit
+divide,NA,fruit
+orange,u,fruit no-cat all
+kiwi,NA,fruit
+guava,NA,fruit
+chunks,NA,fruit
+slices,NA,fruit
+tangy,NA,fruit
+flesh,NA,fruit
+likely,NA,fruit plant
+still,NA,fruit
+perfect,NA,fruit
+each,NA,fruit
+well,NA,fruit
+papaya,NA,fruit
+pineapple,i,fruit
+puree,NA,fruit
+grapefruit,NA,fruit food plant
+belongs,NA,animal
+exhibit,u,animal no-cat
+oldest,u,animal
+threatened,NA,animal
+seen,u,animal
+soft,NA,animal object
+extinct,NA,animal
+habitat,u,animal
+temple,NA,animal
+guinea,NA,animal
+reached,NA,animal
+lots,NA,animal
+precious,NA,animal
+live,NA,animal
+reduced,NA,animal
+step,NA,animal
+inch,u,animal all
+remains,NA,animal
+leaves,i,food weapon object plant all
+mint,i,food object plant all
+garnish,i,food
+anise,NA,food
+fresh,NA,food
+thin,NA,measure food
+flowers,r,food object all
+gently,u,food all
+fruit,u,food
+watercress,NA,food
+cucumbers,NA,food
+drizzle,NA,food
+mango,NA,food
+lemon,i,food
+nuts,NA,weapon food
+speed,NA,no-cat
+stolen,NA,no-cat
+hands,NA,no-cat
+appeared,NA,no-cat
+area,NA,no-cat
+turtle,NA,no-cat
+la,NA,no-cat
+production,NA,no-cat
+compound,NA,no-cat
+filmed,NA,no-cat
+blow,NA,no-cat
+south,NA,no-cat
+camera,NA,no-cat
+oversized,NA,no-cat
+slowly,NA,no-cat
+bus,NA,no-cat
+built,NA,no-cat
+plastic,NA,measure
+juice,NA,weapon measure
+thick,NA,measure all
+containers,NA,measure
+pieces,NA,measure
+topped,NA,measure communication
+plates,NA,measure
+cut,u,measure object all
+fill,NA,measure
+bits,NA,measure
+small,u,measure plant all
+boxes,NA,measure
+crushed,NA,measure
+onto,NA,measure
+large,u,measure
+atop,NA,measure
+maple,NA,green
+toronto,NA,green
+sundin,NA,green
+mats,NA,green
+canadiens,NA,green
+quinn,NA,green
+defenseman,NA,green
+goalie,NA,green
+islanders,NA,green
+outshot,NA,green
+devils,NA,green
+nhl,NA,green
+flyers,NA,green
+hockey,NA,green
+bruins,NA,green
+sabres,NA,green
+domi,NA,green
+pat,NA,green
+ot,NA,green
+scored,NA,green
+item,NA,communication
+legislative,NA,communication
+on,NA,communication plant
+ambitious,NA,communication
+summit,NA,communication
+top,NA,communication
+reform,NA,communication
+hidden,NA,communication
+political,NA,communication
+doha,NA,communication
+items,NA,communication
+meeting,NA,communication
+talks,NA,communication
+high,NA,communication
+issue,NA,communication
+apec,NA,communication
+his,NA,communication
+be,NA,communication
+for,NA,communication
+growers,NA,weapon
+varieties,NA,weapon
+wine,NA,weapon
+tomatoes,NA,weapon
+vines,NA,weapon
+gilbert,NA,weapon
+harvest,NA,weapon
+wines,NA,weapon
+cherry,u,weapon
+jelly,NA,weapon
+variety,u,weapon
+grower,NA,weapon
+growing,NA,weapon
+skins,NA,weapon
+stuffed,NA,weapon
+noir,NA,weapon
+chardonnay,NA,weapon
+cup,NA,mammal
+largest,NA,mammal
+of,NA,mammal
+holder,NA,mammal
+000,NA,mammal
+record,NA,mammal
+ranked,NA,mammal
+economy,NA,mammal
+rugby,NA,mammal
+no,NA,mammal
+at,NA,mammal
+heritage,NA,mammal
+leaders,NA,mammal
+producer,NA,mammal
+most,NA,mammal
+won,NA,mammal
+forum,NA,mammal
+china,NA,mammal
+second,NA,mammal
+third,NA,mammal
+splash,NA,object
+plant,i,object all
+fine,NA,object
+cool,u,object all
+squeezed,NA,object all
+roses,NA,object plant
+soil,NA,object
+container,NA,object
+wrap,u,object all
+ones,NA,object
+called,NA,plant
+actually,NA,plant
+preserved,u,plant
+found,NA,plant
+around,NA,plant
+list,NA,plant
+bunch,NA,plant
+damage,NA,plant
+common,NA,plant
+find,NA,plant
+plants,i,all
+garden,i,all

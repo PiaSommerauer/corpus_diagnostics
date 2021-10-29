@@ -1,0 +1,100 @@
+context,evidence_type,categories
+driver,NA,vehicle communication
+truck,NA,vehicle no-cat
+drove,r,vehicle object all
+vehicle,i,vehicle
+wheel,p,vehicle no-cat object all
+parked,r,vehicle object all
+driving,r,vehicle object all
+drivers,r,vehicle object communication all
+seat,NA,vehicle
+road,r,vehicle object all
+car,NA,vehicle
+vehicles,NA,vehicle
+bicycle,i,animal vehicle object all
+drive,r,vehicle object all
+driven,r,vehicle object all
+garage,NA,vehicle
+bus,NA,vehicle
+drives,r,vehicle object all
+streets,r,vehicle object all
+cars,NA,vehicle
+libby,NA,animal
+motor,NA,animal
+motorized,NA,animal
+riding,NA,animal no-cat communication
+motorcycle,NA,animal
+riders,NA,animal
+razor,NA,animal
+dick,NA,animal
+electric,NA,animal
+maker,NA,animal
+ride,NA,animal communication
+powered,NA,animal
+helmet,NA,animal
+bike,i,animal object all
+rode,NA,animal
+manufacturer,NA,animal
+honda,NA,animal no-cat
+former,NA,animal
+scooter,NA,animal
+mounted,NA,no-cat
+equipped,NA,no-cat
+toward,NA,no-cat
+accident,NA,no-cat
+safety,NA,no-cat
+75,NA,no-cat
+collided,NA,no-cat communication
+rear,NA,no-cat
+crashed,NA,no-cat communication
+earlier,NA,no-cat
+injured,NA,no-cat
+designed,NA,no-cat
+adding,NA,no-cat
+pulled,NA,no-cat
+speed,NA,no-cat
+gear,NA,no-cat
+think,NA,measure
+fuel,NA,measure
+anti,NA,measure
+external,NA,measure
+institute,NA,measure
+shells,NA,measure
+gallon,NA,measure
+oxygen,NA,measure
+shell,NA,measure
+tops,NA,measure
+fired,NA,measure
+rockets,NA,measure
+washington,NA,measure
+missiles,NA,measure
+foam,NA,measure
+brookings,NA,measure
+septic,NA,measure
+based,NA,measure
+artillery,NA,measure
+mines,NA,measure
+carrying,NA,communication
+overturned,NA,communication
+stop,NA,communication
+traveling,r,communication
+travelling,NA,communication
+aboard,NA,communication
+service,NA,communication
+crowded,NA,communication
+blew,NA,communication
+tel,NA,communication
+in,NA,communication
+near,NA,communication
+shelters,NA,communication
+ripped,NA,communication
+rolled,l,object all
+past,u,object all
+roads,r,object all
+tracks,NA,object all
+automobile,NA,object all
+wheeled,p,object
+mini,i,object all
+shop,NA,object
+model,u,all
+chassis,NA,all

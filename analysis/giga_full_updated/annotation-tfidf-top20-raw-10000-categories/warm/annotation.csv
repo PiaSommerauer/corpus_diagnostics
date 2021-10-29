@@ -1,0 +1,135 @@
+context,evidence_type,categories
+dressed, ,relation
+black, ,warm relation no-cat communication
+colorful, ,relation communication
+bag, ,relation
+coat, ,relation
+covered, ,warm relation communication all
+skin, ,relation
+ground, ,relation
+look, ,relation no-cat
+piece, ,relation
+inch, ,relation
+fit, ,relation
+wide, ,relation
+covers, ,relation communication
+leather, ,relation communication
+topped, ,relation
+body, ,relation
+shoes, ,relation
+sleeping, ,relation
+clothes, ,relation
+vegetable, ,food
+egg, ,food
+minute, ,food
+oven, ,food
+bean, ,food
+medium, ,food
+potatoes, ,food
+olive, ,food
+tomato, ,food
+vegetables, ,food
+microwave, ,food
+breakfast, ,food
+tablespoon, ,food
+pepper, ,food
+oil, ,food
+oyster, ,food
+together, ,food
+teaspoon, ,food
+flour, ,food
+soups, ,food
+shirt, ,no-cat
+mini, ,no-cat
+and, ,no-cat object
+suit, ,no-cat
+white, ,no-cat
+top, ,no-cat
+print, ,no-cat
+tight, ,no-cat
+colored, ,no-cat warm
+full, ,no-cat
+ban, ,no-cat
+pair, ,no-cat
+green, ,no-cat communication
+looks, ,no-cat
+dark, ,no-cat object all
+around, ,no-cat
+yellow, ,no-cat
+bright, ,no-cat
+cold, ,measure
+morning, ,measure
+followed, ,measure
+shortly, ,measure
+breaking, ,measure
+cracked, ,measure
+been, ,measure
+david, ,measure
+heated, ,measure all
+pushed, ,measure
+ago, ,measure
+resting, ,measure
+began, ,measure
+vice, ,measure
+entry, ,measure
+featured, ,measure
+started, ,measure
+daniel, ,measure
+joined, ,measure
+tents, ,measure
+hanging, ,communication
+beneath, ,communication
+beside, ,communication
+opened, ,communication
+sweat, ,communication
+filled, ,communication
+rear, ,communication
+gloves, ,communication
+rolled, ,communication
+cap, ,communication
+lying, ,communication
+covering, ,warm communication
+floor, ,communication
+downtown, ,communication
+heavy, ,object all
+instead, ,object all
+down, ,object all
+perfect, ,object
+meant, ,object
+traditional, ,object all
+makes, ,object
+arrived, ,object all
+fitting, ,object all
+drawing, ,object
+slipped, ,object all
+tan, ,object all
+female, ,object
+usual, ,object
+winter, ,object
+entered, ,object all
+wind, ,object
+studio, ,object
+plastic, ,warm
+floors, ,warm
+windows, ,warm
+000, ,warm
+bags, ,warm
+used, ,warm
+orange, ,warm
+red, ,warm
+materials, ,warm
+chemicals, ,warm
+found, ,warm
+paper, ,warm
+containing, ,warm
+version, ,warm
+brick, ,warm
+cover, ,warm
+lined, ,all
+outer, ,all
+climbed, ,all
+visible, ,all
+hood, ,all
+style, ,all
+cape, ,all
+gathered, ,all

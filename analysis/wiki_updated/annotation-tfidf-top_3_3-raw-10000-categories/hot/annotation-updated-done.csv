@@ -58,7 +58,7 @@ heated,n,object
 ceramic,u,object
 containing,u,measure
 beer,u,measure
-glass,u,measure
+glass,i,measure
 non,u,measure
 vessel,u,measure
 items,u,measure
@@ -85,7 +85,7 @@ baked,r,food
 hot,p,all hot
 heat,p,hot
 lit,r,all object
-kitchen,r,measure
+kitchen,i,measure
 burnt,r,hot
 entire,u,relation
 pieces,u,relation

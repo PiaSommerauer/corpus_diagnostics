@@ -1,0 +1,269 @@
+context,evidence_type,categories
+any,NA,relation
+fashioned,NA,relation
+sales,NA,relation
+name,NA,relation
+originally,NA,relation
+good,NA,relation plant
+selling,NA,relation
+making,NA,relation
+invented,NA,relation
+lobby,NA,relation
+sounds,NA,relation
+cardboard,NA,relation
+accounting,u,relation
+cheap,NA,relation
+blame,NA,relation
+recommends,NA,relation
+whiskey,NA,relation
+answer,u,relation
+lightly,NA,relation
+number,NA,relation
+driver,NA,vehicle no-cat
+collided,NA,vehicle
+passengers,NA,vehicle
+drivers,NA,vehicle
+ride,NA,vehicle
+terminal,NA,vehicle
+tour,NA,vehicle
+boarded,NA,vehicle
+stops,NA,vehicle no-cat
+traveling,NA,vehicle
+bus,NA,vehicle
+mini,NA,vehicle
+travelling,NA,vehicle
+fares,NA,vehicle
+service,NA,vehicle
+rides,NA,vehicle
+lahore,NA,vehicle
+commuter,NA,vehicle
+fare,NA,vehicle
+transit,NA,vehicle
+dijon,NA,vegetable
+gas,NA,vegetable
+nerve,NA,vegetable
+vinegar,NA,vegetable
+seeds,NA,vegetable
+sarin,NA,vegetable
+honey,NA,vegetable
+teaspoon,NA,vegetable
+ketchup,NA,vegetable
+yellow,p,vegetable object all
+mayonnaise,NA,vegetable
+greens,NA,vegetable
+garlic,NA,vegetable
+vx,NA,vegetable
+tablespoon,NA,vegetable
+salt,NA,vegetable
+lemon,NA,vegetable
+pepper,NA,vegetable
+dry,NA,vegetable
+mustard,NA,vegetable
+helicopter,NA,bird
+smugglers,NA,bird
+duchess,NA,bird
+smuggler,NA,bird
+books,NA,bird
+character,NA,bird
+cartoon,NA,bird
+pet,NA,bird fish
+bryan,NA,bird
+elvis,NA,bird
+royalties,NA,bird
+earnings,NA,bird
+budgie,NA,bird
+merchandising,NA,bird
+ranged,NA,bird
+highly,NA,bird
+negotiating,NA,bird
+adventures,NA,bird
+she,u,bird
+creatures,NA,bird
+diced,NA,fruit
+cut,u,fruit
+blueberries,u,fruit
+combined,NA,fruit
+peeled,NA,fruit
+medium,NA,fruit
+sliced,NA,fruit
+grilled,NA,fruit
+sage,NA,fruit
+leaving,NA,fruit plant
+inch,NA,fruit
+available,NA,fruit
+apples,i,fruit food
+place,NA,fruit
+begins,NA,fruit
+quarter,NA,fruit food
+90,NA,fruit
+perfectly,NA,fruit
+intended,NA,fruit
+knife,NA,fruit
+school,u,animal no-cat
+line,NA,animal
+hit,NA,animal
+money,NA,animal
+built,NA,animal
+sticking,u,animal
+girls,u,animal
+park,u,animal
+film,u,animal
+lone,NA,animal
+actually,NA,animal
+studied,NA,animal
+parents,NA,animal
+2006,u,animal
+fate,NA,animal
+various,NA,animal
+print,NA,mammal animal object
+sub,NA,animal
+possibly,NA,animal
+18,NA,animal object
+somewhat,u,food plant all
+sipping,NA,food
+apple,i,food object all
+bubbly,NA,food
+operating,NA,food
+cents,NA,food
+half,u,food
+150,NA,food
+quarters,u,food object all
+goods,u,food
+lemonade,NA,food
+ale,NA,food
+cheddar,NA,food fish
+pear,NA,food
+rings,NA,food
+sunny,NA,food
+cocktails,NA,food
+sweeter,NA,food
+station,NA,no-cat
+blew,NA,no-cat
+crashed,NA,no-cat
+shuttle,NA,no-cat
+bomber,NA,no-cat
+metro,NA,no-cat
+stations,NA,no-cat
+rode,NA,no-cat
+waiting,NA,no-cat
+operators,NA,no-cat
+montgomery,NA,no-cat
+traveled,NA,no-cat
+at,NA,no-cat
+hour,NA,no-cat
+route,NA,no-cat
+heading,NA,no-cat
+stopped,NA,no-cat
+andy,NA,measure
+beds,NA,measure
+petals,NA,measure plant
+flower,NA,measure object
+grant,NA,measure
+buds,NA,measure
+pots,NA,measure
+arrangements,NA,measure
+gardens,NA,measure
+garden,NA,measure
+mound,NA,measure
+lotus,NA,measure
+shop,NA,measure
+olonga,NA,measure
+growers,NA,measure
+arranging,NA,measure
+vegetable,NA,measure
+bedecked,NA,measure
+bed,NA,measure
+pot,NA,measure
+dunlap,NA,yellow
+corp,NA,yellow
+oster,NA,yellow
+ama,NA,yellow
+sunbeam,NA,yellow
+perelman,NA,yellow
+coleman,NA,yellow
+appliance,NA,yellow
+stock,NA,yellow
+albert,NA,yellow
+delray,NA,yellow
+appliances,NA,yellow
+waste,NA,yellow
+products,NA,yellow
+andersen,NA,yellow
+executive,NA,yellow
+raton,NA,yellow
+levin,NA,yellow
+endorse,NA,yellow
+000,NA,yellow
+crackers,NA,fish
+pond,NA,fish
+bowl,NA,fish
+pepperidge,NA,fish
+goldfish,NA,fish
+swallowing,NA,fish
+koi,NA,fish
+bowls,NA,fish
+swimming,NA,fish
+farm,NA,fish
+cats,NA,fish
+blender,NA,fish
+aquarium,NA,fish
+tank,NA,fish
+carp,NA,fish
+live,NA,fish
+swim,NA,fish
+swallowed,NA,fish
+zebra,NA,mammal
+elephant,NA,mammal
+lion,NA,mammal
+elephants,NA,mammal
+antelope,NA,mammal
+male,NA,mammal
+female,NA,mammal
+stuffed,NA,mammal
+buffalo,NA,mammal
+tiger,NA,mammal
+prints,NA,mammal
+mascot,NA,mammal
+leopard,NA,mammal
+hotel,NA,mammal
+legs,NA,mammal
+camel,NA,mammal
+africa,NA,mammal
+bear,NA,mammal
+extinct,NA,mammal
+40,u,object all
+boxes,NA,object all
+yes,u,object all
+island,NA,object
+bubble,u,object plant all
+cooperative,NA,object
+smile,u,object all
+1988,NA,object all
+flowers,i,object
+girl,u,object all
+august,u,object
+preferred,u,object all
+trade,NA,object all
+shapes,NA,object
+this,u,plant
+poppy,NA,plant
+miss,NA,plant
+my,NA,plant
+on,NA,plant
+another,NA,plant
+experts,NA,plant
+help,NA,plant
+favorites,NA,plant
+bought,NA,plant
+example,u,plant
+between,NA,plant
+do,NA,plant
+smart,NA,plant
+cottage,u,plant
+sun,NA,all
+displays,NA,all
+remarkable,NA,all
+smoking,NA,all
+earn,NA,all
+poster,NA,all
+reception,NA,all

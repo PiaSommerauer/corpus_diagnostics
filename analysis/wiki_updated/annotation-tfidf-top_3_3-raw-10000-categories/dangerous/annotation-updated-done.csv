@@ -275,7 +275,7 @@ suggests,u,communication
 seriously,u,communication
 dragon,i,communication
 seem,u,communication
-deep,u,communication
+deep,r,communication
 escaped,u,communication
 japanese,u,communication
 rise,u,communication
@@ -482,7 +482,7 @@ believed,u,relation communication
 began,u,relation
 could,u,relation
 successful,u,relation
-fire,u,relation communication weapon
+fire,i,relation communication weapon
 200,u,relation
 30,u,relation
 missed,u,relation

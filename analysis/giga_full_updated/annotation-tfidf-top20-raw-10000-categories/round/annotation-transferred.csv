@@ -1,0 +1,179 @@
+context,evidence_type,categories
+black,NA,relation
+shaped,NA,relation
+towering,NA,relation
+gold,NA,relation
+metal,NA,relation
+shiny,NA,relation
+inch,NA,relation
+bearing,NA,relation
+trees,NA,relation
+surrounding,NA,relation
+texas,NA,relation
+million,NA,relation
+picked,NA,relation
+leading,NA,relation
+dates,NA,relation
+fingers,NA,relation
+shade,NA,relation
+named,NA,relation
+tree,NA,relation
+history,NA,relation
+le,NA,bird
+marie,NA,bird
+ink,NA,bird
+pal,NA,bird
+jean,NA,bird
+ballpoint,NA,bird
+stroke,NA,bird
+paper,NA,bird
+fountain,NA,bird
+veto,NA,bird
+pals,NA,bird
+pilot,NA,bird
+chirac,NA,bird
+pen,NA,bird
+poison,NA,bird
+faulkner,NA,bird
+name,NA,bird
+notebook,NA,bird
+pencil,NA,bird
+front,NA,bird
+spinach,NA,fruit
+my,NA,fruit
+fruits,i,fruit object plant
+eating,NA,fruit
+now,NA,fruit
+watermelon,NA,fruit
+about,u,fruit food
+using,NA,fruit
+try,NA,fruit plant
+garden,u,fruit plant
+bottom,NA,fruit
+patch,u,fruit plant
+tasty,NA,fruit
+first,u,fruit food all
+thing,NA,fruit
+come,NA,fruit
+stone,NA,fruit
+largest,NA,fruit
+refers,NA,fruit
+eat,NA,fruit
+ii,NA,animal
+championships,NA,animal
+champion,NA,animal
+organization,NA,animal
+holder,NA,animal
+finals,NA,animal
+series,NA,animal
+championship,NA,animal
+record,NA,animal
+organisation,NA,animal
+qualifying,NA,animal
+champions,NA,animal
+title,NA,animal
+number,NA,animal
+forum,NA,animal
+center,NA,animal
+as,NA,animal
+soccer,NA,animal
+has,NA,animal
+second,NA,animal
+also,u,food all
+between,u,food all
+pastry,NA,food
+tops,NA,food
+humble,u,food all
+pear,i,food
+half,NA,food
+18,NA,food
+15,u,food all
+almond,NA,food
+edge,NA,food
+firm,NA,food
+passion,u,food object all
+grape,NA,food
+another,NA,food
+did,NA,food
+known,NA,food
+third,NA,food
+money,NA,measure
+shot,u,measure
+apples,NA,measure
+roll,NA,measure
+plates,NA,measure
+beginning,u,measure
+23,NA,measure
+main,NA,measure
+remember,NA,measure
+briefly,NA,measure
+throughout,NA,measure
+return,NA,measure
+large,NA,measure
+amount,NA,measure
+do,NA,measure
+place,NA,measure
+outside,NA,measure
+minutes,NA,measure
+shrimp,NA,measure
+deep,NA,measure
+dog,NA,round
+tossing,NA,round
+toss,NA,round
+playing,NA,round
+disc,NA,round
+throw,NA,round
+sized,NA,round
+play,NA,round
+catch,NA,round
+like,NA,round
+golf,NA,round
+played,NA,round
+size,NA,round
+flying,NA,round
+beach,NA,round
+fetch,NA,round
+thrown,NA,round
+morrison,NA,round
+toys,NA,round
+the,NA,round
+annual,u,object all
+growing,u,object plant all
+combination,NA,object
+however,u,object all
+avoid,u,object all
+bright,u,object
+palm,NA,object all
+ones,NA,object plant
+72,u,object
+concerned,u,object
+largely,u,object
+past,u,object
+unique,NA,object
+circle,i,object
+column,NA,object
+boss,NA,object all
+determined,u,object
+ideas,u,object
+leaves,NA,plant
+vegetables,NA,plant
+sauteed,NA,plant
+squash,NA,plant
+pumpkin,NA,plant
+ground,NA,plant
+thick,NA,plant
+thin,NA,plant
+greens,NA,plant
+leaf,u,plant
+ham,NA,plant
+juice,NA,plant
+bell,NA,plant
+less,NA,plant
+ring,i,all
+will,u,all
+types,u,all
+not,u,all
+mountain,u,all
+town,u,all
+holes,NA,all
+jerry,u,all

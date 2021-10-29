@@ -1,0 +1,135 @@
+context,evidence_type,categories
+dressed,NA,relation
+black,NA,warm relation no-cat communication
+colorful,NA,relation communication
+bag,NA,relation
+coat,NA,relation
+covered,r,warm relation communication all
+skin,NA,relation
+ground,NA,relation
+look,NA,relation no-cat
+piece,NA,relation
+inch,NA,relation
+fit,NA,relation
+wide,NA,relation
+covers,NA,relation communication
+leather,NA,relation communication
+topped,NA,relation
+body,NA,relation
+shoes,NA,relation
+sleeping,NA,relation
+clothes,NA,relation
+vegetable,NA,food
+egg,NA,food
+minute,NA,food
+oven,NA,food
+bean,NA,food
+medium,NA,food
+potatoes,NA,food
+olive,NA,food
+tomato,NA,food
+vegetables,NA,food
+microwave,NA,food
+breakfast,NA,food
+tablespoon,NA,food
+pepper,NA,food
+oil,NA,food
+oyster,NA,food
+together,NA,food
+teaspoon,NA,food
+flour,u,food
+soups,NA,food
+shirt,NA,no-cat
+mini,NA,no-cat
+and,NA,no-cat object
+suit,NA,no-cat
+white,NA,no-cat
+top,NA,no-cat
+print,NA,no-cat
+tight,NA,no-cat
+colored,NA,no-cat warm
+full,NA,no-cat
+ban,NA,no-cat
+pair,NA,no-cat
+green,NA,no-cat communication
+looks,NA,no-cat
+dark,u,no-cat object all
+around,NA,no-cat
+yellow,NA,no-cat
+bright,NA,no-cat
+cold,NA,measure
+morning,NA,measure
+followed,u,measure
+shortly,u,measure
+breaking,NA,measure
+cracked,NA,measure
+been,NA,measure
+david,NA,measure
+heated,n,measure all
+pushed,NA,measure
+ago,NA,measure
+resting,NA,measure
+began,NA,measure
+vice,NA,measure
+entry,NA,measure
+featured,NA,measure
+started,NA,measure
+daniel,NA,measure
+joined,NA,measure
+tents,NA,measure
+hanging,NA,communication
+beneath,NA,communication
+beside,NA,communication
+opened,NA,communication
+sweat,NA,communication
+filled,NA,communication
+rear,NA,communication
+gloves,NA,communication
+rolled,NA,communication
+cap,NA,communication
+lying,NA,communication
+covering,NA,warm communication
+floor,NA,communication
+downtown,NA,communication
+heavy,u,object all
+instead,u,object all
+down,u,object all
+perfect,u,object
+meant,NA,object
+traditional,u,object all
+makes,u,object
+arrived,u,object all
+fitting,NA,object all
+drawing,NA,object
+slipped,u,object all
+tan,u,object all
+female,NA,object
+usual,NA,object
+winter,NA,object
+entered,u,object all
+wind,NA,object
+studio,NA,object
+plastic,NA,warm
+floors,NA,warm
+windows,NA,warm
+000,NA,warm
+bags,NA,warm
+used,NA,warm
+orange,NA,warm
+red,NA,warm
+materials,NA,warm
+chemicals,NA,warm
+found,NA,warm
+paper,NA,warm
+containing,NA,warm
+version,NA,warm
+brick,NA,warm
+cover,NA,warm
+lined,r,all
+outer,u,all
+climbed,u,all
+visible,NA,all
+hood,i,all
+style,NA,all
+cape,NA,all
+gathered,NA,all

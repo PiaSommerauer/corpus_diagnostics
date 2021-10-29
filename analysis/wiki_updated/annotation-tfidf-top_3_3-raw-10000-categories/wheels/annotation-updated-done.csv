@@ -92,7 +92,7 @@ powered,u,no-cat
 manufacturer,u,no-cat
 available,u,no-cat
 german,u,no-cat
-tank,u,no-cat
+tank,i,no-cat
 rear,u,no-cat
 full,u,no-cat
 trucks,u,no-cat

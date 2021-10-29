@@ -1,0 +1,208 @@
+context,evidence_type,categories
+through,NA,relation
+makes,NA,relation
+can,NA,relation
+spotted,NA,measure relation
+little,NA,relation
+below,NA,relation
+cloud,NA,relation
+enough,NA,relation
+checked,NA,relation
+gray,NA,relation
+decorated,NA,relation
+colors,NA,relation
+real,NA,relation
+web,NA,relation
+ranch,NA,relation
+somehow,NA,relation
+stream,NA,relation
+engines,NA,relation
+landed,NA,relation
+runway,NA,relation vehicle
+crashed,u,vehicle
+similar,u,vehicle
+visibility,u,vehicle
+indicating,u,vehicle
+hunt,NA,vehicle
+northwest,u,vehicle
+piloted,r,vehicle
+propeller,r,vehicle
+conducting,u,vehicle
+fighter,NA,measure vehicle
+fighters,NA,vehicle
+supersonic,NA,vehicle
+pilot,NA,vehicle
+flew,r,vehicle object all
+flying,NA,vehicle
+flown,NA,vehicle
+aviation,NA,vehicle
+cockpit,NA,vehicle
+downed,NA,vehicle
+bird,i,bird animal measure female object all
+nest,r,bird animal female object all
+species,u,bird measure female object all
+duck,i,bird
+followed,NA,bird animal
+birds,i,bird animal food object all
+numbers,NA,bird
+north,NA,bird
+hawk,i,bird communication
+eye,NA,bird
+fox,u,bird
+parts,NA,bird
+its,NA,bird animal
+red,NA,bird
+wings,p,bird animal food object all
+rare,u,bird
+feathers,NA,measure bird
+following,NA,bird
+yellow,NA,bird animal
+stuffed,u,bird
+perched,NA,animal
+flies,r,animal food measure object all
+are,u,animal
+wildlife,u,animal object all
+refuge,u,animal object all
+manager,NA,animal
+featured,NA,animal
+described,NA,animal
+wood,NA,animal
+wing,p,animal
+buzz,NA,animal
+came,NA,animal
+club,NA,animal
+found,NA,food
+it,NA,food
+hidden,NA,food
+quail,NA,food
+pigeon,i,food
+hatched,NA,food
+game,NA,food
+one,NA,food
+near,NA,food
+several,NA,food
+this,NA,food
+commonly,u,food
+clear,NA,food
+raised,NA,food
+probably,NA,food
+eggs,l,food object all
+roasted,NA,food
+pine,NA,no-cat
+new,NA,no-cat
+trees,NA,no-cat
+000,NA,no-cat
+golf,NA,no-cat
+engine,NA,no-cat
+turbo,NA,no-cat
+models,NA,no-cat
+bombardier,NA,no-cat
+rear,NA,no-cat
+production,NA,no-cat
+damage,NA,no-cat
+1964,NA,no-cat
+colorado,NA,no-cat
+ash,NA,no-cat
+which,NA,no-cat
+mexico,NA,no-cat
+tiny,NA,no-cat
+parked,NA,no-cat
+mustang,NA,no-cat
+forum,NA,measure
+round,NA,measure
+missed,NA,measure
+stroke,NA,measure
+airlines,NA,measure
+flight,NA,measure
+exercise,NA,measure
+jet,i,measure
+final,NA,measure
+cup,NA,measure
+tournament,NA,measure
+plane,NA,measure
+tie,NA,measure
+attorney,NA,measure
+flu,NA,female
+h5n1,NA,female
+strain,NA,female
+outbreak,NA,female
+larry,NA,female
+virus,NA,female
+outbreaks,NA,female
+poultry,NA,female
+infected,u,female
+migratory,NA,female
+detected,u,female object all
+deadly,NA,female
+pandemic,NA,female
+cases,NA,female
+spread,u,female object all
+lady,NA,female
+watchers,NA,female
+strikes,NA,communication
+suspected,NA,communication
+surveillance,NA,communication
+confirm,NA,communication
+feeds,NA,communication
+official,NA,communication
+areas,NA,communication
+territory,NA,communication
+wingspan,NA,communication
+neighbouring,NA,communication
+have,NA,communication
+region,NA,communication
+bordering,NA,communication
+against,NA,communication
+confirmed,u,object communication all
+reported,NA,communication
+administration,NA,communication
+capable,NA,communication
+combat,NA,communication
+freddie,NA,fish
+kemar,NA,fish
+stephen,NA,fish
+max,NA,fish
+morgan,NA,fish
+economist,NA,fish
+stanley,NA,fish
+papa,NA,fish
+jay,NA,fish
+trainer,NA,fish
+hal,NA,fish
+pacquiao,NA,fish
+infested,NA,fish
+tandy,NA,fish
+roach,NA,fish
+drummer,NA,fish
+motel,NA,fish
+said,NA,fish
+tyson,NA,fish
+chief,NA,fish
+toss,NA,mammal
+swinging,NA,mammal
+baseball,NA,mammal
+elected,NA,mammal
+pad,NA,mammal
+mitzvah,NA,mammal
+ball,NA,mammal
+swing,NA,mammal
+electing,NA,mammal
+at,NA,mammal
+bat,NA,mammal
+inning,NA,mammal
+to,NA,mammal
+pitch,NA,mammal
+his,NA,mammal
+corked,NA,mammal
+first,NA,mammal
+overs,NA,mammal
+wicket,NA,mammal
+broken,NA,mammal
+population,u,object all
+fly,r,object all
+habitat,u,object all
+managing,u,object all
+breeding,u,object all
+common,u,object all
+highly,NA,object
+islands,NA,all

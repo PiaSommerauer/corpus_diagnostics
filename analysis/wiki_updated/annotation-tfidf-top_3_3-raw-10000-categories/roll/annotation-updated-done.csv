@@ -867,7 +867,7 @@ response,u,measure animal
 reader,u,measure
 reads,u,measure
 rapidly,u,measure
-axle,r,vehicle measure
+axle,l,vehicle measure
 originated,u,vehicle measure
 demolished,u,measure
 overcome,u,measure
@@ -1834,7 +1834,7 @@ meters,u,relation
 young,u,relation
 when,u,relation measure
 ceramic,u,relation measure
-bearing,u,relation
+bearing,l,relation
 single,u,relation measure animal
 great,u,vehicle relation measure animal
 crushed,u,relation
@@ -2132,7 +2132,7 @@ impossible,u,relation measure
 motor,u,vehicle relation
 speed,u,relation measure animal
 configuration,u,relation
-roller,u,vehicle relation
+roller,i,vehicle relation
 engine,u,vehicle relation
 bodies,u,relation
 free,u,vehicle relation measure animal
@@ -2806,7 +2806,7 @@ gigantic,u,measure
 vinegar,u,measure
 users,u,vehicle measure
 coffin,u,measure
-glass,u,measure
+glass,i,measure
 colored,u,measure
 art,u,vehicle measure animal
 artist,u,vehicle measure
@@ -3410,7 +3410,7 @@ late,u,animal
 parties,u,animal
 picked,u,animal
 combination,u,animal
-pipe,u,animal
+pipe,i,animal
 george,u,animal
 nearly,u,animal
 weight,u,animal

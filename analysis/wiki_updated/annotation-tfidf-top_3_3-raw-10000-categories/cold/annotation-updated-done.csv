@@ -447,7 +447,7 @@ parts,u,cold
 70,u,cold
 lined,u,cold
 growth,u,cold
-river,u,cold
+river,i,cold
 falling,u,cold
 drop,u,cold
 limited,u,cold
@@ -576,7 +576,7 @@ names,u,communication
 spots,u,communication
 sand,u,communication
 slide,u,communication
-mud,u,communication
+mud,i,communication
 seal,u,communication
 dig,u,communication
 shallow,u,communication
@@ -588,4 +588,4 @@ loose,u,communication
 swimming,u,communication
 honey,u,communication
 texas,u,communication
-cake,u,all
+cake,i,all

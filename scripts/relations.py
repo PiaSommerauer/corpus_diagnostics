@@ -1,6 +1,7 @@
 from itertools import permutations
 from collections import defaultdict
 import utils
+from statistics import median
 
 import os
 import numpy as np
@@ -30,6 +31,10 @@ def load_relation_pairs(combination, order=True):
             pairs = [(l.split(',')[0], l.split(',')[1]) for l in lines]
             all_pairs.update(pairs)
     return all_pairs
+
+
+
+
 
 
 
@@ -72,7 +77,7 @@ def str_to_tuple(pair_str):
     return pair_t
 
 
-def load_scores(analysis_name, model_name):
+def load_scores(analysis_name, model_name, evidence_type):
 
     path_dir = f'../analysis/{model_name}/pairs/'
     path_file = f'{path_dir}/{analysis_name}.csv'
@@ -82,12 +87,12 @@ def load_scores(analysis_name, model_name):
     for i, row in df.iterrows():
         pair = row['pair']
         pair = str_to_tuple(pair)
-        score = row['prop-specific'] 
+        score = row[evidence_type] 
         pair_score_dict[pair] = score
     return pair_score_dict
 
 
-def relation_overview(pair_score_dict, mode = 'strict'):
+def relation_overview(pair_score_dict, evidence_type, mode = 'strict'):
 
     relations =  ['pos', 'neg', 'all', 'some', 'few',
                          'evidence', 'no_evidence_pos', 'no_evidence_neg',
@@ -109,10 +114,13 @@ def relation_overview(pair_score_dict, mode = 'strict'):
             if pair in pair_score_dict.keys():
                 scores.append(pair_score_dict[pair])
         if len(scores) > 0:
+            #med = median(scores)
             med = np.nanmedian(scores)
+            #mean = np.nanmean(scores)
+            #print(rel, med, mean, len(scores))
             d = dict()
             d['relation'] = rel
-            d['prop-specific'] = med
+            d[evidence_type] = med
             d['n_pairs'] = len(scores)
             table.append(d)
 
@@ -150,6 +158,8 @@ def relations_to_file(properties):
                 l_qu = 'some'
             elif ml_label in {'few'}:
                 l_qu = 'few'
+            else:
+                l_qu = 'none'
             relation_pair_dict[(l_qu,)].add((prop, c))
 
             # sort relations:

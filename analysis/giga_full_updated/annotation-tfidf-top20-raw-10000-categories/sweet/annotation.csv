@@ -1,0 +1,162 @@
+context,evidence_type,categories
+stand, ,relation
+candy, ,relation all
+sweet, ,relation vegetable fruit no-cat food object plant all
+peaches, ,relation
+wines, ,relation
+festival, ,relation
+grapes, ,relation fruit
+flowing, ,relation
+rival, ,relation
+wooden, ,relation
+champagne, ,relation fruit
+wine, ,relation
+apple, ,relation fruit food object plant all
+syrup, ,relation fruit food object plant all
+caramel, ,relation food object plant all
+sweeter, ,relation
+reserved, ,relation
+real, ,relation
+bubble, ,relation
+visitor, ,relation
+potato, ,tool vegetable
+nickname, ,vegetable
+lovers, ,vegetable
+jam, ,vegetable fruit food object plant all
+sugar, ,vegetable food communication
+banana, ,vegetable fruit food object plant all
+quarter, ,vegetable
+one, ,vegetable
+golden, ,vegetable
+annual, ,vegetable
+mean, ,vegetable
+crushed, ,vegetable
+sometimes, ,vegetable
+chunks, ,vegetable
+side, ,vegetable
+stick, ,vegetable
+ripe, ,vegetable
+fun, ,vegetable
+pie, ,vegetable
+corn, ,mammal bird animal
+cos, ,mammal bird animal
+kernels, ,mammal bird animal
+melchor, ,mammal bird animal
+conn, ,mammal bird animal
+bourse, ,mammal bird animal
+castro, ,mammal bird animal
+bolivian, ,mammal bird animal
+potatoes, ,mammal bird animal
+on, ,mammal bird animal
+the, ,mammal bird
+pipe, ,mammal bird animal
+watchdog, ,mammal bird animal
+knife, ,mammal bird
+ears, ,mammal bird animal
+cut, ,mammal bird animal
+regulator, ,mammal bird animal
+nam, ,mammal bird animal
+cob, ,mammal bird animal
+off, ,bird
+webb, ,tool
+melin, ,tool
+hilton, ,tool
+chandler, ,tool
+ewen, ,tool
+couch, ,tool
+sofa, ,tool
+foot, ,tool
+idaho, ,tool
+humble, ,tool
+arthur, ,tool
+bremner, ,tool
+muggsy, ,tool
+lang, ,tool
+spud, ,tool
+mr, ,tool
+sacramento, ,tool
+guard, ,tool
+wilkins, ,tool
+grape, ,fruit food object plant all
+fruit, ,fruit no-cat food object plant all
+strawberry, ,fruit food object all
+passion, ,fruit plant
+plum, ,fruit food object plant all
+blueberry, ,fruit object plant all
+pineapple, ,fruit
+sweetness, ,fruit food plant all
+pear, ,fruit food object plant all
+peach, ,fruit food object plant all
+tart, ,fruit
+flavors, ,fruit object
+cherry, ,fruit food object plant all
+olympic, ,animal
+brazilian, ,animal
+husk, ,animal
+berry, ,food object plant all
+dessert, ,food object
+chocolate, ,no-cat food communication all
+ice, ,food all
+fruits, ,food
+aroma, ,no-cat
+color, ,no-cat
+adds, ,no-cat
+add, ,no-cat
+mild, ,no-cat
+delicate, ,no-cat
+flavor, ,no-cat
+vanilla, ,no-cat
+taste, ,no-cat
+lemon, ,no-cat
+fat, ,no-cat
+butter, ,no-cat communication
+and, ,no-cat
+ingredients, ,no-cat
+fresh, ,no-cat
+rich, ,no-cat
+citrus, ,no-cat
+to, ,measure
+later, ,measure
+yet, ,measure
+setting, ,measure
+release, ,measure
+court, ,measure
+up, ,measure
+not, ,measure
+fix, ,measure
+have, ,measure
+but, ,measure
+is, ,measure
+negotiations, ,measure
+give, ,measure
+would, ,measure
+pushed, ,measure
+visit, ,measure
+effective, ,measure
+determined, ,measure
+did, ,measure
+sheet, ,communication
+jar, ,communication
+sheets, ,communication
+monster, ,communication
+recipe, ,communication
+chip, ,communication
+baking, ,communication
+cracker, ,communication
+cookies, ,communication
+cookie, ,communication
+recipes, ,communication
+bake, ,communication
+jars, ,communication
+cake, ,communication
+crust, ,communication
+oatmeal, ,communication
+cream, ,communication
+oven, ,mammal
+orange, ,object
+coconut, ,object plant
+pomegranate, ,object
+features, ,plant
+pecan, ,plant
+notes, ,plant
+honey, ,all

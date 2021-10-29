@@ -1,0 +1,252 @@
+context,evidence_type,categories
+reflected, ,relation
+heard, ,relation
+forever, ,relation
+songs, ,relation
+james, ,relation
+tom, ,relation
+football, ,relation
+character, ,relation animal
+wife, ,relation animal
+martin, ,relation
+admits, ,relation
+image, ,relation
+writing, ,relation
+positive, ,relation
+ultimately, ,relation
+belong, ,relation
+mystery, ,relation
+trained, ,relation
+poster, ,relation
+song, ,relation
+carrying, ,vehicle
+tour, ,vehicle
+injured, ,vehicle
+traveling, ,vehicle
+exploded, ,vehicle
+blew, ,vehicle red
+near, ,vehicle
+crashed, ,vehicle
+when, ,vehicle
+were, ,vehicle
+explosion, ,vehicle
+killing, ,vehicle
+ripped, ,vehicle
+blast, ,vehicle
+off, ,vehicle
+injuring, ,vehicle
+tourists, ,vehicle
+northern, ,vehicle
+wreckage, ,vehicle
+hit, ,vehicle
+sugar, ,vegetable
+red, ,bird vegetable fruit plant all
+spices, ,vegetable
+lime, ,vegetable
+color, ,vegetable object plant all
+by, ,vegetable
+savory, ,vegetable
+ginger, ,vegetable
+roasted, ,vegetable
+soup, ,vegetable
+eggplant, ,vegetable
+stewed, ,vegetable
+chili, ,vegetable
+her, ,vegetable object plant
+horseradish, ,vegetable food
+grass, ,vegetable
+coat, ,vegetable
+11, ,vegetable
+anise, ,vegetable
+shallow, ,vegetable
+hundred, ,bird
+flowers, ,bird
+andrews, ,bird
+symbol, ,bird
+cock, ,bird
+fights, ,bird
+weather, ,bird
+award, ,bird
+pacino, ,bird
+midnight, ,bird
+statue, ,bird
+named, ,bird
+from, ,bird
+iii, ,bird
+14th, ,bird
+got, ,bird
+fighting, ,bird
+prestigious, ,bird
+perched, ,bird
+flames, ,red
+burns, ,red
+regular, ,red
+arena, ,red
+hall, ,red
+21, ,red
+host, ,mammal red
+ken, ,red
+star, ,red
+streak, ,red
+31, ,red
+44, ,red
+1967, ,red
+earned, ,red
+at, ,red
+simmering, ,red
+seething, ,red
+erupted, ,red
+protests, ,red
+summer, ,fruit plant
+currant, ,fruit food
+wine, ,weapon fruit food plant
+intense, ,fruit food
+picked, ,fruit
+black, ,fruit plant
+right, ,fruit food
+blueberry, ,fruit
+elegant, ,fruit food plant all
+what, ,fruit
+introduced, ,fruit
+features, ,fruit object all
+life, ,fruit
+champagne, ,fruit food
+though, ,fruit
+shows, ,fruit object all
+vines, ,weapon fruit
+harder, ,fruit
+picking, ,fruit
+warner, ,mammal animal
+director, ,animal
+joseph, ,animal
+latter, ,animal
+16, ,animal
+films, ,animal
+brings, ,animal
+begins, ,animal
+wait, ,animal
+lane, ,animal
+1998, ,animal
+creating, ,animal
+1991, ,animal all
+hampshire, ,animal
+crack, ,animal
+naturally, ,animal
+split, ,animal no-cat
+formidable, ,animal
+concentrated, ,food
+vibrant, ,food
+sherry, ,food
+lovely, ,food
+plum, ,food plant
+plenty, ,food object plant all
+accent, ,food
+depending, ,food
+preserve, ,food
+cider, ,food
+sweetness, ,food
+wish, ,food all
+concentration, ,food
+forgot, ,no-cat
+light, ,no-cat
+pass, ,no-cat
+managed, ,no-cat
+added, ,no-cat
+green, ,measure no-cat
+roll, ,no-cat
+base, ,no-cat
+french, ,no-cat
+slightly, ,no-cat
+camera, ,no-cat
+level, ,no-cat
+microphone, ,no-cat
+intended, ,no-cat
+clock, ,no-cat
+greek, ,no-cat
+spanish, ,no-cat
+slide, ,no-cat
+pieces, ,no-cat
+ceiling, ,measure
+plastic, ,measure
+thick, ,measure
+covered, ,measure
+sheet, ,measure
+topped, ,measure
+plates, ,measure
+sculpture, ,measure
+twisted, ,measure
+small, ,measure
+painted, ,measure
+bowls, ,measure
+onto, ,measure
+thin, ,measure
+huge, ,measure
+surface, ,measure
+atop, ,measure
+dishes, ,measure
+cleaned, ,measure
+juice, ,weapon
+growers, ,weapon
+varieties, ,weapon plant
+tomatoes, ,weapon
+gilbert, ,weapon
+harvest, ,weapon
+wines, ,weapon
+nuts, ,weapon
+cherry, ,weapon
+jelly, ,weapon
+variety, ,weapon
+grower, ,weapon
+growing, ,weapon
+leaves, ,weapon
+skins, ,weapon
+stuffed, ,weapon
+noir, ,weapon
+chardonnay, ,weapon
+20th, ,mammal
+network, ,mammal
+fox, ,mammal
+sports, ,mammal
+television, ,mammal
+president, ,mammal
+tv, ,mammal
+hunting, ,mammal
+corp, ,mammal
+net, ,mammal
+told, ,mammal object
+in, ,mammal
+trot, ,mammal
+animated, ,mammal
+owns, ,mammal
+michael, ,mammal
+desert, ,mammal
+owned, ,mammal
+burst, ,object all
+modern, ,object all
+hand, ,object
+carries, ,object all
+sister, ,object
+whose, ,object
+colorful, ,object plant
+bright, ,object all
+steel, ,object all
+very, ,object
+frank, ,object all
+touches, ,object
+pick, ,object
+know, ,object
+white, ,plant
+roses, ,plant
+flower, ,plant
+species, ,plant
+yellow, ,plant
+garden, ,plant
+sun, ,plant
+actually, ,plant
+like, ,plant
+apart, ,all
+terry, ,all
+legend, ,all
+henry, ,all
+parker, ,all
+putting, ,all
